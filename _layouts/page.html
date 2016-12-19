@@ -1,0 +1,24 @@
+---
+layout: front
+---
+&nbsp;
+<div class="container">
+  <div class="row">
+    <div class="col-sm-offset-0 col-sm-12 page_content">
+      <h2>{{page.title}}</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-offset-0 col-sm-3">
+      {% if page.image != nil and page.image != empty %}
+        <img src="img/{{page.image}}" class="page_image">
+      {% else %}
+        {% include youcanbook.html %}
+      {% endif %}
+    </div>
+    <div class="col-sm-9">
+        {{ content }}
+    </div>
+  </div>
+</div>

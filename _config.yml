@@ -1,0 +1,15 @@
+# Site settings
+title: Kaffeinated Kodemonkey
+email: admin@kaffeinatedkodemonkey.com
+description: > # "baseurl:"
+      FastTracking government portals and placing rural business online!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+twitter_username: kfn8dkodemonkey
+github_username:  kfn8dkodemonkey
+facebook_username: kaffeinatedkodemonkey
+bookme:            https://kaffeinatedkodemonkey.youcanbook.me/
+
+# Build settings
+markdown: kramdown
