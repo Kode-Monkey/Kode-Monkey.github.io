@@ -24,6 +24,7 @@ an Online Brochure for displaying products and services, this is not a full blow
       <li>Location info with Google map</li>
       <li>'Contact Us' web form</li>
       <li>List of products or services with up to 5 images</li>
+      <li>Site Listed on Search Engines</li>
     </ul>
   </div>
   <div class="col-sm-3">
@@ -37,15 +38,15 @@ an Online Brochure for displaying products and services, this is not a full blow
 
     <p>Designed to help individuals, organizations and independent businesses who want to make more content available or expand their offerings, take the first step to an up to date, contemporary online presence.</p>
 
-    <p>This is a four-page site built on a platform that makes it easy for you grow your site in the future as needed. Once your site is built, and you’ve gone through training, the possibilities are endless. You can expand and grow your site on your own, without limits, or contact us for additional help (paid hourly.)</p>
+    <p>This is a three to five page site built on a platform that makes it easy for you grow your site in the future as needed. Once your site is built, and you’ve gone through training, the possibilities are endless. You can expand and grow your site on your own, without limits, or contact us for additional help (paid hourly.)</p>
 
     <ul>
-      <li>Up to 5 pages with top level navigation, including Home, About, Products / Services & Contact us</li>
+      <li>Top level navigation includes: Home, About, Products / Services & Contact us</li>
       <li>Your logo and tag line</li>
-      <li>Content of your choice on each page</li>
-      <li>Location info with Google map</li>
-      <li>Up to 5 images per page</li>
-      <li>‘Contact Us’ web form</li>
+      <li>Banner with image / logo</li>
+      <li>Contact page includes fomr and optional Google map</li>
+      <li>Gallery</li>
+      <li>Site Listed on Search Engines</li>
     </ul>
   </div>
   <div class="col-sm-3">
