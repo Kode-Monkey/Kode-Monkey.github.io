@@ -12,7 +12,7 @@ an Online Brochure for displaying products and services, this is not a full blow
 
 <div class="row">
   <div class="col-sm-9">
-    <h2>On-line Flyer: $299</h2>
+    <h2>On-line Flyer: $400</h2>
 
     <p>Designed to help individuals, organizations and independent businesses take the first step to an up to date, contemporary online presence. This is a one-page site built on a platform that makes it easy for you grow your site in the future as needed. Domain registration and
     website hosting additional depending on web platform.</p>
