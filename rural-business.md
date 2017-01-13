@@ -25,6 +25,7 @@ title: Rural Business
     website hosting additional depending on web platform.</p>
     <div class="row">
       <div class="col-sm-6">
+        <h3>Whats Included:</h3>
         <ul>
           <li>A custom one-page layout</li>
           <li>Your logo and tag line</li>
@@ -60,6 +61,7 @@ title: Rural Business
     <p>This is a five page site built on a platform that makes it easy for you grow your site in the future as needed. Once your site is built, and you’ve gone through training, the possibilities are endless. You can expand and grow your site on your own, without limits, or contact us for additional help (paid hourly.)</p>
     <div class="row">
       <div class="col-sm-6">
+      <h3>Whats Included:</h3>
         <ul>
           <li>Top level navigation includes: Home, About, Products / Services & Contact us</li>
           <li>Your logo and tag line</li>
@@ -67,7 +69,7 @@ title: Rural Business
           <li>Contact page includes fomr and optional Google map</li>
           <li>Gallery</li>
           <li>Site Listed on Search Engines</li>
-          <li>Additional Page are $100 per page</li>
+          <li>Additional Pages are $100 per page</li>
         </ul>
       </div>
       <div class="col-sm-6">
