@@ -11,7 +11,7 @@ title: Rural Business
   <li>Online Brochure to displaying products and services (this is not a shopping cart)</li>
 </ul>
 
-<p>Both sites have room for growth either by you or Kaffeinated Kodemonkey. </p>
+<p>Both sites have room for growth either by you or Kaffeinated Kodemonkey.</p>
 
 <p>If you are in need of a shopping cart checkout our <a href="{{baseurl}}/custom" title="Custom Builds">Custom Builds</a>.</p>
 
