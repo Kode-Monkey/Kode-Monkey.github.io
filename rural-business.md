@@ -39,7 +39,7 @@ title: Rural Business
       <div class="col-sm-6">
         <h3>Maintenance</h3>
         <ul>
-          <li>Local Listing - $50/ mo management and a $99 / yr renewal*</li>
+          <li>Local Listing - $50/ mo manage - $99 / yr renewal*</li>
           <li>Domain and Hosting - $45 / yr renewal**</li>
         </ul>
       </div>
@@ -75,7 +75,7 @@ title: Rural Business
       <div class="col-sm-6">
         <h3>Maintenance</h3>
         <ul>
-          <li>Local Listing - $50/ mo management and a $99 / yr renewal*</li>
+          <li>Local Listing - $50/ mo manage - $99 / yr renewal*</li>
           <li>Domain and Hosting - $45 / yr renewal**</li>
           <li>Content Edits - $50 / Pr Hr</li>
         </ul>
