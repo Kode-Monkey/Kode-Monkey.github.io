@@ -41,11 +41,10 @@ title: Rural Business
           <li>Local Listing - $50/ mo management and a $99 / yr renewal*</li>
           <li>Domain and Hosting - $45 / yr renewal**</li>
         </ul>
-
-        <small>* This is based on the basic package</small>
-        <small>** This based on linux hosting and .com domain specialty domains may run more.</small>
       </div>
     </div>
+    <small>* This is based on the basic package</small>
+    <small>** This based on linux hosting and .com domain specialty domains may run more.</small>
   </div>
   <div class="col-sm-3">
       <img src="img/one-page-wonder.jpg" class="img-thumbnail img-responsive">
@@ -77,11 +76,10 @@ title: Rural Business
           <li>Domain and Hosting - $45 / yr renewal**</li>
           <li>Content Edits - $50 / Pr Hr</li>
         </ul>
-
-        <small>* This is based on the basic package</small>
-        <small>** This based on linux hosting and .com domain specialty domains may run more.</small>
       </div>
-    </div>      
+    </div>   
+    <small>* This is based on the basic package</small>
+    <small>** This based on linux hosting and .com domain specialty domains may run more.</small>   
   </div>
   <div class="col-sm-3">
     <img src="img/large-131-temp_006.jpg" class="img-thumbnail img-responsive">
