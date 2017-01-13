@@ -43,8 +43,8 @@ title: Rural Business
         </ul>
       </div>
     </div>
-    <small>* This is based on the basic package</small>
-    <small>** This based on linux hosting and .com domain specialty domains may run more.</small>
+    <p class="small">* This is based on the basic package</p>
+    <p class="small">** This based on linux hosting and .com domain specialty domains may run more.</p>
   </div>
   <div class="col-sm-3">
       <img src="img/one-page-wonder.jpg" class="img-thumbnail img-responsive">
@@ -78,8 +78,8 @@ title: Rural Business
         </ul>
       </div>
     </div>   
-    <small>* This is based on the basic package</small>
-    <small>** This based on linux hosting and .com domain specialty domains may run more.</small>   
+    <p class="small">* This is based on the basic package</p>
+    <p class="small">** This based on linux hosting and .com domain specialty domains may run more.</p>
   </div>
   <div class="col-sm-3">
     <img src="img/large-131-temp_006.jpg" class="img-thumbnail img-responsive">
