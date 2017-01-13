@@ -57,7 +57,7 @@ title: Rural Business
 
     <p>Designed to help individuals, organizations and independent businesses who want to make more content available or expand their offerings, take the first step to an up to date, contemporary online presence.</p>
 
-    <p>This is a three to five page site built on a platform that makes it easy for you grow your site in the future as needed. Once your site is built, and you’ve gone through training, the possibilities are endless. You can expand and grow your site on your own, without limits, or contact us for additional help (paid hourly.)</p>
+    <p>This is a five page site built on a platform that makes it easy for you grow your site in the future as needed. Once your site is built, and you’ve gone through training, the possibilities are endless. You can expand and grow your site on your own, without limits, or contact us for additional help (paid hourly.)</p>
     <div class="row">
       <div class="col-sm-6">
         <ul>
@@ -67,6 +67,7 @@ title: Rural Business
           <li>Contact page includes fomr and optional Google map</li>
           <li>Gallery</li>
           <li>Site Listed on Search Engines</li>
+          <li>Additional Page are $100 per page</li>
         </ul>
       </div>
       <div class="col-sm-6">
