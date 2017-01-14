@@ -30,7 +30,7 @@ title: Rural Business
           <li>A custom one-page layout</li>
           <li>Your logo and tag line</li>
           <li>Short biography with photo</li>
-          <li>'Contact Us' form with Location info and Google map</li>
+          <li>'Contact Us' form, Location info and Google map</li>
           <li>List of products or services with up to 5 images</li>
           <li>Local Listing on Search Engines</li>
         </ul>
