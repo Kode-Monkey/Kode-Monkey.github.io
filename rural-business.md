@@ -4,7 +4,8 @@ title: Rural Business
 ---
 
 
-<p>We know that your business matters, and most of all, your clients matter. That is why we have designed two packages for you to reach your customers:</p>
+<p>We know that your business matters, and most of all, your clients matter.</p>
+<p>That is why we have designed two packages for you to reach your customers:</p>
 <ul>
   <li>Online Flier to let your customers know how to contact you</li>
   <li>Online Brochure to displaying products and services (this is not a shopping cart)</li>
