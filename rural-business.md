@@ -4,8 +4,7 @@ title: Rural Business
 ---
 
 
-<p>We know that your business matters and most of all your Clients matter.</p>
-<p>We have designed two packages for you to reach your customers:</p>
+<p>We know that your business matters, and most of all, your clients matter. That is why we have designed two packages for you to reach your customers:</p>
 <ul>
   <li>Online Flier to let your customers know how to contact you</li>
   <li>Online Brochure to displaying products and services (this is not a shopping cart)</li>
@@ -30,10 +29,9 @@ title: Rural Business
           <li>A custom one-page layout</li>
           <li>Your logo and tag line</li>
           <li>Short biography with photo</li>
-          <li>Location info with Google map</li>
-          <li>'Contact Us' web form</li>
+          <li>'Contact Us' form with Location info and Google map</li>
           <li>List of products or services with up to 5 images</li>
-          <li>Site Listed on Search Engines</li>
+          <li>Local Listing on Search Engines</li>
         </ul>
       </div>
       <div class="col-sm-6">
@@ -63,12 +61,11 @@ title: Rural Business
       <div class="col-sm-6">
       <h3>Whats Included:</h3>
         <ul>
-          <li>Top level navigation includes: Home, About, Products / Services & Contact us</li>
+          <li>Five pages including: Home & Contact us</li>
           <li>Your logo and tag line</li>
           <li>Banner with image / logo</li>
-          <li>Contact page includes fomr and optional Google map</li>
-          <li>Gallery</li>
-          <li>Site Listed on Search Engines</li>
+          <li>'Contact Us' page with form, Location info, and Google map</li>
+          <li>Local Listing on Search Engines</li>
           <li>Additional Pages are $100 per page</li>
         </ul>
       </div>
