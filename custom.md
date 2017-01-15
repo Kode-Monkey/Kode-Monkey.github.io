@@ -16,11 +16,11 @@ This way you can rest assure that your site will be powerful, consistent, and fl
 
 <div class="row">
 <div class="col-sm-6">
-<p>What do you get:</p>
+<p>What's Included:</p>
 <ul>
-  <li>Hosting and Domain Name</li>
+  <li>1st yr - Domain and Hosting</li>
   <li>1st yr of Local - Listing with top search engines</li>
-  <li>Complete custom design</li>
+  <li>Complete custom design including shopping carts</li>
   <li>Web Accessibility - <a href="https://www.w3.org/WAI/intro/wcag" target="blank" title="WCSG2.0 Overview">WCAG2.0 Overview</a></li>
   <li>Training to manage site</li>
 </ul>
@@ -29,3 +29,32 @@ This way you can rest assure that your site will be powerful, consistent, and fl
 <img src="{{baseurl}}/img/portfolio/customdevelopment.png" alt="Custom Build">
 </div>
 </div>
+
+<hr/>
+
+<h2>Site Renewal</h2>
+<p>All site will be charged a site renewal for your domain and hosting. This can be waived for clients that provide us with their domain and or hosting.</p>
+<ul>
+  <li>Monthly: $5</li>
+  <li>Yearly:  $55</li>
+</ul>
+
+<h2>Additional Services</h2>
+
+<h3>Manage - Local Listing:</h3>
+<p>We can manage your local listings on search engines and keep duplications form lowing your ratings.</p>
+<ul>
+  <li>Monthly: $60 + Site renewal</li>
+  <li>Yearly:  $699 + Site renewal</li>
+</ul>
+
+<h3>Site Management:</h3>
+<p>We can update your content and make sure that it follows ADA compliance and is optimized.</p>
+<p>Make changes and edits to the site. Add or remove images, pages and sections.</p>
+<ul>
+  <li>Hourly:  $50</li>
+  <li>Monthly: $100</li>
+  <li>Yearly:  $1,100</li>
+</ul>
+
+&nbsp;
