@@ -18,8 +18,9 @@ title: Rural Business
     <h2>On-line Flyer: $345</h2>
 
     <p>Designed to help individuals, organizations and independent businesses take the first step to an up to date, contemporary online presence. This is a one-page site built on a platform that makes it easy for you grow your site in the future as needed.</p>
+
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-12">
         <h3>Whats Included:</h3>
         <ul>
           <li>1st yr - domain and hosting</li>
@@ -31,26 +32,24 @@ title: Rural Business
           <li>1st yr - Local Listing on Search Engines</li>
         </ul>
       </div>
-      <div class="col-sm-5">
-        <h3>Site Renewal (Domain and Hosting):</h3>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Site Renewal (Domain/Hosting):</h3>
         <ul>
           <li>Monthly: $5</li>
           <li>Yearly:  $55</li>
         </ul>
-
+      </div>
+      <div class="col-sm-4">
         <h3>Manage - Local Listing:</h3>        
         <ul>
           <li>Monthly: $60 + Site renewal</li>
           <li>Yearly:  $699 + Site renewal</li>
         </ul>
-
-        <h3>Content management:</h3>
-        <ul>
-          <li>Monthly: $100</li>
-          <li>Yearly:  $1,100</li>
-        </ul>
       </div>
-    </div>
+      <div class="col-sm-4">
 
     <p class="small">* This is based on the basic package</p>
     <p class="small">** This based on .com domain specialty domains may run more.</p>
@@ -67,8 +66,9 @@ title: Rural Business
     <p>Designed to help individuals, organizations and independent businesses who want to make more content available or expand their offerings, take the first step to an up to date, contemporary online presence.</p>
 
     <p>This is a five page site built on a platform that makes it easy for you grow your site in the future as needed. Once your site is built, and you’ve gone through training, the possibilities are endless. You can expand and grow your site on your own, without limits, or contact us for additional help (paid hourly.)</p>
+
     <div class="row">
-      <div class="col-sm-7">
+      <div class="col-sm-12">
       <h3>Whats Included:</h3>
         <ul>
           <li>Five pages - Content layout, optimization, and ADA Compliant</li>
@@ -79,19 +79,22 @@ title: Rural Business
           <li>Additional Pages are $100 per page</li>
         </ul>
       </div>
-      <div class="col-sm-5">
-        <h3>Site Renewal (Domain and Hosting):</h3>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Site Renewal (Domain/Hosting):</h3>
         <ul>
           <li>Monthly: $5</li>
           <li>Yearly:  $55</li>
         </ul>
-
+      </div>
+      <div class="col-sm-4">
         <h3>Manage - Local Listing:</h3>        
         <ul>
           <li>Monthly: $60 + Site renewal</li>
           <li>Yearly:  $699 + Site renewal</li>
         </ul>
-
+      </div>
+      <div class="col-sm-4">
         <h3>Content management:</h3>
         <ul>
           <li>Monthly: $100</li>
@@ -99,8 +102,6 @@ title: Rural Business
         </ul>
       </div>
     </div>   
-
-
 
     <p class="small">* This is based on the basic package</p>
     <p class="small">** This based on linux hosting and .com domain specialty domains may run more.</p>
