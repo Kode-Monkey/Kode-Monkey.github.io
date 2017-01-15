@@ -52,3 +52,25 @@ title: Gov Portal
       <img src="img/portfolio/CoGov-responsiveScreens-transparent.png" class="img-responsive" alt="Gov Portal">
   </div>
 </div>
+
+<hr/>
+
+<h2>Additional Services</h2>
+
+<h3>Manage - Local Listing:</h3>
+<p>We can manage your local listings on search engines and keep duplications form lowing your ratings.</p>
+<ul>
+  <li>Monthly: $60 + Site renewal</li>
+  <li>Yearly:  $699 + Site renewal</li>
+</ul>
+
+<h3>Site Management:</h3>
+<p>We can update your content and make sure that it follows ADA compliance and is optimized.</p>
+<p>Make changes and edits to the site. Add or remove images, pages and sections.</p>
+<ul>
+  <li>Hourly:  $50</li>
+  <li>Monthly: $100</li>
+  <li>Yearly:  $1,100</li>
+</ul>
+
+&nbsp;
