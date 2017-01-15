@@ -4,16 +4,12 @@ title: Rural Business
 ---
 
 
-<p>We know that your business matters, and most of all, your clients matter.</p>
-<p>That is why we have designed two packages for you to reach your customers:</p>
+<p>People will judge your business based on your website, or lack thereof, just like they judge a book by its cover.</p>
+<p>That is why we have designed two packages to help you with your web presence.</p>
 <ul>
   <li>Online Flier to let your customers know how to contact you</li>
-  <li>Online Brochure to displaying products and services (this is not a shopping cart)</li>
+  <li>Online Brochure to displaying products or services</li>
 </ul>
-
-<p>Both sites have room for growth either by you or Kaffeinated Kodemonkey.</p>
-
-<p>If you are in need of a shopping cart checkout our <a href="{{baseurl}}/custom" title="Custom Builds">Custom Builds</a>.</p>
 
 <p>Both packages will include domain, hosing, <a href="{{baseurl}}/local_seo" title="Locals">Locals</a>, <a href="https://www.w3.org/TR/WCAG20/" target="blank" title="WCAG2.0">Web Accessible</a>, and site management training.</p>
 
@@ -21,30 +17,43 @@ title: Rural Business
   <div class="col-sm-9">
     <h2>On-line Flyer: $345</h2>
 
-    <p>Designed to help individuals, organizations and independent businesses take the first step to an up to date, contemporary online presence. This is a one-page site built on a platform that makes it easy for you grow your site in the future as needed. Domain registration and
-    website hosting additional depending on web platform.</p>
+    <p>Designed to help individuals, organizations and independent businesses take the first step to an up to date, contemporary online presence. This is a one-page site built on a platform that makes it easy for you grow your site in the future as needed.</p>
     <div class="row">
       <div class="col-sm-6">
         <h3>Whats Included:</h3>
         <ul>
+          <li>1st yr - domain and hosting</li>
           <li>A custom one-page layout</li>
-          <li>Your logo and tag line</li>
+          <li>Professional Branding - Your logo, tag line, and colors</li>
           <li>Short biography with photo</li>
           <li>'Contact Us' form with Location info and Google map</li>
           <li>List of products or services with up to 5 images</li>
-          <li>Local Listing on Search Engines</li>
+          <li>1st yr - Local Listing on Search Engines</li>
         </ul>
       </div>
-      <div class="col-sm-6">
-        <h3>Maintenance</h3>
+      <div class="col-sm-5">
+        <h3>Site Renewal (Domain and Hosting):</h3>
         <ul>
-          <li>Local Listing - $50/ mo manage - $99 / yr renewal*</li>
-          <li>Domain and Hosting - $45 / yr renewal**</li>
+          <li>Monthly: $5</li>
+          <li>Yearly:  $55</li>
+        </ul>
+
+        <h3>Manage - Local Listing:</h3>        
+        <ul>
+          <li>Monthly: $60 + Site renewal</li>
+          <li>Yearly:  $699 + Site renewal</li>
+        </ul>
+
+        <h3>Content management:</h3>
+        <ul>
+          <li>Monthly: $100</li>
+          <li>Yearly:  $1,100</li>
         </ul>
       </div>
     </div>
+
     <p class="small">* This is based on the basic package</p>
-    <p class="small">** This based on linux hosting and .com domain specialty domains may run more.</p>
+    <p class="small">** This based on .com domain specialty domains may run more.</p>
   </div>
   <div class="col-sm-3">
       <img src="img/one-page-wonder.jpg" class="img-thumbnail img-responsive">
@@ -59,26 +68,40 @@ title: Rural Business
 
     <p>This is a five page site built on a platform that makes it easy for you grow your site in the future as needed. Once your site is built, and you’ve gone through training, the possibilities are endless. You can expand and grow your site on your own, without limits, or contact us for additional help (paid hourly.)</p>
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-7">
       <h3>Whats Included:</h3>
         <ul>
-          <li>Five pages including: Home & Contact us</li>
-          <li>Your logo and tag line</li>
-          <li>Banner with image / logo</li>
+          <li>Five pages - Content layout, optimization, and ADA Compliant</li>
+          <li>Professional Branding - Your logo, tag line, and colors</li>
           <li>'Contact Us' form, Location info, and Google map</li>
-          <li>Local Listing on Search Engines</li>
+          <li>1st yr - Local Listing on Search Engines</li>
+          <li>1at yr - Domain and Hosting</li>
           <li>Additional Pages are $100 per page</li>
         </ul>
       </div>
-      <div class="col-sm-6">
-        <h3>Maintenance</h3>
+      <div class="col-sm-5">
+        <h3>Site Renewal (Domain and Hosting):</h3>
         <ul>
-          <li>Local Listing - $50/ mo manage - $99 / yr renewal*</li>
-          <li>Domain and Hosting - $45 / yr renewal**</li>
-          <li>Content Edits - $50 / Pr Hr</li>
+          <li>Monthly: $5</li>
+          <li>Yearly:  $55</li>
+        </ul>
+
+        <h3>Manage - Local Listing:</h3>        
+        <ul>
+          <li>Monthly: $60 + Site renewal</li>
+          <li>Yearly:  $699 + Site renewal</li>
+        </ul>
+
+        <h3>Content management:</h3>
+        <ul>
+          <li>Monthly: $100</li>
+          <li>Yearly:  $1,100</li>
         </ul>
       </div>
     </div>   
+
+
+
     <p class="small">* This is based on the basic package</p>
     <p class="small">** This based on linux hosting and .com domain specialty domains may run more.</p>
   </div>
@@ -86,4 +109,3 @@ title: Rural Business
     <img src="img/large-131-temp_006.jpg" class="img-thumbnail img-responsive">
   </div>
 </div>
-&nbsp;
