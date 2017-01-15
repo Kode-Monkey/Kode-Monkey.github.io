@@ -26,7 +26,7 @@ This way you can rest assure that your site will be powerful, consistent, and fl
 </ul>
 </div>
 <div class="col-sm-6">
-<img src="{{baseurl}}/img/portfolio/customdevelopment.png" alt="Custom Build" width="350px">
+<img src="{{baseurl}}/img/portfolio/customdevelopment.png" alt="Custom Build" width="310px">
 </div>
 </div>
 
