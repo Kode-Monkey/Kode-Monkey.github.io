@@ -49,7 +49,7 @@ title: Gov Portal
     </ul>
   </div>
   <div class="col-sm-3">
-      <img src="img/portfolio/CoGov-responsiveScreens-transparent.png" class="img-responsive" alt="Gov Portal" width="200px">
+      <img src="img/portfolio/CoGov-responsiveScreens-transparent.png" class="img-responsive" alt="Gov Portal">
   </div>
 </div>
 
