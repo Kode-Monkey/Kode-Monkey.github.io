@@ -10,7 +10,7 @@ The company believes in offer an All-in-one package that helps you monitor your 
 
 <p>Driving more consumer traffic to your business locations requires a solution that actively manages, optimizes, and distributes your location data to the search engines, aps, sites, and directories that influence local search results. Locals maximizes your search rankings and online visibility.</p>
 
-<h2>Locals: $99 yr.</h2>
+<h2>Locals: $699 yr.</h2>
 <p>Every aspect of Local is designed to help you improve your local search performance. With best in-class capability and value, backed by <a href="https://moz.com/local/features" title="Moz Local" target="blank">Moz Local</a> maximizes the marketing power of local search for your business. </p>
 
 <div class="row">
