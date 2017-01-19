@@ -24,17 +24,13 @@ title: Gov Portal
   <div class="col-sm-6">
     <h3>What comes with the portal:</h3>
     <ul>
+      <li>Free GMail account (if you don't have one)
+      <li>Domain Name (if you don't have one) - <em>Billed Yearly</em></li>
       <li>Hosting of the platform</li>
-      <li>Portal built on a Web Accessible Platform back by Drupal CMS</li>
+      <li>Site Development on .gov Portal</li>
       <li>Web Accessible content based on the <a href="https://www.w3.org/TR/WCAG20/" target="blank" title="WCAG2.0">WCAG2.0 standards</a></li>
       <li>Initial site audit of current site (if applicable)</li>
-      <li>Set up of Homepage layout:
-          <ul>
-             <li>Blocks - Quick Link, Events, Blogs, News, Alpha Index, Featured, and 3 custom Blocks</li>
-             <li>Welcome section, Slideshow</li>
-             <li>Including Your Color Scheme and Logo</li>
-          </ul>
-      </li>
+      <li>1st yr - <a href="{{baseurl}}/local_seo" title="Local Listing">Local Listing</a> on Search Engines</li>
       <li>Professional copy-editing (Copy-editing does not include down-loadable PDFs)</li>      
       <li>Training and recommendations on maintaining and updating your site</li>
     </ul>
