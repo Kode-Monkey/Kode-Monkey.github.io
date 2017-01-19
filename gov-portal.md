@@ -51,7 +51,7 @@ title: Gov Portal
 
 <hr/>
 <h2>Service Renewal</h2>
-<p>All site will be charged a site renewal for the following.</p>
+<p>All site will be charged a renewal fee for the following.</p>
 <ul>
   <li>Domain Name:   $12 yr (waived if you supplied this.)</li>
   <li>Local Listing: $95 yr</li>
