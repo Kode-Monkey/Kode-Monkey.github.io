@@ -24,7 +24,7 @@ title: Gov Portal
   <div class="col-sm-6">
     <h3>What comes with the portal:</h3>
     <ul>
-      <li>Free GMail account (if you don't have one)
+      <li>Free GMail account (if you don't have one)</li>
       <li>Domain Name (if you don't have one) - <em>Billed Yearly</em></li>
       <li>Hosting of the platform</li>
       <li>Site Development on .gov Portal</li>
