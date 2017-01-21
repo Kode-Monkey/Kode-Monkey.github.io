@@ -53,7 +53,7 @@ title: Local and SEM
 <p>The <strong>DIWM Social & Social +</strong> Package is ideal for businesses who want to grow their reach, build or enhance their online presence, and generate positive word of mouth online in order to attract new customers.</p>
 
 <div class="row">
-<div class="col-sm-12">
+<div class="col-sm-offset-2 col-sm-12">
 <img class="img-responsive img-thumbnail" src="{{baseurl}}/img/seo/RMChart.png" alt="Reputation Management Chart" width="75%"/>
 </div>
 </div>
