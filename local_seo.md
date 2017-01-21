@@ -5,12 +5,12 @@ title: Local and SEM
 
 <h2 class="text-center"><strong>Get a Free Snapshot Report</strong> - See what customers see when they search your business.</h2>
 
-<h2>Additional Services</h2>
+<h3>Local Listing</h3>
 
-<p><strong><em>Local listing, Okay what is this?</em></strong> - This the ability for your business to appare when a customer searches for a product or service you offer.</p>
+<p>This the ability for your business to appare when a customer searches for a product or service you offer.</p>
 
 <!-- This package includes link Distribution and link sync from Vendasta -->
-<h3>Local Listing</h3>
+
 <div class="row">
   <div class="col-sm-6">
     <strong>Basic:$120 yr / per Location</strong>
@@ -35,5 +35,18 @@ title: Local and SEM
     </ul>
   </div>
 </div>
+
+<h3>Online Reputation</h3>
+<p>Online Reputation shows you what customers / clients are saying about your business.  It will help improve your visibility in local search and provides progress reports to prove your business’s worth.</p>
+
+<p>We offer four (4) levels of Reputation Management: A DIY - DO-It-With-Me (DIWM) - DO-It-With-Me Social (DIWM) - DO-It-With-Me Social + (DIWM). </p>
+<p>The <strong>DIY</strong> is the best solution for the individual who has more time and likes to take control of all aspects of their digital marketing and online presence. It provides you with an all-in-one suite of tools to help you monitor and manage reviews, listings, and social conversations online. </p>
+
+<p>The <strong>DIWM</strong> Package is the best solution for the busy individual who wants to participate in some aspects of their digital presence but recognizes the power of monitoring and building an online reputation through reviews.</p>
+
+<p>The <strong>DIWM Social & Social +</strong> Package is ideal for businesses who want to grow their reach, build or enhance their online presence, and generate positive word of mouth online in order to attract new customers.</p>
+
+<img class="img-responsive img-thumbnail" src={{baseurl}}/img/SEO/RMChart.png" alt="Reputation Management Chart" />
+
 
 &nbsp;
