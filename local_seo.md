@@ -54,7 +54,7 @@ title: Local and SEM
 
 <div class="row">
 <div class="col-sm-12">
-<img class="img-responsive img-thumbnail" src="{{baseurl}}/img/seo/RMChart.png" alt="Reputation Management Chart" width="100%"/>
+<img class="img-responsive img-thumbnail" src="{{baseurl}}/img/seo/RMChart.png" alt="Reputation Management Chart" width="75%"/>
 </div>
 </div>
 
