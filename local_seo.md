@@ -18,7 +18,7 @@ title: Local and SEM
 
 <div class="row">
   <div class="col-sm-6">
-    <strong>Basic:$120 yr / per Location</strong>
+    <strong>Basic: $120 yr / per Location</strong>
     <ul>
       <li>Submit your site to the Search Engines</li>
       <li>Syncs business info in real-time</li>
@@ -42,9 +42,10 @@ title: Local and SEM
 </div>
 
 <h3>Online Reputation</h3>
+
 <p>Online Reputation shows you what customers / clients are saying about your business.  It will help improve your visibility in local search and provides progress reports to prove your business’s worth.</p>
 
-<p>We offer four (4) levels of Reputation Management: A <em>Do-It-Yourself (DIY)</em> - <em>DO-It-With-Me (DIWM)</em> - <em>DO-It-With-Me Social (DIWM)</em> - <em>DO-It-With-Me Social + (DIWM)</em>. </p>
+<p>We offer four (4) levels of Reputation Management: A <em>Do-It-Yourself (DIY)</em> - <em>DO-It-With-Me (DIWM)</em> - <em>DO-It-With-Me-Social (DIWMS)</em> - <em>DO-It-With-Me-Social + (DIWMS +)</em>. </p>
 <p>The <strong>DIY</strong> is the best solution for the individual who has more time and likes to take control of all aspects of their digital marketing and online presence. It provides you with an all-in-one suite of tools to help you monitor and manage reviews, listings, and social conversations online. </p>
 
 <p>The <strong>DIWM</strong> Package is the best solution for the busy individual who wants to participate in some aspects of their digital presence but recognizes the power of monitoring and building an online reputation through reviews.</p>
