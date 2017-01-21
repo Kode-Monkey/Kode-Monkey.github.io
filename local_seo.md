@@ -3,7 +3,7 @@ layout: page
 title: Local and SEM
 ---
 
-<h2 class="text-center"><strong>Get your Free Snapshot Report</strong> - See what your customers see when they search your business.</h2>
+<h2 class="text-center"><strong>Get your Free Snapshot Report</strong> - See what customers see when they search your business.</h2>
 
 <p><strong><em>Local listing, Okay what is this?</em></strong> - This the ability for your business to appare when a customer searches for a product or service you offer.</p>
 
