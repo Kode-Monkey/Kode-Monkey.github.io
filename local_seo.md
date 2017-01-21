@@ -44,14 +44,14 @@ title: Local and SEM
 <h3>Online Reputation</h3>
 <p>Online Reputation shows you what customers / clients are saying about your business.  It will help improve your visibility in local search and provides progress reports to prove your business’s worth.</p>
 
-<p>We offer four (4) levels of Reputation Management: A DIY - DO-It-With-Me (DIWM) - DO-It-With-Me Social (DIWM) - DO-It-With-Me Social + (DIWM). </p>
+<p>We offer four (4) levels of Reputation Management: A <em>Do-It-Yourself (DIY)</em> - <em>DO-It-With-Me (DIWM)</em> - <em>DO-It-With-Me Social (DIWM)</em> - <em>DO-It-With-Me Social + (DIWM)</em>. </p>
 <p>The <strong>DIY</strong> is the best solution for the individual who has more time and likes to take control of all aspects of their digital marketing and online presence. It provides you with an all-in-one suite of tools to help you monitor and manage reviews, listings, and social conversations online. </p>
 
 <p>The <strong>DIWM</strong> Package is the best solution for the busy individual who wants to participate in some aspects of their digital presence but recognizes the power of monitoring and building an online reputation through reviews.</p>
 
 <p>The <strong>DIWM Social & Social +</strong> Package is ideal for businesses who want to grow their reach, build or enhance their online presence, and generate positive word of mouth online in order to attract new customers.</p>
 
-<img class="img-responsive img-thumbnail" src={{baseurl}}/img/SEO/RMChart.png" alt="Reputation Management Chart" />
+<img class="img-responsive img-thumbnail" src="{{baseurl}}/img/SEO/RMChart.png" alt="Reputation Management Chart" />
 
 
 &nbsp;
