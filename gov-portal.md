@@ -13,7 +13,7 @@ title: Gov Portal
 
     <p>At this time the FastTrack package is only available for Colorado governmental entities. The owner is looking for more companies like SIPA that the company can partner with and when we do we will be adding them to the site. If you are outside of Colorado don't fret our developers can work with you on a custom build.</p>
 
-    <p><strong>Cost:</strong> $2999 - $9999</p>
+    <p><strong>Cost:</strong> Starting at $4020</p>
 
     <p>Book a cup of coffee and we can discuss your needs and what will fit you budget.</p>
   </div>
