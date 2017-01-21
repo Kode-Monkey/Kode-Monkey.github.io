@@ -51,7 +51,7 @@ title: Local and SEM
 <p>The <strong>DIWM</strong> Package is the best solution for the busy individual who wants to participate in some aspects of their digital presence but recognizes the power of monitoring and building an online reputation through reviews.</p>
 
 <p>The <strong>DIWM Social & Social +</strong> Package is ideal for businesses who want to grow their reach, build or enhance their online presence, and generate positive word of mouth online in order to attract new customers.</p>
-****
+
 <div class="row">
 <div class="col-sm-12">
 <img class="img-responsive img-thumbnail" src="{{baseurl}}/img/seo/RMChart.png" alt="Reputation Management Chart" width="100%"/>
