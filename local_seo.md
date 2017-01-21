@@ -3,7 +3,7 @@ layout: page
 title: Local and SEM
 ---
 
-<h2 class="text-center"><strong>Get a Free Snapshot Report</strong> - See what customers see when they search your business.</h2>
+<h2 class="text-center"><strong>Get a <a href="{{baseurl}}/freesnapdhot.html" title="Free Snapshot">Free Snapshot</a> Report</strong> - See what customers see when they search your business.</h2>
 
 <h3>Mobile Responsive</h3>
 <p>Do you have a website? If it is not responsive you could be loosing over half your site visitors to you competitors.</p>
