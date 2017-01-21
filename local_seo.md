@@ -12,7 +12,7 @@ title: Local and SEM
 
 <h3>Local Listing</h3>
 
-<p>This the ability for your business to appear when a customer searches for a product or service you offer.</p>
+<p>The ability for your business to appear when a customer searches for a product or service you offer.</p>
 
 <!-- This package includes link Distribution and link sync from Vendasta -->
 
@@ -57,6 +57,8 @@ title: Local and SEM
 <img class="img-responsive img-thumbnail" src="{{baseurl}}/img/seo/RMChart.png" alt="Reputation Management Chart" width="75%"/>
 </div>
 </div>
+
+<p>We also offer a Do-It-For-Me package starting at $299 - $999. Based on the size of the site.</p>
 
 
 &nbsp;
