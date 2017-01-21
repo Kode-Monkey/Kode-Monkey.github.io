@@ -3,7 +3,7 @@ layout: page
 title: Local and SEM
 ---
 
-<h2 class="text-center"><strong>Get your Free Snapshot Report</strong> - See what customers see when they search your business.</h2>
+<h2 class="text-center"><strong>Get a Free Snapshot Report</strong> - See what customers see when they search your business.</h2>
 
 <h2>Additional Services</h2>
 
