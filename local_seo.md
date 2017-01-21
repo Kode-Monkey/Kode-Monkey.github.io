@@ -3,7 +3,7 @@ layout: page
 title: Local and SEM
 ---
 
-<h2 class="text-center"><strong>Get a <a href="{{baseurl}}/freesnapdhot.html" title="Free Snapshot">Free Snapshot</a> Report</strong></h2>
+<h2 class="text-center"><strong>Get a <a href="{{baseurl}}/freesnapshot" title="Free Snapshot">Free Snapshot</a> Report</strong></h2>
 <p class="text-center">See what customers see when they search your business.</p>
 
 <h3>Mobile Responsive</h3>
