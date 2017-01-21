@@ -5,9 +5,14 @@ title: Local and SEM
 
 <h2 class="text-center"><strong>Get a Free Snapshot Report</strong> - See what customers see when they search your business.</h2>
 
+<h3>Mobile Responsive</h3>
+<p>Do you have a website? If it is not responsive you could be loosing over half your site visitors to you competitors.</p>
+
+<p><strong>Mobile Responsive:</strong> $25 per month.</p>
+
 <h3>Local Listing</h3>
 
-<p>This the ability for your business to appare when a customer searches for a product or service you offer.</p>
+<p>This the ability for your business to appear when a customer searches for a product or service you offer.</p>
 
 <!-- This package includes link Distribution and link sync from Vendasta -->
 
