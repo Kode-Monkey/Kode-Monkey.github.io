@@ -7,7 +7,7 @@ title: Local and SEM
 <p class="text-center">See what customers see when they search your business.</p>
 
 <h3>Mobile Responsive</h3>
-<p>Do you have a website? If it is not responsive you could be loosing over half your site visitors to you competitors.</p>
+<p>Do you have a website? If it is not responsive you could be losing over half your site visitors to you competitors.</p>
 
 <p><strong>Mobile Responsive:</strong> $25 per month.</p>
 
@@ -32,7 +32,7 @@ title: Local and SEM
   <div class="col-sm-6">
     <strong>Advanced: $250 yr / per Location</strong>
     <ul>
-      <li>Includes everything form Basic</li>
+      <li>Includes everything from Basic</li>
       <li>Controls 40+ reputable business listing sites, including Bing Maps and Instagram</li>
       <li>Generates locations on popular navigation systems</li>
       <li>Creates new business listings</li>
@@ -44,7 +44,7 @@ title: Local and SEM
 
 <h3>Online Reputation</h3>
 
-<p>Online Reputation shows you what customers / clients are saying about your business.  It will help improve your visibility in local search and provides progress reports to prove your business’s worth.</p>
+<p>Online Reputation shows you what customers/clients are saying about your business.  It will help improve your visibility in local search and provides progress reports to prove your business’s worth.</p>
 
 <p>We offer four (4) levels of Reputation Management: A <em>Do-It-Yourself (DIY)</em> - <em>DO-It-With-Me (DIWM)</em> - <em>DO-It-With-Me-Social (DIWMS)</em> - <em>DO-It-With-Me-Social + (DIWMS +)</em>. </p>
 <p>The <strong>DIY</strong> is the best solution for the individual who has more time and likes to take control of all aspects of their digital marketing and online presence. It provides you with an all-in-one suite of tools to help you monitor and manage reviews, listings, and social conversations online. </p>

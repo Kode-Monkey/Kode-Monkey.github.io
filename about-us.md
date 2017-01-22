@@ -1,22 +1,58 @@
----
-layout: page
-title: About
-image: Code_Monkey.png
----
 
-  <p>I am a Colorado native and owner of Kaffeinated Kodemonkey. My passion is to bring affordable website development to the Western Slope and throughout the Uintah Basin to help small businesses, individuals, small government agencies and non-profits bring their business to the 21st century.</p>
 
-  <p>I specialize in working with individuals, small business, local government, small towns, non-profits and special districts to build an outstanding web presence for your business, project or organization. It is my goal to help every person find their spot on the world wide web so they can easily and efficiently be found, be understood, and communicate with, their audience.</p>
+That's right the word on the street is that I am FastTracking government websites to the portal.
 
-  <p>The pride I take in my work comes through in your site. I'm not just building websites. I'm building web presences and a network of lasting connections one client at a time.</p>
+What does that mean? Well in a nutshell that means, if you are a Colorado based government entity you don't have to wait in line.
 
-  <p>I began my career back in 1995 when I first learned HTML and earned my associates degree in software engineering in the early 2000's. By mid 2000 I revived my Ruby on Rails certification to solidify my expertise in modern frameworks and languages. My experience has spanned working for startup companies,  large corporations, hackathons and freelance work. Regardless of the context, my top priority is producing outstanding sites.</p>
+SIPA - State Internet Portal Authority and Kaffeinated Kodemonkey have an agreement that allows our clients to jump to the front of the line. This allows for your site to be completed in half the time is would take if you do this yourself.
 
-  <p>No project is too small. All business, and even individuals, need to have a website to compete in the ever changing, dynamic, online world we live in.</p>
+At this time the FastTrack package is only available for Colorado governmental entities. The owner is looking for more companies like SIPA that the company can partner with and when we do we will be adding them to the site. If you are outside of Colorado don't fret our developers can work with you on a custom build.
 
-  <p>One of my dreams has been to build a platform where jr developers and designer can expand their skills and build their portfolio for a life changing career.
-  By using freelancers I am able to your cost low and pay-it-forward.</p>
+Cost: Starting at $4020
 
-  <p>I strongly believe in working with local freelancers any time I can.</p>
+Book a cup of coffee and we can discuss your needs and what will fit you budget.
+What comes with the portal:
 
-  &nbsp;
+    Free GMail account (if you don't have one)
+    Domain Name (if you don't have one) - Billed Yearly
+    Hosting of the platform
+    Site Development on .gov Portal
+    Web Accessible content based on the WCAG2.0 standards
+    Initial site audit of current site (if applicable)
+    1st yr - Local Listing on Search Engines - Billed Yearly
+    Professional copy-editing (Copy-editing does not include down-loadable PDFs)
+    Training and recommendations on maintaining and updating your site
+
+Addition By SIPA:
+
+    Event Registration
+    Payment Processing
+    Form Automation
+    And Much more
+
+Gov Portal
+Service Renewal
+
+All site will be charged a renewal fee for the following.
+
+    Domain Name: $12 yr (waived if you supplied this.)
+    Local Listing: $95 yr
+
+Site Management:
+
+We can update your content and make sure that it follows ADA compliance and is optimized.
+
+Make changes and edits to the site. Add or remove images, pages and sections.
+
+    Hourly: $70
+    Monthly: $275
+    Yearly: $3013
+
+
+Can your customers find you online?
+
+Check your listings on Google, Bing, and other local search engines.
+Let's Have Coffee!
+
+Ready to start your next project with us?
+Give us a call or email us and we will get back to you as soon as possible!

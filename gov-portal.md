@@ -6,7 +6,7 @@ title: Gov Portal
   <div class="col-sm-12">
     <p>That's right the word on the street is that I am FastTracking government websites to the portal.</p>
 
-    <p><strong>What does that mean?</strong> Well in a nutshell that means, if you are a Colorado based government entity you don't have to wait in line.</p>
+    <p><strong>What does that mean?</strong> That means if you are a Colorado-based government entity you don't have to wait in line.</p>
 
     <p><strong>SIPA</strong> - State Internet Portal Authority and Kaffeinated Kodemonkey have an agreement that allows our clients to jump to the front of the line.
     This allows for your site to be completed in half the time is would take if you do this yourself.</p>
