@@ -32,15 +32,15 @@ title: Custom Build
 <hr/>
 
 <h2>Site Renewal</h2>
-<p>All site will be charged a site renewal for your domain and hosting. This can be waived for clients that provide us with their domain and or hosting.</p>
+<p>This is for Domain, Hosting, and Local Listing.</p>
 <ul>
   <li>Monthly: $15 - $26.75 (For Local Listing Pro)</li>
-  <li>Yearly:  $1655 - $295 (For Local Listing Pro)</li>
+  <li>Yearly:  $165 - $295 (For Local Listing Pro)</li>
 </ul>
 
 <h2>Site Management:</h2>
 <p>We can update your content and make sure that it follows ADA compliance and is optimized.</p>
-<p>Make changes and edits to the site. Add or remove images, pages and sections.</p>
+<p>Make changes and edits to the site. Add or remove images, pages, and sections.</p>
 <ul>
   <li>Hourly:  $70</li>
   <li>Monthly: $275</li>

@@ -51,19 +51,17 @@ title: Gov Portal
 
 <hr/>
 <h2>Service Renewal</h2>
-<p>All site will be charged a renewal fee for the following.</p>
+<p>Domain name and Local Listing.</p>
 <ul>
-  <li>Domain Name:   $12 yr (waived if you supplied this.)</li>
-  <li>Local Listing: $95 yr</li>
+<li>Yearly: $75 - $205 (For Local Listing Pro)</li>
 </ul>
-
 <h2>Site Management:</h2>
 <p>We can update your content and make sure that it follows ADA compliance and is optimized.</p>
-<p>Make changes and edits to the site. Add or remove images, pages and sections.</p>
+<p>Make changes and edits to the site. Add or remove images, pages, and sections.</p>
 <ul>
-  <li>Hourly:  $50</li>
-  <li>Monthly: $125</li>
-  <li>Yearly:  $1,650</li>
+  <li>Hourly:  $70</li>
+  <li>Monthly: $275</li>
+  <li>Yearly:  $3013</li>
 </ul>
 
 &nbsp;
