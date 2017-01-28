@@ -50,15 +50,6 @@ title: Gov Portal
 </div>
 
 <hr/>
-<h2>Service Renewal</h2>
-<p>Domain name and Local Listing.</p>
-<ul>
-<li>Yearly: $75 - $205 (For Local Listing Pro)</li>
-</ul>
-
-
-
-
 
 <div class="row">
   <div class="col-sm-4">
