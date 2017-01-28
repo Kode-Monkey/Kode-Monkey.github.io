@@ -55,13 +55,29 @@ title: Gov Portal
 <ul>
 <li>Yearly: $75 - $205 (For Local Listing Pro)</li>
 </ul>
-<h2>Site Management:</h2>
-<p>We can update your content and make sure that it follows ADA compliance and is optimized.</p>
-<p>Make changes and edits to the site. Add or remove images, pages, and sections.</p>
-<ul>
-  <li>Hourly:  $70</li>
-  <li>Monthly: $275</li>
-  <li>Yearly:  $3013</li>
-</ul>
 
+
+
+
+
+<div class="row">
+  <div class="col-sm-4">
+    <h2>Site Renewal</h2>
+    <p>Domain name and Local Listing.</p>
+    <ul>
+      <li>Yearly: $75 - <span class="text-danger">*</span>  $205</li>
+    </ul>
+
+    <p class="small text-danger">* With Local Listing Pro</p>
+  </div>
+  <div class="col-sm-8">
+    <h2>Site Management:</h2>
+    <p>Want us to managae your site? Or jump in when you need help? </p>
+    <ul>
+      <li>Hourly:&nbsp;&nbsp;&nbsp;&nbsp;  $70</li>
+      <li>Monthly:&nbsp; $275</li>
+      <li>Yearly:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $33013</li>
+    </ul>
+  </div>
+</div>
 &nbsp;
