@@ -19,7 +19,7 @@ title: Gov Portfolio
        <div class="row">
            <div class="col-md-6 portfolio-item">
                <a href="http://rangely.com/" target="blank" title="Town of Rangely">
-                   <img class="img-responsive" src="{{baseurl}}/img/govPortfolio/tor.png" alt="">
+                   <img class="img-responsive img-thumbnail" src="{{baseurl}}/img/govPortfolio/TownofRangely.png" alt="">
                </a>
                <h3>
                    <a href="http://rangely.com/" target="blank" title="Town of Rangely">Town of Rangely</a>
@@ -28,7 +28,7 @@ title: Gov Portfolio
            </div>
            <div class="col-md-6 portfolio-item">
                <a href="http://www.debeque.org/" target="blank" title="Town of De Beque">
-                   <img class="img-responsive" src="{{baseurl}}/img/govPortfolio/todb.png" alt="">
+                   <img class="img-responsive img-thumbnail" src="{{baseurl}}/img/govPortfolio/TownofDeBeque.png" alt="">
                </a>
                <h3>
                    <a href="http://www.debeque.org/" target="blank" title="Town of De Beque">Town of De Beque</a>
@@ -38,28 +38,6 @@ title: Gov Portfolio
        </div>
        <!-- /.row -->
 
-       <!-- Projects Row -->
-       <div class="row">
-           <div class="col-md-6 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="{{baseurl}}/img/NewClientSite.png" alt="New Client Site">
-               </a>
-               <h3>
-                   <a href="#">RBWCD</a>
-               </h3>
-               <p>Currently in Build. Will post when we GoLive.</p>
-           </div>
-           <div class="col-md-6 portfolio-item">
-               <a href="{{baseurl}}/gov-portal" title="Gov Portal">
-                   <img class="img-responsive" src="{{baseurl}}/img/Areyounext.png" alt="Are you Next?">
-               </a>
-               <h3>
-                   <a href="{{baseurl}}/gov-portal" title="Gov Portal">Gov Portal</a>
-               </h3>
-               <p>Are you looking to up date and old site or bring your business up to speed? You are in the right place.</p>
-           </div>
-       </div>
-       <!-- /.row -->
 
        <!-- Projects Row -->
        <!-- <div class="row">

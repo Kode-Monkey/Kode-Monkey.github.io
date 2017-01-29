@@ -16,48 +16,26 @@ title: Custom Portfolio
        <!-- /.row -->
 
        <!-- Projects Row -->
-       <!-- <div class="row">
-           <div class="col-md-6 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-               </a>
-               <h3>
-                   <a href="#" target="blank" title="Town of Rangley">Town of Rangley</a>
-               </h3>
-
-           </div>
-           <div class="col-md-6 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-               </a>
-               <h3>
-                   <a href="#" title="Town of De Beque" target="blank">Town of De Beque</a>
-               </h3>
-
-           </div>
-       </div> -->
-       <!-- /.row -->
-
-       <!-- Projects Row -->
        <div class="row">
            <div class="col-md-6 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="{{baseurl}}/img/NewClientSite.png" alt="New Client Site">
+               <a href="http://www.cimarrontelecommunications.com/" target="_blank">
+                   <img class="img-responsive img-thumbnail" src="{{baseurl}}/img/custom_build/CimarronTelecommunications.png" alt="Cimarron Telecommunications">
                </a>
                <h3>
-                   <a href="#">New Client</a>
+                   <a href="http://www.cimarrontelecommunications.com/" target="blank" title="Cimarron Telecommunications">Cimarron Telecommunications</a>
                </h3>
-               <p>Currently in Build. Will post when we GoLive.</p>
+
            </div>
            <div class="col-md-6 portfolio-item">
-               <a href="{{baseurl}}/rural-business" title="Rural Business">
-                   <img class="img-responsive" src="{{baseurl}}/img/Areyounext.png" alt="Are you Next?">
+               <a href="#">
+                   <img class="img-responsive img-thumbnail" src="http://placehold.it/700x400" alt="">
                </a>
                <h3>
-                   <a href="{{baseurl}}/rural-business" title="Rural Business">Rural Business</a>
+                   <a href="#" target="blank" title="Next Site">Your Site Here</a>
                </h3>
-               <p>Are you looking to up date and old site or bring your business up to speed? You are in the right place.</p>
+
            </div>
+
        </div>
        <!-- /.row -->
 
