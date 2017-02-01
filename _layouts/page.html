@@ -11,10 +11,12 @@ layout: front
 
   <div class="row">
     <div class="col-sm-offset-0 col-sm-3">
-      {% if page.image != nil and page.image != empty %}
+      {% if page.category == "about" %}
         <img src="img/{{page.image}}" class="page_image">
-      {% else %}
+      {% elsif page.category == "services" %}
         {% include youcanbook.html %}
+      {% else %}
+        {% include reviews.html %}
       {% endif %}
     </div>
     <div class="col-sm-9">
@@ -22,3 +24,6 @@ layout: front
     </div>
   </div>
 </div>
+
+
+<!-- if page.image != nil and page.image != empty -->

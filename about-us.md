@@ -2,6 +2,7 @@
 layout: page
 title: About
 image: Code_Monkey.png
+category: about
 ---
 
   <p>I am a Colorado native and owner of Kaffeinated Kodemonkey. My passion is to bring affordable website development to the Western Slope and throughout the Uintah Basin to help small businesses, individuals, small government agencies, and non-profits bring their business to the 21st century.</p>

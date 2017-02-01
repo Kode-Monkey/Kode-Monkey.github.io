@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Custom Build
+category: services
 ---
 
 <p>Custom builds are for those that are looking for more functionality than our Rural package offers or more than a web builder platform can offer.</p>
