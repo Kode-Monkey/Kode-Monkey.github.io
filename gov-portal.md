@@ -25,14 +25,14 @@ category: services
   <div class="col-sm-6">
     <h3>What comes with the portal:</h3>
     <ul>
-      <li>Free GMail account (if you don't have one)</li>
+      <li>Free Gmail account (if you don't have one)</li>
       <li>Domain Name (if you don't have one) - <em>Billed Yearly</em></li>
       <li>Hosting of the platform</li>
       <li>Site Development on .gov Portal</li>
       <li>Web Accessible content based on the <a href="https://www.w3.org/TR/WCAG20/" target="blank" title="WCAG2.0">WCAG2.0 standards</a></li>
       <li>Initial site audit of current site (if applicable)</li>
       <li>1st yr - <a href="{{baseurl}}/local_seo" title="Local Listing">Local Listing</a> on Search Engines - <em>Billed Yearly</em></li>
-      <li>Professional copy-editing (Copy-editing does not include down-loadable PDFs)</li>      
+      <li>Professional copy-editing (does not include downloadable PDFs)</li>      
       <li>Training and recommendations on maintaining and updating your site</li>
     </ul>
   </div>
