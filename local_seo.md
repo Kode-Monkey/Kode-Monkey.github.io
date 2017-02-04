@@ -12,7 +12,7 @@ category: services
 
 <p><strong>Mobile Responsive:</strong> $25 per month.</p>
 
-<h3>Local Listing</h3>
+<h3>Listing Distribution</h3>
 
 <p>The ability for your business to appear when a customer searches for a product or service you offer.</p>
 

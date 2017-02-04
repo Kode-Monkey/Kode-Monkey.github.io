@@ -31,7 +31,7 @@ category: services
       <li>Site Development on .gov Portal</li>
       <li>Web Accessible content based on the <a href="https://www.w3.org/TR/WCAG20/" target="blank" title="WCAG2.0">WCAG2.0 standards</a></li>
       <li>Initial site audit of current site (if applicable)</li>
-      <li>1st yr - <a href="{{baseurl}}/local_seo" title="Local Listing">Local Listing</a> on Search Engines - <em>Billed Yearly</em></li>
+      <li>1st yr - <a href="{{baseurl}}/local_seo" title="Listing Distribution">Listing Distribution</a> on Search Engines - <em>Billed Yearly</em></li>
       <li>Professional copy-editing (does not include downloadable PDFs)</li>      
       <li>Training and recommendations on maintaining and updating your site</li>
     </ul>
@@ -55,12 +55,12 @@ category: services
 <div class="row">
   <div class="col-sm-4">
     <h2>Site Renewal</h2>
-    <p>Domain name and Local Listing.</p>
+    <p>Domain name and Listing Distribution.</p>
     <ul>
-      <li>Yearly: $75 - <span class="text-danger">*</span>  $205</li>
+      <li>Yearly: $120 - <span class="text-danger">*</span>  $250</li>
     </ul>
 
-    <p class="small text-danger">* With Local Listing Pro</p>
+    <p class="small text-danger">* With Listing Distribution Pro</p>
   </div>
   <div class="col-sm-8">
     <h2>Site Management:</h2>

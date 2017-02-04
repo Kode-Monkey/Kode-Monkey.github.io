@@ -19,7 +19,7 @@ category: services
 <p>What's Included:</p>
 <ul>
   <li>1st yr - Domain and Hosting</li>
-  <li>1st yr - Local Listing on Search Engines</li>
+  <li>1st yr - Listing Distribution on Search Engines</li>
   <li>Complete custom design including shopping carts</li>
   <li>Web Accessibility - <a href="https://www.w3.org/WAI/intro/wcag" target="blank" title="WCSG2.0 Overview">WCAG2.0 Overview</a></li>
   <li>Training to manage site</li>
@@ -33,10 +33,10 @@ category: services
 <hr/>
 
 <h2>Site Renewal</h2>
-<p>This is for Domain, Hosting, and Local Listing.</p>
+<p>This is for Domain, Hosting, and Listing Distribution.</p>
 <ul>
-  <li>Monthly: $15 - $26.75 (For Local Listing Pro)</li>
-  <li>Yearly:  $165 - $295 (For Local Listing Pro)</li>
+  <li>Monthly: $15 - $26.75 (For Listing Distribution Pro)</li>
+  <li>Yearly:  $165 - $295 (For Listing Distribution Pro)</li>
 </ul>
 
 <h2>Site Management:</h2>
