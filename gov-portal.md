@@ -64,7 +64,7 @@ category: services
   </div>
   <div class="col-sm-8">
     <h2>Site Management:</h2>
-    <p>Want us to managae your site? Or jump in when you need help? </p>
+    <p>Want us to manage your site? Or jump in when you need help? </p>
     <ul>
       <li>Hourly:&nbsp;&nbsp;&nbsp;&nbsp;  $70</li>
       <li>Monthly:&nbsp; $275</li>
