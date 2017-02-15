@@ -20,6 +20,12 @@ hr {
 hr.light {
   border-color: white; }
 
+.tel{
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: bold;
+}
+
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -67,7 +73,7 @@ aside {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  height: 70px;}
+  height: 90px;}
   .navbar-default .navbar-header .navbar-brand {
     color: /*#A79485;*/ #ffffff;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -119,6 +125,12 @@ aside {
           .navbar-default.affix .nav > li > a:hover,
           .navbar-default.affix .nav > li > a:focus:hover {
             color: #5A7789; } }
+
+.navbar-right {
+  float: right !important;
+  margin-right: -15px;
+  margin-top: 25px;
+}
 
 header {
   position: relative;

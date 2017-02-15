@@ -4,7 +4,7 @@ title: Local and SEM
 category: services
 ---
 
-<h2 class="text-center"><strong>Get a <a href="http://qy8i.snapshotreport.biz/widget/landing-page/" target="_blank" title="Free Snapshot">Free Snapshot</a> Report</strong></h2>
+<h2 class="text-center"><strong><a class="bnt bnt-md btn-warning img-thumbnail" href="http://qy8i.snapshotreport.biz/widget/landing-page/" target="_blank" title="Free Snapshot">Get a Free Report</a> </strong></h2>
 <p class="text-center">See what customers see when they search your business.</p>
 
 <h3>Mobile Responsive</h3>
