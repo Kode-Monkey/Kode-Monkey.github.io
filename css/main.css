@@ -352,6 +352,7 @@ body {
     height: 100%;
 }
 
-.social{
+.social-test{
+  color: transparent;
   text-indent: -9999px;
 }
