@@ -7,11 +7,6 @@ category: services
 <h2 class="text-center"><strong><a class="btn btn-md btn-warning" href="http://qy8i.snapshotreport.biz/widget/landing-page/" target="_blank" title="Free Snapshot">Get a Free Report</a> </strong></h2>
 <p class="text-center">See what customers see when they search your business.</p>
 
-<h3>Mobile Responsive</h3>
-<p>Do you have a website? If it is not responsive you could be losing over half your site visitors to you competitors.</p>
-
-<p><strong>Mobile Responsive:</strong> $25 per month.</p>
-
 <h3>Listing Distribution</h3>
 
 <p>The ability for your business to appear when a customer searches for a product or service you offer.</p>
