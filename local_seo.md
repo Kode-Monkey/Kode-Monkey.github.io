@@ -10,9 +10,9 @@ category: services
 <h3>Listing Distribution</h3>
 
 <p>The ability for your business to appear when a customer searches for a product or service you offer.</p>
+<p>Think of this as your security alarm for you web presence.</p>
 
 <!-- This package includes link Distribution and link sync from Vendasta -->
-
 <div class="row">
   <div class="col-sm-6">
     <strong>Basic: $120 yr / per Location</strong>
