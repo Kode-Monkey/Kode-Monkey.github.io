@@ -5,6 +5,7 @@ category: services
 ---
 
 <h2 class="text-center"><strong><a class="btn btn-md btn-warning" href="http://qy8i.snapshotreport.biz/widget/landing-page/" target="_blank" title="Free Snapshot">Get a Free Report</a> </strong></h2>
+
 <p class="text-center">See what customers see when they search your business.</p>
 
 <h3>Listing Distribution</h3>
