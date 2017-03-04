@@ -4,19 +4,22 @@ title: Local and SEM
 category: services
 ---
 
-<h2 class="text-center"><strong><a class="btn btn-md btn-warning" href="http://qy8i.snapshotreport.biz/widget/landing-page/" target="_blank" title="Free Snapshot">Get a Free Report</a> </strong></h2>
+<h2 class="text-center"><strong><a class="btn btn-lg btn-warning" href="http://qy8i.snapshotreport.biz/widget/landing-page/" target="_blank" title="Free Snapshot">Get a Free Report</a> </strong></h2>
 
 <p class="text-center">See what customers see when they search your business.</p>
 
-<h3>Listing Distribution</h3>
+<h2>Listing Distribution</h2>
 
-<p>The ability for your business to appear when a customer searches for a product or service you offer.</p>
-<p>Think of this as your security alarm for you web presence.</p>
+<p>Improve listing consistency across more than 300 sites. Listing Distribution submits your business listing to the four major data providers: Factual, Acxiom, Infogroup, and Neustar (Localeze). Together, these data providers are referenced by over 300 online listing directories.</p>
+
+<p>Optimize your listings for three factors that impact local search rank: the number of online citations, the popularity of sources they appear on, and the accuracy and consistency of listing information.</p>
+
+<p>Simply activate your Listing Distribution, and watch as your listings improve over time. </p>
 
 <!-- This package includes link Distribution and link sync from Vendasta -->
 <div class="row">
   <div class="col-sm-6">
-    <strong>Basic: $120 yr / per Location</strong>
+    <h3><em>Listing Distribution Basic: $120 yr/per Location</em></h3>
     <ul>
       <li>Submit your site to the Search Engines</li>
       <li>Syncs business info in real-time</li>
@@ -27,7 +30,7 @@ category: services
     </ul>
   </div>
   <div class="col-sm-6">
-    <strong>Advanced: $250 yr / per Location</strong>
+    <h3><em>Listing Distribution Advanced: $199 yr/per Location</em></h3>
     <ul>
       <li>Includes everything from Basic</li>
       <li>Controls 40+ reputable business listing sites, including Bing Maps and Instagram</li>
@@ -39,7 +42,46 @@ category: services
   </div>
 </div>
 
-<h3>Online Reputation</h3>
+<div class="row">
+  <div class="col-sm-12">
+    <h2>Reputation Management</h2>
+    <p>Take control of your online Reputation today. Your reputation is what you say about yourself and what others say about you. Every day, customers are talking about your business on websites like Yelp, TripAdvisor, Google Maps, Facebook, blogs and elsewhere, and this chatter has a direct impact on your revenue — it’s time you join the conversation.</p>
+
+    <p>Reputation Management gives you control over your online presence by helping you correct online listings, respond to reviews, benchmark yourself against competitors and more.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <h3><em>Reputation Management: $65/mo</em></h3>
+    By monitoring reviews and listings through a personal dashboard, you can log in and uses the tools to find out which listings need correcting and to respond to reviews.
+  </div>
+  <div class="col-sm-6">
+    <h3><em>Social Management: $65/mo</em></h3>
+    By responding to conversations and making posts on social media to engage customers, you can log in to your dashboard and uses the tools to respond to customers and make
+    posts on social platforms.
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <h3><em>Presence Basic: $70/mo</em></h3>
+    <h3><em>Presence Advance: $80/mo</em></h3>
+    This combineds both Listing Distribution and Reputation Management. Saving you money by ensuring accurate and found results on up to 300 sources. Uses the dashboard to access tools to find out which listings need correcting, to respond to reviews and to make social posts.
+  </div>
+</div>
+
+<div class="clearfix">&nbsp;</div>
+
+<div class="row">
+<div class="col-sm-offset-2 col-sm-10">
+<a href="http://www.domain.com/join/index.bml?bannerID=922&AffID=746605&amp;LinkName=GetYourDomain"><img src="https://www1.domain.com/affiliate/banners/922" style="border:0px" alt="affiliate_link"/></a>
+</div>
+</div>
+
+<div class="clearfix">&nbsp;</div>
+
+<h2>Online Reputation</h2>
 
 <p>Online Reputation shows you what customers/clients are saying about your business.  It will help improve your visibility in local search and provides progress reports to prove your business’s worth.</p>
 
