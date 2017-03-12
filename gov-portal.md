@@ -16,7 +16,7 @@ category: services
 
     <p><strong>Cost:</strong> Starting at $4020</p>
 
-    <p>Book a cup of coffee and we can discuss your needs and what will fit you budget.</p>
+    <p>Book a cup of coffee and we can discuss your needs and what will fit your budget.</p>
   </div>
 
 </div>
@@ -53,23 +53,18 @@ category: services
 <hr/>
 
 <div class="row">
-  <div class="col-sm-4">
-    <h2>Site Renewal</h2>
-    <p>Domain name and Listing Distribution.</p>
-    <ul>
-      <li>Yearly: $120 - <span class="text-danger">*</span>  $250</li>
-    </ul>
+  <div class="col-sm-12">
+    <h2>Site Management</h2>
+    <h3>DIFM - Monthly: $285.00 - <span class="text-danger">*</span> $295.00 </h3>
+    <p>The monthly Do-It-For-Me (DIFM) includes your yearly domain name and hosting fees and Listing Distribution fees.
+    This is designed around the business owner that would rather have someone manage their site for them.</p>
 
-    <p class="small text-danger">* With Listing Distribution Pro</p>
-  </div>
-  <div class="col-sm-8">
-    <h2>Site Management:</h2>
-    <p>Want us to manage your site? Or jump in when you need help? </p>
-    <ul>
-      <li>Hourly:&nbsp;&nbsp;&nbsp;&nbsp;  $70</li>
-      <li>Monthly:&nbsp; $275</li>
-      <li>Yearly:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  $33013</li>
-    </ul>
+    <h3>DIY - Yearly: &nbsp;&nbsp;&nbsp; $130.00 &nbsp; - <span class="text-danger">*</span> $260.00 </h3>
+    <p>The yearly Do-It-Yourself (DIY) includes your yearly domain name and hosting fees and Listing Distribution fees.  Ongoing security updates and maintenance.<br />
+    This is designed around the business owner that would rather be all in and manage the site themselves.</p>
+
+      <p class="small text-danger">* With Local Listing Pro</p>
   </div>
 </div>
+
 &nbsp;
