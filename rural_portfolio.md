@@ -18,11 +18,11 @@ title: Rural Portfolio
        <!-- Projects Row -->
        <div class="row">
            <div class="col-md-6 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive img-thumbnail" src="http://placehold.it/700x400" alt="">
+               <a href="http://lindsey-amy.com">
+                   <img class="img-responsive img-thumbnail" src="img/rural_business/lindsey-amy.png" alt="Lindsey & Amy">
                </a>
                <h3>
-                   <a href="#" target="blank" title="Next Site">Your Site Here</a>
+                   <a href="http://lindsey-amy.com" target="blank" title="Lindsey & Amy">Lindsey & Amy</a>
                </h3>
 
            </div>
