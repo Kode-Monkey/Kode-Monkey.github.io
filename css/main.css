@@ -31,9 +31,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #A79485; }
+  color: #0879a5; }
   a:hover, a:focus {
-    color: #917a68; }
+    color: #380512;
+    text-decoration: none;
+  }
 
 h1,
 h2,
