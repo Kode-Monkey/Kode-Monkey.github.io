@@ -40,15 +40,14 @@ title: Gov Portfolio
 
 
        <!-- Projects Row -->
-       <!-- <div class="row">
+       <div class="row">
            <div class="col-md-6 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="" alt="">
+               <a href="https://www.colorado.gov/rbwcd">
+                   <img class="img-responsive" src="{{ baseurl }}/img/govPortfolio/RBWCD.png" alt="RBWCD">
                </a>
                <h3>
-                   <a href="#">Project Five</a>
+                   <a href="https://www.colorado.gov/rbwcd" title="Rio Blanco Water Conservancy District">RBWCD</a>
                </h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
            </div>
            <div class="col-md-6 portfolio-item">
                <a href="#">
@@ -57,7 +56,7 @@ title: Gov Portfolio
                <h3>
                    <a href="#">Project Six</a>
                </h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+               <p>Are you Government entity? Would you like to see your site here?</p>
            </div>
        </div> -->
        <!-- /.row -->
