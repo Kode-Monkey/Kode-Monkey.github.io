@@ -28,7 +28,7 @@ title: Rural Portfolio
            </div>
            <div class="col-md-6 portfolio-item">
                <a href="http://topnotchfence.online/">
-                   <img class="img-responsive img-thumbnail" src="{{baseurl}}/img/rural_business/TopNotchFenceLLC.png" alt="Top Notch Fence">
+                   <img class="img-responsive img-thumbnail" src="img/rural_business/TopNotchFenceLLC.png" alt="Top Notch Fence">
                </a>
                <h3>
                    <a href="http://topnotchfence.online/" target="blank" title="Top Notch Fence">Top Notch Fence</a>
