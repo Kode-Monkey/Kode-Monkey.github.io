@@ -54,7 +54,7 @@ title: Gov Portfolio
                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                </a>
                <h3>
-                   <a href="#">Next Six</a>
+                   <a href="#">Next Project</a>
                </h3>
                <p>Are you Government entity? Would you like to see your site here?</p>
            </div>
