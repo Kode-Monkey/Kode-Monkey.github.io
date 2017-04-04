@@ -9,7 +9,7 @@ title: Custom Portfolio
        <div class="row">
            <div class="col-lg-12">
                <h1 class="page-header">{{page.title}}
-                    <small>Is your site the next to be listed?</small>
+                    <small>Is your site the next?</small>
                </h1>
            </div>
        </div>
