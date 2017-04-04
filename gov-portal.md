@@ -15,8 +15,7 @@ category: services
     <p>At this time the FastTrack package is only available for Colorado governmental entities. The owner is looking for more companies like SIPA that the company can partner with and when we do we will be adding them to the site. If you are outside of Colorado don't fret our developers can work with you on a custom build.</p>
 
     <h2>Cost: Starting at $4020</h2>
-
-    <p>Book a cup of coffee and we can discuss your needs and what will fit your budget.</p>
+    <h3><small class="text-danger">*</small> Monthly Maintenance: $50 or Yearly Renewal: $249 </h3>
   </div>
 
 </div>
@@ -53,16 +52,14 @@ category: services
 
 <div class="row">
   <div class="col-sm-12">
-    <h2><small class="text-danger">*</small> Monthly Maintenance or Yearly Renewal</h2>
-    <p>You can choose between monthly or yearly. Monthly is optional and includes all your renewal fees. Our team will monitor your site for security updates and malware
-    preventions to keep you worry free and your website running smoothly. All you will need to do is manage the content and run your business. If you decline the monthly
-    maintenance, the yearly renewal fee will apply to keep your hosting and listings active.</p>
-
-    <h2>Tech Support + Site Maintenance: $425</h2>
+    <h2>Tech Support & Site Maintenance: $425 mo</h2>
 
     <p>Our integrate Tech Support system makes it easy for you and your customers to let us know when there is an issue with the site. You can interact with your developer
-    to make changes to your website layout and or content. Our Tech Support team will monitor your site for security updates and malware preventions to keep you worry free
+    to make changes to your website layout and or content. We will monitor your site for security updates on any third party embedded code to keep you worry free
     and your site running smoothly.</p>
+
+    <h4><small class="text-danger">*</small> Monthly or Yearly Renewal</h4>
+    <small>You can choose between monthly or yearly. This is to keep your domain (if we registered it) and Listings active.</small>
 
     <p>&nbsp;</p>
   </div>
