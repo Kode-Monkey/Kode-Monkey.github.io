@@ -53,7 +53,7 @@ category: services
 
 <div class="row">
   <div class="col-sm-12">
-    <h2><small class="text-danger">*</small> Monthly Maintenance or Yarly Renewal</h2>
+    <h2><small class="text-danger">*</small> Monthly Maintenance or Yearly Renewal</h2>
     <p>You can choose between monthly or yearly. Monthly is optional and includes all your renewal fees. Our team will monitor your site for security updates and malware
     preventions to keep you worry free and your website running smoothly. All you will need to do is manage the content and run your business. If you decline the monthly
     maintenance, the yearly renewal fee will apply to keep your hosting and listings active.</p>
