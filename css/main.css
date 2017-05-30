@@ -11,7 +11,9 @@ body {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  overflow-x: hidden;
+}
 
 hr {
   border-color: #A79485;
@@ -47,9 +49,9 @@ h6 {
 }
 
 h2{
-  color: #530B1F;
-}
+  color: #F9F0F2;
 
+}
 h3,h4,h5,h6{
   color: #A79485;
 }
@@ -97,7 +99,7 @@ aside {
   .navbar-default .nav > li > a:focus {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 16px;
     color: #ffffff; }
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
@@ -128,7 +130,7 @@ aside {
         border-color: rgba(83, 11, 31, 0.5); }
         .navbar-default.affix .navbar-header .navbar-brand {
           color: /*#A79485*/ #ffffff;
-          font-size: 14px; }
+          font-size: 18px; }
           .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
             color:/* #917a68*/ #5A7789; }
         .navbar-default.affix .nav > li > a,
@@ -148,12 +150,13 @@ header {
   position: relative;
   width: 100%;
   min-height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: 95%;
+  -moz-background-size: 95%;
+  background-size: 95%;
+  -o-background-size: 95%;
   background-position: center;
   background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
   text-align: center;
   color: white; }
   header .header-content {
@@ -207,7 +210,9 @@ header {
   }
 
 .section-heading {
-  margin-top: 0; }
+  margin-top: 0;
+  color: #530B1F;
+ }
 
 .service-box {
   max-width: 400px;
