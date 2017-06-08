@@ -17,8 +17,8 @@ body {
 
 hr {
   border-color: #A79485;
-  border-width: 3px;
-  max-width: 50px; }
+  border-width: 1px;
+  max-width: 100%; }
 
 hr.light {
   border-color: white; }
@@ -70,6 +70,11 @@ p {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
+
+.valign {
+  margin-top: 10%;
+  vertical-align: middle;
+}
 
 section {
   padding: 100px 0; }
