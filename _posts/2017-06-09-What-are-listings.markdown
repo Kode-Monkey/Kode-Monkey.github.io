@@ -1,19 +1,22 @@
 ---
 layout:  blog
-title: "What are Listing?"
+title: "What are Listing?: [Second]"
 date: 2017-06-09
 category: listings
 ---
 
 <div class="row">
   <div class="col-sm-12">
-    <img src="img/blogs/whatarelistings.png" alt="what are listings" width="890px">
+    <img src="{{ site.url}}/img/blogs/whatarelistings.png" alt="what are listings" width="890px">
   </div>
 </div>
 <br />
 
 <div class="row">
   <div class="col-sm-12">
+    <p>Welcome back. Last week we review what Local Listings are and how to wrap are head around them.</p>
+    <p>If you missed last weeks you can check out <a href="{{ site.baseurl }}{% post_url 2017-06-02-local-listing %}">Local Listings: First in the Series.</a></p>
+
     <h2>What are Listings and Why Do They Matter?</h2>
   </div>
 </div>
@@ -50,7 +53,7 @@ category: listings
     <p>Just as the brightly lit bat signal guides everyone’s favorite caped crusader (that’s right Superman, we said it!), accurate and readily available listings will help guide consumers right to your business’s door steps.</p>
 
     <figure>
-      <img src="../img/blogs/listings.png" alt="listings">
+      <img src="{{ site.url}}/img/blogs/listings.png" alt="listings">
       <figcaption>They even have similar shapes. Coincidence? We think not…</figcaption>
     </figure>
     <br />
