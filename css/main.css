@@ -46,13 +46,9 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.9em;
-}
-
-h2{
-  color: #F9F0F2;
 
 }
+
 h3,h4,h5,h6{
   color: #A79485;
 }
@@ -184,7 +180,7 @@ header {
       margin: 30px auto; }
     header .header-content .header-content-inner p {
       font-weight: bold;
-      color: /*rgba(255, 255, 255, 0.7);*/ #ef8200;
+      color: /*rgba(255, 255, 255, 0.7);*/ #eccca6;
       font-size: 16px;
       margin-bottom: 30px; }
   @media (min-width: 768px) {

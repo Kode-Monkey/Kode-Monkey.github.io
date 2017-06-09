@@ -1,9 +1,8 @@
 ---
 layout:  blog
 title: "Local Listing"
-date: 2017-06-06
+date: 2017-06-16
 category: listings
-
 ---
 
 <h2 class="section-heading">What is Local Listings?</h2>
