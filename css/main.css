@@ -146,6 +146,7 @@ aside {
   float: right !important;
   margin-right: -15px;
   margin-top: 25px;
+  background-color: #530B1F;
 }
 
 header {
@@ -157,7 +158,8 @@ header {
   background-size: 95%;
   -o-background-size: 95%;
   background-position: center;
-  background-image: url("../img/header.jpg");
+  background-color: #F3F3F5;
+  background-image: url("../img/header2.jpg");
   background-repeat: no-repeat;
   text-align: center;
   color: #ef8200; }
