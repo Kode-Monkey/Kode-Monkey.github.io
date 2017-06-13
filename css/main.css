@@ -169,7 +169,7 @@ header {
     padding: 100px 15px 100px;
     width: 100%; }
     header .header-content .header-content-inner{
-      background: rgb(156, 156, 158,.9);
+      background: rgba(45, 45, 47,0.9);
       padding: 20px;
       border-radius: 10px;
     }
