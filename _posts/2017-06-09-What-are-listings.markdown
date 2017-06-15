@@ -1,6 +1,6 @@
 ---
 layout:  blog
-title: "What are Listing?"
+title: "Why Local Listings matter to your business?"
 date: 2017-06-09
 category: listings
 ---
@@ -15,9 +15,9 @@ category: listings
 <div class="row">
   <div class="col-sm-12">
     <p>Welcome back. Last week we review what Local Listings are and how to wrap are head around them.</p>
-    <p>If you missed last weeks you can check out <a href="{{ site.baseurl }}{% post_url 2017-06-02-local-listing %}">Local Listings: First in the Series.</a></p>
+    <p>If you missed last weeks you can check out <a href="{{ site.baseurl }}{% post_url 2017-06-02-local-listing %}">Local Listings: Overview.</a></p>
 
-    <h2>What are Listings and Why Do They Matter?</h2>
+    <h2>Why Do Local Listings Matter to my business?</h2>
   </div>
 </div>
 

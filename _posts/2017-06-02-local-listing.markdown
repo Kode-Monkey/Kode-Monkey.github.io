@@ -1,6 +1,6 @@
 ---
 layout:  blog
-title: "Local Listing"
+title: "Local Listing: Overview"
 date: 2017-06-02
 category: listings
 ---
