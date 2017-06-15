@@ -76,6 +76,9 @@ p {
   vertical-align: middle;
 }
 
+section#lead{
+  margin-top: 100px;
+}
 section {
   padding: 10px 0; }
 
@@ -232,7 +235,7 @@ header {
   margin: 50px auto 0; }
   @media (min-width: 992px) {
     .service-box {
-      margin: 0px auto 0; } }
+      margin: 10px auto 0; } }
   .service-box p {
     margin-bottom: 0; }
 
