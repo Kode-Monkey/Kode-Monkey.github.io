@@ -1,6 +1,6 @@
 ---
 layout:  blog
-title: "Why Local Listings matter to your business?"
+title: "Why they matter"
 date: 2017-06-09
 category: listings
 ---
