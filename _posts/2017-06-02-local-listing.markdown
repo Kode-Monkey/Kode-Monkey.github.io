@@ -1,6 +1,6 @@
 ---
 layout:  blog
-title: "Local Listing: [First]"
+title: "Local Listing"
 date: 2017-06-02
 category: listings
 ---

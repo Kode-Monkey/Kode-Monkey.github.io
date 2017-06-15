@@ -1,6 +1,6 @@
 ---
 layout:  blog
-title: "What are Listing?: [Second]"
+title: "What are Listing?"
 date: 2017-06-09
 category: listings
 ---

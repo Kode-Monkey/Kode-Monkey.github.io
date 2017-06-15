@@ -16,3 +16,6 @@ bookme:            https://kaffeinatedkodemonkey.youcanbook.me/
 
 # Build settings
 markdown: kramdown
+
+#test post befor publishing (set to true)
+future: false
