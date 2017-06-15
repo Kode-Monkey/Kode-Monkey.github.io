@@ -17,6 +17,8 @@ layout: front
     </div>
     <div class="col-sm-2">
       <!-- blog archives -->
+      {% for category in site.categories %}
+      <h4 class="text-uppercase">{{ category | first }}</a></h4>
       <ul>
         {% for post in site.posts %}
           <li>
@@ -24,6 +26,7 @@ layout: front
           </li>
         {% endfor %}
       </ul>
+        {% endfor %}
     </div>
   </div>
   <div class="row">
