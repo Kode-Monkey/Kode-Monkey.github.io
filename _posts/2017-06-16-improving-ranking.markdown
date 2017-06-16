@@ -1,6 +1,6 @@
 ---
 layout:  blog
-title: "Improving Ranking"
+title: "Improving Your Ranking"
 date: 2017-06-16
 category: listings
 ---
