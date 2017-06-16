@@ -14,16 +14,19 @@ category: listings
 
 <div class="row">
   <div class="col-sm-12">
-    <p>We will be hosting a new blog each Friday.</p>
-    <p>The month of June is focusing on <em>Local Listings and what you need to know</em>.</p>
-    <p>If you are not receiving the Kodemonkey's new letter you can <a href="http://eepurl.com/bun3M1" title="Kodemonkeies Newsletter" targe="blank"><strong>join now</strong></a> and start receiving cool offers and blog updates.</p>
+    <p>Welcome back,  last week we review <a href="{{ site.baseurl }}{% post_url 2017-06-09-What-are-listings %}" title="Why Do Local Listings Matter to my business?">"Why Do Local Listings Matter to my business?"</a>.</p>
 
-    <p>Our newsletters inform you of the next topic, recaps previous topics and has great how-to tips and tricks to keep your site preforming well.
-    Plus other offers that you can only get through our newsletter.</p>
+    If you have missed prior articals in the serise you ca review them under "Listings" category on the right or join the Kodemonkey's Newsletter and receive notification of new blogs, monthly topic, and other information on how to have a successful Web Presence.
   </div>
 </div>
 
 <hr />
+
+<div class="row">
+  <div class="col-sm-12">
+  <h2>{{page.title}}</h2>
+  </div>
+</div>
 
 <div class="row">
   <div class="col-sm-12">
