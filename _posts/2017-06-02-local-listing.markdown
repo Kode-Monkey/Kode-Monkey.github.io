@@ -64,9 +64,3 @@ make sure you are putting your best for forward and showing up in the right loca
 <p>Here at Kaffeinated Kodemonkey, we offer <a href="http://www.kaffeinatedkodemonkey.com/ListingSync" title="Link Sync Pro"><strong>Link Sync Pro</strong></a>. We have partnered with Yext to include their <a href="http://www.yext.com/pl/yext-brand-powerlistings/what.html" target="_blank" title="Yext power listing"><strong>power listing</strong></a> and allow you to claim your business listing on 70+ directories from one place. We also protect your listings from third party threats so no one can take your listing.</p>
 
 <p>Local Listings is part of a complete web presence. Without it you are leaving your business open to third party threats and loss of ROI by not showing up in a search engine search results. Our  <a href="http://www.kaffeinatedkodemonkey.com/index#services" title="services"><strong>Web Presence packages</strong></a> not only include your website but also Listing Distribution and Basic Link Sync (we will claim Google, Facebook, & Twitter). If you have a website, get started by building your full presence with Listing Distribution, or add Link Sync Pro for the added benefits and protection.</p>
-
-<div  class="row">
-  <div class="col-sm-12">
-    <p class="text-center"><a class="img-responsive img-thumbnail" href="http://qy8i.snapshotreport.biz/widget/landing-page/" target="_blank" title="Free Snapshot"><img src="{{baeurl}}/img/FreeReport.png"></a></p>
-  </div>
-</div>
