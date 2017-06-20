@@ -71,7 +71,10 @@ category: listings
     <h3>Now what?</h3>
 
     <p>This listings low-down provides a basic definition and describes the benefits of business listings. Create listings on sites worth lots of points to improve your listings score. We’ve ranked them by importance using a lot of key factors—how many sites reference them, traffic, demographics and more.</p>
+</div>
 
-    <p>Book a cup of coffee with us to discuss how local listings can help your business. You can also receive a <a href="http://qy8i.snapshotreport.biz/widget/landing-page/" title=free snapshot report">free snapshot</a> report of our business.</p>
+<div  class="row">
+  <div class="col-sm-12">
+    <p class="text-center"><a class="img-responsive img-thumbnail" href="http://qy8i.snapshotreport.biz/widget/landing-page/" target="_blank" title="Free Snapshot"><img src="{{baeurl}}/img/FreeReport.png"></a></p>
   </div>
 </div>
