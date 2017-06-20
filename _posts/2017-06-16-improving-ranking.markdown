@@ -136,3 +136,5 @@ category: listings
 <div  class="row">
   <div class="col-sm-12">
     <p class="text-center"><a class="img-responsive img-thumbnail" href="http://qy8i.snapshotreport.biz/widget/landing-page/" target="_blank" title="Free Snapshot"><img src="{{baeurl}}/img/FreeReport.png"></a></p>
+  </div>
+</div>
