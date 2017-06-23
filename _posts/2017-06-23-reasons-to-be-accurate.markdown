@@ -16,8 +16,8 @@ category: listings
   <div class="col-sm-12">
     <p>Welcome back, last week we discussed how to <a href="{{ site.baseurl }}{% post_url 2017-06-16-improving-ranking %}" title="How to Improve your Rankings">"Improve your rankings"</a>.</p>
 
-    If you have missed this or prior articles in the series you ca review them under "Listings" category to the right of this post, or <a href="http://eepurl.com/cSYHpL" title="Kodemonkey's Newsletter">join</a> the Kodemonkey's Newsletter. You will receive notification of new
-    monthly topic, weekly posts, and other information on how to have a successful Web Presence.
+    <p>If you have missed this or prior articles in the series you ca review them under "Listings" category to the right of this post, or <a href="http://eepurl.com/cSYHpL" title="Kodemonkey's Newsletter">join</a> the Kodemonkey's Newsletter. You will receive notification of new
+    monthly topic, weekly posts, and other information on how to have a successful Web Presence.</p>
   </div>
 </div>
 
