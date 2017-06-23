@@ -27,17 +27,39 @@ title: Custom Portfolio
 
            </div>
            <div class="col-md-6 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive img-thumbnail" src="http://placehold.it/700x400" alt="">
+               <a href="http://petromatch.co">
+                   <img class="img-responsive img-thumbnail" src="{{ site.baseurl }}/img/custom_build/PetroMatch.png" alt="PetroMatch">
                </a>
                <h3>
-                   <a href="#" target="blank" title="Next Site">Your Site Here</a>
+                   <a href="http://petromatch.co" target="blank" title="PetroMatch">PetroMatch</a>
                </h3>
 
            </div>
 
        </div>
        <!-- /.row -->
+
+       <!-- Projects Row -->
+       <div class="row">
+           <div class="col-md-6 portfolio-item">
+               <a href="#">
+                   <img class="img-responsive img-thumbnail" src="http://placehold.it/700x400" alt="">
+               </a>
+               <h3>
+                   <a href="#" target="blank" title="Next Site">Your Site Here</a>
+               </h3>
+           </div>
+           <div class="col-md-6 portfolio-item">
+               <a href="#">
+                   <img class="img-responsive img-thumbnail" src="http://placehold.it/700x400" alt="">
+               </a>
+               <h3>
+                   <a href="#" target="blank" title="Next Site">Your Site Here</a>
+               </h3>
+           </div>
+       </div>
+       <!-- /.row -->
+
 
        <!-- Projects Row -->
        <!-- <div class="row">
