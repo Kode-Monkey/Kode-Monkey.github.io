@@ -3,6 +3,7 @@ layout:  blog
 title: "6 Reasons your listings need to be accurate"
 date: 2017-06-23
 category: listings
+published: false
 ---
 
 <div class="row">
