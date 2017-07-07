@@ -2,7 +2,7 @@
 layout:  blog
 title: "Improve Your Ranking"
 date: 2017-06-16
-category: listings
+category: Listings
 ---
 
 <div class="row">

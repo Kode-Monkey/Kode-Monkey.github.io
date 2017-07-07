@@ -401,3 +401,7 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.post-url{
+  margin-left: 25px;
+}

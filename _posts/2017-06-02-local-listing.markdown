@@ -2,7 +2,7 @@
 layout:  blog
 title: "Local Listing: Overview"
 date: 2017-06-02
-category: listings
+category: Listings
 ---
 <div class="row">
   <div class="col-sm-12">

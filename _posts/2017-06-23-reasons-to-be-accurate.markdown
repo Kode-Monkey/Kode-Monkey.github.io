@@ -1,8 +1,8 @@
 ---
 layout:  blog
-title: "6 Reasons your listings need to be accurate"
+title: "6 Reasons listings need accurate"
 date: 2017-06-23
-category: listings
+category: Listings
 published: true
 ---
 

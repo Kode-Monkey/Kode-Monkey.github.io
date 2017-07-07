@@ -2,7 +2,7 @@
 layout:  blog
 title: "Why they matter"
 date: 2017-06-09
-category: listings
+category: Listings
 ---
 
 <div class="row">

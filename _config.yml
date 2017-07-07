@@ -17,7 +17,7 @@ bookme:            https://kaffeinatedkodemonkey.youcanbook.me/
 # Build settings
 markdown: kramdown
 
-permalink: /:categories/:year/:month/:day/:title.html
+permalink: /:categories/:title/
 
 #test post befor publishing (set to true)
-future: false
+#future: true

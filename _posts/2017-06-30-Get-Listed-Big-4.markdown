@@ -2,7 +2,7 @@
 layout:  blog
 title: "Get Listed on the Big Four"
 date: 2017-06-30
-category: listings
+category: Listings
 ---
 <div class="row">
   <div class="col-sm-12">
@@ -31,7 +31,7 @@ category: listings
 
 <h2 class="section-heading">Out with the old, in with the new</h2>
 
-<p>As you are probably aware phone books are starting to corner the doorstop and firestarter market. As tech-savvy generations age and account for larger percentages of our population, target customers are continuing to shift further away from paper and toward digital. <href="https://www.ringcentral.com/blog/2013/04/mobile-or-pre-mobile/" target="blank" title="The Age That Separates the Mobile Generation From the Phone Book Era">63% of people</a> under 40 never use phone books to find local listings. This means having your business listed online is critical to tapping into a huge demographic of potential customers in the up-and-coming <href="http://www.forbes.com/sites/micahsolomon/2014/12/29/5-traits-that-define-the-80-million-millennial-customers-coming-your-way/#f9315762a81f" target="blank" title="Year Of The Millennial Customer">80-million Millennial generation</a>.</p>
+<p>As you are probably aware phone books are starting to corner the doorstop and firestarter market. As tech-savvy generations age and account for larger percentages of our population, target customers are continuing to shift further away from paper and toward digital. <a href="https://www.ringcentral.com/blog/2013/04/mobile-or-pre-mobile/" target="blank" title="The Age That Separates the Mobile Generation From the Phone Book Era">63% of people</a> under 40 never use phone books to find local listings. This means having your business listed online is critical to tapping into a huge demographic of potential customers in the up-and-coming <a href="http://www.forbes.com/sites/micahsolomon/2014/12/29/5-traits-that-define-the-80-million-millennial-customers-coming-your-way/#f9315762a81f" target="blank" title="Year Of The Millennial Customer">80-million Millennial generation</a>.</p>
 
 <h2 class="section-heading">The Internet’s hottest spots</h2>
 
