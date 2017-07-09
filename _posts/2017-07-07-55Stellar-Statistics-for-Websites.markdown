@@ -7,7 +7,7 @@ publish: true
 ---
 <div class="row">
   <div class="col-sm-12">
-    <img src="{{ site.url}}/img/blogs/55stats-for-websites-blog.png" alt="55 Stellar Statistics for Websites" width="95%">
+    <img src="{{site.url}}/img/blogs/55stats-for-websites-blog.png" alt="55 Stellar Statistics for Websites" width="95%">
   </div>
 </div>
 
