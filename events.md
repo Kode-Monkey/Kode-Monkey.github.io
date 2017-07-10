@@ -17,7 +17,7 @@ title: Events
     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
         <ul>
-          <li>July 11, 2017 at 5:30pm - Join Colorado State Representative Bob Rankin and Commissioner Joyce Rankin for a Legislative & Department of Education Update/Q&A at Town Hall</li>
+          <li>July 11, 2017 at 5:30pm - Join State Representative Bob Rankin and Commissioner Joyce Rankin for a Legislative & Department of Education Update/Q&A at Town Hall</li>
           <li>July 20-22 - <a href="{{site.url}}/doc/ROARADS.pdf" title="Download: Trail Book and Pricing">Rally Colorado - Trail Book and Pricing (PDF)</a></li>
           <li>July 11th - <a href="https://tanksounds.org/season-two-at-the-tank/" target="blank" title="Elaine Di Falco">Elaine Di Falco</a></li>
           <li>July 15th - <a href="{{site.url}}/doc/AlisaOH.pdf" title="Download: Alisa Granger Photography">Alisa Granger Photography</a></li>
