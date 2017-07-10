@@ -17,6 +17,7 @@ title: Events
     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
         <ul>
+          <li>July 11, 2017 at 5:30pm - Join Colorado State Representative Bob Rankin and Commissioner Joyce Rankin for a Legislative & Department of Education Update/Q&A at Town Hall</li>
           <li>July 20-22 - <a href="{{site.url}}/doc/ROARADS.pdf" title="Download: Trail Book and Pricing">Rally Colorado - Trail Book and Pricing (PDF)</a></li>
           <li>July 11th - <a href="https://tanksounds.org/season-two-at-the-tank/" target="blank" title="Elaine Di Falco">Elaine Di Falco</a></li>
           <li>July 15th - <a href="{{site.url}}/doc/AlisaOH.pdf" title="Download: Alisa Granger Photography">Alisa Granger Photography</a></li>
@@ -45,18 +46,20 @@ title: Events
       </div>
     </div>
   </div>
-  <!-- <div class="panel panel-default">
+  <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingThree">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
+          September 2017
         </a>
       </h4>
     </div>
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <ul>
+          <li>Sept 4th - September Fest Get out of Jail</li>
+        </ul>
       </div>
     </div>
-  </div> -->
+  </div>
 </div>
