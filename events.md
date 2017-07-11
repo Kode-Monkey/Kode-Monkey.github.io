@@ -21,6 +21,7 @@ title: Events
           <li>July 20-22 - <a href="{{site.url}}/doc/ROARADS.pdf" title="Download: Trail Book and Pricing">Rally Colorado - Trail Book and Pricing (PDF)</a></li>
           <li>July 11th - <a href="https://tanksounds.org/season-two-at-the-tank/" target="blank" title="Elaine Di Falco">Elaine Di Falco</a></li>
           <li>July 15th - <a href="{{site.url}}/doc/AlisaOH.pdf" title="Download: Alisa Granger Photography">Alisa Granger Photography</a></li>
+          <li>July 15th - <a href="http://gazette.com/seaplanes-to-make-rare-colorado-appearance-at-reservoir-near-rangely/article/1606835" target="blank" title="Seaplane">Seaplane will splash in and lift out of Kenney Reservoir</a></li>
           <li>July 15th - <a href="{{site.url}}/doc/COMtSplash.pdf" title="Download: Mountain Splash">Mountain Splash</a></li>
           <li>July 16th - <a href="https://tanksounds.org/season-two-at-the-tank/" target="blank" title="Harp in the Park">Harp in the Park</a></li>
           <li>July 17th - <a href="https://tanksounds.org/season-two-at-the-tank/" target="blank" title="Second Annual DOLSA">Second Annual DOLSA</a></li>
