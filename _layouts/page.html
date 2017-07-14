@@ -9,7 +9,7 @@ layout: front
   <h1>{{page.title}}</h1>
 
   <div class="row">
-    <div class="col-sm-offset-0 col-sm-3">
+    <div class="col-sm-offset-0 col-sm-12 col-md-4 col-lg-3">
       {% if page.category == "about" %}
         <img src="img/{{page.image}}" class="page_image">
       {% elsif page.category == "services" %}
@@ -18,7 +18,7 @@ layout: front
         {% include reviews.html %}
       {% endif %}
     </div>
-    <div class="col-sm-9">
+    <div class="col-sm-12 col-md-8 col-lg-9">
         {{ content }}
     </div>
   </div>

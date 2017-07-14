@@ -41,6 +41,7 @@ title: Events
     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="panel-body">
         <ul>
+          <li>Aug 1st, 2nd, 3rd - <a href="{{site.url}}/doc/Paint2017.pdf" title="Download: Paint Recycle">Paint Recycle (PDF)</a></li>
           <li>August 10th, 11th, 12th - <a href="{{site.url}}/doc/ROAR.pdf" title="Download: ROAR">ROAR</a></li>
           <li>August 12th - <a href="https://tanksounds.org/season-two-at-the-tank/" target="blank" title="Carlos Nakai Concert">Carlos Nakai Concert</a></li>
         </ul>
