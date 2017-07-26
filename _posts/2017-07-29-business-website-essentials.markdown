@@ -3,7 +3,7 @@ layout:  blog
 title: "Business Website Essentials"
 date: 2017-07-29
 category: Websites
-publish: true
+publish: false
 ---
 <div class="row">
   <div class="col-sm-12">
