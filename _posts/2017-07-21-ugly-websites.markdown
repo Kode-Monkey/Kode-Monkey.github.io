@@ -1,7 +1,7 @@
 ---
 layout:  blog
 title: "Avoid having an ugly website"
-date: 2017-07-22
+date: 2017-07-21
 category: Websites
 publish: true
 ---
