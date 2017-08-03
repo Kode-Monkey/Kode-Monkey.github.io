@@ -20,4 +20,4 @@ markdown: kramdown
 #permalink: /:categories/:title/
 
 #test post befor publishing (set to true)
-#future: true
+future: false
