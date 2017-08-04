@@ -12,11 +12,12 @@ layout: front
     <div class="col-sm-offset-0 col-sm-3">
       {% include youcanbook.html %}
     </div>
-    <div class="col-sm-7">
+    <div class="col-sm-6">
         {{ content }}
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-3">
       <!-- blog archives -->
+      <h2>Blog Archives</h2>
       {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
 
