@@ -57,7 +57,7 @@ publish: true
 
 <h3>Don’t: Ignore Feedback or Complaints</h3>
 
-<p>Feedback, no matter its form, is always a plus. Who better to hear from than the customers who are literally the lifeblood of your business?<?p>
+<p>Feedback, no matter its form, is always a plus. Who better to hear from than the customers who are literally the lifeblood of your business?</p>
 
 <p>Embracing the good, the bad and the ego-deflating will ultimately help you to strive for better in the long run, we promise. You’ll be able to understand your customer better, identify and solve your pitfalls and grow bigger and better (<a href="http://minutehack.com/opinions/how-feedback-can-build-a-business" target="blank"> title="How Feedback Can Build A Business">MinuteHack</a>)! So, the next time a customer wants to give you their feedback, don’t brush it off, but rather see it as an opportunity to improve.</p>
 
