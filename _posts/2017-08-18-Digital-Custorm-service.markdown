@@ -1,6 +1,6 @@
 ---
 layout:  blog
-title: "Digital Custorm service: 10 cornerstones"
+title: "Digital Customer service: 10 cornerstones"
 date: 2017-08-04
 category: UX & Content
 publish: true
