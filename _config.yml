@@ -7,7 +7,7 @@ description: > # "baseurl:"
       Understand what it means to you & how you can be part of a growing community.<br />
       This months featured bolg: Local Listings - What they and why they are important.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "localhost:4000" # the base hostname & protocol for your site
 
 twitter_username: kfn8dkodemonkey
 github_username:  kfn8dkodemonkey

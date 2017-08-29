@@ -389,7 +389,7 @@ body {
 /* Iframe offset */
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-#flyer-div
+#iframe-div
 {
   width:100%;
   height:1820px;
@@ -397,177 +397,43 @@ body {
   position:relative;
 }
 
-#flyer-iframe
-{
-  position:absolute;
-  top:-40px;
-}
-
-#brochure-div
-{
-  width:100%;
-  height:3545px;
-  overflow:hidden;
-  position:relative;
-}
-
-#brochure-iframe
-{
-  position:absolute;
-  top:-40px;
-}
-
-#website-div
-{
-  width:100%;
-  height:320px;
-  overflow:hidden;
-  position:relative;
-}
-
-#website-iframe
-{
-  position:absolute;
-  top:-40px;
-}
 /* Small devices (tablets, 768px and up) */
 @media(min-width: 768px){
-  #flyer-div
+  #iframe-div
   {
     width:100%;
     height:2150px;
     overflow:hidden;
     position:relative;
   }
-
-  #flyer-iframe
-  {
-    position:absolute;
-    top:-40px;
-  }
-
-  #brochure-div
-  {
-    width:100%;
-    height:3760px;
-    overflow:hidden;
-    position:relative;
-  }
-
-  #brochure-iframe
-  {
-    position:absolute;
-    top:-40px;
-  }
-
-  #website-div
-  {
-    width:100%;
-    height:320px;
-    overflow:hidden;
-    position:relative;
-  }
-
-  #website-iframe
-  {
-    position:absolute;
-    top:-40px;
-  }
 }
 
 /* Medium devices (desktops, 992px and up) */
   @media(min-width: 980px){
-    #flyer-div
+    #iframe-div
     {
       width:100%;
       height:2180px;
       overflow:hidden;
       position:relative;
     }
-
-    #flyer-iframe
-    {
-      position:absolute;
-      top:-40px;
-    }
-
-    #brochure-div
-    {
-      width:100%;
-      height:3640px;
-      overflow:hidden;
-      position:relative;
-    }
-
-    #brochure-iframe
-    {
-      position:absolute;
-      top:-40px;
-    }
-
-
   }
 
 /* Large devices (large desktops, 1200px and up) */
   @media(min-width: 1200px){
-    #flyer-div
+    #iframe-div
     {
-      width:100%;
-      height:2410px;
+      height:3900px;
       overflow:hidden;
       position:relative;
     }
 
-    #flyer-iframe
+    #iframe-store
     {
       position:absolute;
-      top:-54px;
-    }
-
-    #brochure-div
-    {
-      width:100%;
-      height:3690px;
-      overflow:hidden;
-      position:relative;
-    }
-
-    #brochure-iframe
-    {
-      position:absolute;
-      top:-54px;
-    }
-
-    #website-div
-    {
-      width:100%;
-      height:4490px;
-      overflow:hidden;
-      position:relative;
-    }
-
-    #website-iframe
-    {
-      position:absolute;
-      top:-54px;
-    }
-
-    #fastTrack-div
-    {
-      width:100%;
-      height: 2675px;
-      overflow:hidden;
-      position:relative;
-    }
-
-    #fastTrack-iframe
-    {
-      position:absolute;
-      top:-54px;
+      top:-40px;
     }
   }
-
-
 
 
 /* embed content - ifram */
@@ -593,4 +459,29 @@ body {
 
 ul{
   padding-left: 25px;
+}
+
+/************* Album on Landing Page *****************/
+
+
+.album {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
 }

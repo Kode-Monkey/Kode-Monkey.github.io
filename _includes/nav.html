@@ -18,9 +18,24 @@
           <ul class="nav navbar-nav">
             <li><a href="/" title="{{ site.title }}">Home</a></li>
             <!-- <li><a href="{{baseurl}}/accessibility" title="{{ site.title }}">Accessibility</a></li> -->
-            <li><a  href="{{baseurl}}/index#services" title="Our Services">Products</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a  href="{{baseurl}}/Web-Presence" title="Web Presence">Web Presence</a></li>
+                <li><a  href="{{baseurl}}/local-listing" title="Local Listing">Local Listing</a></li>
+                <li><a  href="{{baseurl}}/additional-products" title="add-ons">Additional Products</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a  href="{{baseurl}}/rural_portfolio" title="Portfolio of Rural">Rural Business</a></li>
+                <li><a  href="{{baseurl}}/gov_portfolio" title="Portfolio of Government">Local Government</a></li>
+              </ul>
+            </li>
+
             <li><a  href="{{baseurl}}/blog" title="Blog">Blog</a></li>
-            <li><a  href="{{baseurl}}/index#portfolio" title="Portfolio of Clients">Portfolio</a></li>
             <li><a  href="{{baseurl}}/sponsors" title="Sponsorships">Sponsors</a></li>
 
             <li class="dropdown">
