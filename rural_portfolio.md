@@ -19,7 +19,7 @@ title: Rural Portfolio
        <div class="row">
            <div class="col-md-6 portfolio-item">
                <a href="http://lindsey-amy.com">
-                   <img class="img-responsive img-thumbnail" src="{{ baseurl }}/img/rural_business/lindsey-amy.png" alt="Lindsey & Amy">
+                   <img class="img-responsive img-thumbnail" src="{{ baseurl }}/img/rural_business/lindsey-amy2.png" alt="Lindsey & Amy">
                </a>
                <h3>
                    <a href="http://lindsey-amy.com" target="blank" title="Lindsey & Amy">Lindsey & Amy</a>
@@ -27,38 +27,38 @@ title: Rural Portfolio
 
            </div>
            <div class="col-md-6 portfolio-item">
-               <a href="http://topnotchfence.online/">
-                   <img class="img-responsive img-thumbnail" src="{{ baseurl }}/img/rural_business/TopNotchFenceLLC.png" alt="Top Notch Fence">
-               </a>
-               <h3>
-                   <a href="http://topnotchfence.online/" target="blank" title="Top Notch Fence">Top Notch Fence</a>
-               </h3>
+           <a href="http://topnotchfence.online/">
+               <img class="img-responsive img-thumbnail" src="{{ baseurl }}/img/rural_business/TopNotchFenceLLC.png" alt="Top Notch Fence">
+           </a>
+           <h3>
+               <a href="http://topnotchfence.online/" target="blank" title="Top Notch Fence">Top Notch Fence</a>
+           </h3>
+
 
            </div>
        </div>
        <!-- /.row -->
 
        <!-- Projects Row -->
-       <!-- <div class="row">
+       <div class="row">
            <div class="col-md-6 portfolio-item">
                <a href="#">
-                   <img class="img-responsive" src="" alt="">
+                   <img class="img-responsive img-thumbnail" src="{{ baseurl }}/img/rural_business/ColoradoSeaplaneInitiative.png" alt="Colorado Seaplane Initiative">
                </a>
                <h3>
-                   <a href="#">Project Five</a>
+                   <a href="coseaplanes.org">Colorado Seaplane Initiative</a>
                </h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
            </div>
            <div class="col-md-6 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+               <a href="http://topnotchfence.online/">
+                   <img class="img-responsive img-thumbnail" src="{{ baseurl }}/img/rural_business/YampaWhiteGreen.png" alt="Yampa White Green River Basin Roundtable">
                </a>
                <h3>
-                   <a href="#">Project Six</a>
+                   <a href="http://yampawhitegreen.com/" target="blank" title="Yampa White Green River Basin Roundtable">Yampa White Green River Basin Roundtable</a>
                </h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+
            </div>
-       </div> -->
+       </div>
        <!-- /.row -->
 
        <!--  <hr> -->
