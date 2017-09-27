@@ -47,11 +47,15 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #0879a5; }
-  a:hover, a:focus {
-    color: #380512;
-    text-decoration: none;
-  }
+  color: #0879a5;
+  font-weight: bold;
+}
+
+a:hover, a:focus {
+  boarder: 1px solid #f3bd71;
+  color: /*#380512*/ #0879a5;
+  /*text-decoration: none;*/
+}
 
 h1,
 h2,
