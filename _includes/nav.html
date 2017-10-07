@@ -11,8 +11,6 @@
           </button>
           <a class="navbar-brand" href="/" title="{{ site.title }}"><span class="visible-md-inline visible-lg-inline">{{ site.title }}</span>
             <span class="visible-xs-inline visible-sm-inline">Kaffeinated <br />Kodemonkey</span></a>
-            <br />
-          <div class="hidden-xs hidden-sm"><a class="tel" href="tel:{{site.phone}}" title="Call Kodemonkey">{{site.phone}}</a></div>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -22,7 +20,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a  href="{{baseurl}}/Web-Presence" title="Our Design Services">Web Presence</a></li>
-                <li><a  href="{{baseurl}}/local-listing" title="Search Engine Listings">Local Listing</a></li>
+                <!--<li><a  href="{{baseurl}}/local-listing" title="Search Engine Listings">Local Listing</a></li>-->
                 <li><a  href="{{baseurl}}/additional-products" title="Add-Ons">Additional Products</a></li>
               </ul>
             </li>
@@ -35,7 +33,7 @@
               </ul>
             </li>
 
-            <li><a  href="{{baseurl}}/blog" title="Blog & Articles">Blog</a></li>
+            <!-- <li><a  href="{{baseurl}}/blog" title="Blog & Articles">Blog</a></li> -->
             <li><a  href="{{baseurl}}/sponsors" title="Sponsorships">Sponsors</a></li>
 
             <li class="dropdown">
@@ -50,7 +48,7 @@
           </ul>
 
           <ul class="nav navbar-nav pull-right">
-            <li><a href="{{baseurl}}/login" title="Client Center Login">Client Center</a></li>
+            <li><a class="tel" href="tel:{{site.phone}}" title="Call Kodemonkey">{{site.phone}}</a>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
