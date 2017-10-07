@@ -15,7 +15,7 @@ category: about
 
   <p>No project is too small. All business and even individuals need to have a website to compete in the ever-changing, dynamic, online world we live in.</p>
 
-  <p>One of my dreams has been to build a platform where jr developers and designer can expand their skills and build their portfolio for a life changing career.
+  <p>One of my dreams has been to build a platform where jr developers and designer can expand their skills and build their portfolio for a life-changing career.
   By using freelancers I am able to your cost low and pay-it-forward.</p>
 
   <p>I strongly believe in working with local freelancers anytime I can.</p>
