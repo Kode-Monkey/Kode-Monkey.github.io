@@ -103,6 +103,12 @@ color: #d3d3d3;}
   vertical-align: middle;
 }
 
+.vcenter  {
+   display: inline-block;
+   vertical-align: middle;
+   float: none;
+}
+
 section#lead{
   margin-top: 100px;
   margin-bottom: -70px;
@@ -126,7 +132,7 @@ aside {
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 40px 15px;
+    padding: 38px 15px;
     font-size: 24px;
     line-height: 25px;
 }
@@ -505,7 +511,7 @@ body {
 }
 
 .video-container iframe {
-  border: 5px solid #054D6A;
+  border: 5px solid #530B1F;
     position: absolute;
     top:0;
     left: 0;
