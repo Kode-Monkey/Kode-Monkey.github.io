@@ -1,23 +1,28 @@
 ---
-layout: page
+layout: meet_us
 title: About
 image: Code_Monkey.png
 category: about
 ---
+<h2>Who is Kaffeinated Kodemonkey?</h2>
 
-  <p>I am a Colorado native and owner of Kaffeinated Kodemonkey. My passion is to bring affordable website development to the Western Slope and throughout the Uintah Basin to help small businesses, individuals, small government agencies, and non-profits bring their business to the 21st century.</p>
+<p>I am a Rural development company based out of Rangely Colorado. I moved here 4 years ago from Denver.
+I have been writing code and building website for over 10 years.</p>
 
-  <p>I specialize in working with individuals, small business, local government, small towns, non-profits and special districts to build an outstanding web presence for your business, project or organization. It is my goal to help every person find their spot on the world wide web so they can easily and efficiently be found, be understood, and communicate with, their audience.</p>
+<p>I began learning code 1995, earned my associate's degree in software engineering in the early 2000's, and received my certification in Ruby on Rails in 2012. My learning does not stop there,
+in Sept 2017 I took a course in Web Accessibility to understand how to build websites that meet the WCAG standards.</p>
 
-  <p>The pride I take in my work comes through on your site. I'm not just building websites. I'm building web presences and a network of lasting connections one client at a time.</p>
+<p> My experience comes from working for startup companies, large corporations, colleges, GoCode & hackathons, and doing freelance work. Regardless of the context of my job, my top priority is producing outstanding sites and happy clients. My goal is to make sure your clients/customers can find you and that you are represented online at your best.</p>
 
-  <p>I began my career back in 1995 when I first learned HTML and earned my associate's degree in software engineering in the early 2000's. By mid-2000 I revived my Ruby on Rails certification to solidify my expertise in modern frameworks and languages. My experience has spanned working for startup companies, large corporations, hackathons and freelance work. Regardless of the context, my top priority is producing outstanding sites.</p>
+<h2>What do I do?</h2>
+<p>I educate small business owners how to succeed online and how to build a winning, customer engaging web presence. I am here to help you grow your business and communities in a way
+that you can take advantage of online marketing.</p>
 
-  <p>No project is too small. All business and even individuals need to have a website to compete in the ever-changing, dynamic, online world we live in.</p>
+<p>I build websites, landing page, and FastTrack the government portal. I understand the needs and concerns of small business owner yet I am patient when boards and associations are involved for I know it can take time.
 
-  <p>One of my dreams has been to build a platform where jr developers and designer can expand their skills and build their portfolio for a life-changing career.
-  By using freelancers I am able to your cost low and pay-it-forward.</p>
-
-  <p>I strongly believe in working with local freelancers anytime I can.</p>
+<h2>Where am I going?</h2>
+<p>I am building a platform that allows jr developer the opportunity to gain valuable skills and experience to obtain the career they want.</p>
+<p>I am here to stay, at least for a good while. My vision is to bring CoderDojo to the western slopes and give kids the opportunity to learn, grow, and build the strengths they need for the future.</p>
+<p>My vision may be grand however I believe this is something our community needs and I am willing to work hard to see it happen.</p>
 
   &nbsp;

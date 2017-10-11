@@ -4,7 +4,7 @@ body {
   height: 100%;
   width: 100%;
   margin-top: 20px;
-  background: #efefef;
+  background: #F6F6F6;
 }
 
 * {
@@ -470,7 +470,14 @@ body {
   @media(min-width: 1200px){
     #iframe-div
     {
-      height:4000px;
+      height: 900px;
+      overflow:hidden;
+      position:relative;
+    }
+
+    #iframe-pkg
+    {
+      height: 900px;
       overflow:hidden;
       position:relative;
     }
@@ -478,7 +485,7 @@ body {
     #iframe-store
     {
       position:absolute;
-      top:-40px;
+      top:-10px;
     }
 
     #login-div
@@ -496,7 +503,7 @@ body {
 
     #iframe-website{
       position:absolute;
-      top:-78px;
+      top:-10px;
     }
   }
 

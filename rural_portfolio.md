@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: review
 title: Rural Portfolio
 ---
 <!-- Page Content -->
