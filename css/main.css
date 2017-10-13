@@ -470,7 +470,7 @@ body {
   @media(min-width: 1200px){
     #iframe-div
     {
-      height: 900px;
+      height: 870px;
       overflow:hidden;
       position:relative;
     }

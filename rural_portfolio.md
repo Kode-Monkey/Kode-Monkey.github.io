@@ -1,5 +1,5 @@
 ---
-layout: review
+layout: bookcoffee
 title: Rural Portfolio
 ---
 <!-- Page Content -->
