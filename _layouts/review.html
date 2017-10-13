@@ -7,7 +7,7 @@ layout: front
   <h1>{{page.title}}</h1>
 
   <div class="row">
-    <div class="hidden-xs hidden-sm col-md-2">
+    <div class="hidden-xs hidden-sm col-md-3">
       {% if page.category == "about" %}
         <img src="{{base.url}}/img/TheKodemonkey.jpg" class="img-fluid img-thumbnail">
       {% elsif page.category == "services" %}
@@ -16,7 +16,7 @@ layout: front
         {% include reviews.html %}
       {% endif %}
     </div>
-    <div class="col-sm-12 col-md-8 col-lg-10">
+    <div class="col-sm-12 col-md-8 col-lg-9">
         {{ content }}
     </div>
   </div>
