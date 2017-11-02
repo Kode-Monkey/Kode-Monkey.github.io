@@ -7,7 +7,7 @@ category: Listings
 
 <div class="row">
   <div class="col-sm-12">
-    <img src="{{ site.url}}/img/blogs/whatarelistings.png" alt="what are listings" width="890px">
+    <img src="{{ site.url}}/img/blogs/whatarelistings.png" alt="what are listings" width="800px">
   </div>
 </div>
 <br />
