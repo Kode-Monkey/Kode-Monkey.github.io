@@ -1,5 +1,5 @@
 ---
-layout: bookcoffee
+layout: page
 title: Gov Portfolio
 ---
 <!-- Page Content -->
@@ -19,21 +19,21 @@ title: Gov Portfolio
        <div class="row">
            <div class="col-md-6 portfolio-item">
                <a href="http://rangely.com/" target="blank" title="Town of Rangely">
-                <figure>
                    <img class="img-responsive img-thumbnail" src="{{baseurl}}/img/govPortfolio/TownofRangely.png" alt="">
+               </a>
+               <h3>
+                   <a href="http://rangely.com/" target="blank" title="Town of Rangely">Town of Rangely</a>
+               </h3>
 
-                   <figcapture><h2>Town of Rangely</h2></figcapture>
-                </figure>
-              </a>
            </div>
            <div class="col-md-6 portfolio-item">
                <a href="http://www.debeque.org/" target="blank" title="Town of De Beque">
-                <figure>
                    <img class="img-responsive img-thumbnail" src="{{baseurl}}/img/govPortfolio/TownofDeBeque.png" alt="">
+               </a>
+               <h3>
+                   <a href="http://www.debeque.org/" target="blank" title="Town of De Beque">Town of De Beque</a>
+               </h3>
 
-                   <figcapture><h2>Town of De Beque</h2></figcapture>
-                </figure>
-              </a>
            </div>
        </div>
        <!-- /.row -->
@@ -42,21 +42,20 @@ title: Gov Portfolio
        <!-- Projects Row -->
        <div class="row">
            <div class="col-md-6 portfolio-item">
-               <a href="https://www.colorado.gov/rbwcd" title="Rio Blanco Water Conservancy District">
-                  <figure>
-                    <img class="img-responsive" src="{{ baseurl }}/img/govPortfolio/RBWCD.png" alt="">
-
-                    <figcapture><h2>Rio Blanco Water Conservancy District (RBWCD)</h2></figcapture>
-                  </figure>
-                </a>
+               <a href="https://www.colorado.gov/rbwcd">
+                   <img class="img-responsive" src="{{ baseurl }}/img/govPortfolio/RBWCD.png" alt="RBWCD">
+               </a>
+               <h3>
+                   <a href="https://www.colorado.gov/rbwcd" title="Rio Blanco Water Conservancy District">RBWCD</a>
+               </h3>
            </div>
            <div class="col-md-6 portfolio-item">
                <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="Your Project Here">
+                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                </a>
-               <h2>
+               <h3>
                    <a href="#">Next Project</a>
-               </h2>
+               </h3>
                <p>Are you Government entity? Would you like to see your site here?</p>
            </div>
        </div>
