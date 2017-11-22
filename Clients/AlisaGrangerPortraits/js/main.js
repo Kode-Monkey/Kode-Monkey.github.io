@@ -56,7 +56,11 @@ $(window).load(function(){
 
 
 $('#countdown').countdown({
+<<<<<<< HEAD
 	date: "November 15, 2017 18:03:26",
+=======
+	date: "January 1, 2018 18:03:26",
+>>>>>>> clients
 	render: function(data) {
 	  var el = $(this.el);
 	  el.empty()
