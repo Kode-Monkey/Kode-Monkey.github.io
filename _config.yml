@@ -1,23 +1,48 @@
-# Site settings
-title: Kaffeinated Kodemonkey
-phone: (720) 608-1444
-email: admin@kaffeinatedkodemonkey.com
-description: > # "baseurl:"
-      Building Rural & Governmental Websites one presence at a time.<br />
-      Understand what it means to you & how you can be part of a growing community.<br />
-      This months featured bolg: Local Listings - What they and why they are important.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Kaffeinated Kodemonkey
+email: info@kaffeinatedkodemonkey.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Kaffeinated Kodemonkey is a website devlopment company on the Westernslops of Colorado. Our focus is on rural and government websites
+  with an emphises on ADA/508 Comliance. We offer CMS and custom website builds from micro sites to ecommerce sites. We even offer social
+  marketing and SEO Networking. Give us a call art 720-608-1444 or email us at info@kaffeinatedkodemonkey.com to start your next project.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kfn8dkodemonkey
-github_username:  kfn8dkodemonkey
 facebook_username: kaffeinatedkodemonkey
-bookme:            https://kaffeinatedkodemonkey.youcanbook.me/
+google_username: +KaffeinatedKodemonkey-Profile
+github_username:  kfn8dkodemonkey
+linkedIn_username: kaffeinatedkodemonkey
 
 # Build settings
 markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
-#permalink: /:categories/:title/
+permalink: /:title/
 
-#test post befor publishing (set to true)
-future: true
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

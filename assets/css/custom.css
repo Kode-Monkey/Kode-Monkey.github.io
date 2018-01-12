@@ -1,0 +1,28 @@
+
+#iframe-div
+{
+  overflow:hidden;
+  position:relative;
+}
+
+#SEO-div
+{
+  overflow:hidden;
+  position:relative;
+}
+
+#iframe{
+  position:relative;
+  top: -35px;
+}
+
+.basic-ul{
+  margin-left: 20px;
+}
+
+.basic-li{
+  padding: 10px;
+  margin-left: 35px;
+  font-size: .8em;
+  list-style: disc;
+}

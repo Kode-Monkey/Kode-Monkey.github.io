@@ -1,0 +1,60 @@
+---
+layout: template
+title: Contact Us
+---
+<div class="container">
+    <div class="row">
+        <div class="main_contact whitebackground">
+            <div class="head_title text-center">
+                <h2 class="text-uppercase">Contact the Kodemonkey</h2>
+                <p>Starting a new project or updating a current one. We have experianced developers and marketers
+                stading by.</p>
+            </div>
+            <div class="contact_content">
+                <div class="col-md-6">
+                    <div class="single_left_contact">
+                        <form accept-charset="UTF-8" action="https://formspree.io/admin@kaffeinatedkodemonkey.com" method="POST">
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" placeholder="first name" required="">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                            </div>
+
+
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="8" placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="center-content">
+                                <input type="submit" value="Submit" class="btn btn-default">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="single_right_contact">
+                      <p>We have developers and marketers standing by to help you with your next project. Please contact to schedule
+                      your free consultation. If you have a question about one of our packages please don't hesitate to ask.</p>
+
+                        <div class="contact_address margin-top-40">
+                            <span>711 E. Rio Blanco Ave #541</span>
+                            <span>Rangely, Colorado</span>
+                            <span class="margin-top-20">T: (720) 608-1444</span>
+                        </div>
+
+                        <div class="contact_socail_bookmark">
+                            <a href="https://facebook.com/{{site.facebook_username}}" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="https://plus.google.com/{{site.google_username}}" target="_blank" title="Google My Business"><i class="fa fa-google"></i></a>
+                            <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
