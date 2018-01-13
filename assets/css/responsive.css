@@ -73,7 +73,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.single_right_contact p{
 	margin-top:25px;
 	}
-   
+
 }
 
 
@@ -88,7 +88,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	}
    .navbar-default .collapse .login a {
     margin-left: 0;
-    width: 23%;
+    width: /*23%*/ 30%;
 	}
 	.social-wrapper .social-contact a {
     color: #fff;
@@ -159,4 +159,3 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     margin-left: 52px;
 	}
 }
-
