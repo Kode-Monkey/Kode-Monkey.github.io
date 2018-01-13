@@ -1,4 +1,29 @@
 
+#logo {
+  background: url(../images/Logo-transparent.png) no-repeat;
+  background-size: cover;
+  display: block;
+  margin-top: -15px;
+  height: 70px;
+  width: 250px;
+  /*margin-left: -150px;*/
+  text-indent: -9999px
+}
+/*@media only screen and (min-width: 992px) {
+  #logo {
+    background: url(../images/Logo-transparent.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  #logo {
+    background: url(../images/kodemonkey.png)  no-repeat;;
+    background-size: contain;
+    margin-left: 50px;
+  }
+}*/
+
 #iframe-div
 {
   overflow:hidden;
