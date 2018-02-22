@@ -5,10 +5,9 @@ layout: template
 <div class="container-fluid">
   <p>&nbsp;</p>
 
-  <h1>{{page.title}}</h1>
-
   <div class="row">
     <div class="col-sm-2">
+      <h1>{{page.title}}</h1>
       <!-- Begin MailChimp Signup Form-->
       <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 
@@ -73,14 +72,14 @@ layout: template
     </div>
     <div class="col-sm-2">
       <!-- blog archives -->
-      <h3>Archives</h3>
+      <h2>Archives</h2>
       {% for category in site.categories %}
-        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <!-- {% capture category_name %}{{ category | first }}{% endcapture %} -->
 
-        <h4>{{ category_name }}</h4>
+        <p>{{ category_name }}</p>
         <ul>
         {% for post in site.categories[category_name] %}
-          <li><a href="{{ site.url }}{{ post.url }}">{{post.title}}</a></li>
+          <li class="basic-li"><a href="{{ site.url }}{{ post.url }}">{{post.title}}</a></li>
         {% endfor %}
       </ul>
       {% endfor %}
