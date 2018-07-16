@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Improving Your Local Search Rankings"
+title:  "Improving Local Search Rankings"
 date:   2018-03-05
 category: Listings
 image: Listing_Sync_Pro_High_Res.png
