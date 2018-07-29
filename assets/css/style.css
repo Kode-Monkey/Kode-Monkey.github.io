@@ -138,12 +138,12 @@ h5 {
     line-height: 2rem;
 }
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     line-height: 4rem;
     font-weight: 300;
 }
 h2 {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     line-height: 3rem;
     margin-bottom: .9rem;
 }
@@ -627,7 +627,8 @@ textarea::-ms-input-placeholder
 }
 .home-contact p{
     margin-top: 20px;
-    color:#000;
+    /*color:#000;*/
+    color: #fff;
     font-size:15px;
 }
 /*.form-control {
@@ -1583,7 +1584,8 @@ xkeyframes
     font-weight:400;
 }
 .menu-item p{
-    font-size:12px;
+    /*font-size:12px;*/
+    font-size: .7em;
 }
 .menu-item ul li{
     font-size:13px;

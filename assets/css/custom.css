@@ -1,7 +1,7 @@
 
 #logo {
-  background: url(../images/Logo-transparent.png) no-repeat;
-  background-size: cover;
+  background: url(../images/KKM-Logo-Sticker-shadow.png) no-repeat 15px 5px;
+  background-size: 26%;
   display: block;
   margin-top: -15px;
   height: 70px;
@@ -23,6 +23,14 @@
     margin-left: 50px;
   }
 }*/
+
+h2.subtitle{
+  font-size: 1.4em;
+  color: #fff;
+  font-style: italic;
+  line-height: .2em;
+  padding-bottom: 1.5em;
+}
 
 #iframe-div
 {
@@ -50,6 +58,13 @@
   margin-left: 35px;
   font-size: .8em;
   list-style: disc;
+}
+
+.img-center{
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .free-chamber {

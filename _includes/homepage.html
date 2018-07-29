@@ -7,13 +7,14 @@
           <div class="col-md-10 col-md-offset-1">
             <div class="home-content">
 
-              <h1><strong>Accessibility Driven Development </strong><br /> Website Design</h1>
-              <p>Website Design that meets Accessibility Standards</p>
+              <h1><strong>Accessibility Driven Development </strong></h1>
+              <h2 class="subtitle">Website Design that meets Accessibility Standards</h2>
 
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
                   <div class="home-contact">
-                    <a href="https://kaffeinatedkodemonkey.youcanbook.me/" title="Free Consultation" class="btn btn-md btn-warning">Book a Cup of Coffee</a>
+                    <a href="https://kaffeinatedkodemonkey.youcanbook.me/"><img src="{{ site.url }}/assets/images/Book-A-Cup-of-Coffee.png" alt="schedule consultation" style="width:40%;"></a>
+                    <p class="text-muted"><em>Book a Free consultation with our Experts</em></p>
                   </div>
                 </div>
               </div>
@@ -38,13 +39,14 @@
   <!-- Example row of columns -->
   <div class="cd-pricing-container cd-has-margins">
     <div class="cd-pricing-switcher">
-      <p class="fieldset">
+      <fieldset class="fieldset">
+        <legend class="hidden">Toggle</legend>
         <input type="radio" name="duration-2" value="monthly" id="monthly-2" checked>
         <label for="monthly-2">Website</label>
         <input type="radio" name="duration-2" value="yearly" id="yearly-2">
         <label for="yearly-2">Marketing</label>
         <span class="cd-switch"></span>
-      </p>
+      </fieldset>
     </div> <!-- .cd-pricing-switcher -->
 
     <ul class="cd-pricing-list cd-bounce-invert">
@@ -52,8 +54,8 @@
         <ul class="cd-pricing-wrapper">
           <li data-type="monthly" class="is-visible">
             <header class="cd-pricing-header">
-              <h2>Microsite</h2>
-              <p> Starter Website</p>
+              <h2>Starter Website</h2>
+              <h3>Microsite</h3>
 
               <div class="cd-price">
                 <span class="cd-currency">$</span>
@@ -82,10 +84,11 @@
             </footer>  <!-- .cd-pricing-footer -->
           </li>
 
+          <!-- Online Management -->
           <li data-type="yearly" class="is-hidden">
             <header class="cd-pricing-header">
-              <h2>Online Management</h2>
-              <p>Manage your online Reputation</p>
+              <h2>Manage your online Presence</h2>
+              <h3>Online Reputation</h3>
 
               <div class="cd-price">
                 <span class="cd-currency">$</span>
@@ -96,17 +99,17 @@
 
 
                 <span class="cd-currency">$</span>
-                <span class="cd-value">75</span>
+                <span class="cd-value">60</span>
                 <span>mo</span>
               </div>
             </header> <!-- .cd-pricing-header -->
 
             <div class="cd-pricing-body">
               <ul class="cd-pricing-features">
-                <li><em><i class="fa fa-check-circle"></i></em><a href="{{site.url}}/Marketing/Video/RP" titile="Video: Reputation Management">Reputation Management</li>
-                <li><em><i class="fa fa-check-circle"></i></em><a href="{{site.url}}/Marketing/Video/customer_voice" titile="Video: Customer Voice">Customer Voice</a></li>
-                <li><em><i class="fa fa-check-circle"></i></em><a href="#">Review Display Widget</a></li>
-                <li><em><i class="fa fa-check-circle"></i></em><a href="{{site.url}}/Marketing/Video/SMKT" titile="Video: Social Marketing">Social Marketing</a></li>
+                <li><em><i class="fa fa-check-circle"></i></em><a href="{{site.url}}/Marketing/Video/RP">Reputation Management</a></li>
+                <li><em><i class="fa fa-check-circle"></i></em><a href="{{site.url}}/Marketing/Video/customer_voice">Customer Voice</a></li>
+                <li><em><i class="fa fa-check-circle"></i></em>Review Display Widget</li>
+                <li><em><i class="fa fa-check-circle"></i></em><a href="{{site.url}}/Marketing/Video/SMKT">Social Marketing</a></li>
 
                 <!-- <li><em><i class="fa fa-check-circle"></i></em><a href="{{site.url}}/Marketing/Video/PB" title="Video: Pingup Bookable">Pingup Bookable</a></li>-->
                 <div class="hidden-xs"></div>
@@ -124,8 +127,8 @@
         <ul class="cd-pricing-wrapper">
           <li data-type="monthly" class="is-visible">
             <header class="cd-pricing-header">
-              <h2>DIY Builder</h2>
-              <p>Do-It-Yourself Website</p>
+              <h2>Do-It-Yourself Website</h2>
+              <h3>DIY Builder</h3>
               <div class="cd-price">
                 <span class="cd-currency">Starting @ $</span>
                 <span class="cd-value">150</span>
@@ -160,8 +163,8 @@
 
           <li data-type="yearly" class="is-hidden">
             <header class="cd-pricing-header">
-              <h2>Listing Pro</h2>
-              <p>Search Engine & Directory submition</p>
+              <h2>Search Engine Submition</h2>
+              <h3>Listing Pro</h3>
 
               <div class="cd-price">
                 <span class="cd-currency">$</span>
@@ -200,8 +203,8 @@
         <ul class="cd-pricing-wrapper">
           <li data-type="monthly" class="is-visible">
             <header class="cd-pricing-header">
-              <h2>DIWM CMS</h2>
-              <p>Do-It-With-Me Website</p>
+              <h2>Do-It-With-Me Website</h2>
+              <h3>DIWM CMS</h3>
 
               <div class="cd-price">
                 <span class="cd-currency">Starting @ $</span>
@@ -235,8 +238,8 @@
 
           <li data-type="yearly" class="is-hidden">
             <header class="cd-pricing-header">
-              <h2>SEO Marketing</h2>
-              <p>Do-It-Yourself Marketing</p>
+              <h2>Marketing Made Easy</h2>
+              <h3>DIY SEO</h3>
 
               <div class="cd-price">
                 <span class="cd-currency">$</span>
@@ -372,16 +375,19 @@
             <div class="single_left_contact">
               <form accept-charset="UTF-8" action="https://formspree.io/admin@kaffeinatedkodemonkey.com" method="POST">
                 <div class="form-group">
-                    <input type="text" class="form-control" name="name" placeholder="first name" required="">
+                  <label class="sr-only" for="name">Name:</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required="">
                 </div>
 
                 <div class="form-group">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                  <label class="sr-only" for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required="">
                 </div>
 
 
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="8" placeholder="Message"></textarea>
+                  <label class="sr-only" for="message">Message:</label>
+                  <textarea class="form-control" id="message" name="message" rows="8" placeholder="Message"></textarea>
                 </div>
 
                 <div class="center-content">
@@ -402,10 +408,10 @@
               </div>
 
               <div class="contact_socail_bookmark">
-                <a href="https://facebook.com/{{site.facebook_username}}" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://plus.google.com/{{site.google_username}}" target="_blank" title="Google My Business"><i class="fa fa-google"></i></a>
-                <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                <a href="https://facebook.com/{{site.facebook_username}}" target="_blank" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://plus.google.com/{{site.google_username}}" target="_blank" aria-label="Google My Business"><i class="fa fa-google"></i></a>
+                <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
               </div>
 
             </div>

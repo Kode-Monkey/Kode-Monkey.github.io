@@ -1,7 +1,7 @@
 ---
 layout: template
 title: About
-description: How is the website developer behind the monkey.
+description: Who is the developer behind the monkey.
 permalink: /about/
 ---
 
@@ -22,7 +22,7 @@ permalink: /about/
       <p class="text-center"><a href="https://cart.pcpitstop.com/go.asp?id=500754&aff=18983"><img class="img-responsive img-thumbnail" src="http://www.pcpitstop.com/images/affiliates/500754.gif" style="width:60%;" border="0"/></a></P>
     </div>
 
-    <div class="col-sm-7">
+    <div class="col-sm-9">
     <h2>Who is Kaffeinated Kodemonkey?</h2>
 
     <h3>Heather Welsh ~ Owner, Developer, & Accessibility Expert</h3>
