@@ -32,6 +32,13 @@ h2.subtitle{
   padding-bottom: 1.5em;
 }
 
+a.bookme, a:link.bookme{
+  color: #F0AD4E;
+}
+
+a:hover.bookme, a:focus.bookme{
+  color: #b7843c;
+}
 #iframe-div
 {
   overflow:hidden;
