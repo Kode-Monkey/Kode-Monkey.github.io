@@ -32,11 +32,15 @@ h2.subtitle{
   padding-bottom: 1.5em;
 }
 
-a.bookme, a:link.bookme{
+a{
+  color:#1f496e;
+}
+
+a.wa, a:link.wa{
   color: #F0AD4E;
 }
 
-a:hover.bookme, a:focus.bookme{
+a:hover.wa, a:focus.wa{
   color: #b7843c;
 }
 #iframe-div
