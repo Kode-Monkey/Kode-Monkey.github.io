@@ -6,6 +6,11 @@
     <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 
     {% include header.html %}
+
+    {% if page.title == "Thank You" %}
+      {% include fb-event.html %}
+    {% endif %}
+
     {% include social.html %}
 
     {{ content }}
