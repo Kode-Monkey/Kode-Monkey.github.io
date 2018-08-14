@@ -1,0 +1,200 @@
+@font-face { font-family: 'fec-icons'; src: url("../fonts/fec/icons_1532366881201.eot"); src: url("../fonts/fec/icons_1532366881201.eot?#iefix") format("eot"), url("../fonts/fec/icons_1532366881201.woff") format("woff"), url("../fonts/fec/icons_1532366881201.ttf") format("truetype"), url("../fonts/fec/icons_1532366881201.svg#icons_1532366881201") format("svg"); font-weight: normal; font-style: normal; }
+.fec-icon:before { display: inline-block; font-family: 'fec-icons'; font-style: normal; font-weight: normal; line-height: 1; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; }
+
+.fec-icon { width: 24px; height: 24px; font-size: 24px; }
+
+.fec-icon-activity:before { content: '\E001'; }
+
+.fec-icon-add-page:before { content: '\E002'; }
+
+.fec-icon-add:before { content: '\E003'; }
+
+.fec-icon-api:before { content: '\E004'; }
+
+.fec-icon-apps:before { content: '\E005'; }
+
+.fec-icon-automations:before { content: '\E006'; }
+
+.fec-icon-bell:before { content: '\E007'; }
+
+.fec-icon-brand-analytics:before { content: '\E008'; }
+
+.fec-icon-check:before { content: '\E009'; }
+
+.fec-icon-circle-hollow-check:before { content: '\E00A'; }
+
+.fec-icon-circle:before { content: '\E00B'; }
+
+.fec-icon-compose:before { content: '\E00C'; }
+
+.fec-icon-concierge:before { content: '\E00D'; }
+
+.fec-icon-dashboard:before { content: '\E00E'; }
+
+.fec-icon-directions:before { content: '\E00F'; }
+
+.fec-icon-dismiss:before { content: '\E010'; }
+
+.fec-icon-docs:before { content: '\E011'; }
+
+.fec-icon-down:before { content: '\E012'; }
+
+.fec-icon-dropdown:before { content: '\E013'; }
+
+.fec-icon-edit:before { content: '\E014'; }
+
+.fec-icon-email-sent:before { content: '\E015'; }
+
+.fec-icon-email:before { content: '\E016'; }
+
+.fec-icon-filter:before { content: '\E017'; }
+
+.fec-icon-hotness:before { content: '\E018'; }
+
+.fec-icon-left:before { content: '\E019'; }
+
+.fec-icon-listing-directory:before { content: '\E01A'; }
+
+.fec-icon-location:before { content: '\E01B'; }
+
+.fec-icon-lock:before { content: '\E01C'; }
+
+.fec-icon-ma-activity:before { content: '\E01D'; }
+
+.fec-icon-ma-add-page:before { content: '\E01E'; }
+
+.fec-icon-ma-add:before { content: '\E01F'; }
+
+.fec-icon-ma-api:before { content: '\E020'; }
+
+.fec-icon-ma-autorenew:before { content: '\E021'; }
+
+.fec-icon-ma-bell:before { content: '\E022'; }
+
+.fec-icon-ma-brand-analytics:before { content: '\E023'; }
+
+.fec-icon-ma-check:before { content: '\E024'; }
+
+.fec-icon-ma-circle-hollow-check:before { content: '\E025'; }
+
+.fec-icon-ma-circle:before { content: '\E026'; }
+
+.fec-icon-ma-compose:before { content: '\E027'; }
+
+.fec-icon-ma-concierge:before { content: '\E028'; }
+
+.fec-icon-ma-docs:before { content: '\E029'; }
+
+.fec-icon-ma-down:before { content: '\E02A'; }
+
+.fec-icon-ma-dropdown:before { content: '\E02B'; }
+
+.fec-icon-ma-edit:before { content: '\E02C'; }
+
+.fec-icon-ma-email-sent:before { content: '\E02D'; }
+
+.fec-icon-ma-email:before { content: '\E02E'; }
+
+.fec-icon-ma-filter:before { content: '\E02F'; }
+
+.fec-icon-ma-left:before { content: '\E030'; }
+
+.fec-icon-ma-location:before { content: '\E031'; }
+
+.fec-icon-ma-marker:before { content: '\E032'; }
+
+.fec-icon-ma-menu:before { content: '\E033'; }
+
+.fec-icon-ma-pdf:before { content: '\E034'; }
+
+.fec-icon-ma-phone:before { content: '\E035'; }
+
+.fec-icon-ma-play-circle-filled:before { content: '\E036'; }
+
+.fec-icon-ma-popout:before { content: '\E037'; }
+
+.fec-icon-ma-ppt:before { content: '\E038'; }
+
+.fec-icon-ma-presence-builder:before { content: '\E039'; }
+
+.fec-icon-ma-products:before { content: '\E03A'; }
+
+.fec-icon-ma-remove:before { content: '\E03B'; }
+
+.fec-icon-ma-reports:before { content: '\E03C'; }
+
+.fec-icon-ma-reputation-management:before { content: '\E03D'; }
+
+.fec-icon-ma-right:before { content: '\E03E'; }
+
+.fec-icon-ma-search:before { content: '\E03F'; }
+
+.fec-icon-ma-send-email:before { content: '\E040'; }
+
+.fec-icon-ma-settings:before { content: '\E041'; }
+
+.fec-icon-ma-social-marketing:before { content: '\E042'; }
+
+.fec-icon-ma-thumbs-up:before { content: '\E043'; }
+
+.fec-icon-ma-tooltip:before { content: '\E044'; }
+
+.fec-icon-ma-training:before { content: '\E045'; }
+
+.fec-icon-ma-trash:before { content: '\E046'; }
+
+.fec-icon-ma-up:before { content: '\E047'; }
+
+.fec-icon-ma-user:before { content: '\E048'; }
+
+.fec-icon-marker:before { content: '\E049'; }
+
+.fec-icon-megaphone:before { content: '\E04A'; }
+
+.fec-icon-menu:before { content: '\E04B'; }
+
+.fec-icon-pdf:before { content: '\E04C'; }
+
+.fec-icon-people:before { content: '\E04D'; }
+
+.fec-icon-phone:before { content: '\E04E'; }
+
+.fec-icon-popout:before { content: '\E04F'; }
+
+.fec-icon-ppt:before { content: '\E050'; }
+
+.fec-icon-presence-builder:before { content: '\E051'; }
+
+.fec-icon-products:before { content: '\E052'; }
+
+.fec-icon-remove:before { content: '\E053'; }
+
+.fec-icon-reports:before { content: '\E054'; }
+
+.fec-icon-reputation-management:before { content: '\E055'; }
+
+.fec-icon-right:before { content: '\E056'; }
+
+.fec-icon-sales:before { content: '\E057'; }
+
+.fec-icon-search:before { content: '\E058'; }
+
+.fec-icon-send-email:before { content: '\E059'; }
+
+.fec-icon-settings:before { content: '\E05A'; }
+
+.fec-icon-social-marketing:before { content: '\E05B'; }
+
+.fec-icon-star:before { content: '\E05C'; }
+
+.fec-icon-support:before { content: '\E05D'; }
+
+.fec-icon-tooltip:before { content: '\E05E'; }
+
+.fec-icon-training:before { content: '\E05F'; }
+
+.fec-icon-trash:before { content: '\E060'; }
+
+.fec-icon-up:before { content: '\E061'; }
+
+.fec-icon-user:before { content: '\E062'; }

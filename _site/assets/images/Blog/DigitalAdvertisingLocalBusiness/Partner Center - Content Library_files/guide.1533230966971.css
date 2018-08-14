@@ -1,0 +1,358 @@
+/* ------------------------------
+ * -- Main Global Styling -------
+ * ------------------------------ */
+
+.\_pendo-guide\_ {
+  /* -- Overarching settings for all guides -- */
+}
+
+.\_pendo-guide-container\_ {
+  /* -- Guide border, shadow, background, etc. -- */
+  box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+  border-color: rgba(0,0,0,0.16);
+  border-radius: 2px;
+}
+
+.\_pendo-guide-container\_ h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.\_pendo-guide-container\_ .\_pendo-guide-content\_ {
+  /* -- Content area -- use for font attributes, padding, etc. */
+}
+
+.\_pendo-btn,
+.\_pendo-guide-next\_ {
+  background-color: #1e88e5;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 36px;
+  padding: 0 16px;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+}
+
+.\_pendo-btn-secondary {
+  color: #1e88e5;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.\_pendo-btn-secondary:hover {
+  background-color: rgba(30,136,229,.12);
+}
+
+.\_pendo-guide-container\_ img,
+.\_pendo-center-image {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/* ------------------------------
+ * -- Lightbox Specific Styling -
+ * ------------------------------ */
+
+.\_pendo-guide-lb\_ {
+  /* -- Overarching settings for Lightbox -- */
+  /* !importants to override inline styles */
+  margin-top: 0 !important;
+  top: 0 !important;
+  bottom: 0;
+  position: absolute;
+  height: auto !important;
+  display: flex;
+}
+
+.\_pendo-guide-lb\_ .\_pendo-guide-container\_ {
+  /* -- Guide border, shadow, background, etc. -- */
+  overflow: auto;
+  max-height: 100vh;
+  top: 0 !important;
+  left: 0 !important;
+  position: relative;
+  margin: auto;
+}
+
+.\_pendo-guide-lb\_ .\_pendo-guide-container\_ .\_pendo-guide-content\_ {
+  /* -- Content area -- use for font attributes, padding, etc. */
+  padding: 24px; /*looks wrong in global example but correct in actual templates */
+  overflow: hidden; /*float-clearing for videos*/
+}
+
+.\_pendo-guide-video { /* added to wrap responsive Wistia videos, smaller and centered */
+  width: 350px;
+  margin: 1.5em auto;
+}
+
+.\_pendo-guide-video-left { /* added to wrap responsive Wistia videos, float left of content */
+  width: 350px;
+  margin: 0 16px 16px 0;
+  float: left;
+}
+.\_pendo-clearfix { /*added float-clearing for items following videos (buttons)*/
+  clear: both;
+}
+
+.\_pendo-backdrop\_ {
+  /* The backdrop displayed behind lightboxes */
+}
+
+
+/* ------------------------------
+ * -- Tooltip Specific Styling --
+ * ------------------------------ */
+
+.\_pendo-guide-tt\_ {
+  /* Overarching settings for tooltip */
+}
+
+.\_pendo-guide-tt\_ .\_pendo-guide-container\_ {
+  /* -- Guide border, shadow, background, etc. -- */
+}
+
+.\_pendo-guide-tt\_ .\_pendo-guide-container\_ .\_pendo-guide-content\_ {
+  /* -- Content area -- use for font attributes, padding, etc. */
+  padding: 24px;
+}
+
+/* -- Pointer on the edge of the tooltip -- */
+.\_pendo-guide-arrow\_ {
+}
+
+.\_pendo-guide-arrow-top\_ {
+}
+
+.\_pendo-guide-arrow-left\_ {
+}
+
+.\_pendo-guide-arrow-right\_ {
+}
+
+.\_pendo-guide-arrow-bottom\_ {
+}
+
+.\_pendo-guide-arrow-border-top\_ {
+}
+
+.\_pendo-guide-arrow-border-left\_ {
+}
+
+.\_pendo-guide-arrow-border-right\_ {
+}
+
+.\_pendo-guide-arrow-border-bottom\_ {
+}
+
+
+/* ------------------------------
+ * -- Mobile Lightbox Styling ---
+ * ------------------------------ */
+
+.\_pendo-guide-mobile-lb\_ {
+  /* Overarching settings for Mobile Lightbox */
+}
+
+.\_pendo-guide-mobile-lb\_ .\_pendo-guide-container\_ {
+  /* -- Guide border, shadow, background, etc. -- */
+}
+
+.\_pendo-guide-mobile-lb\_ .\_pendo-guide-container\_ .\_pendo-guide-content\_ {
+  /* -- Content area -- use for font attributes, padding, etc. */
+}
+
+/* ------------------------------
+ * -- Mobile Tooltip Styling ---
+ * ------------------------------ */
+ .\_pendo-guide-mobile-tt\_ {
+  /* Overarching settings for mobile tooltip */
+}
+
+.\_pendo-guide-mobile-tt\_ .\_pendo-guide-container\_ {
+  /* -- Guide border, shadow, background, etc. -- */
+}
+
+.\_pendo-guide-mobile-tt\_ .\_pendo-guide-container\_ .\_pendo-guide-content\_ {
+  /* -- Content area -- use for font attributes, padding, etc. */
+}
+
+
+/* ------------------------------
+ * -- Launcher Styling ----------
+ * ------------------------------ */
+
+.\_pendo-launcher\_ {
+  /* Overarching settings for Launcher */
+}
+
+.\_pendo-launcher\_ .\_pendo-guide-container\_ {
+  /* -- Launcher border, shadow, background, etc. -- */
+  /* -- (uses tooltip styles by default) -- */
+}
+
+.\_pendo-launcher\_ .\_pendo-launcher-content\_ {
+  /* -- Content area -- use for font attributes, padding, etc. */
+}
+
+.\_pendo-launcher\_ .\_pendo-launcher-header\_ {
+  /* -- Launcher header area -- */
+}
+
+.\_pendo-launcher\_ .\_pendo-launcher-header\_ img {
+  /* -- Launcher header area image styles -- */
+}
+
+.\_pendo-launcher\_ .\_pendo-launcher-header\_ .\_pendo-launcher-title\_ {
+  /* -- Launcher header area text styles -- */
+}
+
+.\_pendo-launcher\_ .\_pendo-launcher-header\_ .\_pendo-launcher-search-box\_ {
+  /* -- Launcher search area (if enabled) -- */
+}
+
+.\_pendo-launcher\_ .\_pendo-launcher-header\_ .\_pendo-launcher-search-box\_ input[type='text'] {
+  /* -- Launcher search area text box -- */
+}
+
+.\_pendo-launcher\_ .\_pendo-launcher-guide-listing\_ {
+  /* -- Launcher guide listing area -- */
+}
+
+.\_pendo-launcher\_ .\_pendo-launcher-guide-listing\_ .\_pendo-launcher-item\_ {
+  /* -- An individual item in the launcher guide listing -- */
+}
+
+.\_pendo-launcher\_ .\_pendo-launcher-footer\_ {
+  /* -- Launcher footer area -- */
+}
+
+.\_pendo-launcher-badge\_ {
+  /* -- Styles for the launcher badge -- */
+}
+
+/* -- Styles for launcher badge orientations -- */
+.\_pendo-launcher-badge-bottom-right\_ {
+  right: 30px; /* make room for scrollbars */
+}
+
+.\_pendo-launcher-badge-bottom-left\_ {
+}
+
+.\_pendo-launcher-badge-top-right\_ {
+}
+
+.\_pendo-launcher-badge-top-left\_ {
+}
+
+/* -- Styles for launcher orientations -- */
+.\_pendo-launcher-bottom-right\_ {
+}
+
+.\_pendo-launcher-bottom-left\_ {
+}
+
+.\_pendo-launcher-top-right\_ {
+}
+
+.\_pendo-launcher-top-left\_ {
+}
+
+/* ------------------------------
+ * -- Poll Styling --------------
+ * ------------------------------ */
+
+.\_pendo-guide-container\_ .\_pendo-poll\_ {
+ /* -- Poll container -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-question\_ {
+ /* -- Question and answer container (everything but the submit button) -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-question-prompt\_ {
+ /* -- Question text -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-question\_ label {
+ /* -- Number Scale Poll positioning and styles for radio button text and inputs -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-question\_ select {
+ /* -- Dropdown styling -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-question\_ .\_pendo-poll-npsrating-choices\_ {
+ /* -- NPS Poll ratings container -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-question\_ .\_pendo-poll-npsrating-choices\_ label {
+ /* -- NPS Poll individual rating - the number scale items -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-question\_ .\_pendo-poll-npsrating-choices\_ label span {
+  /* -- NPS Poll individual rating - accompanying text for number scale items -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-npsreason\_ {
+ /* -- NPS Poll optional user-provided explanation container -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-npsreason\_ .\_pendo-poll-question-prompt\_ {
+ /* -- NPS Poll optional user-provided explanation text -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-question\_ button {
+  /* -- Yes/No Poll buttons styles -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-submit\_ {
+ /* -- Submit button styles -- */
+}
+
+.\_pendo-guide-container\_ .\_pendo-poll-message\_ {
+ /* -- "Success message" styles -- */
+}
+
+
+/* ------------------------------
+ * -- Additional Global Styling -
+ * ------------------------------ */
+
+.\_pendo-close-guide\_,
+button.\_pendo-close-guide\_ {
+  /* -- The dismiss guide button displayed in the corner of every guide -- */
+  top: 14px;
+  right: 16px;
+  font-size: 32px;
+  font-weight: 300;
+  color: #919191;
+  min-width: 0;
+  height: auto;
+}
+
+button.\_pendo-close-guide\_:hover {
+  background-color: transparent;
+}
+
+.\_pendo-badge\_ {
+  /* -- Styles for badges -- */
+}
+
+
+/* ------------------------------
+ * -- Your Custom Classes/IDs ---
+ * ------------------------------ */
+.\_pendo-ext-article-breadcrumbs-title\_ {
+  button {
+    visibility: hidden;
+  }
+}
+
+#\_pendo\_g\_rQQaxiR8C6dMs7Fo-RCS82toGOo {
+  z-index: 999;
+}
