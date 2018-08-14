@@ -20,14 +20,22 @@ permalink: /blog/:categories/:title:output_ext
 <p>There are four major data providers: <a href="https://www.factual.com/" title="Data Aggregators: Factual" target="blank">Factual</a>,  <a href="http://www.acxiom.com/" title="Data Aggregators: Acxiom" target="blank">Acxiom</a>, <a href="http://www.infogroup.com/" title="Data Aggregators: Infogroup" target="blank">Infogroup</a> and <a href="https://www.neustarlocaleze.biz/" title="Data Aggregators: Localeze" target="blank">Localeze</a>. Their databases contain business information that search engines seek out to display for consumers. This information is the basis of where many online citations come from. What exactly is a citation, you ask? Citations are when a business is mentioned somewhere online, and the more citations a business has generated, the more likely their business is to <a href="http://searchengineland.com/local-seo-rank-local-business-218906" title="Local SEO: How To Rank Your Local Business" target="blank">appear higher in search rankings</a>.</p>
 
 <p>The major data aggregators provide information that help businesses get found correctly on online resources such as:</p>
-<ul class="basic-url">
-<li>Google Maps</li>
-<li>Bing Local</li>
-<li>Yahoo Local</li>
-<li>Apple/Siri</li>
-<li>Facebook</li>
-<li>Yellow Pages</li>
-</ul>
+<div class="row">
+  <div class="col-md-3">
+    <ul class="basic-ul">
+      <li class="basic-li">Google Maps</li>
+      <li class="basic-li">Bing Local</li>
+      <li class="basic-li">Yahoo Local</li>
+    </ul>
+  </div>
+  <div class="col-md-5">
+    <ul class="basic-ul">
+      <li class="basic-li">Apple/Siri</li>
+      <li class="basic-li">Facebook</li>
+      <li class="basic-li">Yellow Pages</li>
+    </ul>
+  </div>
+</div>
 
 <p>These online resources are only a few of the sources that receive data from the data aggregators. Obviously sites like Google Maps, Facebook and Yellow Pages are crucial places to be listed for businesses that want to be found online. Businesses need to get their information correct with these data providers, or they risk not being found by potential consumers.</p>
 
@@ -36,12 +44,12 @@ permalink: /blog/:categories/:title:output_ext
 <h2>What is a citation?</h2>
 
 <p>As mentioned above, a <a href="http://www.whitespark.ca/blog/post/13-what-is-a-citation" title="What is a Local Citation" target="blank">citation is simply anytime a business is mentioned somewhere online</a>. Many people believe that citations are links to websites, but this isn’t necessarily true. Although a citation can be linked, they don’t have to contain a link to be considered a citation. To break it down further, let’s look at how citations can appear online:</p>
-<ul class="basic-url">
-<li>Company name (alone)</li>
-<li>Phone number (alone)</li>
-<li>Company name and phone number</li>
-<li>Company name, phone number and address</li>
-<li>Company name, phone number, address and link</li>
+<ul class="basic-ul">
+<li class="basic-li">Company name (alone)</li>
+<li class="basic-li">Phone number (alone)</li>
+<li class="basic-li">Company name and phone number</li>
+<li class="basic-li">Company name, phone number and address</li>
+<li class="basic-li">Company name, phone number, address and link</li>
 </ul>
 
 <p>Though any of these combinations is considered a citation, a citation is not considered to be complete unless it contains the company name, address and phone number (NAP). Businesses who have their NAP data correct with the major data providers have a better chance of seeing their correct information appearing all across the web.</p>
@@ -86,3 +94,5 @@ Everything You Need To Know About Google’s Local Algorithm, Pigeon">Google’s
 <p>Consumers rely on the internet and search engines to interact with local businesses. <a href="https://www.thinkwithgoogle.com/articles/how-advertisers-can-extend-their-relevance-with-search.html" target="blank" title="How Advertisers Can Extend Their Relevance With Search">According to Google</a>, “four in five consumers use search engines to find products, services or experiences nearby.” These are searches for anything, from the best pizza in town to the fastest hair salon. Local search is what drives consumers to a business’s front door, and ultimately drives top-line revenue for local business.</p>
 
 <p>Make sure that your business gets it right, and isn’t missing from vital local search results. Start using <a href="https://en.wikipedia.org/wiki/Data_aggregation" target="blank" title="Deffinition of Data aggregation">data aggregator</a>: it’s the first step in building accurate online citations and mastering local SEO.</p>
+
+<p>&nbsp;</p>

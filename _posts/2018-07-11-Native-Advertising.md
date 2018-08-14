@@ -116,4 +116,6 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>If you are a local business and are ready to make take that next move, it’s pretty easy. You simply need to get in contact with your marketing agency (hopefully that’s me!) and see how we can get you involved in this promising space.</p>
 
-<p>By outsourcing this work, we can give you back valuable time in your day and our skilled team of content strategists is eager to fill those gaps for you. Contact us to learn more!<?p>
+<p>By outsourcing this work, we can give you back valuable time in your day and our skilled team of content strategists is eager to fill those gaps for you. Contact us to learn more!</p>
+
+<p>&nbsp;</p>

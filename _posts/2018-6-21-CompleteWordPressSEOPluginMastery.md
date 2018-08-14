@@ -32,15 +32,23 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>There are 7 critical pieces to the SEO puzzle. To start, you NEED an overall on-site SEO plugin to cover the basics, such as: meta tags, sitemaps, robots, etc. Then, there are an additional 6 complementary sections for plugins that will offer that competitive edge that you’re looking for:</p>
 
-<ol class="basic-url">
-<li class="basic-li">On-site SEO</li>
-<li class="basic-li">Mobile Optimization</li>
-<li class="basic-li">Broken Links</li>
-<li class="basic-li">Speed</li>
-<li class="basic-li">Security</li>
-<li class="basic-li">Image Optimization</li>
-<li class="basic-li">Rich Snippet</li>
-</ol>
+<div class="row">
+  <div class="col-md-4">
+    <ul class="basic-url">
+      <li class="basic-li">On-site SEO</li>
+      <li class="basic-li">Mobile Optimization</li>
+      <li class="basic-li">Broken Links</li>
+      <li class="basic-li">Speed</li>
+    </ul>
+  </div>
+  <div class="col-md-4">
+    <ul class="basic-url">
+      <li class="basic-li">Security</li>
+      <li class="basic-li">Image Optimization</li>
+      <li class="basic-li">Rich Snippet</li>
+    </ul>
+  </div>
+</div>
 
 <p>It is true that it’s a bit of a catch 22 when it comes to plugins and website speed, being that the shear volume of plugins being used will have an impact on the website speed. However, by using the right stack to build your SEO, the benefits will outweigh the harms.</p>
 
@@ -66,13 +74,22 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><strong>Key Features:</strong></p>
 
-<ul class="basic-url">
-<li class="basic-li">Most used SEO plugin on market with 5M+ active installs</li>
-<li class="basic-li">Thousands of daily downloads</li>
-<li class="basic-li">Effectively combines content and SEO</li>
-<li class="basic-li">Uses JSON_LD for local</li>
-<li class="basic-li">5 star-rating across nearly 20,000 reviews on WordPress.org</li>
-</ul>
+<div class="row">
+  <div class="col-md-8">
+    <ul class="basic-url">
+      <li class="basic-li">Most used SEO plugin on market with 5M+ active installs</li>
+      <li class="basic-li">5 star-rating across nearly 20,000 reviews on WordPress.org</li>
+      <li class="basic-li">Effectively combines content and SEO</li>
+    </ul>
+  </div>
+  <div class="col-md-4">
+    <ul class="basic-url">
+      <li class="basic-li">Thousands of daily downloads</li>
+      <li class="basic-li">Uses JSON_LD for local</li>
+
+    </ul>
+  </div>
+</div>
 
 <p><strong>Price: Free with Paid Premium Option</strong></p>
 
@@ -351,3 +368,5 @@ permalink: /blog/:categories/:title:output_ext
 </ol>
 
 <p>And one is the page number of Google results that you will likely find yourself on the keywords that matter most if you leverage this plugin combination.<p>
+
+<p>&nbsp;</p>

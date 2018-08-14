@@ -74,6 +74,7 @@ layout: template
     </div>
     <!-- Content -->
     <div class="col-sm-7">
+      <small> {{ page.date | date: '%B %d, %Y' }} | {{site.author}}</small>
         {{ content }}
     </div>
     <!-- Archives -->

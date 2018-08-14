@@ -23,7 +23,7 @@ directories. This is essential for search engines to validate you as a credible 
 
 <p>According to Moz in their 2017 Local Search Ranking Factors survey, 13% of professionals list citation signals as the most important element in Local Pack Ranking factor.</p>
 
-<img src="{{site.url}}/assets/images/Blog/pie-chart.png" alt="Local Pack/Finder Ranking Factors" class="img-responsive img-thumbnail">
+<img src="{{site.url}}/assets/images/Blog/pie-chart.png" alt="Local Pack/Finder Ranking Factors" style="width: 40%;" class="img-responsive img-thumbnail">
 
 <hr />
 
@@ -57,7 +57,7 @@ directories. This is essential for search engines to validate you as a credible 
 
 <p>Data taken from the 140,000+ local businesses in our system</p>
 
-<img src="{{site.url}}/assets/images/Blog/Screen-Shot-2017-08-23-at-8.38.10-AM.png" alt="Graph" class="img-responsive img-thumbnail">
+<img src="{{site.url}}/assets/images/Blog/Screen-Shot-2017-08-23-at-8.38.10-AM.png" alt="Graph" style="width: 40%;" class="img-responsive img-thumbnail">
 
 <p><STRONG>Hours of Operation</strong></p>
 
@@ -65,7 +65,7 @@ directories. This is essential for search engines to validate you as a credible 
 
 <p>The consumer will likely a visit a business after the business is shown as “open” on their Google search.</p>
 
-<p><img src="{{site.url}}/assets/images/Blog/hours-of-operation.png" alt="Google Maps" class="img-responsive img-thumbnail"></p>
+<p><img src="{{site.url}}/assets/images/Blog/hours-of-operation.png" alt="Google Maps" style="width: 80%;" class="img-responsive img-thumbnail"></p>
 
 <p>If your business has no hours listed, the consumer would have to go out of their way to find out whether you’re open or closed from their website, or a phone call. Or, worse yet, they drive to visit your business and find that you’re closed! Now they’re not only inconvenienced by not knowing your business hours, but they’re also upset for wasting their time. Let the negative reviews commence!</p>
 
@@ -95,7 +95,7 @@ directories. This is essential for search engines to validate you as a credible 
 <li class="basic-li">Nearly half of small businesses don’t have a website <a href="https://clutch.co/web-designers/resources/small-business-websites-2016-survey" target="blank" title="Survey of small business websites">(Clutch)</a></li>
 </ul>
 
-<p><img src="{{site.url}}/assets/images/Blog/Screen-Shot-2017-08-23-at-8.40.06-AM.png" alt="Graph" class="img-responsive img-thumbnail"></p>
+<p><img src="{{site.url}}/assets/images/Blog/Screen-Shot-2017-08-23-at-8.40.06-AM.png" alt="Graph" style="width: 50%;" class="img-responsive img-thumbnail"></p>
 
 <p><strong>Website accuracy by industry</strong></p>
 
@@ -104,15 +104,24 @@ directories. This is essential for search engines to validate you as a credible 
 <p>Other listing information to include</p>
 
 <p>Depending on your business vertical, there may be other pieces of information important for you to include in their online business listings.</p>
-<ul class="basic-url">
-<li class="basic-li">Payment methods</li>
-<li class="basic-li">Services</li>
-<li class="basic-li">Brands</li>
-<li class="basic-li">Holiday hours</li>
-<li class="basic-li">Photos</li>
-<li class="basic-li">Social profiles</li>
-<li class="basic-li">And more!</li>
-</ul>
+
+<div class="row">
+  <div class="col-md-4">
+    <ul class="basic-ul">
+      <li class="basic-li">Payment methods</li>
+      <li class="basic-li">Services</li>
+      <li class="basic-li">Brands</li>
+      <li class="basic-li">Holiday hours</li>
+    </ul>
+  </div>
+  <div class="col-md-8">
+    <ul class="basic-ul">
+      <li class="basic-li">Photos</li>
+      <li class="basic-li">Social profiles</li>
+      <li class="basic-li">And more!</li>
+    </ul>
+    </div>
+</div>
 
 <p>The more information you include across all listing sources and directories, the easier it will be for consumers to find your business and purchase your products and/or services.</p>
 
