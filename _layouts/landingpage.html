@@ -7,6 +7,9 @@
 
     {% include header.html %}
 
+    <script>
+  fbq('track', 'ViewContent');
+</script>
     {% if page.title == "Thank You" %}
       {% include fb-event.html %}
     {% endif %}
