@@ -17,6 +17,8 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><em>Digital advertising spend is set to grow from $83 billion this year to $129+ billion <a href="https://www.vendasta.com/blog/digital-advertising-statistics" target="blank">by 2021</a>.</em></p>
 
+<!-- more -->
+
 <img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/giphy-downsized-300x158.gif" alt="Joe in Shock" style="width: 20%;" class="hidden-xs hidden-sm img-responsive img-thumbnail">
 
 <p><span class="text-uppercase">WOW!</span> That’s a lot of money. Statistics like this show us just how high the demand is for digital advertising solutions; and just how successful digital advertising can be in terms of acquiring new customers for local businesses. Digital advertising is becoming a necessary addition to every local businesses toolkit!<?p>
