@@ -8,7 +8,7 @@
       
         <item>
           <title>Digital Advertising for Local Businesses</title>
-          <description>&lt;p&gt;&lt;img src=&quot;//assets/images/Blog/DigitalAdvertisingLocalBusiness/Feature-Image.jpg&quot; alt=&quot;Digital Advertising Logo&quot; class=&quot;hidden-xs hidden-sm img-responsive img-thumbnail&quot; /&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/Blog/DigitalAdvertisingLocalBusiness/Feature-Image.jpg&quot; alt=&quot;Digital Advertising Logo&quot; class=&quot;hidden-xs hidden-sm img-responsive img-thumbnail&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Digital Advertising for Local Businesses&lt;/h2&gt;
 
@@ -16,7 +16,7 @@
 
 &lt;p&gt;&lt;em&gt;Digital advertising spend is set to grow from $83 billion this year to $129+ billion &lt;a href=&quot;https://www.vendasta.com/blog/digital-advertising-statistics&quot; target=&quot;blank&quot;&gt;by 2021&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//assets/images/Blog/DigitalAdvertisingLocalBusiness/giphy-downsized-300x158.gif&quot; alt=&quot;Joe in Shock&quot; style=&quot;width: 20%;&quot; class=&quot;hidden-xs hidden-sm img-responsive img-thumbnail&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/Blog/DigitalAdvertisingLocalBusiness/giphy-downsized-300x158.gif&quot; alt=&quot;Joe in Shock&quot; style=&quot;width: 20%;&quot; class=&quot;hidden-xs hidden-sm img-responsive img-thumbnail&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;text-uppercase&quot;&gt;WOW!&lt;/span&gt; That’s a lot of money. Statistics like this show us just how high the demand is for digital advertising solutions; and just how successful digital advertising can be in terms of acquiring new customers for local businesses. Digital advertising is becoming a necessary addition to every local businesses toolkit!&amp;lt;?p&amp;gt;
 
@@ -55,11 +55,11 @@
 &lt;h2&gt;The Best Places to Advertise&lt;/h2&gt;
 &lt;div class=&quot;hidden-xs hidden-sm row&quot;&gt;
   &lt;div class=&quot;col-md-6&quot;&gt;
-    &lt;img src=&quot;//assets/images/Blog/DigitalAdvertisingLocalBusiness/2000px-Google__G__Logo.svg_-150x150.png&quot; alt=&quot;Social Media Logo&quot; style=&quot;width: 10%;&quot; class=&quot;hidden-xs hidden-sm img-responsive pull-right&quot; /&gt;
+    &lt;img src=&quot;http://localhost:4000/assets/images/Blog/DigitalAdvertisingLocalBusiness/2000px-Google__G__Logo.svg_-150x150.png&quot; alt=&quot;Social Media Logo&quot; style=&quot;width: 10%;&quot; class=&quot;hidden-xs hidden-sm img-responsive pull-right&quot; /&gt;
   &lt;/div&gt;
 
   &lt;div class=&quot;col-md-6&quot;&gt;
-    &lt;img src=&quot;//assets/images/Blog/DigitalAdvertisingLocalBusiness/1000px-F_icon.svg_-150x150.png&quot; alt=&quot;Social Media Logo&quot; style=&quot;width: 10%;&quot; class=&quot;hidden-xs hidden-sm img-responsive&quot; /&gt;
+    &lt;img src=&quot;http://localhost:4000/assets/images/Blog/DigitalAdvertisingLocalBusiness/1000px-F_icon.svg_-150x150.png&quot; alt=&quot;Social Media Logo&quot; style=&quot;width: 10%;&quot; class=&quot;hidden-xs hidden-sm img-responsive&quot; /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;row&quot;&gt;
@@ -72,7 +72,7 @@
 
 &lt;p&gt;Plus, Google and Facebook accounted for roughly 60 percent of ad spend in 2017!&lt;/p&gt;
 
-&lt;img src=&quot;//assets/images/Blog/DigitalAdvertisingLocalBusiness/2000px-Google__G__Logo.svg_-300x300.png&quot; alt=&quot;Google Logo&quot; style=&quot;width: 20%;&quot; class=&quot;hidden-xs hidden-sm img-responsive&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/Blog/DigitalAdvertisingLocalBusiness/2000px-Google__G__Logo.svg_-300x300.png&quot; alt=&quot;Google Logo&quot; style=&quot;width: 20%;&quot; class=&quot;hidden-xs hidden-sm img-responsive&quot; /&gt;
 
 &lt;h3&gt;Why Google?&lt;/h3&gt;
 
@@ -84,7 +84,7 @@
 
 &lt;p&gt;&lt;strong&gt;Flexibility&lt;/strong&gt;: Google allows the local advertiser to spend whatever they want, whenever they want. With flexible options for ad spend, advertisers are able to test what works and what doesn’t work for a business. Spend a bit, wait to see how the campaign performs, and then reinvest in larger budgets for greater prospect reach.&lt;/p&gt;
 
-&lt;img src=&quot;//assets/images/Blog/DigitalAdvertisingLocalBusiness/1000px-F_icon.svg_-300x300.png&quot; alt=&quot;Facebook Logo&quot; style=&quot;width: 20%;&quot; class=&quot;hidden-xs hidden-sm img-responsive&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/Blog/DigitalAdvertisingLocalBusiness/1000px-F_icon.svg_-300x300.png&quot; alt=&quot;Facebook Logo&quot; style=&quot;width: 20%;&quot; class=&quot;hidden-xs hidden-sm img-responsive&quot; /&gt;
 
 
 &lt;h3&gt;Why Facebook?&lt;/h3&gt;

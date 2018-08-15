@@ -9,7 +9,7 @@ permalink: /blog/:categories/:title:output_ext
 
 ---
 
-<img src="{{site.baseurl}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/Feature-Image.jpg" alt="Digital Advertising Logo" class="hidden-xs hidden-sm img-responsive img-thumbnail">
+<img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/Feature-Image.jpg" alt="Digital Advertising Logo" class="hidden-xs hidden-sm img-responsive img-thumbnail">
 
 <h2>{{page.title}}</h2>
 
@@ -17,7 +17,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><em>Digital advertising spend is set to grow from $83 billion this year to $129+ billion <a href="https://www.vendasta.com/blog/digital-advertising-statistics" target="blank">by 2021</a>.</em></p>
 
-<img src="{{site.baseurl}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/giphy-downsized-300x158.gif" alt="Joe in Shock" style="width: 20%;" class="hidden-xs hidden-sm img-responsive img-thumbnail">
+<img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/giphy-downsized-300x158.gif" alt="Joe in Shock" style="width: 20%;" class="hidden-xs hidden-sm img-responsive img-thumbnail">
 
 <p><span class="text-uppercase">WOW!</span> That’s a lot of money. Statistics like this show us just how high the demand is for digital advertising solutions; and just how successful digital advertising can be in terms of acquiring new customers for local businesses. Digital advertising is becoming a necessary addition to every local businesses toolkit!<?p>
 
@@ -56,11 +56,11 @@ permalink: /blog/:categories/:title:output_ext
 <h2>The Best Places to Advertise</h2>
 <div class="hidden-xs hidden-sm row">
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/2000px-Google__G__Logo.svg_-150x150.png" alt="Social Media Logo" style="width: 10%;" class="hidden-xs hidden-sm img-responsive pull-right">
+    <img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/2000px-Google__G__Logo.svg_-150x150.png" alt="Social Media Logo" style="width: 10%;" class="hidden-xs hidden-sm img-responsive pull-right">
   </div>
 
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/1000px-F_icon.svg_-150x150.png" alt="Social Media Logo" style="width: 10%;" class="hidden-xs hidden-sm img-responsive">
+    <img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/1000px-F_icon.svg_-150x150.png" alt="Social Media Logo" style="width: 10%;" class="hidden-xs hidden-sm img-responsive">
   </div>
 </div>
 <div class="row">
@@ -73,7 +73,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>Plus, Google and Facebook accounted for roughly 60 percent of ad spend in 2017!</p>
 
-<img src="{{site.baseurl}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/2000px-Google__G__Logo.svg_-300x300.png" alt="Google Logo" style="width: 20%;" class="hidden-xs hidden-sm img-responsive">
+<img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/2000px-Google__G__Logo.svg_-300x300.png" alt="Google Logo" style="width: 20%;" class="hidden-xs hidden-sm img-responsive">
 
 <h3>Why Google?</h3>
 
@@ -85,7 +85,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><strong>Flexibility</strong>: Google allows the local advertiser to spend whatever they want, whenever they want. With flexible options for ad spend, advertisers are able to test what works and what doesn’t work for a business. Spend a bit, wait to see how the campaign performs, and then reinvest in larger budgets for greater prospect reach.</p>
 
-<img src="{{site.baseurl}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/1000px-F_icon.svg_-300x300.png" alt="Facebook Logo" style="width: 20%;" class="hidden-xs hidden-sm img-responsive">
+<img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/1000px-F_icon.svg_-300x300.png" alt="Facebook Logo" style="width: 20%;" class="hidden-xs hidden-sm img-responsive">
 
 
 <h3>Why Facebook?</h3>
