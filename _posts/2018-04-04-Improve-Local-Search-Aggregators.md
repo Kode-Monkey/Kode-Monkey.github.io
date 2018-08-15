@@ -95,4 +95,4 @@ Everything You Need To Know About Google’s Local Algorithm, Pigeon">Google’s
 
 <p>Make sure that your business gets it right, and isn’t missing from vital local search results. Start using <a href="https://en.wikipedia.org/wiki/Data_aggregation" target="blank" title="Deffinition of Data aggregation">data aggregator</a>: it’s the first step in building accurate online citations and mastering local SEO.</p>
 
-<p>&nbsp;</p>
+<p>&amp;nbsp;</p>

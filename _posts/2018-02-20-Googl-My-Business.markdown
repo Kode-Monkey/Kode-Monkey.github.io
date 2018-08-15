@@ -2,7 +2,7 @@
 layout: posts
 title:  "Google My Business"
 date:   2018-02-20
-category: Tips & Tricks
+category: Tips &amp; Tricks
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 ---
@@ -42,4 +42,4 @@ permalink: /blog/:categories/:title:output_ext
 <p>Having issue or need to chat with our support team you can  email <a href="mailto:info@kaffeinatedkodemonkey.com?subject=GMB-Post" title="GMB Support"><strong>The Kodemokey</strong></a>. <br />
 Or start a conversation in the comments below.</p>
 
-<p>&nbsp;</p>
+<p>&amp;nbsp;</p>

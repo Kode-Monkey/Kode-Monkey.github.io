@@ -18,7 +18,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <hr />
 
-<h3>Facebook, Google+, & Twitter</h3>
+<h3>Facebook, Google+, &amp; Twitter</h3>
 
 <p><strong>What works:</strong> Images, videos, calls to action, industry-related content, general share-worthy content.</p>
 

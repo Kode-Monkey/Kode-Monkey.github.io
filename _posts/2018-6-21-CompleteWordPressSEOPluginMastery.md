@@ -234,7 +234,7 @@ permalink: /blog/:categories/:title:output_ext
 <ul class="basic-url">
 <li class="basic-li">Only 9 out of 108 issues resolved in the past 2 months</li>
 <li class="basic-li">4.5 star rating and over 1 million active installs (best in class)</li>
-<li class="basic-li">Used by many large companies such as AT&T</li>
+<li class="basic-li">Used by many large companies such as AT&amp;T</li>
 </ul>
 
 <h3>The Speed Winner</h3>
@@ -369,4 +369,4 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>And one is the page number of Google results that you will likely find yourself on the keywords that matter most if you leverage this plugin combination.<p>
 
-<p>&nbsp;</p>
+<p>&amp;nbsp;</p>

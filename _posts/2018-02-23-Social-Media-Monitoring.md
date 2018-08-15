@@ -44,7 +44,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>People use social media to discuss the topics they care about within the communities they choose. That’s where you need to listen to truly discover how people regard your business, the issues they’re having, and the things they love.</p>
 </li>
-<li>To find leads & build relationships:
+<li>To find leads &amp; build relationships:
     <p>Are people searching for your products and services? You’ve seen those calls on Facebook for recommendations, or the plaintive cries for help on Twitter: “I want pizza!” When you monitor your brand’s keywords or phrases, you can jump in and answer these requests (Just mention your current Monday 2 for 1 pizza deal!). NOT selling anything can be really effective too. Be a part of the conversations that are happening online about your industry.</p>
 </li>
 <li>To stay on top of trends:
@@ -83,7 +83,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>Results from monitoring your competitors on social media could also yield some interesting insights as well. You may find that a new video tactic has people in your area or industry buzzing about a close competitor. Why let them go unchallenged?</p>
 
-<h3>Work on Developing Relationships With Leads & Influencers</h3>
+<h3>Work on Developing Relationships With Leads &amp; Influencers</h3>
 
 <p>If you can jump into conversations and authentically solve problems for people, do it! This tactic can be especially relevant when it comes to people’s frustrations with your competitor’s products or services. When you do this, it’s essential that you come from a really genuine place and offer tips or advice geared around helping people. People don’t want to be spammed, and sensitive topics like plastic surgery should be off-limits.</p>
 
@@ -146,4 +146,4 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>If you don’t, you might be missing some golden opportunities…or you could get a martini in your face!</p>
 
-<p>&nbsp;</p>
+<p>&amp;nbsp;</p>

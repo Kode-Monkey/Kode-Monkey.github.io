@@ -49,7 +49,7 @@ permalink: /blog/:categories/:title:output_ext
 <ul class="basic-ul">
 <li class="basic-li"><strong>Impressions</strong>: the actual # of views on an advertisement</li>
 <li class="basic-li"><strong>Clicks</strong>: the actual # of direct clicks on the advertisement</li>
-<li class="basic-li"><strong>Engagements</strong>: Social & landing page clicks</li>
+<li class="basic-li"><strong>Engagements</strong>: Social &amp;amp; landing page clicks</li>
 <li class="basic-li"><strong>Results</strong>: In most cases, results come in the form of a phone call or a store visit.</li>
 </ul>
 
@@ -65,10 +65,10 @@ permalink: /blog/:categories/:title:output_ext
 </div>
 <div class="row">
   <div class="col-md-12">
-    <p class="small text-center"><strong>Google & Facebook</strong></p>
+    <p class="small text-center"><strong>Google &amp;amp; Facebook</strong></p>
   </div>
 </div>
-<p>&nbsp;</p>
+<p>&amp;amp;nbsp;</p>
 <p>With digital advertising, not only is a local business visible online, but they are visible to the right people online. Platforms like Facebook and Google allow for advanced targeting, which puts a local business in front of consumers who are more likely to convert into a sale.</p>
 
 <p>Plus, Google and Facebook accounted for roughly 60 percent of ad spend in 2017!</p>
@@ -100,4 +100,4 @@ permalink: /blog/:categories/:title:output_ext
 <h2>Conclusion</h2>
 <p>By leveraging these 2 platforms, every local business can easily take their advertising game to the next level, and begin to rake in new revenue—with the data to back their investment.</p>
 
-<p>&nbsp;</p>
+<p>&amp;amp;nbsp;</p>

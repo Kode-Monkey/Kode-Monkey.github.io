@@ -2,7 +2,7 @@
 layout: posts
 title:  "Online Presence"
 date:   2018-02-22
-category: Tips & Tricks
+category: Tips &amp; Tricks
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 ---
@@ -16,7 +16,7 @@ permalink: /blog/:categories/:title:output_ext
 <p>Anything online that reflects you and/or your business. Your online presence is more than just about your business it is also about you. </p>
 
 <p>How are you presenting your self and your business online?
-Through your companies website, social media accounts,  articles & citations about your business and you; post and tweets, and your search engine and directory listings.</p>
+Through your companies website, social media accounts,  articles &amp; citations about your business and you; post and tweets, and your search engine and directory listings.</p>
 
 <!-- more -->
 
@@ -50,4 +50,4 @@ Through your companies website, social media accounts,  articles & citations abo
 
 <p>I would recommend you give the <a href="https://brandyourself.com" title="How to BrandYourSelf" target="blank"><strong>BrandYourself</strong></a> a read.</p>
 
-<p>&nbsp;</p>
+<p>&amp;nbsp;</p>
