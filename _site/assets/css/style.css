@@ -65,10 +65,11 @@ a span {
 .btn.extra-width {
     padding: 13px 40px;
 }
-.btn:focus,
+
+/*.btn:focus,
 .btn:active {
     outline: inherit;
-}
+} /*
 *,
 *:before,
 *:after {
@@ -299,6 +300,7 @@ Separator
 /*
 Button
 */
+/*
 .btn-primary.active.focus,
 .btn-primary.active:focus,
 .btn-primary.active:hover,
@@ -352,12 +354,14 @@ Button
     padding: 12px 15px;
     max-width:160px;
     margin-top: 20px;
-}
-.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+}*/
+
+
+/*.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
     color: #fff;
-    background-color: /*rgba(0, 173, 62, 0.75);*/ #530C20;
+    background-color: /*rgba(0, 173, 62, 0.75);*//* #530C20;
     border-color:transparent;
-}
+}*/
 
 
 .input-lg, .form-group-lg .form-control {
@@ -368,14 +372,15 @@ Button
     line-height: 1.33;
     border-radius:0;
 }
-.btn-lg, .btn-group-lg>.btn {
+
+/*.btn-lg, .btn-group-lg>.btn {
     font-size: 18px;
     line-height: 26px;
     border-radius:0;
     background: #82ca9c;
     border: 0;
     padding: 10px 25px;
-}
+}*/
 .input-group button a i{
     color:#fff;
 }
