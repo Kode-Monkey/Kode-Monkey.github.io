@@ -25,10 +25,10 @@
 }*/
 
 h2.subtitle{
-  font-size: 1.4em;
+  font-size: 1.8em;
   color: #fff;
   font-style: italic;
-  line-height: .2em;
+  line-height: .4em;
   padding-bottom: 1.5em;
 }
 
@@ -43,6 +43,30 @@ a.wa, a:link.wa{
 a:hover.wa, a:focus.wa{
   color: #b7843c;
 }
+
+hr.header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+    border-top: 8px solid #c6cbce;
+    background: transparent;
+}
+
+
+hr.features {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+    border-top: 2px solid #a3bdc9;
+    width: 85%;
+}
+
 #iframe-div
 {
   overflow:hidden;
@@ -59,6 +83,29 @@ a:hover.wa, a:focus.wa{
   position:relative;
   top: -35px;
 }
+
+/********* Responsive IFrame *********/
+.resp-container {
+  overflow: hidden;
+  padding-top: -35px;
+  position: relative;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* 4x3 Aspect Ratio */
+.resp-container-4x3 {
+  padding-top: 75%;
+}
+
+/********* End Responsive IFrame *********/
 
 .basic-ul{
   margin-left: 20px;
