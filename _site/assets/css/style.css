@@ -17,7 +17,7 @@ body {
     margin-right: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-
+    overflow-x: hidden;
     background: /*#F5F5F5*/ #F9F9F9;
 }
 
@@ -48,6 +48,26 @@ img {
 }
 
 
+h2.subtitle{
+  font-size: 1.8em;
+  color: #fff;
+  font-style: italic;
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+a{
+  color:#3690f2;
+}
+
+a.wa, a:link.wa{
+  color: #F0AD4E;
+}
+
+a:hover.wa, a:focus.wa{
+  color: #b7843c;
+}
+
 a,
 a:hover,
 a:active,
@@ -55,6 +75,7 @@ a:focus {
     text-decoration: none;
     outline: none;
 }
+
 a,
 button,
 a span {
@@ -90,7 +111,7 @@ ul {
     padding: 0;
 }*/
 
-ul {
+ul.footer {
     list-style: none;
     padding: 0;
 }
@@ -516,7 +537,7 @@ textarea::-ms-input-placeholder
 /* For Social Wrapper */
 .social{
     background:#530C20;
-    padding:10px 0;
+    /*padding:10px 0;*/
 }
 .social-icon a{
     float:left;
@@ -532,6 +553,7 @@ textarea::-ms-input-placeholder
 .social-contact{
     float:right;
     font-size:13px;
+    padding: .5rem 1rem;
 }
 .social-contact a{
     color:#fff;
@@ -601,6 +623,7 @@ textarea::-ms-input-placeholder
 .home-wrapper{
     padding:180px 0px;
     overflow:hidden;
+    margin: auto;
 }
 .home-content h1{
     font-size:48px;
@@ -1475,14 +1498,18 @@ xkeyframes
     }
 }
 
-
+/********** Font Awsome **********/
 .fa-check-circle{
-    color: /*#82ca9c;*/ #530B1F;
+    color: /*#82ca9c;*/ #4CAF50;
+}
+
+.fa-file-pdf{
+  color: red;
 }
 .fa-remove{
     color:red;
 }
-
+/******* End Font Awsome ********/
 /*For portfolio Section*/
 .portfolio{
     background: url(../images/bg.png) no-repeat top center fixed;

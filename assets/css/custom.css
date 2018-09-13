@@ -9,41 +9,44 @@
   /*margin-left: -150px;*/
   text-indent: -9999px
 }
-/*@media only screen and (min-width: 992px) {
-  #logo {
-    background: url(../images/Logo-transparent.png) no-repeat;
-    background-size: cover;
-  }
+
+/********** on-page tabs icons **********/
+#tab-icon{
+  display:block;
+  height:80px;
+  text-indent:-9999px;
+  width:80px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 5px;
+}
+.gsuite-icon {
+  background: url('/assets/images/nav-icons/G-Suite.jpg') no-repeat;
+  background-size: 100%;
 }
 
-@media only screen and (min-width: 320px) {
-  #logo {
-    background: url(../images/kodemonkey.png)  no-repeat;;
-    background-size: contain;
-    margin-left: 50px;
-  }
-}*/
-
-h2.subtitle{
-  font-size: 1.8em;
-  color: #fff;
-  font-style: italic;
-  line-height: .4em;
-  padding-bottom: 1.5em;
+.wsp-icon{
+  background: url('/assets/images/nav-icons/WSP.png') no-repeat;
+  background-size: 100%;
 }
 
-a{
-  color:#1f496e;
+.local-icon{
+  background: url('/assets/images/nav-icons/LocalListing.png') no-repeat;
+  background-size: 100%;
 }
-
-a.wa, a:link.wa{
-  color: #F0AD4E;
+.adintell-icon{
+  background: url('/assets/images/nav-icons/AdIntell.png') no-repeat;
+  background-size: 100%;
 }
-
-a:hover.wa, a:focus.wa{
-  color: #b7843c;
+.corpid-icon{
+  background: url('/assets/images/nav-icons/CorpId.jpg') no-repeat;
+  background-size: 100%;
 }
-
+.boost-icon{
+  background: url('/assets/images/nav-icons/BoostSEO.png') no-repeat;
+  background-size: 100%;
+}
+/********** end on-page tabs icons **********/
 hr.header {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -67,30 +70,10 @@ hr.features {
     width: 85%;
 }
 
-#iframe-div
-{
-  overflow:hidden;
-  position:relative;
-}
-
-#SEO-div
-{
-  overflow:hidden;
-  position:relative;
-}
-
-#iframe{
-  position:relative;
-  top: -35px;
-}
-
 /********* Responsive IFrame *********/
 .resp-container {
   overflow: hidden;
-  padding-top: -35px;
-  position: relative;
 }
-
 .resp-iframe {
     position: absolute;
     top: 0;
@@ -139,7 +122,7 @@ hr.features {
   line-height: 2em;
 
 }
-
+/***** Responsive Video ****/
 .video-iframe {
     position: relative;
     width: 100%;
@@ -152,4 +135,21 @@ hr.features {
     left: 0;
     width: 100%;
     height: 100%;
+}
+/***** Responsive Video ****/
+/********** Buttons **********/
+.btn-danger {
+
+    color: #fff;
+    background-color: #7f0324;
+    border-color: #68142b;
+
+}
+
+.btn-danger:hover {
+
+    color: #fff;
+    background-color: #68142b;
+    border-color: #68142b;
+
 }
