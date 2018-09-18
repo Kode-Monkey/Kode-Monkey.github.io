@@ -308,10 +308,9 @@ Therefore, evaluating your social platforms is an essential part of your local S
 
 <h2>Final Thoughts</h2>
 
-Performing a comprehensive local SEO audit using the 12 steps I’ve outlined is going to dredge up issues. Finding and fixing any SEO optimization issues you discover along the way is also crucial, as is recording your progress to ensure you’re not missing any vital pieces to the local SEO puzzle.</p>
+Performing a comprehensive local SEO audit using the 12 steps I’ve outlined is going to dredge up issues. Finding and fixing any SEO optimization issues you discover along the way is also crucial, as is recording your progress to ensure you’re not missing any vital pieces to the local SEO puzzle.
 
-A good way to get started is to use <strong>MarketGoo</strong>, which automatically scans a website and generates a step-by-step SEO plan
-to help you increase your website traffic and rankings.
+A good way to get started is to use <strong>MarketGoo</strong>, which automatically scans a website and generates a step-by-step SEO plan to help you increase your website traffic and rankings.
 
 Once you’re ready to get started optimizing your website for SEO, using <strong>Boostability’s</strong> and <strong>SEO Network‘s</strong> SEO packages are key ways to power up your local presence. <strong>Just contact us for more info on any of these products</strong>.
 
