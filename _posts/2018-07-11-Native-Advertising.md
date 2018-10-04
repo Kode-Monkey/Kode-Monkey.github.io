@@ -2,8 +2,9 @@
 layout: posts
 title:  "Native Advertising"
 date:   2018-07-11
-category: Advertising
-image: Enhanced-SEO.png
+categories: Advertising
+tags: [Native, Advertising, Facebook, Publishers, Businesses, Agencies, Consumers, Cross-Platform]
+image: Digital_Advertising_High_Res.png
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 

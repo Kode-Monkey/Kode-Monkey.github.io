@@ -2,7 +2,8 @@
 layout: posts
 title:  "Social Media Monitoring"
 date:   2018-02-23
-category: Social
+categories: Social
+tags: [Social Media Monitoring, Insights, Leads & Influencers, Policy, Process]
 image: Social_Marketing_High_Res.png
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext

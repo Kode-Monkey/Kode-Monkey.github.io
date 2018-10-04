@@ -2,8 +2,9 @@
 layout: posts
 title:  "Digital Advertising for Local Businesses"
 date:   2018-08-13
-category: Advertising
-image: Enhanced-SEO.png
+categories: Advertising
+tags: [Digital, Advertising, Local, Business, Places, Google, Facebook]
+image: Digital_Advertising_High_Res.png
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 
@@ -21,7 +22,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/giphy-downsized-300x158.gif" alt="Joe in Shock" style="width: 20%;" class="hidden-xs hidden-sm img-responsive img-thumbnail">
 
-<p><span class="text-uppercase">WOW!</span> That’s a lot of money. Statistics like this show us just how high the demand is for digital advertising solutions; and just how successful digital advertising can be in terms of acquiring new customers for local businesses. Digital advertising is becoming a necessary addition to every local businesses toolkit!<?p>
+<p><span class="text-uppercase">WOW!</span> That’s a lot of money. Statistics like this show us just how high the demand is for digital advertising solutions; and just how successful digital advertising can be in terms of acquiring new customers for local businesses. Digital advertising is becoming a necessary addition to every local businesses toolkit!</p>
 
 <p>So how can local businesses leverage digital advertising to acquire new customers, revenue and generate massive online engagement?</p>
 
@@ -35,9 +36,9 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>More and more businesses are increasing the amount that they spend on digital advertising, and experts like Jamie Turner suggest digital advertising on social platforms is well worth the spend.</p>
 
-<blockquote>
-<p><em>“If I were to provide one tip to people who are using social media, it would be this — don’t be afraid of paying for social media reach and clicks.”</em></p>
-<footer>– Jamie Turner, <cite title="Source Title">60secondmarketer.com</cite></footer>
+<blockquote class="blockquote">
+<p class="mb-0"><em>“If I were to provide one tip to people who are using social media, it would be this — don’t be afraid of paying for social media reach and clicks.”</em></p>
+<footer class="blockquote-footer">Jamie Turner, <cite title="Source Title">60secondmarketer.com</cite></footer>
 </blockquote>
 
 <p>The best part about digital advertising is that results can be easily monitored and ROI can be easily tracked. You probably don’t want to be spending lotsa money without some proof of performance right?</p>
@@ -57,20 +58,20 @@ permalink: /blog/:categories/:title:output_ext
 
 <h2>The Best Places to Advertise</h2>
 <div class="hidden-xs hidden-sm row">
-  <div class="col-md-6">
-    <img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/2000px-Google__G__Logo.svg_-150x150.png" alt="Social Media Logo" style="width: 10%;" class="hidden-xs hidden-sm img-responsive pull-right">
+  <div class="col-1">
+    <img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/2000px-Google__G__Logo.svg_-150x150.png" alt="Social Media Logo" style="width: 100%;" class="hidden-xs hidden-sm img-responsive pull-right">
   </div>
 
-  <div class="col-md-6">
-    <img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/1000px-F_icon.svg_-150x150.png" alt="Social Media Logo" style="width: 10%;" class="hidden-xs hidden-sm img-responsive">
+  <div class="col-1">
+    <img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/1000px-F_icon.svg_-150x150.png" alt="Social Media Logo" style="width: 100%;" class="hidden-xs hidden-sm img-responsive">
   </div>
 </div>
-<div class="row">
-  <div class="col-md-12">
-    <p class="small text-center"><strong>Google &amp;amp; Facebook</strong></p>
+<div class="row mb-3">
+  <div class="col-12">
+    <p class="small"><strong>Google & Facebook</strong></p>
   </div>
 </div>
-<p>&amp;amp;nbsp;</p>
+
 <p>With digital advertising, not only is a local business visible online, but they are visible to the right people online. Platforms like Facebook and Google allow for advanced targeting, which puts a local business in front of consumers who are more likely to convert into a sale.</p>
 
 <p>Plus, Google and Facebook accounted for roughly 60 percent of ad spend in 2017!</p>
@@ -101,5 +102,3 @@ permalink: /blog/:categories/:title:output_ext
 
 <h2>Conclusion</h2>
 <p>By leveraging these 2 platforms, every local business can easily take their advertising game to the next level, and begin to rake in new revenue—with the data to back their investment.</p>
-
-<p>&amp;amp;nbsp;</p>

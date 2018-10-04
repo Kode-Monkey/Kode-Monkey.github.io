@@ -1,15 +1,31 @@
 ---
+<<<<<<< HEAD
 layout: posts
 title:  "How to Perform a Local SEO Audit for Your Business in 12 Steps"
 date: 2018-09-18
 category: SEO
+=======
+layout: posts 
+title:  "Local SEO Audit - 12 Steps"
+date: 2018-09-18
+categories: SEO
+tags: [keywords, SEO Tools, Competition, Google My Business, Reviews, Links, Schema-Markup, Citations, Image, Speed, Engagement, Social]
+>>>>>>> siteupdate
 image: Enhanced-SEO.png
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 
 ---
+<<<<<<< HEAD
 
 <img src="{{site.url}}/assets/images/Blog/Local-SEO-12-Steps/how-to-do-a-local-seo-audit_fi.jpg" alt="Local Audit 12 Steps" class="hidden-xs hidden-sm img-responsive img-thumbnail">
+=======
+<div class="row">
+  <div class="col">
+    <img src="{{site.url}}/assets/images/Blog/Local-SEO-12-Steps/how-to-do-a-local-seo-audit_fi.jpg" alt="SEO Audit 12 Steps" class="hidden-xs hidden-sm img-responsive img-thumbnail" style="width: 50%; height: auto;">
+  </div>
+</div>
+>>>>>>> siteupdate
 
 <h1>{{page.title}}</h1>
 

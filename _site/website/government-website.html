@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
+  
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Website Design | Colorado Portal</title>
+    <meta name="description" content="Colorado Portal - Built on Drupal and backed by the Colorado State Internet Portal Authority (SIPA).">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/assets/images/favicon.ico">
+
+    <!--Google fonts links-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- FontAwsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="http://localhost:4000/assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/plugins.css" />
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/lightbox.css" />
+    <!--<link rel="stylesheet" href="http://localhost:4000/assets/css/roboto-webfont.css" /> -->
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/style.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/custom.css">
+
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/responsive.css" />
+
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Kaffeinated Kodemonkey" />
+
+    <!-- orbit anylitic -->
+    <script type="application/javascript">
+      (function(b, o, n, g, s, r, c) { if (b[s]) return; b[s] = {}; b[s].scriptToken = "Xy0yMDUwOTY2OTQy"; r = o.createElement(n); c = o.getElementsByTagName(n)[0]; r.async = 1; r.src = g; r.id = s + n; c.parentNode.insertBefore(r, c); })(window, document, "script", "//cdn.oribi.io/Xy0yMDUwOTY2OTQy/oribi.js", "ORIBI");
+    </script>
+
+    <!-- Google -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46627745-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-46627745-2');
+    </script>
+
+    <!-- Smart look -->
+    <script type="text/javascript">
+        window.smartlook||(function(d) {
+        var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+        var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+        c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+        })(document);
+        smartlook('init', '17094f6ce572354286c1dbeacc4c0c1cbb353b87');
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '2199654986947889');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2199654986947889&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- FB Post embed -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=194904660574494&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+</head>
+
+
+  <script>
+  fbq('track', 'ViewContent');
+</script>
+
+  <body>
+  <!-- Sections -->
+  <section id="social" class="social">
+      <div class="container-fluid">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+              <div class="social-icon">
+                <a class="nav-link" href="https://facebook.com/kaffeinatedkodemonkey" target="_blank" title="Facebook" aria-label="facebook"><i class="fa fa-facebook"></i></a>
+                <a class="nav-link" href="https://twitter.com/kfn8dkodemonkey" target="_blank" title="Twitter" aria-label="twitter"><i class="fa fa-twitter"></i></a>
+                <a class="nav-link" href="https://plus.google.com/+KaffeinatedKodemonkey-Profile" target="_blank" title="Google My Business" aria-label="GMB"><i class="fa fa-google"></i></a>
+                <a class="nav-link" href="https://www.linkedin.com/in/kaffeinatedkodemonkey" target="_blank" title="LinkedIn" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+              <div class="social-contact text-center">
+                <a href="#"><i class="fa fa-phone"></i>720.608.1444</a>
+                <a href="#"><i class="fa fa-envelope"></i>info@kaffeinatedkodemonkey.com</a>
+              </div>
+            </div>
+          </div>
+
+      </div> <!-- /container -->
+  </section>
+
+  <nav class="navbar navbar-expand-sm navbar-dark pt-3" style="background-color: #013b56;">
+  <a class="navbar-brand ml-1" href="/" title="Kodemonkeky" id="logo">kaffeinated kodemonkey</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="ml-auto d-flex justify-content-end">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav justify-content-end">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Websites
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <p class="text-burgundy pl-4"><strong>Basic Packages</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="http://localhost:4000/website/microsite">Microsite</a>
+          <a class="dropdown-item" href="http://localhost:4000/website/diy-builder">DIY - Builder</a>
+          <a class="dropdown-item" href="http://localhost:4000/website/diwm-cms">DIWM - CMS</a>
+          <div class="dropdown-divider"></div>
+          <p class="text-burgundy pl-4"><strong>Specialty Services</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="http://localhost:4000/website/government-website">Government</a>
+          <a class="dropdown-item" href="https://vpat-compliant.com/" target="_blank">Web Accessibility</a>
+          <a class="dropdown-item" href="http://localhost:4000/website/maintenance-management">Maintenance & Management</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Marketing
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <p class="text-burgundy pl-4"><strong>Listings</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="http://localhost:4000/packages/listing-presence">Listing Presence</a>
+          <a class="dropdown-item" href="http://localhost:4000/marketing/local-listings">Local Listings</a>
+          <a class="dropdown-item" href="http://localhost:4000/marketing/listing-pro">Listing Pro</a>
+          <div class="dropdown-divider"></div>
+          <p class="text-burgundy pl-4"><strong>Social Marketing</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="http://localhost:4000/marketing/social-marketing">Social Marketing</a>
+          <a class="dropdown-item" href="http://localhost:4000/marketing/reputation-management">Reputation Management</a>
+          <a class="dropdown-item" href="http://localhost:4000/marketing/custormer-voice">Customer Voice</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Additional Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <div class="dropdown-divider"></div>
+          <p class="text-burgundy pl-4"><strong>Services</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="http://localhost:4000/services/zenreach">Zenreach</a>
+          <div class="dropdown-divider"></div>
+          <p class="text-burgundy pl-4"><strong>SEO</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="http://localhost:4000/services/diy-seo">DIY SEO</a>
+          <a class="dropdown-item" href="http://localhost:4000/services/advanced-seo">Advanced SEO</a>
+          <div class="dropdown-divider"></div>
+          <p class="text-burgundy pl-4"><strong>Branding</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/services/custom-logo-design">Custom Logo Design</a>
+          <a class="dropdown-item" href="/services/business-cards">Business Cards</a>
+          <a class="dropdown-item" href="/services/corporate-identity">Corporate Identity</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://localhost:4000/blog" title="Tips & Tricks">Blog</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="http://localhost:4000/Testimonials">At-a-Girl</a>
+      </li> -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="http://localhost:4000/about">Who is the Kodemonkey</a>
+          <a class="dropdown-item" href="http://www.Kodemonkey.Club" target="_blank">Kodemonkey Club</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://localhost:4000/Contact-Us">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn btn-sm btn-success ml-3" href="https://kaffeinatedkodemonkey.smblogin.com/" target="_blank" title="Client Dashboard">Sign In</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+  <div class="container-fluid">
+    <div class="row ml-3 mt-5 mb-5">
+      <div class="col-sm-3 col-md-3">
+
+        
+          <h1>Colorado Portal</h1>
+          <p>Designing Government sites that meet 508 Compliance</p>
+
+          <hr />
+
+          <!-- Begin MailChimp Signup Form-->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+<div id="mc_embed_signup">
+  <form action="https://kaffeinatedkodemonkey.us11.list-manage.com/subscribe/post?u=25ed2db8c5f44be422ac9503a&amp;id=ba30be4391" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <h4>Join Newsletter</h4>
+      <p><span class="text-danger">*</span> indicates required</p>
+
+      <div class="row">
+        <div class="col-sm-10">
+          <div class="form-group">
+            <label for="mce-FNAME">First Name </label>
+            <input type="text" value="" name="FNAME" class="form-control input-md" id="mce-FNAME">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-10">
+          <div class="form-group">
+            <label for="mce-LNAME">Last Name </label>
+            <input type="text" value="" name="LNAME" class="form-control input-md" id="mce-LNAME">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-10">
+          <div class="form-group">
+            <label for="mce-WEBSITE">Website </label>
+            <input type="url" value="" name="WEBSITE" class="form-control input-md" id="mce-WEBSITE">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-10">
+          <div class="form-group">
+            <label for="mce-EMAIL">Email Address  <span class="text-danger">*</span></label>
+            <input type="email" name="EMAIL" class="form-control input-md" id="mce-EMAIL" placeholder="Enter email">
+          </div>
+        </div>
+      </div>
+
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_25ed2db8c5f44be422ac9503a_ba30be4391" tabindex="-1" value=""></div>
+      <div class="clear"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-LG">Subscribe</div>
+
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
+    </div>
+  </form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[5]='WEBSITE';ftypes[5]='url';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+
+
+        
+        <hr />
+
+        <div class="row">
+  <div class="col">
+    <a href="https://cart.pcpitstop.com/go.asp?id=500754&aff=18983"><img class="img-center img-responsive img-thumbnail" src="http://www.pcpitstop.com/images/affiliates/500754.gif" style="width:100%;" border="0" alt="PC Pitstop Is your PC slow?"/></a>
+  </div>
+  <div class="col">
+    <a href="https://www.domain.com/join/index.bml?bannerID=933&AffID=746605&amp;LinkName=kodemonkey"><img src="https://www1.domain.com/affiliate/banners/933" alt="affiliate_link" class="img-center img-responsive img-thumbnail" style="width:84%;"/></a>
+  </div>
+</div>
+
+
+      </div>
+      <div class="col-sm-8 col-md-9">
+        <div class="shadow pt-5 p-5 mt-5 mb-5 bg-white rounded">
+  <!-- top row image title & Price -->
+  <div class="row">
+    <div class="col-sm-7">
+        <img src="http://localhost:4000/assets/images/website/SIPA-Govt.png" class="mt-5 pt-2" style="width: 90%; height: auto;" alt="Colorado Portal">
+    </div>
+    <div class="col-sm-5">
+      <div class="row ml-5">
+        <div class="col">
+          <h2>Pricing</h2>
+        </div>
+      </div>
+      <hr />
+      <div class="row ml-5">
+        <div class="col">
+          <p>Setup: $Based on the size of the site</p>
+          <p>Monthly: +$85</p>
+
+          <a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="btn btn-md btn-danger">Book Free Consultation</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+  <!-- Conethen -->
+  <div class="row">
+    <div class="col">
+      <p>kaffeinated Kodemonkey works with Colorado Government entities that want to use the State Internet Portal Authority (SIPA) platform.
+      SIPA, in partnership with Colorado Interactive (CI), offers no-cost solutions.</p>
+
+      <h3>SIPA Makes It Simple; Kaffeinated Kodemonkey makes it hassle-free.</h3>
+
+      <p>There is No-cost associated to set up a website for governments on the SIPA platform. You only pay for your domain name
+      and our developer to work with you in designing and laying out your content on the platform.</p>
+
+      <h3>Why switch to SIPA?</h3>
+
+      <ul>
+        <li>No monthly hosting fees</li>
+        <li><strong>Ability to keep your URL</strong></li>
+        <li>Responsive design</li>
+        <li><strong>508 compliant platform</strong></li>
+        <li><strong>User-friendly interface for staff and constituents</strong></li>
+        <li>Become a part of the Colorado.gov network</li>
+      </ul>
+
+      <h3>Why hire Kaffeinated Kodmonke?</h3>
+
+      <p>Our developers understand that it takes more than just words on a page to make a great website. Even if your purpose for the site is to
+      share content with your local community, you still want the site to be functional and welcoming to all visitors.</p>
+
+      <p>With our Accessibility driven approach to design will make sure your content meets the requirements for section 508. We have an eye for design and also know what draws the user in and what makes search engines bump your site ratings. Just by making a few tweaks to your content layout can make Goole find your site more enticing than another similar site. </p>
+
+      <p>We have been working with SIPA for several years and know what works and what does not, what can be done and how to work around what cannot be done.
+      </p>
+
+      <h4>Our Price Range:</h4>
+
+      <ul>
+        <li>A small site can run between $1k - $5k</li>
+        <li>Medium sites run between $5k - $10k</li>
+        <li>Large sites run $10k +</li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- <hr /> -->
+  <!-- Products Tabs -->
+  <div class="accordion mt-5" id="TabMenu">
+    <div class="row mb-4">
+      <div class="col">
+        <ul class="nav nav-tabs">
+          <!-- Gov Protal -->
+          <li class="nav-item pr-5" d="TM-headingOne">
+            <p class="text-center pl-0 mt-0 mb-0"><a id="tab-icon" class="nav-link gp-icon" href="#" data-toggle="collapse" data-target="#TM-collapseOne" aria-expanded="false" aria-controls="TM-collapseOne">Govt Portal</a></p>
+            <p class="small text-center">Govt Portal</p>
+          </li>
+          <!-- Listing Presence -->
+          <li class="nav-item pr-5" d="TM-headingTwo">
+            <p class="text-center pl-3 mt-0 mb-0"><a id="tab-icon" class="nav-link lb-icon" class="nav-link" href="#" data-toggle="collapse" data-target="#TM-collapseTwo" aria-expanded="false" aria-controls="TM-collapseTwo">Listing Presence</a></p>
+            <p class="small text-center">Local Listing</p>
+          </li>
+          <!-- Web Accessibiltiy -->
+          <li class="nav-item pr-5" d="TM-headingThree">
+            <p class="text-center pl-3 mt-0 mb-0"><a id="tab-icon" class="nav-link wa-icon" class="nav-link" href="#" data-toggle="collapse" data-target="#TM-collapseThree" aria-expanded="false" aria-controls="TM-collapseThree">Web Accessibiltiy </a></p>
+            <p class="small text-center">Web Accessibiltiy </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- First Tab #Gov Portal -->
+    <div id="TM-collapseOne" class="collapse show" aria-labelledby="TM-headingOner" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Gov Portal</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-8">
+          <p>FastTracking government websites. SIPA - State Internet Portal Authority and Kaffeinated Kodemonkey can complete your site in half the time it would take to do it yourself. Through our Business Center, you will be able to manage your Website and Local Listings. We use the Colorado.gov
+          platform for Colorado-based Government entities. Currently, the FastTrack package is only available in Colorado.</p>
+
+          <ul class="fa-ul">
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Design Layout - Fully Responsive mobile-friendly design </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Analytics & Insights - Monitor our ROI an user experience</li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>NAPE Information - Ensure your website includes Name, Adress, Phone </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Robust Hosting - hosted on secured servers with high levels of security </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Local Listing - Establish accurate listings across the web</li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Social Media - Add social media link to the website for Facebook</li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Claim Listing - To complie with Google we will claim your Google My Business</li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Third-Party Services - incorporation additional functionality if needed<?li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>ADA/Section 508 Compliance - Ensure access for people with disabilities</li>
+          </ul>
+
+        </div>
+
+        <!-- Gallery -->
+        <div class="col-4">
+          <h4>Gallery</h4>
+          <!-- row -->
+          <div class="row">
+            <div class="col">
+              <a href="http://localhost:4000/assets/images/website/Gov-Portal-img1.png"><img src="http://localhost:4000/assets/images/website/Gov-Portal-img1.png"></a>
+            </div>
+            <div class="col">
+
+            </div>
+          </div>
+          <!-- end row -->
+        </div>
+      </div>
+
+    </div> <!-- Close Tabe -->
+
+    <!-- Second Tab #Local Listing -->
+    <div id="TM-collapseTwo" class="collapse" aria-labelledby="TM-headingTwo" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Local Listing</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-8">
+          <h3>Get found. Generate traffic. Grow revenue.</h3>
+
+          <p>Establish accurate business listings and appear in more places across the web. Packed with three powerful presence management tools—Listing Sync, Listing Distribution and My Listing—this is the most comprehensive business listing solution on the market.</p>
+
+          <h3 class="text-center mb-4"><a href="https://storage.googleapis.com/mediarepo-prod/marketplace-products/2f05af30-08f4-45e8-8536-0c05d45d2ed2/Watch%20this%20video!.mp4">[Watch our Video]</a></h3>
+
+          <ul class="fa-ul">
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Listing Sync Basic: Sync to Google My Business, Facebook, and Twitter</li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Listing Distribution: Build accurate business listings on the four major data aggregators—Acxiom, Factual, Infogroup, and Neustar Localeze. </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>My Listing: Create a mobile-responsive business listing that is optimized for local searches.</li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Google Insights: Google Insights in Listing Builder gives your clients a valuable glimpse of their customer activity, including how customers find their listing and what customers do with their listing. </li>
+          </ul>
+
+        </div>
+
+        <!-- Gallery -->
+        <div class="col-4">
+          <h4>Gallery</h4>
+          <!-- row -->
+          <div class="row">
+            <div class="col">
+              <a href="http://localhost:4000/assets/images/ListingPro/listing-builder-img1.png"><img src="http://localhost:4000/assets/images/ListingPro/listing-builder-img1.png"></a>
+            </div>
+            <div class="col">
+              <a href="http://localhost:4000/assets/images/ListingPro/listing-builder-img2.png"><img src="http://localhost:4000/assets/images/ListingPro/listing-builder-img2.png"></a>
+            </div>
+          </div>
+          <!-- end row -->
+          <!-- row -->
+          <div class="row">
+            <div class="col">
+              <a href="http://localhost:4000/assets/images/ListingPro/listing-builder-img3.png"><img src="http://localhost:4000/assets/images/ListingPro/listing-builder-img3.png"></a>
+            </div>
+            <div class="col">
+              <a href="http://localhost:4000/assets/images/ListingPro/listing-builder-img4.png"><img src="http://localhost:4000/assets/images/ListingPro/listing-builder-img4.png"></a>
+            </div>
+          </div>
+          <!-- end row -->
+          <!-- row -->
+          <div class="row">
+            <div class="col">
+              <a href="http://localhost:4000/assets/images/ListingPro/listing-builder-img5.png"><img src="http://localhost:4000/assets/images/ListingPro/listing-builder-img5.png"></a>
+            </div>
+            <div class="col">
+              <a href="http://localhost:4000/assets/images/ListingPro/listing-builder-img6.png"><img src="http://localhost:4000/assets/images/ListingPro/listing-builder-img6.png"></a>
+            </div>
+          </div>
+          <!-- end row -->
+          <!-- row -->
+          <div class="row ">
+            <div class="col mt-3">
+              <a href="https://storage.googleapis.com/mediarepo-prod/marketplace-products/44c57699-5ff4-4038-a505-b7ded4167261/Read%20this%20brochure.pdf" target="_blank"><span class="mr-2"><i class="fas fa-file-pdf"></i></span>Read this brochure (PDF)</a>
+            </div>
+          </div>
+          <!-- end row -->
+
+
+        </div>
+      </div>
+    </div> <!-- Close Tabe -->
+
+    <!-- Second Tab #Enhanced Builder -->
+    <div id="TM-collapseThree" class="collapse" aria-labelledby="TM-headingThree" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Web Accessibiltiy</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-8">
+
+          <p>In 1998 the Rehabilitation Act of 1973 was amended requiring Federal agencies to make their electronic and information technology (EIT) accessible to people with disabilities. Frequently referred to as Section 508. What most do not know is in alinement to Section 508 is Section 504 for all non-federal website. Everyone else.</p>
+          <p>The Department of Justice (DOJ) says that ADA requires any person, business, or organization covered under the Act to communicate effectively about their programs, services, and activities. This includes information provided through your website.</p>
+          <p>Simply put, Web accessibility refers to the inclusive practice of removing barriers that prevent interaction with, or access to websites, by people with disabilities. When sites are correctly designed, developed and edited, all users have equal access to information and functionality.</p>
+          <p>The refresh also harmonized these requirements with other guidelines and standards both in the U.S. and abroad, including standards issued by the European Commission, and with the World Wide Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG), a globally recognized voluntary consensus standard for web content and ICT.</p>
+
+          <ul class="fa-ul">
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Makes responsive design more user friendly </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>We follow the requirements for Section 508 & WCAG guidelines </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Enhance Marketing efforts and boost your SEO</li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>We will create your VPAT document for verification of compliance </li>
+          </ul>
+
+          <h3 class="text-uppercase">FAQ</h3>
+
+          <div class="accordion" id="LocalListings">
+            <div class="card">
+              <div class="card-header" id="LL-headingOne">
+                <a href="#" class="collapsed"  data-toggle="collapse" data-target="#LL-collapseOne" aria-expanded="true" aria-controls="LL-collapseOne">
+                  What is Web Accessibility?
+                </a>
+              </div>
+              <div id="LL-collapseOne" class="collapse" aria-labelledby="LL-headingOne" data-parent="#LocalListings">
+                <div class="card-body">
+                  <p>Web accessibility refers to the inclusive practice of removing barriers that prevent interaction with, or access to websites, by people with disabilities. When sites are correctly designed, developed and edited, all users have equal access to information and functionality.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="LL-headingTwo">
+                  <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#LL-collapseTwo" aria-expanded="false" aria-controls="LL-collapseTwo">
+                    What is ADA Compliance?
+                  </a>
+              </div>
+              <div id="LL-collapseTwo" class="collapse" aria-labelledby="LL-headingTwo" data-parent="#LocalListings">
+                <div class="card-body">
+                  <p>ADA is the Americans Disability Act. This refers to brick and mortar locations an requires them to meet requirements for people with disabilities. However, with Web Accessibility, these two terms sometimes get interchanged with each other when referring to electronic or online documentation. </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="LL-headingThree">
+                  <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#LL-collapseThree" aria-expanded="false" aria-controls="LL-collapseThree">
+                    Does Web Accessibility apply to my business?
+                  </a>
+              </div>
+              <div id="LL-collapseThree" class="collapse" aria-labelledby="LL-headingThree" data-parent="#LocalListings">
+                <div class="card-body">
+                  <p>Yes. If you have a website for your business or share documents online they all need to follow accessibility standards.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="LL-headingFour">
+                  <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#LL-collapseFour" aria-expanded="false" aria-controls="LL-collapseFour">
+                    Who is mandates and enforces Accessibility?
+                  </a>
+              </div>
+              <div id="LL-collapseFour" class="collapse" aria-labelledby="LL-headingFour" data-parent="#LocalListings">
+                <div class="card-body">
+                  <p>There is no straightforward answer to this question. At the current time, the DOJ (Dept. of Justice) is overseeing mandates for Accessibility and have been working to put requirements in place that will follow the WCAG guidelines. As of now the only type of enforcement is lawyers that are willing to take on a disability claim and penalize you for not following the WCAG guidelines.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="LL-headingFive">
+                  <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#LL-collapseFive" aria-expanded="false" aria-controls="LL-collapseFive">
+                    What is WCAG?
+                  </a>
+              </div>
+              <div id="LL-collapseFive" class="collapse" aria-labelledby="LL-headingFive" data-parent="#LocalListings">
+                <div class="card-body">
+                  <p>WCAG stands for Web Content Accessibility Guidelines. At the time of writing, we are at version 2.0 with 2.1 on the horizon. This set of guidelines have been put forth by the W3C in conjunction with the ENU to create a worldwide set of guidelines/standards to follow.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="LL-headingSix">
+                  <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#LL-collapseSix" aria-expanded="false" aria-controls="LL-collapseSix">
+                    What is a VPAT Document?
+                  </a>
+              </div>
+              <div id="LL-collapseSix" class="collapse" aria-labelledby="LL-headingSix" data-parent="#LocalListings">
+                <div class="card-body">
+                  <p>A Voluntary Product Accessibility Template (VPAT) is a document that explains how information and communication technology (ICT) products such as software, hardware, electronic content, and support documentation conform to the Revised 508 Standards for IT accessibility. VPATs help Federal agency contracting officials and government buyers to assess ICT for accessibility when doing market research and evaluating proposals.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div> <!-- Close Tabe -->
+
+  </div><!-- Close Tabs -->
+</div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <section id="footer-menu" class="sections footer-menu">
+  <div class="container-fluid p-5">
+    <div class="row">
+      <!-- <div class="footer-menu-wrapper"> -->
+        <div class="col-md-8 col-sm-6">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="menu-item">
+                <p><strong>Development</strong></p>
+                <ul class="footer">
+                  <li><a href="http://localhost:4000/website/microsite">Microsite</a></li>
+                  <li><a href="http://localhost:4000/website/diy-builder">DIY - Builder</a></li>
+                  <li><a href="http://localhost:4000/website/diwm-cms">DIWM - CMS</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="menu-item">
+                <p><strong>Marketing </strong></p>
+                <ul class="footer">
+                  <li><a href="http://localhost:4000/packages/listing-presence/">Listing Presence</a></li>
+                  <li><a href="http://localhost:4000/marketing/local-listings">Local Listings</a></li>
+                  <li><a href="http://localhost:4000/marketing/listing-pro">Listing Pro</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="menu-item">
+                <p><strong>Branding</strong></p>
+                <ul class="footer">
+                  <li><a href="/services/business-cards" title="Custom designed business cards">Business Cards</a></li>
+                  <li><a href="/services/corporate-identity" title="All in one packaged for your business">Corporate Identity</a></li>
+                  <li><a href="/services/custom-logo-design" title="Original logo design">Custom Logo Design</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="menu-item">
+                <p><strong>Specialty Services</strong></p>
+                <ul class="footer">
+                  <li><a href="https://vpat-compliant.com/Monitoring" target="_blank">Accessibility Monitoring</a></li>
+                  <li><a href="https://vpat-compliant.com" target="_blank">VPAT Compliant</a></li>
+                  <li><a href="http://localhost:4000/website/government-website">Government</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div id="mc_embed_signup">
+            <form action="https://kaffeinatedkodemonkey.us11.list-manage.com/subscribe/post?u=25ed2db8c5f44be422ac9503a&amp;id=1b6530d445" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <div class="menu-item">
+                  <p><strong>Join our monthly Newsletter</strong></p>
+                  <p>Learn Cool things and get updates on new services</p>
+                  <div class="input-group">
+                    <label class="sr-only" for="emailnl">Email:</label>
+                      <input type="email" class="form-control" id="emailnl" name="EMAIL" placeholder="Enter your email address">
+                      <input type="submit" class="form-control" value="Sign Up" name="subscribe" >
+                  </div>
+                  <div id="mce-responses" class="clear">
+                		<div class="response" id="mce-error-response" style="display:none"></div>
+                		<div class="response" id="mce-success-response" style="display:none"></div>
+                	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <label for="spam" class="visuallyhidden">Span:</label>
+                    <input type="text" id="spam" name="b_25ed2db8c5f44be422ac9503a_1b6530d445" tabindex="-1" value="" hidden></div>
+                </div>
+              </form>
+            </div>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            <!--End mc_embed_signup-->
+          </div>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+</section>
+
+<!--Footer-->
+<footer id="footer" class="footer">
+    <div class="footer-wrapper">
+      <div class="row px-4">
+        <div class="col-3">
+          <div class="footer-brand">
+            <img src="http://localhost:4000/assets/images/KKM-Logo-Sticker-shadow.png" style="width: 50%;" alt="Kaffeinated Kodemonkey Logo" />
+          </div>
+        </div>
+        <div class="col-9 mt-5">
+          <div class="copyright">
+            <h3 class="small">copyright <i class="fa fa-copyright"></i> 2015 - Present. All rights reserved. | <a href="http://localhost:4000/policies/Privacy-policy.pdf">Privacy</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <script src="http://localhost:4000/assets/js/lightbox.js"></script>
+  <!-- <script src="http://localhost:4000/assets/js/vendor/jquery-1.11.2.min.js"></script>
+  <script src="http://localhost:4000/assets/js/vendor/bootstrap.min.js"></script>
+
+  <script src="http://localhost:4000/assets/js/plugins.js"></script>
+  <script src="http://localhost:4000/assets/js/modernizr.js"></script>
+  <script src="http://localhost:4000/assets/js/main.js"></script> -->
+
+
+  </body>
+</html>

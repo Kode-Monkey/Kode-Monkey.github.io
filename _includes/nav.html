@@ -1,85 +1,93 @@
-<nav class="navbar navbar-default">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/" title="Kodemonkeky" id="logo">kaffeinated kodemonkey</a>
+<nav class="navbar navbar-expand-sm navbar-dark pt-3" style="background-color: #013b56;">
+  <a class="navbar-brand ml-1" href="/" title="Kodemonkeky" id="logo">kaffeinated kodemonkey</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="ml-auto d-flex justify-content-end">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav justify-content-end">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Websites
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <p class="text-burgundy pl-4"><strong>Basic Packages</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{{site.url}}/website/microsite">Microsite</a>
+          <a class="dropdown-item" href="{{site.url}}/website/diy-builder">DIY - Builder</a>
+          <a class="dropdown-item" href="{{site.url}}/website/diwm-cms">DIWM - CMS</a>
+          <div class="dropdown-divider"></div>
+          <p class="text-burgundy pl-4"><strong>Specialty Services</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{{site.url}}/website/government-website">Government</a>
+          <a class="dropdown-item" href="https://vpat-compliant.com/" target="_blank">Web Accessibility</a>
+          <a class="dropdown-item" href="{{site.url}}/website/maintenance-management">Maintenance & Management</a>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="{{site.url}}/index">Home</a></li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Website Pakages">Websites <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li class="text-success">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Basic Packages</strong></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="{{site.url}}/Website/Microsite">Microsite</a></li>
-                    <li><a href="{{site.url}}/Website/DIY-Builder">DIY - Builder</a></li>
-                    <li><a href="{{site.url}}/Website/DIWM-CMS">DIWM - CMS</a></li>
-
-                    <li role="separator" class="divider"></li>
-                    <li class="text-success">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Specialty Services</strong></li>
-                    <li role="separator" class="divider"></li>
-                    <!--<li><a href="{{site.url}}/Website/Chai-Latte-Custom-Build" title="Custom Develope Website">Chai Latte</a></li>-->
-                    <li><a href="{{site.url}}/Website/Government-Website">Government</a></li>
-                    <li><a href="{{site.url}}/Website/Web-Accessibility">Web Accessibility</a></li>
-                    <li><a href="{{site.url}}/Website/Maintenance-Management">Maintenance & Management</a></li>
-                    <!-- <li><a href="{{site.url}}/Website/Web-Accessibility" title="Web Accessibility - ADA/508 Compliance">Web Accessibility</a></li> -->
-
-                    <!--<li role="separator" class="divider"></li>
-                    <li class="text-success">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Support</strong></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="{{site.url}}/Website/Website-Support" title="Webite Support Services">Website Support </a></li>-->
-                  </ul>
-                </li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Marketing Pakages">Marketing <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li class="text-success">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Packages</strong></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="{{site.url}}/Marketing/Online-Presence">Online Presence</a></li>
-                    <!-- <li><a href="{{site.url}}/Marketing/Custormer-Voice">Customer Voice</a></li> -->
-                    <li><a href="{{site.url}}/Marketing/ListingPro">Listing Pro</a></li>
-                    <li><a href="{{site.url}}/Marketing/DIY-SEO">SEO Marketing</a></li>
-
-                    <li role="separator" class="divider"></li>
-                    <li class="text-success">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>A la Carte</strong></li>
-                    <li role="separator" class="divider"></li>
-                    <!--<li><a href="{{site.url}}/Marketing/ListingDistribution">ListingDistribution</a></li>
-                    <li><a href="{{site.url}}/Marketing/SocialMarketing">Social Marketing</a></li>
-                    <li><a href="{{site.url}}/Marketing/ReputationManagement">Reputation Management</a></li>-->
-                    <li><a href="{{site.url}}/Marketing/AdvancedSEO">Advanced SEO</a></li>
-                    <!--<li><a href="{{site.url}}/Marketing/SimplySocialShare" title="Promote your brand for a month">Simply Social Share</a></li>-->
-
-                  </ul>
-                </li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Branding Pakages">Branding <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li class="text-success">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>A la Carte</strong></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="{{site.url}}/Branding/LogoDesign">Logo Design</a></li>
-                    <li><a href="{{site.url}}/Branding/BusinessCards">Business Cards</a></li>
-                    <li><a href="{{site.url}}/Branding/CorporateIdentity">Corporate Identity</a></li>
-                  </ul>
-                </li>
-                <li><a href="{{site.url}}/blog" title="Tips & Tricks">Blog</a></li>
-                <li><a href="{{site.url}}/Testimonials">At-a-Girl</a></li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="About kaffeinated Kodemonkey">About <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="{{site.url}}/about">Who is the Kodemonkey</a></li>
-                    <li><a href="http://www.Kodemonkey.Club" target="_blank">Kodemonkey Club</a></li>
-                  </ul>
-                </li>
-                <li><a href="{{site.url}}/Contact-Us">Contact</a></li>
-                <li class="login"><a href="https://kaffeinatedkodemonkey.smblogin.com/" target="_blank" title="Client Dashboard">Sign In</a></li>
-            </ul>
-
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Marketing
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <p class="text-burgundy pl-4"><strong>Listings</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{{site.url}}/packages/listing-presence">Listing Presence</a>
+          <a class="dropdown-item" href="{{site.url}}/marketing/local-listings">Local Listings</a>
+          <a class="dropdown-item" href="{{site.url}}/marketing/listing-pro">Listing Pro</a>
+          <div class="dropdown-divider"></div>
+          <p class="text-burgundy pl-4"><strong>Social Marketing</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{{site.url}}/marketing/social-marketing">Social Marketing</a>
+          <a class="dropdown-item" href="{{site.url}}/marketing/reputation-management">Reputation Management</a>
+          <a class="dropdown-item" href="{{site.url}}/marketing/custormer-voice">Customer Voice</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Additional Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <div class="dropdown-divider"></div>
+          <p class="text-burgundy pl-4"><strong>Services</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{{site.url}}/services/zenreach">Zenreach</a>
+          <div class="dropdown-divider"></div>
+          <p class="text-burgundy pl-4"><strong>SEO</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{{site.url}}/services/diy-seo">DIY SEO</a>
+          <a class="dropdown-item" href="{{site.url}}/services/advanced-seo">Advanced SEO</a>
+          <div class="dropdown-divider"></div>
+          <p class="text-burgundy pl-4"><strong>Branding</strong></p>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{{siteurl}}/services/custom-logo-design">Custom Logo Design</a>
+          <a class="dropdown-item" href="{{siteurl}}/services/business-cards">Business Cards</a>
+          <a class="dropdown-item" href="{{siteurl}}/services/corporate-identity">Corporate Identity</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{site.url}}/blog" title="Tips & Tricks">Blog</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="{{site.url}}/Testimonials">At-a-Girl</a>
+      </li> -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="{{site.url}}/about">Who is the Kodemonkey</a>
+          <a class="dropdown-item" href="http://www.Kodemonkey.Club" target="_blank">Kodemonkey Club</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{site.url}}/Contact-Us">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn btn-sm btn-success ml-3" href="https://kaffeinatedkodemonkey.smblogin.com/" target="_blank" title="Client Dashboard">Sign In</a>
+      </li>
+    </ul>
+  </div>
 </nav>

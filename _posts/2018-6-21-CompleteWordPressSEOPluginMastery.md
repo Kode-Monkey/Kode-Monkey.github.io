@@ -3,9 +3,9 @@ layout: posts
 title:  "The Complete WordPress SEO Plugin"
 image: "Feature-Image-1.jpg"
 alt: "WordPress SEO Plugin"
-
 date:   2018-06-21
-category: SEO
+categories: SEO
+tags: [SEO, WordPress, Yoast, Optimization, AMP, Broken Link, Speed, Security, Image]
 image: Enhanced-SEO.png
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
@@ -66,7 +66,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><strong>Elevator Pitch:</strong></p>
 
-<p>Through walk-throughs and advanced settings, <a href="https://yoast.com/wordpress/plugins/seo/" target="_blank">Yoast</a> is the one stop shop for beginners and experts alike. Featuring sitemaps, title and meta descriptions, and the ability to connect Google Search Console, this plugin does everything to please users and search engine spiders alike.</p>
+<p>Through walk-throughs and advanced settings, <a href="https://yoast.com/wordpress/plugins/seo/" target="blank">Yoast</a> is the one stop shop for beginners and experts alike. Featuring sitemaps, title and meta descriptions, and the ability to connect Google Search Console, this plugin does everything to please users and search engine spiders alike.</p>
 
 <p>With built in content and SEO analysis, Yoast can also insure that your content is always killer (in Google’s eyes as well as prospect’s eyes). By upgrading to premium, you also gain access to a local SEO extension which adds a local schema markup to your web pages.  Other premium features include video and news extensions.</p>
 
@@ -97,7 +97,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>Ever get frustrated when you’re trying to look something up on your phone and it takes 3 full days to load? We all lead pretty busy lives, and just don’t have time for that nonsense.  </p>
 
-<p>By using <a href="https://wordpress.org/plugins/amp/" target="_BLANK">AMP for WordPress</a>, you can insure that your prospects never give up hope as a result of a slow mobile site. By creating AMP content, which Google is now factoring into SEO rankings, this plugin caters to the needs of major AMP consumers such as Google Search.</p>
+<p>By using <a href="https://wordpress.org/plugins/amp/" target="blank">AMP for WordPress</a>, you can insure that your prospects never give up hope as a result of a slow mobile site. By creating AMP content, which Google is now factoring into SEO rankings, this plugin caters to the needs of major AMP consumers such as Google Search.</p>
 
 <img src="{{site.url}}/assets/images/Blog/All-in-One-Screenshot-768x272.png" alt="SEO Screenshot" class="img-responsive img-thumbnail">
 
@@ -113,7 +113,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <h2>2. Mobile Website Optimization Plugins</h2>
 
-<p>This SEO factor earned itself a priority seat due to the fact that Google is now favoring outlets that are running on AMP code. <a href="https://webmasters.googleblog.com/2018/01/using-page-speed-in-mobile-search.html" target="_blank">Google announced</a> just last month, January 2018, that it would begin prioritizing pages with fast mobile loading speed in their search algorithm. What this means is that mobile optimization will now be a high ranking factor in every sites overall SEO performance on Google.</p>
+<p>This SEO factor earned itself a priority seat due to the fact that Google is now favoring outlets that are running on AMP code. <a href="https://webmasters.googleblog.com/2018/01/using-page-speed-in-mobile-search.html" target="blank">Google announced</a> just last month, January 2018, that it would begin prioritizing pages with fast mobile loading speed in their search algorithm. What this means is that mobile optimization will now be a high ranking factor in every sites overall SEO performance on Google.</p>
 
 <p>This makes it more critical than ever to have your sites optimized for mobile. Considering that the majority of browsing these days is conducted from mobile devices, it just makes sense.</p>
 
@@ -125,7 +125,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>Ever get frustrated when you’re trying to look something up on your phone and it takes 3 full days to load? We all lead pretty busy lives, and just don’t have time for that nonsense.</p>
 
-<p>By using <a href="https://wordpress.org/plugins/amp/" target="_blank">AMP for WordPress</a>, you can insure that your prospects never give up hope as a result of a slow mobile site. By creating AMP content, which Google is now factoring into SEO rankings, this plugin caters to the needs of major AMP consumers such as Google Search.</p>
+<p>By using <a href="https://wordpress.org/plugins/amp/" target="blank">AMP for WordPress</a>, you can insure that your prospects never give up hope as a result of a slow mobile site. By creating AMP content, which Google is now factoring into SEO rankings, this plugin caters to the needs of major AMP consumers such as Google Search.</p>
 
 <img src="{{site.url}}/assets/images/Blog/AMP-for-WordPress-Screenshot-768x587.png" alt="Design Screenshot" class="img-responsive img-thumbnail">
 
@@ -145,7 +145,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>These guys also spared no creativity in terms of naming themselves, but I guess that there’s no harm in getting to the point either…</p>
 
-<p><a href="https://wordpress.org/plugins/accelerated-mobile-pages/" target="_blank">AMP for WP</a> is pretty straight-forward, and simply adds AMP functionality to your WordPress site to improve mobile site speed through search engines (like Google!).</p>
+<p><a href="https://wordpress.org/plugins/accelerated-mobile-pages/" target="blank">AMP for WP</a> is pretty straight-forward, and simply adds AMP functionality to your WordPress site to improve mobile site speed through search engines (like Google!).</p>
 
 <img src="{{site.url}}/assets/images/Blog/AMP-for-WP-Screenshot-768x543.png" alt="Price Center" class="img-responsive img-thumbnail">
 
@@ -255,7 +255,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><strong>Elevator Pitch:</strong></p>
 
-<p><a href="https://wordpress.org/plugins/wordfence/" target="_blank">Wordfence Security</a> was built for the specific application of WordPress sites. It includes an endpoint firewall and malware scanner, as well as a Threat Defence Feed that insures that Wordfence is always up to date with the newest firewall rules, malware signatures, and malicious IP addresses it needs to keep your site safe.</p>
+<p><a href="https://wordpress.org/plugins/wordfence/" target="blank">Wordfence Security</a> was built for the specific application of WordPress sites. It includes an endpoint firewall and malware scanner, as well as a Threat Defence Feed that insures that Wordfence is always up to date with the newest firewall rules, malware signatures, and malicious IP addresses it needs to keep your site safe.</p>
 
 <img src="{{site.url}}/assets/images/Blog/Wordfence-Screenshot-768x576.png" alt="Wordfence" class="img-responsive img-thumbnail">
 
@@ -265,7 +265,7 @@ permalink: /blog/:categories/:title:output_ext
 <li class="basic-li">2M+ active installs (best in class)</li>
 <li class="basic-li">5 star rating across over 3000 reviews on WordPress.org</li>
 <li class="basic-li">User friendly feeds to monitor performance</li>
-<ul>
+</ul>
 
 <h3>The Security Winner</h3>
 

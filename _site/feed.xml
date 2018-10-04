@@ -7,7 +7,11 @@
     
       
         <item>
+<<<<<<< HEAD
           <title>How to Perform a Local SEO Audit for Your Business in 12 Steps</title>
+=======
+          <title>Local SEO Audit - 12 Steps</title>
+>>>>>>> siteupdate
           <description></description>
           <pubDate>2018-09-18T00:00:00-06:00</pubDate>
           <link>http://localhost:4000/blog/seo/Local-SEO-Audit.html</link>
@@ -80,8 +84,8 @@
           <title>Online Presence</title>
           <description></description>
           <pubDate>2018-02-22T00:00:00-07:00</pubDate>
-          <link>http://localhost:4000/blog/tips%20&amp;%20tricks/Online-Presence.html</link>
-          <guid isPermaLink="true">http://localhost:4000/blog/tips%20&amp;%20tricks/Online-Presence.html</guid>
+          <link>http://localhost:4000/blog/tips%20&%20tricks/Online-Presence.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/tips%20&%20tricks/Online-Presence.html</guid>
         </item>
       
     
@@ -90,8 +94,8 @@
           <title>Google My Business</title>
           <description></description>
           <pubDate>2018-02-20T00:00:00-07:00</pubDate>
-          <link>http://localhost:4000/blog/tips%20&amp;%20tricks/Googl-My-Business.html</link>
-          <guid isPermaLink="true">http://localhost:4000/blog/tips%20&amp;%20tricks/Googl-My-Business.html</guid>
+          <link>http://localhost:4000/blog/tips%20&%20tricks/Googl-My-Business.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/tips%20&%20tricks/Googl-My-Business.html</guid>
         </item>
       
     

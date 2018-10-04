@@ -2,7 +2,7 @@
 layout: posts
 title:  "Google My Business"
 date:   2018-02-20
-category: Tips &amp; Tricks
+categories: [Tips & Tricks]
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 ---
