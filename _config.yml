@@ -36,7 +36,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-permalink: /:title/
+# permalink: /:title/
 
 future: false
 

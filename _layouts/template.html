@@ -15,32 +15,32 @@
   {% include nav.html %}
 
   <div class="container-fluid">
-    <div class="row">
+    <div class="row ml-3 mt-5 mb-5">
       <div class="col-sm-3 col-md-3">
 
-        <h1 class="text-center">{{ page.title }}</h1>
-
-        {% if page.category == "blog" %}
-          <img src="{{ site.url }}/assets/images/{{page.image}}" style="width: 25%;" class="img-responsive" alt="{{page.title}}" />
-          {% include blogpost.html %}
-        {% else %}
-
-          {% if page.title == "About" %}
+        {% if page.title == "About" %}
             <img class="img-responsive img-thumbnail" src="{{sit.url}}/assets/images/TheKodemonkey.jpg" alt="Heather Welsh">
-          {% else %}
-            {% include fbpost.html %}
-          {% endif %}
+        {% elsif page.title == "Contact Us" %}
+          <h1>{{ page.title }}</h1>
+
+          <hr />
+          {% include fbpost.html %}
+
+          <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="btn btn-md btn-danger">Schedule a Free Consultation</a></p>
+
+        {% else %}
+          <h1>{{ page.title }}</h1>
+          <p>{{page.subtitle}}</p>
 
           <hr />
 
+          {% include blogpost.html %}
 
-          <h3 class="small text-center">Call <a href="tel:7206081444" title="Call the Kodemonkey{">{{site.phone}}</a></h3>
-          <h3 class="text-center"><a href="https://kaffeinatedkodemonkey.youcanbook.me/" class="btn btn-md btn-primary" title="Free Consultation">Book Consultation</a></h3>
 
-          <hr />
+        {% endif %}
+        <hr />
 
         {% include Ad.html %}
-        {% endif %}
 
       </div>
       <div class="col-sm-8 col-md-9">

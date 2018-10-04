@@ -2,7 +2,7 @@
 layout: posts
 title:  "Online Presence"
 date:   2018-02-22
-category: Tips &amp; Tricks
+categories: [Tips & Tricks]
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 ---
@@ -45,8 +45,7 @@ Through your companies website, social media accounts,  articles &amp; citations
   <div class="col-sm-5">
     <p><a href="https://brandyourself.com" title="BrandYourSelf" target="blank"><img src="{{site.url}}/assets/images/Blog/brand-yourself-348x348.jpg" allt="BrandYourslf" class="img-responsive img-thumbnail"></a></p>
 
-  </div>
-</div>
+  </div></div>
 
 <p>I would recommend you give the <a href="https://brandyourself.com" title="How to BrandYourSelf" target="blank"><strong>BrandYourself</strong></a> a read.</p>
 

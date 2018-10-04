@@ -1,20 +1,45 @@
 <!-- header -->
 {% include header.html %}
+<hr class="header" />
 
 <!-- Feature Sections -->
-<hr class="header" />
 <section id="feature" class="feature sections lightbg">
-  {% include featured-section.html %}
+  {% include slider.html %}
 </section>
+<hr class="features" />
+
+<!-- Welcome -->
+<section id="welcome" class="welcome sections lightbg">
+  <div class="container">
+    <div class="row">
+      <div class="col-2 mx-0 my-0 px-0 py-0">
+        <img src="{{ site.url }}/assets/images/kodemonkey.png" />
+      </div>
+      <div class="col-9 ml-5 mt-5">
+        <p>Kaffeinated Kodemonky is dedicated to <strong>Accessibility Driven Development</strong>.</p>
+        <p>It is our goal to help business succed with an online presence that and meets <strong>Web Accessibility requirements</strong>
+        for WCAG 2+, EU, and Section 508.</p>
+        <p>Our developers build <strong>POUR websites</strong> that follow the <a href="https://www.w3.org/2004/10/wcag2-nav/wcag20princ.html" target="_blank">WCAG principles</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="features" />
 
 <!-- Products Sections -->
-<hr class="features" />
 <section id="products" class="products sections lightbg">
   {% include products-section.html %}
 </section>
+<hr class="features" />
+
+<!-- Testimonials -->
+<section id="testimonials" class="testimonials sections lightbg">
+  {% include testimonials.html %}
+</section><!-- End of Testimonials Section -->
+<hr class="features" />
 
 <!-- Contsct Sections -->
-<hr class="features"/>
+
 <section id="contact" class="contact sections lightbg">
   {% include contact-section.html %}
 </section><!-- End of Contact Section -->

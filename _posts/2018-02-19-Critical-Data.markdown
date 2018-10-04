@@ -2,7 +2,8 @@
 layout: posts
 title:  "Critical Data"
 date:   2018-02-19
-category: Listings
+categories: Listings
+tags: [Critical Data, NAP, business listing, Google]
 image: Listing_Sync_Pro_High_Res.png
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
@@ -124,5 +125,3 @@ directories. This is essential for search engines to validate you as a credible 
 </div>
 
 <p>The more information you include across all listing sources and directories, the easier it will be for consumers to find your business and purchase your products and/or services.</p>
-
-<p>&amp;nbsp;</p>

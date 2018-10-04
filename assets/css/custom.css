@@ -20,56 +20,101 @@
   margin-right: 5px;
   padding-left: 5px;
 }
+
+.text-burgundy{
+  color: #68142B;
+  font-size: 1.2em;
+}
+
+/***** G-Suite *****/
 .gsuite-icon {
   background: url('../images/nav-icons/G-Suite.jpg') no-repeat;
   background-size: 100%;
 }
 
+/***** Webaite Pro *****/
 .wsp-icon{
-  background: url('../images/nav-icons/WSP.png') no-repeat;
+  background: url('../images/nav-icons/Website-Pro.png') no-repeat;
   background-size: 100%;
 }
 
-.local-icon{
-  background: url('../images/nav-icons/LocalListing.png') no-repeat;
+/***** Listing Presence *****/
+.lb-icon{
+  background: url('../images/nav-icons/Listing-Builder-icon.png') no-repeat;
   background-size: 100%;
 }
+
+.lsp-icon{
+  background: url('../images/ListingPro/Listing-Sync-Pro-icon.png') no-repeat;
+  background-size: 100%;
+}
+
+.ld-icon{
+  background: url('../images/ListingPro/Listing-Distribution-icon.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** Ad Intell *****/
 .adintell-icon{
   background: url('../images/nav-icons/AdIntell.png') no-repeat;
   background-size: 100%;
 }
+
+/***** Advanced Reporting *****/
+.advrpt-icon {
+  background: url('../images/nav-icons/AdvancedReporting.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** Corporate Identity *****/
 .corpid-icon{
   background: url('../images/nav-icons/CorpId.jpg') no-repeat;
   background-size: 100%;
 }
+
+/***** Boostability *****/
 .boost-icon{
   background: url('../images/nav-icons/BoostSEO.png') no-repeat;
   background-size: 100%;
 }
+
+/***** Custom Logo Design *****/
 .cld-icon{
   background: url('../images/nav-icons/CLD.jpg') no-repeat;
   background-size: 100%;
 }
+
+/***** MarketGoo *****/
 .mktg-icon{
   background: url('../images/nav-icons/MktG.png') no-repeat;
   background-size: 100%;
 }
+
+/***** Videobolt *****/
 .videobolt-icon{
   background: url('../images/nav-icons/Videobolt.jpg') no-repeat;
   background-size: 100%;
 }
+
+/***** SocialMonitoring *****/
 .smonitoring-icon{
   background: url('../images/nav-icons/SocialMonitoring.png') no-repeat;
   background-size: 100%;
 }
+
+/***** Customer Voice *****/
 .cv-icon{
   background: url('../images/nav-icons/CustomerVoice.png') no-repeat;
   background-size: 100%;
 }
+
+/***** Zenreach *****/
 .zen-icon{
   background: url('../images/nav-icons/Zenreach.png') no-repeat;
   background-size: 100%;
 }
+
+/***** Reputation Management *****/
 .reputation-icon{
   background: url('../images/nav-icons/Reputation.png') no-repeat;
   background-size: 100%;
@@ -82,6 +127,42 @@
   background: url('../images/nav-icons/ReviewWidget.png') no-repeat;
   background-size: 100%;
 }
+
+/***** Builder *****/
+.bbuilder-icon{
+  background: url('../images/nav-icons/Basic-Builder-icon.png') no-repeat;
+  background-size: 100%;
+}
+.ebuilder-icon{
+  background: url('../images/nav-icons/Enhanced-Builder-icon.png') no-repeat;
+  background-size: 100%;
+}
+.pbuilder-icon{
+  background: url('../images/nav-icons/Premium-Builder-icon.png') no-repeat;
+  background-size: 100%;
+}
+.ubuilder-icon{
+  background: url('../images/nav-icons/Ultimate-Builder-icon.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** Web Accessibility *****/
+.wa-icon{
+  background: url('../images/nav-icons/Web-Accessibility-icon.jpg') no-repeat;
+  background-size: 100%;
+}
+/***** Gov Portal *****/
+.gp-icon{
+  background: url('../images/nav-icons/Gov-Portal-icon.png') no-repeat;
+  background-size: 100%;
+}
+/***** Website maintenance *****/
+.wm-icon{
+  background: url('../images/nav-icons/Website-Maintenance-icon.png') no-repeat;
+  background-size: 100%;
+}
+
+
 
 /********** end on-page tabs icons **********/
 hr.header {
@@ -109,15 +190,18 @@ hr.features {
 
 /********* Responsive IFrame *********/
 .resp-container {
-  overflow: hidden;
+  position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin-bottom: 25px;
 }
 .resp-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 /* 4x3 Aspect Ratio */
@@ -132,10 +216,13 @@ hr.features {
 }
 
 .basic-li{
-  padding: 10px;
-  margin-left: 35px;
+  padding: 5px;
   font-size: .8em;
   list-style: disc;
+}
+
+li{
+  line-height: 2.1em;
 }
 
 .img-center{
@@ -187,4 +274,79 @@ a.btn-danger:hover {
     background-color: #68142b;
     border-color: #68142b;
 
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #eaab4d;
+    border-color: #eaab4d;
+
+}
+/********** Testimonilas **********/
+.carousel {
+	margin: 10px auto;
+	padding: 0 50px;
+}
+.carousel .item {
+	color: #999;
+	font-size: .8em;
+  text-align: center;
+	overflow: hidden;
+}
+.carousel .item .img-box {
+	width: 250px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 50px 0 10px;
+}
+.carousel .overview {
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #7AA641;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {
+	background: #555;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }

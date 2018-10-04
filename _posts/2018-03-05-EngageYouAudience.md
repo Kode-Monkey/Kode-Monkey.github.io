@@ -2,7 +2,8 @@
 layout: posts
 title:  "Engage Your Audience"
 date:   2018-03-05
-category: Social
+categories: Social
+tags: [Facebook, Google+, Twitter, Pinterest, Instagram, Reviews, Audience, SEO]
 image: Social_Marketing_High_Res.png
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext

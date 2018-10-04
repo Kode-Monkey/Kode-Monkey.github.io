@@ -2,7 +2,8 @@
 layout: posts
 title:  "Improving Local Search Rankings"
 date:   2018-03-05
-category: Listings
+categories: Listings
+tags: [Aggregators, Factual, Acxiom, Infogroup Localeze, Rankings, citation]
 image: Listing_Sync_Pro_High_Res.png
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
@@ -94,5 +95,3 @@ Everything You Need To Know About Google’s Local Algorithm, Pigeon">Google’s
 <p>Consumers rely on the internet and search engines to interact with local businesses. <a href="https://www.thinkwithgoogle.com/articles/how-advertisers-can-extend-their-relevance-with-search.html" target="blank" title="How Advertisers Can Extend Their Relevance With Search">According to Google</a>, “four in five consumers use search engines to find products, services or experiences nearby.” These are searches for anything, from the best pizza in town to the fastest hair salon. Local search is what drives consumers to a business’s front door, and ultimately drives top-line revenue for local business.</p>
 
 <p>Make sure that your business gets it right, and isn’t missing from vital local search results. Start using <a href="https://en.wikipedia.org/wiki/Data_aggregation" target="blank" title="Deffinition of Data aggregation">data aggregator</a>: it’s the first step in building accurate online citations and mastering local SEO.</p>
-
-<p>&amp;nbsp;</p>
