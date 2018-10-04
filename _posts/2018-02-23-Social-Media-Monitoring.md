@@ -146,5 +146,3 @@ permalink: /blog/:categories/:title:output_ext
 <p>Most businesses are aware that they should monitor social media for mentions related to their brand, products, services, competitors and industry. You might actually be doing so already. But do you have a plan in place to analyze, respond and integrate results into your business’s ongoing strategy?</p>
 
 <p>If you don’t, you might be missing some golden opportunities…or you could get a martini in your face!</p>
-
-<p>&amp;nbsp;</p>

@@ -368,5 +368,3 @@ permalink: /blog/:categories/:title:output_ext
 </ol>
 
 <p>And one is the page number of Google results that you will likely find yourself on the keywords that matter most if you leverage this plugin combination.<p>
-
-<p>&amp;nbsp;</p>

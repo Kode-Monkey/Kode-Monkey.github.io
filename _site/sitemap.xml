@@ -9,28 +9,198 @@
 
 <url>
   <loc>https://www.kaffeinatedkodemonkey.com/</loc>
-  <lastmod>2018-08-27T21:25:48+00:00</lastmod>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.kaffeinatedkodemonkey.com/index</loc>
-  <lastmod>2018-08-27T21:25:48+00:00</lastmod>
+  <loc>https://www.kaffeinatedkodemonkey.com/packages/business-presence</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.kaffeinatedkodemonkey.com/Website/DIY-Builder/</loc>
-  <lastmod>2018-08-27T21:25:48+00:00</lastmod>
+  <loc>https://www.kaffeinatedkodemonkey.com/packages/listing-presence</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.kaffeinatedkodemonkey.com/Marketing/Online-Presence/</loc>
-  <lastmod>2018-08-27T21:25:48+00:00</lastmod>
+  <loc>https://www.kaffeinatedkodemonkey.com/packages/customer-loyalty</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/packages/basic-marketing</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/packages/advanced-marketing</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/website/microsite</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/website/diy-builder</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/website/diwm-cms</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/marketing/local-listings</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/marketing/listing-pro</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/services/business-cards</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/services/corporate-identity</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/services/custom-logo-design</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/website/government-website</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.kaffeinatedkodemonkey.com/policies/Privacy-policy.pdf</loc>
-  <lastmod>2018-08-27T21:25:42+00:00</lastmod>
+  <lastmod>2018-10-04T00:02:34+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/website/maintenance-management</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/marketing/social-marketing</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/marketing/reputation-management</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/marketing/custormer-voice</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/services/zenreach</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/services/diy-seo</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/services/advanced-seo</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/Contact-Us</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/Advertising</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/ContentExperience</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/Listings</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/Websites</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/Reputation</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/SEO</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/Social</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/advertising/Digital_Advertising-Local-Business.html</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/advertising/Native-Advertising.html</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/listings/Improve-Local-Search-Aggregators.html</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/listings/Critical-Data.html</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/seo/CompleteWordPressSEOPluginMastery.html</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/social/EngageYouAudience.html</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.kaffeinatedkodemonkey.com/blog/social/Social-Media-Monitoring.html</loc>
+  <lastmod>2018-10-04T00:02:37+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 
 

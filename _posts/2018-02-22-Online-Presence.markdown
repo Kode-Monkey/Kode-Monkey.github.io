@@ -2,7 +2,7 @@
 layout: posts
 title:  "Online Presence"
 date:   2018-02-22
-categories: [Tips & Tricks]
+# categories: [Tips & Tricks]
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 ---
@@ -48,5 +48,3 @@ Through your companies website, social media accounts,  articles &amp; citations
   </div></div>
 
 <p>I would recommend you give the <a href="https://brandyourself.com" title="How to BrandYourSelf" target="blank"><strong>BrandYourself</strong></a> a read.</p>
-
-<p>&amp;nbsp;</p>
