@@ -162,6 +162,12 @@
   background-size: 100%;
 }
 
+/***** Constant Contact *****/
+.ConstantContact-icon{
+  background: url('../images/nav-icons/ConstantContact-icon.png') no-repeat;
+  background-size: 100%;
+}
+
 
 
 /********** end on-page tabs icons **********/
@@ -217,10 +223,7 @@ hr.features {
 
 .basic-li{
   padding: 5px;
-<<<<<<< HEAD
   margin-left: 35px;
-=======
->>>>>>> siteupdate
   font-size: .8em;
   list-style: disc;
 }
