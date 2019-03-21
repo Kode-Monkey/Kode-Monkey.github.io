@@ -1,0 +1,17 @@
+<div class="row">
+  {% if page.categories == "SEO" %}
+  <div class="col">
+    <a href="{{site.url}}/services/diy-seo"><img class="img-center img-responsive img-thumbnail" src="{{site.url}}/assets/images/nav-icons/MktG.png" style="width: 70%;" border="0" alt="DIY SEO"/></a>
+  </div>
+  <div class="col">
+    <a href="{{site.url}}/services/advanced-seo"><img class="img-center img-responsive img-thumbnail" src="{{site.url}}/assets/images/nav-icons/BoostSEO.png" style="width:70%;" border="0" alt="Advanced SEO"/></a>
+  </div>
+  {% elsif page.categories == "Listings" %}
+  <div class="col">
+    <a href="{{site.url}}/marketing/local-listings"><img class="img-center img-responsive img-thumbnail" src="{{site.url}}/assets/images/nav-icons/LocalListing.png" style="width: 70%;" border="0" alt="Local Listings"/></a>
+  </div>
+  <div class="col">
+    <a href="{{site.url}}/packages/listing-presence"><img class="img-center img-responsive img-thumbnail" src="{{site.url}}/assets/images/ListingPro/Listing-Sync-Pro-icon.png" style="width: 70%;" border="0" alt="Listing Presence"/></a>
+  </div>
+  {% endif %}
+</div>
