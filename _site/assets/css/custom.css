@@ -1,4 +1,22 @@
 
+h1 {
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.pour{
+  margin-left: 5rem;
+  font-size: 1rem;
+}
+
+strong {
+  font-weight: 500;
+}
+
 #logo {
   background: url(../images/KKM-Logo-Sticker-shadow.png) no-repeat 15px 5px;
   background-size: 26%;
@@ -26,151 +44,226 @@
   font-size: 1.2em;
 }
 
-/***** G-Suite *****/
-.gsuite-icon {
-  background: url('../images/nav-icons/G-Suite.jpg') no-repeat;
-  background-size: 100%;
+/***** Sections *****/
+#diy {
+  background-color: #efefef;
+  margin-bottom: 45px;
+  height: 500px;
 }
 
-/***** Webaite Pro *****/
-.wsp-icon{
-  background: url('../images/nav-icons/Website-Pro.png') no-repeat;
-  background-size: 100%;
+#diwm {
+  background-color: #f9f9f9;
+  margin-bottom: 45px;
+  height: 500px;
 }
 
-/***** Listing Presence *****/
-.lb-icon{
-  background: url('../images/nav-icons/Listing-Builder-icon.png') no-repeat;
-  background-size: 100%;
+#alacarte {
+  background-color: #efefef;
+  height: 500px;
 }
 
-.lsp-icon{
-  background: url('../images/ListingPro/Listing-Sync-Pro-icon.png') no-repeat;
-  background-size: 100%;
-}
-
-.ld-icon{
-  background: url('../images/ListingPro/Listing-Distribution-icon.png') no-repeat;
-  background-size: 100%;
-}
-
+/********************* Tab Icons *********************/
 /***** Ad Intell *****/
 .adintell-icon{
-  background: url('../images/nav-icons/AdIntell.png') no-repeat;
+  background: url('../images/icons/additional/AdIntell.png') no-repeat;
   background-size: 100%;
 }
 
 /***** Advanced Reporting *****/
 .advrpt-icon {
-  background: url('../images/nav-icons/AdvancedReporting.png') no-repeat;
+  background: url('../images/icons/additional/AdvancedReporting.png') no-repeat;
   background-size: 100%;
 }
 
-/***** Corporate Identity *****/
-.corpid-icon{
-  background: url('../images/nav-icons/CorpId.jpg') no-repeat;
-  background-size: 100%;
-}
-
-/***** Boostability *****/
-.boost-icon{
-  background: url('../images/nav-icons/BoostSEO.png') no-repeat;
-  background-size: 100%;
-}
-
-/***** Custom Logo Design *****/
-.cld-icon{
-  background: url('../images/nav-icons/CLD.jpg') no-repeat;
-  background-size: 100%;
-}
-
-/***** MarketGoo *****/
-.mktg-icon{
-  background: url('../images/nav-icons/MktG.png') no-repeat;
-  background-size: 100%;
-}
-
-/***** Videobolt *****/
-.videobolt-icon{
-  background: url('../images/nav-icons/Videobolt.jpg') no-repeat;
-  background-size: 100%;
-}
-
-/***** SocialMonitoring *****/
-.smonitoring-icon{
-  background: url('../images/nav-icons/SocialMonitoring.png') no-repeat;
-  background-size: 100%;
-}
-
-/***** Customer Voice *****/
-.cv-icon{
-  background: url('../images/nav-icons/CustomerVoice.png') no-repeat;
-  background-size: 100%;
-}
-
-/***** Zenreach *****/
-.zen-icon{
-  background: url('../images/nav-icons/Zenreach.png') no-repeat;
-  background-size: 100%;
-}
-
-/***** Reputation Management *****/
-.reputation-icon{
-  background: url('../images/nav-icons/Reputation.png') no-repeat;
-  background-size: 100%;
-}
-.rr-icon{
-  background: url('../images/nav-icons/RapidReview.png') no-repeat;
-  background-size: 100%;
-}
-.rw-icon{
-  background: url('../images/nav-icons/ReviewWidget.png') no-repeat;
-  background-size: 100%;
-}
+/***** Advanced SEO *****/
 
 /***** Builder *****/
-.bbuilder-icon{
-  background: url('../images/nav-icons/Basic-Builder-icon.png') no-repeat;
+/*.bbuilder-icon{
+  background: url('../images/icons/websites/Basic-Builder-icon.png') no-repeat;
   background-size: 100%;
 }
 .ebuilder-icon{
-  background: url('../images/nav-icons/Enhanced-Builder-icon.png') no-repeat;
+  background: url('../images/icons/websites/Enhanced-Builder-icon.png') no-repeat;
   background-size: 100%;
 }
 .pbuilder-icon{
-  background: url('../images/nav-icons/Premium-Builder-icon.png') no-repeat;
+  background: url('../images/icons/websites/Premium-Builder-icon.png') no-repeat;
   background-size: 100%;
 }
 .ubuilder-icon{
-  background: url('../images/nav-icons/Ultimate-Builder-icon.png') no-repeat;
+  background: url('../images/icons/websites/Ultimate-Builder-icon.png') no-repeat;
   background-size: 100%;
-}
+}*/
 
-/***** Web Accessibility *****/
-.wa-icon{
-  background: url('../images/nav-icons/Web-Accessibility-icon.jpg') no-repeat;
-  background-size: 100%;
-}
-/***** Gov Portal *****/
-.gp-icon{
-  background: url('../images/nav-icons/Gov-Portal-icon.png') no-repeat;
-  background-size: 100%;
-}
-/***** Website maintenance *****/
-.wm-icon{
-  background: url('../images/nav-icons/Website-Maintenance-icon.png') no-repeat;
+/***** Boostability *****/
+.boost-icon{
+  background: url('../images/icons/marketing/BoostSEO.png') no-repeat;
   background-size: 100%;
 }
 
 /***** Constant Contact *****/
 .ConstantContact-icon{
-  background: url('../images/nav-icons/ConstantContact-icon.png') no-repeat;
+  background: url('../images/icons/additional/ConstantContact-icon.png') no-repeat;
+  background-size: 100%;
+}
+/***** Corporate Identity *****/
+.corpid-icon{
+  background: url('../images/icons/additional/CorpId.jpg') no-repeat;
   background-size: 100%;
 }
 
+/***** Custom Logo Design *****/
+.cld-icon{
+  background: url('../images/icons/additional/CLD.jpg') no-repeat;
+  background-size: 100%;
+}
 
+/***** Customer Voice *****/
+.cv-icon{
+  background: url('../images/icons/marketing/CustomerVoice.png') no-repeat;
+  background-size: 100%;
+}
+
+.cv-50-icon{
+  background: url('../images/icons/marketing/Customer-Voice-50.png') no-repeat;
+  background-size: 100%;
+}
+
+.cv-100-icon{
+  background: url('../images/icons/marketing/Customer-Voice-100.png') no-repeat;
+  background-size: 100%;
+}
+
+.cv-200-icon{
+  background: url('../images/icons/marketing/Customer-Voice-200.png') no-repeat;
+  background-size: 100%;
+}
+
+.cv-500-icon{
+  background: url('../images/icons/marketing/Customer-Voice-500.png') no-repeat;
+  background-size: 100%;
+}
+
+.cv-1000-icon{
+  background: url('../images/icons/marketing/Customer-Voice-1000.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** SEO  *****/
+/* ASEO Tab */
+.boost-icon{
+  background: url('../images/icons/marketing/BoostSEO.png') no-repeat;
+  background-size: 100%;
+}
+
+/* ASEO - Addon/upgrade */
+.ASEO-icon {
+  background: url('../images/icons/marketing/ASEO-icon.png') no-repeat;
+  background-size: 100%;
+}
+
+/* DIY SEO */
+.mktg-icon{
+  background: url('../images/icons/marketing/MktG.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** G-Suite *****/
+.gsuite-icon {
+  background: url('../images/icons/additional/G-Suite.jpg') no-repeat;
+  background-size: 100%;
+}
+
+/***** Gov Portal *****/
+.gp-icon{
+  background: url('../images/icons/websites/Gov-Portal-icon.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** Listing Presence *****/
+.lb-icon{
+  background: url('../images/icons/marketing/Listing-Builder-icon.png') no-repeat;
+  background-size: 100%;
+}
+
+.ld-icon{
+  background: url('../images/icons/marketing/Listing_Sync_Pro_High_Res.png') no-repeat;
+  background-size: 100%;
+}
+
+.lsp-icon{
+  background: url('../images/icons/marketing/Listing_Sync_Pro_High_Res.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** Pagevamp *****/
+.pv-icon{
+  background: url('../images/icons/websites/Pagevamp.png') no-repeat;
+  background-size: 100%;
+}
+
+.pvd-icon{
+  background: url('../images/icons/websites/Pagevamp-Domain-icon.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** Reputation Management *****/
+.reputation-icon{
+  background: url('../images/icons/marketing/Reputation.png') no-repeat;
+  background-size: 100%;
+}
+.rr-icon{
+  background: url('../images/icons/marketing/RapidReview.png') no-repeat;
+  background-size: 100%;
+}
+.rw-icon{
+  background: url('../images/icons/marketing/ReviewWidget.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** SocialMonitoring *****/
+.smonitoring-icon{
+  background: url('../images/icons/marketing/SocialMonitoring.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** Videobolt *****/
+.videobolt-icon{
+  background: url('../images/icons/additional/Videobolt.jpg') no-repeat;
+  background-size: 100%;
+}
+
+/***** Web Accessibility *****/
+.wa-icon{
+  background: url('../images/icons/additional/Web-Accessibility-icon.jpg') no-repeat;
+  background-size: 100%;
+}
+
+/***** Website Pro *****/
+.wsp-icon{
+  background: url('../images/icons/websites/Website-Pro.png') no-repeat;
+  background-size: 100%;
+}
+
+.wpd-icon{
+  background: url('../images/icons/websites/WP-Domain-icon.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** Website maintenance *****/
+.wm-icon{
+  background: url('../images/icons/additional/Website-Maintenance-icon.png') no-repeat;
+  background-size: 100%;
+}
+
+/***** Zenreach *****/
+.zen-icon{
+  background: url('../images/icons/additional/Zenreach.png') no-repeat;
+  background-size: 100%;
+}
 
 /********** end on-page tabs icons **********/
+
 hr.header {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -193,6 +286,7 @@ hr.features {
     border-top: 2px solid #a3bdc9;
     width: 85%;
 }
+
 
 /********* Responsive IFrame *********/
 .resp-container {
@@ -247,7 +341,6 @@ li{
   background-color: #F07746;
 }
 
-
 .entry-title {
   font-size: 1.2em;
   line-height: 2em;
@@ -289,6 +382,15 @@ a.btn-danger:hover {
     border-color: #eaab4d;
 
 }
+
+a.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
+
+
+
 /********** Testimonilas **********/
 .carousel {
 	margin: 10px auto;

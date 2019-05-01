@@ -16,36 +16,68 @@
 
   <div class="container-fluid">
     <div class="row ml-3 mt-5 mb-5">
+      <!-- left colmun -->
       <div class="col-sm-3 col-md-3">
-
+        <!-- page title or category and subtitle -->
         {% if page.title == "About" %}
-            <img class="img-responsive img-thumbnail" src="{{sit.url}}/assets/images/TheKodemonkey.jpg" alt="Heather Welsh">
+          <!-- image -->
+          <img class="img-responsive img-thumbnail" src="{{sit.url}}/assets/images/TheKodemonkey.jpg" alt="Heather Welsh">
         {% elsif page.title == "Contact Us" %}
-          <h1>{{ page.title }}</h1>
-
-          <hr />
+          <!-- fb feed -->
           {% include fbpost.html %}
-
           <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="btn btn-md btn-danger">Schedule a Free Consultation</a></p>
-
         {% else %}
-          <h1>{{ page.title }}</h1>
+          <!-- category and subtitle -->
+          <h2>{{ page.category }}</h2>
           <p>{{page.subtitle}}</p>
-
           <hr />
 
-          {% include blogpost.html %}
-
-
+          <!-- include Newsletter -->
+          {% include Newsletter.html %}
         {% endif %}
-        <hr />
 
+        <!-- include Addons -->
+        {% include Add-On.html %}
+        <hr />
+        <!-- includes adds -->
         {% include Ad.html %}
 
       </div>
-      <div class="col-sm-8 col-md-9">
+      <!-- right - Main Column -->
+      <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
+        {% if page.title == "Contact Us" or page.title == "About" %}
+          <h1 class="mt-4">{{page.title}}</h1>
+
+        {% else %}
+        <!-- top row image title & Price -->
+        <div class="row">
+          <div class="col-sm-7">
+              <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="mt-2 rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
+
+              <h1 class="mt-4">{{page.title}}</h1>
+          </div>
+          <div class="col-sm-5">
+            <div class="row ml-5">
+              <div class="col">
+                <h2>Pricing</h2>
+              </div>
+            </div>
+            <hr />
+            <div class="row ml-5">
+              <div class="col">
+                <p>Setup: {{page.setup}}</p>
+                <p>Monthly: {{page.cost}}</p>
+                <p>Yearly Renewal: {{page.renewal}}</p>
+
+                <a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="btn btn-md btn-danger">Book Free Consultation</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif  %}
         {{ content }}
-      </div>
+
     </div>
   </div>
 

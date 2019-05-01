@@ -1,0 +1,104 @@
+---
+layout: template
+title: DIWM Website
+category: Websites Only
+mine-image: marketing/customervoice-baner.jpeg
+img-size: 90
+setup: $1699
+cost: $89
+renewal: $12
+subtitle: Do-It-With-Me Website
+description: Do-It-For-Me website solution - Managed WordPress hosting on Google Cloud Platform
+---
+
+  <!-- Conethen -->
+  <div class="row">
+    <div class="col">
+      <hr />
+      <p class="text-center">
+        <a href="{{site.url}}/website/SMB-Websites">SMB Websites</a> |
+        <a href="{{site.url}}/website/Starter-Presence">Starter Presence</a> |
+        <a href="{{site.url}}/website/Basic-Presence">Basic Presence</a> |
+        <a href="{{site.url}}/website/Advance-Presence">Advanced Presence</a> |
+        <a href="{{site.url}}/website/Microsite">Microsite</a> |
+        <a href="{{site.url}}/website/DIY-Website">DIY Website</a> |
+        <!-- <a href="{{site.url}}/website/DIWM-Website">DIWM Website</a> | -->
+        <a href="{{site.url}}/website/SIPA-Portal">SIPA Portal</a>
+      </p>
+      <hr />
+      <h2>Great for the DIY'er that wants a litte more</h2>
+
+      <p>Website Pro hosts your clients’ WordPress websites with the most trusted source on the internet—Google Cloud Platform.
+      Our state-of-the-art infrastructure means your sites will always be secure and protected, Google-fast, and scale to fit any
+      business.</p>
+
+      <p>Website Pro brings simplicity back to multi-client web hosting. From one-click site setups, effortless staging
+      environments, custom templates, and built-in reporting, every workflow is designed to be seamless for agencies. Whether you
+      host a couple of WordPress sites or thousands, Website Pro is the first genuinely easy-to-use solution that makes hosting
+      fun.</p>
+
+    </div>
+  </div>
+
+  <!-- <hr /> -->
+  <!-- Products Tabs -->
+  <div class="accordion mt-5" id="TabMenu">
+    <div class="row mb-4">
+      <div class="col">
+        <ul class="nav nav-tabs">
+          <!-- WordPress Pro -->
+          <li class="nav-item pr-4" id="TM-headingWP">
+            <p class="text-center pl-1 mt-0 mb-0"><a id="tab-icon" class="nav-link wsp-icon rounded-circle" href="#" data-toggle="collapse" data-target="#TM-collapseWP" aria-expanded="true" aria-controls="TM-collapseWP">WordPress</a></p>
+            <p class="small text-center">WordPress</p>
+          </li>
+          <!-- WordPress Pro Domain-->
+          <li class="nav-item pr-4" id="TM-headingWPD">
+            <p class="text-center pl-1 mt-0 mb-0"><a id="tab-icon" class="nav-link wpd-icon rounded-circle" href="#" data-toggle="collapse" data-target="#TM-collapseWPD" aria-expanded="true" aria-controls="TM-collapseWPD">Domain</a></p>
+            <p class="small text-center">Domain</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Tab #WordPres Pro-->
+    <div id="TM-collapseWP" class="collapse show" aria-labelledby="TM-headingWP" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>WordPress</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include WP.html %}
+
+    </div> <!-- Close Tabe -->
+
+    <!-- Tab #WordPres PRo-->
+    <div id="TM-collapseWPD" class="collapse" aria-labelledby="TM-headingWPD" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Domain</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include WPDomain.html %}
+
+    </div> <!-- Close Tabe -->
+
+  </div><!-- Close Tabs -->
+  <hr />
+  <p class="text-center">
+    <a href="{{site.url}}/website/SMB-Websites">SMB Websites</a> |
+    <a href="{{site.url}}/website/Starter-Presence">Starter Presence</a> |
+    <a href="{{site.url}}/website/Basic-Presence">Basic Presence</a> |
+    <a href="{{site.url}}/website/Advance-Presence">Advanced Presence</a> |
+    <a href="{{site.url}}/website/Microsite">Microsite</a> |
+    <a href="{{site.url}}/website/DIY-Website">DIY Website</a> |
+    <!-- <a href="{{site.url}}/website/DIWM-Website">DIWM Website</a> | -->
+    <a href="{{site.url}}/website/SIPA-Portal">SIPA Portal</a>
+  </p>

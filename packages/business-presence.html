@@ -1,10 +1,11 @@
 ---
 layout: template
-mine-image: website/Business-Presence.jpg
+mine-image: homepage/BusinessPresence.jpg
 img-size: 90
-title: Business Presence
-setup: 2259
-cost: 149
+title: Starter Presence
+setup: 250
+cost: 15
+renewal: 68
 subtitle: Get the foundational services to ensure your business is up and running online.
 description: Everything a business needs to start their online business presence.
 ---
@@ -13,7 +14,7 @@ description: Everything a business needs to start their online business presence
   <!-- top row image title & Price -->
   <div class="row">
     <div class="col-sm-7">
-        <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="mt-2" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
+        <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="mt-2 rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
     </div>
     <div class="col-sm-5">
       <div class="row ml-5">
@@ -24,8 +25,9 @@ description: Everything a business needs to start their online business presence
       <hr />
       <div class="row ml-5">
         <div class="col">
-          <p>Starting at: ${{page.setup}}</p>
+          <p>Setup: ${{page.setup}}</p>
           <p>Monthly: ${{page.cost}}</p>
+          <p>Yearly Renewal: ${{page.renewal}}</p>
 
           <a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="btn btn-md btn-danger">Book Free Consultation</a>
 
@@ -40,7 +42,8 @@ description: Everything a business needs to start their online business presence
     <div class="col">
       <p><strong>The killer combination for what your business needs to succeed.</strong></p>
 
-      <p>Get insight into what the online community is saying about you—monitor customer reviews and get notifications whenever your business is mentioned on the web. Schedule posts on multiple social channels and generate a following for your business, all from a single interface. Finally, gather customer feedback and experiences to boost online star power and drive more business. <strong>The Business Presence is everything you need to get started</strong>.</p>
+      <p>Getting started with digital marketing can be a challenge for most businesses. Luckily our suite of tools in an all-in-one dashboard will help you managed all aspects of your digital marketing efforts from a single login!</p>
+      <!--<p>Get insight into what the online community is saying about you—monitor customer reviews and get notifications whenever your business is mentioned on the web. Schedule posts on multiple social channels and generate a following for your business, all from a single interface. Finally, gather customer feedback and experiences to boost online star power and drive more business. <strong>The Business Presence is everything you need to get started</strong>.</p>-->
 
     </div>
   </div>
@@ -51,368 +54,42 @@ description: Everything a business needs to start their online business presence
     <div class="row mb-4">
       <div class="col">
         <ul class="nav nav-tabs">
-          <!-- G Suites Basic -->
-          <li class="nav-item pr-5" id="TM-headingOne">
-            <p class="text-center pl-0 mt-0 mb-0"><a id="tab-icon" class="nav-link gsuite-icon" href="#" data-toggle="collapse" data-target="#TM-collapseOne" aria-expanded="true" aria-controls="TM-collapseOne">G-Suites</a></p>
-            <p class="small text-center">G-suites</p>
-          </li>
-          <!-- Website Pro -->
-          <li class="nav-item pr-5" id="TM-headingTwo">
-            <p class="text-center pl-1 mt-0 mb-0"><a id="tab-icon" class="nav-link wsp-icon" href="#" data-toggle="collapse" data-target="#TM-collapseTwo" aria-expanded="false" aria-controls="TM-collapseTwo">Website Pro</a></p>
-            <p class="small text-center">Website Pro</p>
-          </li>
           <!-- Listing Presence -->
-          <li class="nav-item pr-5" id="TM-headingThree">
-            <p class="text-center pl-4 mt-0 mb-0"><a id="tab-icon" class="nav-link lb-icon" class="nav-link" href="#" data-toggle="collapse" data-target="#TM-collapseThree" aria-expanded="false" aria-controls="TM-collapseThree">Listing Presence</a></p>
-            <p class="small text-center">Listing Presence</p>
+          <li class="nav-item pr-5" id="TM-headingLL">
+            <p class="text-center pl-0 mt-0 mb-0"><a id="tab-icon" class="nav-link lb-icon" href="#" data-toggle="collapse" data-target="#TM-collapseLL" aria-expanded="true" aria-controls="TM-collapseOne">Local LIsting</a></p>
+            <p class="small text-center">Local Listing</p>
+          </li>
+          <!-- Pagevamp -->
+          <li class="nav-item pr-5" id="TM-headingPV">
+            <p class="text-center pl-1 mt-0 mb-0"><a id="tab-icon" class="nav-link pv-icon rounded-circle" href="#" data-toggle="collapse" data-target="#TM-collapsePV" aria-expanded="false" aria-controls="TM-collapsePVo">Pagevamp</a></p>
+            <p class="small text-center">Pagevamp</p>
           </li>
           <!-- Reputation Management -->
-          <li class="nav-item pr-5" id="TM-headingFour">
-            <p class="text-center pl-5 mt-0 mb-0"><a id="tab-icon" class="nav-link reputation-icon" href="#" data-toggle="collapse" data-target="#TM-collapseFour" aria-expanded="false" aria-controls="TM-collapseFour">Reutation Management</a></p>
+          <li class="nav-item pr-5" id="TM-headingRM">
+            <p class="text-center pl-5 mt-0 mb-0"><a id="tab-icon" class="nav-link reputation-icon" class="nav-link" href="#" data-toggle="collapse" data-target="#TM-collapseRM" aria-expanded="false" aria-controls="TM-collapseRM">Reputation Management</a></p>
             <p class="small text-center">Reutation Management</p>
           </li>
-          <!-- Custom Voice -->
-          <li class="nav-item pr-5" id="TM-headingFive">
-            <p class="text-center pl-4 mt-0 mb-0"><a id="tab-icon" class="nav-link cv-icon" class="nav-link" href="#" data-toggle="collapse" data-target="#TM-collapseFive" aria-expanded="false" aria-controls="TM-collapseFive">Custom Logo Design</a></p>
-            <p class="small">Custom Logo Design</p>
+          <!-- Rapid Reviews -->
+          <li class="nav-item pr-5" id="TM-headingRR">
+            <p class="text-center pl-3 mt-0 mb-0">
+              <a id="tab-icon" class="nav-link rr-icon smonitoring-icon" href="#" data-toggle="collapse" data-target="#TM-collapseRR" aria-expanded="false" aria-controls="TM-collapseRR">Rapid Reviewst</a>
+            </p>
+            <p class="small text-center">Rapid Reviews</p>
           </li>
-          <!-- SocialMonitoring -->
-          <li class="nav-item pr-5" id="TM-headingSix">
-            <p class="text-center pl-2 mt-0 mb-0"><a id="tab-icon" class="nav-link smonitoring-icon" class="nav-link" href="#" data-toggle="collapse" data-target="#TM-collapseSix" aria-expanded="false" aria-controls="TM-collapseSix">Social Monitoring</a></p>
-            <p class="small text-center">Social Monitoring</p>
+          <!-- Social Monitoring -->
+          <li class="nav-item pr-5" id="TM-headingSM">
+            <p class="text-center pl-3 mt-0 mb-0"><a id="tab-icon" class="nav-link smonitoring-icon" href="#" data-toggle="collapse" data-target="#TM-collapseSM" aria-expanded="false" aria-controls="TM-collapseSM">Social Monitoring</a></p>
+            <p class="small">Social Monitoring</p>
           </li>
         </ul>
       </div>
     </div>
-
-    <!-- First Tab #GSUite -->
-    <div id="TM-collapseOne" class="collapse show" aria-labelledby="TM-headingOne" data-parent="#TabMenu">
+    <!-- Tab #Local Listing -->
+    <div id="TM-collapseLL" class="collapse show" aria-labelledby="TM-headingLL" data-parent="#TabMenu">
       <!-- Content -->
       <div class="row">
         <div class="col">
-          <h2>G-Suites</h2>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="row">
-        <div class="col-8">
-          <h3>Simplify how you work.</h3>
-          <p>Use G Suite for business email, video conferencing, cloud storage, and file sharing. Get all the tools your team needs to collaborate and get more done. Used by millions of businesses across a variety of industries, G Suite makes working together
-          a whole lot easier.</p>
-
-          <h3 class="text-center mb-4"><a href="https://www.youtube.com/embed/oGPc_o-e4BQ">[Watch our Video]</a></h3>
-
-          <p>With G Suite Basic, you have access to a professional office suite of:</p>
-          <ul class="fa-ul">
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span><strong>Business email through Gmail</strong>: Get business email addresses with your company name (you@yourcompany). You can also create group email aliases such as sales@yourcompany.</li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span><strong>Video and voice conferencing</strong>: Meet face to face with your team using easy-to-join HD video calls. Connect up to 25 people within or outside of your organization with a simple, shareable link.</li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span><strong>Secure team messaging</strong>: Send direct or group messages with Hangouts Chat for easier team collaboration.</li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span><strong>Shared calendars</strong>: Use shareable calendars to easily schedule meetings with teammates. Calendar integrates seamlessly with Gmail to respond events, Drive to attach files, and Hangouts to have video conferences.</li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span><strong>Documents, spreadsheets and presentations</strong>: Create and edit text documents, robust spreadsheets, and beautiful presentations across devices. Share files with teammates and work in the same file at the same time. No more version control issues or emailing files back and forth.</li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span><strong>30GB Cloud storage</strong>: Use Drive to keep all your work files in one secure place with 30GB of cloud-based file storage per user. Access your files whenever you need them from your laptop, phone, or tablet.</li>
-          </ul>
-
-          <h3 class="text-uppercase">FAQ</h3>
-
-          <div class="accordion" id="GSuite">
-            <div class="card">
-              <div class="card-header" id="GS-headingOne">
-                <a href="#"class="collapsed" data-toggle="collapse" data-target="#GS-collapseOne" aria-expanded="true" aria-controls="GS-collapseOne">
-                  What is the difference between G Suite and Google's free apps?
-                </a>
-              </div>
-
-              <div id="GS-collapseOne" class="collapse" aria-labelledby="GS-headingOne" data-parent="#GSuite">
-                <div class="card-body">
-                  With G Suite, there are a number of additional business-grade services not included with Google’s free consumer apps. These services include custom business email @yourcompany, twice the amount of cloud storage across Gmail and Drive, 24/7 phone and email support, 99.9% guaranteed uptime on business email, interoperability with Microsoft Outlook, additional security options like two-step authentication and SSO, and administrative controls for user accounts.
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="GS-headingTwo">
-                <a href="#" class="collapsed" data-toggle="collapse" data-target="#GS-collapseTwo" aria-expanded="false" aria-controls="GS-collapseTwo">
-                  Can I have individual G Suite apps?
-                </a>
-              </div>
-              <div id="GS-collapseTwo" class="collapse" aria-labelledby="GS-headingTwo" data-parent="#GSuite">
-                <div class="card-body">
-                  No, G-Suite is a set of integrated apps that work together seamlessly. For instance, you can receive aci message in Gmail and instantly convert it into a Calendar event. When you make a comment in Docs, Sheets, or Slides collaborators automatically receive email alerts. With a single click, you can launch a Hangouts video meeting from your inbox or calendar. Using these tools together improves productivity and gives your business the most value.
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="GS-headingThree">
-                <a href="#" class="collapsed" data-toggle="collapse" data-target="#GS-collapseThree" aria-expanded="false" aria-controls="GS-collapseThree">
-                  How many "seats" or "users" do I need?
-                </a>
-              </div>
-              <div id="GS-collapseThree" class="collapse" aria-labelledby="GS-headingThree" data-parent="#GSuite">
-                <div class="card-body">
-                  Typically, one seat per employee at your organization is ideal. There is no limit to the number of seats you can purchase!
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- Gallery -->
-        <div class="col-4">
-          <h4>Gallery</h4>
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-1.jpg"><img src="{{site.url}}/assets/images/website/GS-img-1.jpg"></a>
-            </div>
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-2.jpg"><img src="{{site.url}}/assets/images/website/GS-img-2.jpg"></a>
-            </div>
-          </div>
-          <!-- end row -->
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-3.jpg"><img src="{{site.url}}/assets/images/website/GS-img-3.jpg"></a>
-            </div>
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-4.jpg"><img src="{{site.url}}/assets/images/website/GS-img-4.jpg"></a>
-            </div>
-          </div>
-          <!-- end row -->
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-5.jpg"><img src="{{site.url}}/assets/images/website/GS-img-5.jpg"></a>
-            </div>
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-6.jpg"><img src="{{site.url}}/assets/images/website/GS-img-6.jpg"></a>
-            </div>
-          </div>
-          <!-- end row -->
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-7.jpg"><img src="{{site.url}}/assets/images/website/GS-img-7.jpg"></a>
-            </div>
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-8.jpg"><img src="{{site.url}}/assets/images/website/GS-img-8.jpg"></a>
-            </div>
-          </div>
-          <!-- end row -->
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-9.jpg"><img src="{{site.url}}/assets/images/website/GS-img-9.jpg"></a>
-            </div>
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-10.jpg"><img src="{{site.url}}/assets/images/website/GS-img-10.jpg"></a>
-            </div>
-          </div>
-          <!-- end row -->
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-11.jpg"><img src="{{site.url}}/assets/images/website/GS-img-11.jpg"></a>
-            </div>
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/GS-img-12.jpg"><img src="{{site.url}}/assets/images/website/GS-img-12.jpg"></a>
-            </div>
-          </div>
-          <!-- end row -->
-        </div>
-      </div>
-
-    </div>  <!-- Close Tabe -->
-
-    <!-- Second Tab #WebsitePro-->
-    <div id="TM-collapseTwo" class="collapse" aria-labelledby="TM-headingTwo" data-parent="#TabMenu">
-      <!-- Content -->
-      <div class="row">
-        <div class="col">
-          <h2>WebsitePro</h2>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="row">
-        <div class="col-8">
-
-          <p>Host your website on a platform that’s fast, secure, and easy-to-use—it’s all possible when you combine Google Cloud Platform with WordPress.</p>
-
-          <ul class="fa-ul">
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>World-class hosting with Google. Enjoy world-class and automated storage, speed, and security. Gain peace of mind knowing your site is hosted with the most trusted source on the internet—Google Cloud Platform. </li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Engaging reporting. Website Pro comes with a detailed reporting dashboard that highlights key performance metrics such as your page speed, number of website visitors, and more. </li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Robust CMS. WordPress is the number one Content Management System (CMS) in the world—powering over 60% of CMS based websites on the internet. </li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Built-in security. Website Pro performs automatic backups every day, allowing you to restore your site in one click. Plus, the included SSL certificate ensures your site provides the most secure connection to your visitors.</li>
-          </ul>
-
-          <h3 class="text-uppercase">FAQ</h3>
-
-          <div class="accordion" id="WordPress">
-            <div class="card">
-              <div class="card-header" id="WP-headingOne">
-                <a href="#" class="collapsed"  data-toggle="collapse" data-target="#WP-collapseOne" aria-expanded="false" aria-controls="WP-collapseOne">
-                  Wat is WordPress?
-                </a>
-              </div>
-              <div id="WP-collapseOne" class="collapse" aria-labelledby="WP-headingOne" data-parent="#WordPress">
-                <div class="card-body">
-                  WordPress is one of the most intuitive and powerful blogging and website content management system (CMS) available today. It takes care of all the background code and programming so people can focus on designing great looking websites. And it’s open source, which means people around the world are continuously improving it and adding awesome new features.
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="WP-headingTwo">
-                <a href="#" class="collapsed" data-toggle="collapse" data-target="#WP-collapseTwo" aria-expanded="false" aria-controls="WP-collapseTwo">
-                  What is a domain name?
-                </a>
-              </div>
-              <div id="WP-collapseTwo" class="collapse" aria-labelledby="WP-headingTwo" data-parent="#WordPress">
-                <div class="card-body">
-                  A domain name is like a street address, but for the Internet. A domain name is letters and numbers followed by an ending like (.com) or (.ca). It is also the URL customers enter to find your website.
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="WP-headingThree">
-                <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#WP-collapseThree" aria-expanded="false" aria-controls="WP-collapseThree">
-                  Do I own my domain name?
-                </a>
-              </div>
-              <div id="WP-collapseThree" class="collapse" aria-labelledby="WP-headingThree" data-parent="#WordPress">
-                <div class="card-body">
-                  If you use an existing domain to build a site with us, you will retain ownership of that domain.
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="WP-headingFour">
-                <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#WP-collapseFour" aria-expanded="false" aria-controls="WP-collapseFour">
-                  Do I own my website?
-                </a>
-              </div>
-              <div id="WP-collapseFour" class="collapse" aria-labelledby="WP-headingFour" data-parent="#WordPress">
-                <div class="card-body">
-                  Yes. You own your website and can export a copy at any time.
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="WP-headingFive">
-                <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#WP-collapseFive" aria-expanded="false" aria-controls="WP-collapseFive">
-                  What does this solution include in the month cost?
-                </a>
-              </div>
-              <div id="WP-collapseFive" class="collapse" aria-labelledby="WP-headingFive" data-parent="#WordPress">
-                <div class="card-body">
-                  Everything you will need for a website is included in this cost—hosting, SSL certificates, *.websitepro.hosting domain, unlimited storage, migration plugin, unlimited backups, unlimited traffic, domain setup, and support. You can host any website for this price—there are no restrictions or limits.
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="WP-headingSix">
-                <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#WP-collapseSix" aria-expanded="false" aria-controls="WP-collapseSix">
-                  Are WordPress plugins and themes restricted?
-                </a>
-              </div>
-              <div id="WP-collapseSix" class="collapse" aria-labelledby="WP-headingSix" data-parent="#WordPress">
-                <div class="card-body">
-                  There are no restrictions on plugins or themes—any plugin or theme can be added into Website Pro. Website Pro has its own migration, security, and backup tools, so we discourage using other plugins for these features.
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="WP-headingSeven">
-                <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#WP-collapseSeven" aria-expanded="false" aria-controls="WP-collapseSeven">
-                  What are the benefits of Google Cloud Platform?
-                </a>
-              </div>
-              <div id="WP-collapseSeven" class="collapse" aria-labelledby="WP-headingSeven" data-parent="#WordPress">
-                <div class="card-body">
-                  Learn more about <a href="https://cloud.google.com/why-google-cloud/" target="_blank"><strong>"Google Cloud"</strong></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="WP-headingEight">
-                <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#WP-collapseEight" aria-expanded="false" aria-controls="WP-collapseEight">
-                  Where can I learn more about WordPress?
-                </a>
-              </div>
-              <div id="WP-collapseEight" class="collapse" aria-labelledby="WP-headingEight" data-parent="#WordPress">
-                <div class="card-body">
-                  <ul>
-                    <li><a href="https://wordpress.org/" target="_blank"><strong>WordPress.org</strong></a></li>
-                    <li><a href="https://wordpress.org/plugins/" target="_blank"><strong>WordPress Plugins</strong></a></li>
-                    <li><a href="https://wordpress.org/themes/" target="_blank"><strong>WordPress Themes</strong></a></li>
-                    <li><a href="http://www.wpbeginner.com/category/wp-tutorials/" target="_blank"><strong>WP Beginner Instruction Articles</strong></a></li>
-                    <li><a href="https://www.youtube.com/user/wpbeginner/featured" target="_blank"><strong>WP Beginner Video Tutorials</strong></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Gallery -->
-        <div class="col-4">
-          <h4>Gallery</h4>
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/WP-img-1.jpg"><img src="{{site.url}}/assets/images/website/WP-img-1.jpg"></a>
-            </div>
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/WP-img-2.jpg"><img src="{{site.url}}/assets/images/website/WP-img-2.jpg"></a>
-            </div>
-          </div>
-          <!-- end row -->
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/WP-img-3.jpg"><img src="{{site.url}}/assets/images/website/WP-img-3.jpg"></a>
-            </div>
-            <div class="col">
-
-            </div>
-          </div>
-          <!-- end row -->
-          <!-- row -->
-          <div class="row">
-            <div class="col mt-3">
-              <h4>Files</h4>
-
-              <p><a href="https://storage.googleapis.com/mediarepo-prod/marketplace-products/97c982ee-4ab9-4a12-8acb-c157efe557bd/Read%20this%20brochure.pdf" target="_blank"><span class="mr-2"><i class="fas fa-file-pdf"></i></span>Read thhis brouchure (PDF)</a></p>
-
-            </div>
-          </div>
-          <!-- end row -->
-
-        </div>
-      </div>
-
-    </div>  <!-- Close Tabe -->
-
-    <!-- Thrid Tab #Listing Presence -->
-    <div id="TM-collapseThree" class="collapse" aria-labelledby="TM-headingThree" data-parent="#TabMenu">
-      <!-- Content -->
-      <div class="row">
-        <div class="col">
-          <h2>Lisitng Presence</h2>
+          <h2>Local Listing</h2>
         </div>
       </div>
 
@@ -509,14 +186,116 @@ description: Everything a business needs to start their online business presence
         </div>
       </div>
 
-    </div> <!-- Close Tabe -->
+    </div>  <!-- Close Tabe -->
 
-    <!-- Fouth Tab #Reputation Management -->
-    <div id="TM-collapseFour" class="collapse" aria-labelledby="TM-headingFour" data-parent="#TabMenu">
+    <!-- Tab #Pagevamp-->
+    <div id="TM-collapsePV" class="collapse" aria-labelledby="TM-headingPV" data-parent="#TabMenu">
       <!-- Content -->
       <div class="row">
         <div class="col">
-          <h2>Reputation Management</h2>
+          <h2>Pagevamp</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-8">
+
+          <p>Pagevamp is the easiest and fastest way for you to create a professional website that amplifies your presence online and drives your business.
+            Get a website built for you in seconds! Pagevamp connects with your Facebook Page to pull all of your information (like photos and videos) and
+            automatically builds a beautiful website in seconds—no technical skills required!</p>
+
+          <p>Your new website is synced with your Facebook Page, so all news posts, events, and photos posted to you Facebook page will be updated automatically on your Pagevamp website. You can customize the look, feel, and content of your website using a simple, user-friendly editor.</p>
+
+          <p>If you'd like to see how your website can turn out, take a look at this Pagevamp website <a href="https://www.fioropizza.com/" target="_blank">example</a>!</p>
+
+          <ul class="fa-ul">
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Automatic Updates: Your new website is synced with your Facebook Page, so all your Facebook news posts, events, and photos will be updated automatically on your Pagevamp website. </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Improve Visibility Online: Pagevamp websites perform better than Facebook Pages (and other social pages) in search results because Google gives preference to websites published on a custom domain. </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Market to Non-Facebook User: Only Facebook users can engage with your Facebook Page. Having a website allows you to pitch your business and be contacted by 100% of internet users, even non-Facebook users. </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Customization: You can customize the look, feel, and content of your website using a simple, user-friendly editor. </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Sell Better: Visitors who land on your business’s Pagevamp website are more likely to take action than if they land on your business’s Facebook Page.</li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Launch your website in minutes: Pagevamp is able to create the initial version of your website in seconds using your Facebook Page content. Just customize the site to your needs, and launch! </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Everything you need is included: .COM domain, hosting, newsletter, e-commerce, and analytics </li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>We are website experts: Over 15,000 small businesses have built their websites with Pagevamp. You're in good company. </li>
+          </ul>
+
+          <h3 class="text-uppercase">FAQ</h3>
+
+          <div class="accordion" id="WordPress">
+            <div class="card">
+              <div class="card-header" id="WP-headingOne">
+                <a href="#" class="collapsed"  data-toggle="collapse" data-target="#WP-collapseOne" aria-expanded="false" aria-controls="WP-collapseOne">
+                  Does I need to have a Facebook Page to build a website with Pagevamp?
+                </a>
+              </div>
+              <div id="WP-collapseOne" class="collapse" aria-labelledby="WP-headingOne" data-parent="#WordPress">
+                <div class="card-body">
+                  Yes. Pagevamp will use your Business Facebook Page for initial site creation and regular updates.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="WP-headingTwo">
+                <a href="#" class="collapsed" data-toggle="collapse" data-target="#WP-collapseTwo" aria-expanded="false" aria-controls="WP-collapseTwo">
+                  If I already own a domain, can it be used for my Pagevamp website?
+                </a>
+              </div>
+              <div id="WP-collapseTwo" class="collapse" aria-labelledby="WP-headingTwo" data-parent="#WordPress">
+                <div class="card-body">
+                  A domain name is like a street address, but for the Internet. A domain name is letters and numbers followed by an ending like (.com) or (.ca). It is also the URL customers enter to find your website.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery -->
+        <div class="col-4">
+          <h4>Gallery</h4>
+          <!-- row -->
+          <div class="row">
+            <div class="col">
+              <a href="{{site.url}}/assets/images/website/WP-img-1.jpg"><img src="{{site.url}}/assets/images/website/PV-img-1.png"></a>
+            </div>
+            <div class="col">
+              <a href="{{site.url}}/assets/images/website/WP-img-2.jpg"><img src="{{site.url}}/assets/images/website/PV-img-2.png"></a>
+            </div>
+          </div>
+          <!-- end row -->
+          <!-- row -->
+          <div class="row">
+            <div class="col">
+              <a href="{{site.url}}/assets/images/website/WP-img-3.jpg"><img src="{{site.url}}/assets/images/website/PV-img-3.png"></a>
+            </div>
+            <div class="col">
+              <a href="{{site.url}}/assets/images/website/WP-img-3.jpg"><img src="{{site.url}}/assets/images/website/PV-img-4.png"></a>
+            </div>
+          </div>
+          <!-- end row -->
+          <!-- row -->
+          <div class="row">
+            <div class="col">
+              <a href="{{site.url}}/assets/images/website/WP-img-3.jpg"><img src="{{site.url}}/assets/images/website/PV-img-5.png"></a>
+            </div>
+            <div class="col">
+              <a href="{{site.url}}/assets/images/website/WP-img-3.jpg"><img src="{{site.url}}/assets/images/website/PV-img-6.png"></a>
+            </div>
+          </div>
+          <!-- end row -->
+        </div>
+      </div>
+
+    </div>  <!-- Close Tabe -->
+
+    <!-- Tab #Reputation Management -->
+    <div id="TM-collapseRM" class="collapse" aria-labelledby="TM-headingRM" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Reputation Managment</h2>
         </div>
       </div>
 
@@ -576,14 +355,16 @@ description: Everything a business needs to start their online business presence
 
         </div>
       </div>
+
+
     </div> <!-- Close Tabe -->
 
-    <!-- Fifth Tab Custom Voice -->
-    <div id="TM-collapseFive" class="collapse" aria-labelledby="TM-headingFive" data-parent="#TabMenu">
+    <!-- Tab #Rapid Reviews -->
+    <div id="TM-collapseRR" class="collapse" aria-labelledby="TM-headingRR" data-parent="#TabMenu">
       <!-- Content -->
       <div class="row">
         <div class="col">
-          <h2>Customer Voice</h2>
+          <h2>Rapid Review</h2>
         </div>
       </div>
 
@@ -591,105 +372,20 @@ description: Everything a business needs to start their online business presence
 
       <div class="row">
         <div class="col-8">
-          <p>Online reviews are critical to the success of a local business. In fact, nearly 90% of consumers say they’ll only consider using a business if they have an average rating of 3-5 stars. Smart business owners are getting serious about soliciting feedback, but asking customers for reviews can be time-consuming.</p>
 
-          <p>We offer a business tool that does the heavy lifting for you, so you can gather customer experiences to boost online star power and drive more business. Win the trust of new customers, collect valuable feedback, and show up where people are looking.</p>
-
-          <p>Unlock a powerful feedback tool that will have you seeing stars!</p>
+          <p>Rapid Reviews scans for your business reviews twice as often— helping you stay up to date and respond quickly to your customers.</p>
 
           <ul class="fa-ul">
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Use your happy customers to win new customers: Leverage the voice of your brand champions to improve online word-of-mouth. Invite existing customers to share their experiences online so new customers know they can trust you. </li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Collect feedback to better your business: Ensure you’re giving customers what they want and expect. Invite them to share their experiences and put their valuable feedback to work.</li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Build a targeted presence across popular review sites: Make sure your business reviews show up where your customers spend the most time. Focus on collecting feedback on the review sites that impact your business. </li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Help your business shine in local search: Maximize the SEO benefits of positive customer experiences. Gathering authentic reviews will help you show up in search so new customers can find you.</li>
-            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Reach customers wherever they are: Customer Voice gives you the flexibility to request reviews on the medium that works best for your customers—either text message or email.</li>
+            <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>2X faster review detection – Discover new reviews sooner </li>
           </ul>
 
-          <h3 class="text-uppercase">FAQ</h3>
-
-          <div class="accordion" id="CVoice">
-            <div class="card">
-              <div class="card-header" id="CV-headingOne">
-                <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#CV-collapseOne" aria-expanded="true" aria-controls="CV-collapseOne">
-                  Why do customer reviews matter?
-                </a>
-              </div>
-
-              <div id="CV-collapseOne" class="collapse" aria-labelledby="CV-headingOne" data-parent="#CVoice">
-                <div class="card-body">
-                  Consumers often search online for a local business with recent reviews and an average review rating of at least four stars. If a business doesn’t fall into that category, there’s a good chance they’re losing potential customers to competitors. To avoid losing sales, it’s important to continuously generate positive reviews while managing the negative ones.
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header" id="CV-headingTwo">
-                <a href="#" class="collapsed"  data-toggle="collapse" data-target="#CV-collapseTwo" aria-expanded="false" aria-controls="CV-collapseTwo">
-                  Why is it important to continuously generate new reviews?
-                </a>
-              </div>
-              <div id="CV-collapseTwo" class="collapse" aria-labelledby="CV-headingTwo" data-parent="#CVoice">
-                <div class="card-body">
-                  For local businesses, having a steady stream of recent reviews is crucial. 73% of consumers say reviews written more than 3 months ago aren’t relevant anymore. Customers want to see reviews that relate to the business as it is today.
-                </div>
-              </div>
-            </div>
-
-          </div>
-
         </div>
 
-        <!-- Gallery -->
-        <div class="col-4 d-sm-block d-xs-block">
-          <h4>Gallery</h4>
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/CV-img-1.png"><img src="{{site.url}}/assets/images/website/CV-img-1.png"></a>
-            </div>
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/CV-img-2.png"><img src="{{site.url}}/assets/images/website/CV-img-2.png"></a>
-            </div>
-          </div>
-          <!-- end row -->
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/CV-img-3.png"><img src="{{site.url}}/assets/images/website/CV-img-3.png"></a>
-            </div>
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/CV-img-4.png"><img src="{{site.url}}/assets/images/website/CV-img-4.png"></a>
-            </div>
-          </div>
-          <!-- end row -->
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/CV-img-5.png"><img src="{{site.url}}/assets/images/website/CV-img-5.png"></a>
-            </div>
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/CV-img-6.png"><img src="{{site.url}}/assets/images/website/CV-img-6.png"></a>
-            </div>
-          </div>
-          <!-- end row -->
-          <!-- row -->
-          <div class="row">
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/CV-img-7.png"><img src="{{site.url}}/assets/images/website/CV-img-7.png"></a>
-            </div>
-            <div class="col">
-              <a href="{{site.url}}/assets/images/website/CV-img-8.png"><img src="{{site.url}}/assets/images/website/CV-img-8.png"></a>
-            </div>
-          </div>
-          <!-- end row -->
-
-        </div>
       </div>
+    </div> <!-- Close Tabe -->
 
-    </div><!-- Close Tabe -->
-
-    <!-- Sixth Tab Social Monitoring -->
-    <div id="TM-collapseSix" class="collapse" aria-labelledby="TM-headingSix" data-parent="#TabMenu">
+    <!-- Tab #Social Monitoring -->
+    <div id="TM-collapseSM" class="collapse" aria-labelledby="TM-headingSM" data-parent="#TabMenu">
       <!-- Content -->
       <div class="row">
         <div class="col">
@@ -701,6 +397,7 @@ description: Everything a business needs to start their online business presence
 
       <div class="row">
         <div class="col-8">
+
           <h3 class="text-center mb-4"><a href="https://storage.googleapis.com/mediarepo-prod/marketplace-products/03b8eeeb-8c40-4974-85ea-a8be5dc5a62a/Watch%20this%20video!%20.mp4">[Watch our Video]</a></h3>
 
           <p>Social media is hard to do on your own. You need to come up with a nonstop stream of relevant content and engage with customers across all social channels, every single day.</p>

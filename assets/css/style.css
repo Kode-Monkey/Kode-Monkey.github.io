@@ -28,6 +28,7 @@ body {
     margin-left: auto;
 }
 
+
 img {
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -92,6 +93,10 @@ a span {
     padding: 13px 40px;
 }
 
+.text-burgandy {
+  color: #530c20;
+  font-weight: bold;
+}
 /*.btn:focus,
 .btn:active {
     outline: inherit;
@@ -244,8 +249,8 @@ p:last-child {
 Section
 */
 .sections {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     position: relative;
     overflow: hidden;
 }
@@ -288,7 +293,7 @@ section .subtitle-half h5 {
     min-height: 750px;
 }
 .overlay-fluid-block {
-    background-color: rgba(0, 0, 0, 0.15);
+    /*background-color: rgba(0, 0, 0, 0.70);*/
     width: 100%;
 }
 .home-overlay-fluid {
@@ -616,35 +621,49 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
-    background:url(../images/Coffee-Code.png) no-repeat center center;
+    /*background:url(../images/Coffee-Code.png) no-repeat center center;*/
+    background:url(../images/KKM-Logo-Sticker-shadow.png) no-repeat center center;
     color:#000;
-    background-size:cover;
+    background-size:contain;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
     -ms-background-size:cover;
 }
 .home-wrapper{
-    padding:180px 0px;
+    padding:80px 0px;
     overflow:hidden;
     margin: auto;
 }
-.home-content h1{
-    font-size:48px;
+
+/*.home-content {
+  /*background: #fff;*/
+  /*color: #000000;
+  /*border-radius: 10px;
+  shadow: 5px;*/
+  /*padding: 20px;
+}*/
+
+/*.home-content h1{
+    font-size: 5rem;
+    font-weight:500;
+    margin-bottom: 30px;
+    /*color: #7f0324;*/
+/*}*/
+
+/*.home-content h2{
+    font-size: 1rem;
     font-weight:700;
     margin-bottom: 30px;
-    color: #fff;
-}
-.home-content p{
-    margin-bottom: 30px;
-    color: #fff;
-}
-.home-content .home-contact{
-    margin-top: 0px;
-}
+    /*color: #7f0324;*/
+/*}*/
 
-.home-contact .input-group{display: block;}
-.home-content .input-group .form-control {
+/*.home-content .home-contact{
+    margin-top: 0px;
+}*/
+
+/*.home-contact .input-group{display: block;}
+/*.home-content .input-group .form-control {
     position: relative;
     z-index: 2;
     float: left;
@@ -652,26 +671,26 @@ textarea::-ms-input-placeholder
     margin-bottom: 0;
     height: 60px;
 
-}
-.home-content .home-contact input[type="text"]{
+}*/
+/*.home-content .home-contact input[type="text"]{
     color:#82ca9c;
-}
-.home-content .home-contact input[type="submit"]{
+}*/
+/*.home-content .home-contact input[type="submit"]{
     display:inline-block;
     width:35%;
     background:/*#82ca9c*/ #054D6A;
-    color:#fff;
+  /*  color:#fff;
     border: 0px;
-}
-.home-content .home-contact input[type="submit"]:hover{
+}*//
+/*.home-content .home-contact input[type="submit"]:hover{
     background-color: /*rgba(0, 173, 62, 0.75);*/ #530C20
-}
-.home-contact p{
+/*}*/
+/*.home-contact p{
     margin-top: 20px;
     /*color:#000;*/
-    color: #fff;
+/*    color: #fff;
     font-size:15px;
-}
+}*/
 /*.form-control {
     border: 1px solid #DEDEDE;
     height:45px;

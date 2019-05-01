@@ -1,0 +1,181 @@
+---
+layout: template
+mine-image: homepage/BusinessPresence.jpg
+img-size: 90
+title: Starter Presence
+category: Websites Packages
+setup: $250
+cost: $64
+renewal: $97
+subtitle: Get the foundational services to ensure your business is up and running online.
+description: Everything a business needs to start their online business presence.
+---
+
+  <!-- Conethen -->
+  <div class="row">
+    <div class="col">
+      <hr />
+      <p class="text-center">
+        <a href="{{site.url}}/website/SMB-Websites">SMB Websites</a> |
+        <!-- <a href="{{site.url}}/website/Starter-Presence">Starter Presence</a> | -->
+        <a href="{{site.url}}/website/Basic-Presence">Basic Presence</a> |
+        <a href="{{site.url}}/website/Advance-Presence">Advanced Presence</a> |
+        <a href="{{site.url}}/website/Microsite">Microsite</a> |
+        <a href="{{site.url}}/website/DIY-Website">DIY Website</a> |
+        <a href="{{site.url}}/website/DIWM-Website">DIWM Website</a> |
+        <a href="{{site.url}}/website/SIPA-Portal">SIPA Portal</a>
+      </p>
+      <hr />
+      <p><strong>The killer combination for what your business needs to succeed.</strong></p>
+
+      <p>The Starter Presence is designed for business looking expanded beyond Facebook while keeping within a budget.</p>
+
+      <p>Moving to a digital presence can be a over whelming for some businesses. That is why we have bundled our suite
+      of tools into an all-in-one dashboard so you can managed all aspects of your digital presence efforts from a single login!</p>
+      <!--<p>Get insight into what the online community is saying about you—monitor customer reviews and get notifications whenever your business is mentioned on the web. Schedule posts on multiple social channels and generate a following for your business, all from a single interface. Finally, gather customer feedback and experiences to boost online star power and drive more business. <strong>The Business Presence is everything you need to get started</strong>.</p>-->
+
+    </div>
+  </div>
+
+  <!-- <hr /> -->
+  <!-- Products Tabs -->
+  <div class="accordion mt-5" id="TabMenu">
+    <div class="row mb-4">
+      <div class="col">
+        <ul class="nav nav-tabs">
+          <!-- Pagevamp -->
+          <li class="nav-item pr-0" id="TM-headingPV">
+            <p class="text-center pl-0 mt-0 mb-0"><a id="tab-icon" class="nav-link pv-icon rounded-circle" href="#" data-toggle="collapse" data-target="#TM-collapsePV" aria-expanded="false" aria-controls="TM-collapsePV">DIY Website</a></p>
+            <p class="small text-center">DIY Website</p>
+          </li>
+          <!-- Pagevamp Domain -->
+          <li class="nav-item pr-4" id="TM-headingPVD">
+            <p class="text-center pl-1 mt-0 mb-0"><a id="tab-icon" class="nav-link pvd-icon rounded-circle" href="#" data-toggle="collapse" data-target="#TM-collapsePVD" aria-expanded="false" aria-controls="TM-collapsePVD">Domain</a></p>
+            <p class="small text-center">Domain</p>
+          </li>
+          <!-- Listing Presence -->
+          <li class="nav-item pr-4" id="TM-headingLL">
+            <p class="text-center pl-0 mt-0 mb-0"><a id="tab-icon" class="nav-link ld-icon" href="#" data-toggle="collapse" data-target="#TM-collapseLL" aria-expanded="true" aria-controls="TM-collapseOne">Local LIsting</a></p>
+            <p class="small text-center">Local Listing</p>
+          </li>
+          <!-- Reputation Management -->
+          <li class="nav-item pr-4" id="TM-headingRM">
+            <p class="text-center pl-0 mt-0 mb-0"><a id="tab-icon" class="nav-link reputation-icon" class="nav-link" href="#" data-toggle="collapse" data-target="#TM-collapseRM" aria-expanded="false" aria-controls="TM-collapseRM">Reputation Management</a></p>
+            <p class="small text-center">Reputation</p>
+          </li>
+          <!-- Costomer Voice -->
+          <li class="nav-item pr-4" id="TM-headingCV">
+            <p class="text-center pl-3 mt-0 mb-0">
+              <a id="tab-icon" class="nav-link cv-icon" href="#" data-toggle="collapse" data-target="#TM-collapseCV" aria-expanded="false" aria-controls="TM-collapseCV">Customer Voice</a>
+            </p>
+            <p class="small text-center">Costomer Voice</p>
+          </li>
+          <!-- Social Monitoring -->
+          <li class="nav-item pr-4" id="TM-headingSM">
+            <p class="text-center pl-3 mt-0 mb-0"><a id="tab-icon" class="nav-link smonitoring-icon" href="#" data-toggle="collapse" data-target="#TM-collapseSM" aria-expanded="false" aria-controls="TM-collapseSM">Social Monitoring</a></p>
+            <p class="small">Social Monitoring</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Tab #Pagevamp-->
+    <div id="TM-collapsePV" class="collapse show" aria-labelledby="TM-headingPV" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>DIY Website</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include DIYWebsite.html %}
+
+    </div>  <!-- Close Tabe -->
+
+    <!-- Tab #DIY Website Domain-->
+    <div id="TM-collapsePVD" class="collapse" aria-labelledby="TM-headingPVD" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Domain</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include DIYDomain.html %}
+
+    </div>  <!-- Close Tabe -->
+
+    <!-- Tab #Local Listing -->
+    <div id="TM-collapseLL" class="collapse " aria-labelledby="TM-headingLL" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Local Listing</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include LL.html %}
+
+    </div>  <!-- Close Tabe -->
+
+    <!-- Tab #Reputation Management -->
+    <div id="TM-collapseRM" class="collapse" aria-labelledby="TM-headingRM" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Reputation Managment</h2>
+        </div>
+      </div>
+
+      <hr />
+      {% include RM.html %}
+
+    </div> <!-- Close Tabe -->
+
+    <!-- Tabe #CuatomerVoice -->
+    <div id="TM-collapseCV" class="collapse" aria-labelledby="TM-headingCV" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Customer Voice</h2>
+        </div>
+      </div>
+
+      <hr />
+      {% include CV.html %}
+
+    </div> <!-- Close Tabe -->
+
+    <!-- Tab #Social Monitoring -->
+    <div id="TM-collapseSM" class="collapse" aria-labelledby="TM-headingSM" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Social Monitoring</h2>
+        </div>
+      </div>
+
+      <hr />
+      {% include SM.html %}
+
+    </div><!-- Close Tabe -->
+
+  </div><!-- Close Tabs -->
+
+  <hr />
+  <p class="text-center">
+    <a href="{{site.url}}/website/SMB-Websites">SMB Websites</a> |
+    <!-- <a href="{{site.url}}/website/Starter-Presence">Starter Presence</a> | -->
+    <a href="{{site.url}}/website/Basic-Presence">Basic Presence</a> |
+    <a href="{{site.url}}/website/Advance-Presence">Advanced Presence</a> |
+    <a href="{{site.url}}/website/Microsite">Microsite</a> |
+    <a href="{{site.url}}/website/DIY-Website">DIY Website</a> |
+    <a href="{{site.url}}/website/DIWM-Website">DIWM Website</a> |
+    <a href="{{site.url}}/website/SIPA-Portal">SIPA Portal</a>
+  </p>

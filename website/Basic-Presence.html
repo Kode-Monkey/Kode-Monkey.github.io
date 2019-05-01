@@ -1,0 +1,203 @@
+---
+layout: template
+mine-image: homepage/BusinessPresence.jpg
+img-size: 90
+title: Basic Presence
+category: Websites Packages
+setup: $1250
+cost: $120
+renewal: $599
+subtitle: Get the foundational services to ensure your business is up and running online.
+description: Everything a business needs to start their online business presence.
+---
+
+  <!-- Conethen -->
+  <div class="row">
+    <div class="col">
+      <hr />
+      <p class="text-center">
+        <a href="{{site.url}}/website/SMB-Websites">SMB Websites</a> |
+        <a href="{{site.url}}/website/Starter-Presence">Starter Presence</a> |
+        <!-- <a href="{{site.url}}/website/Basic-Presence">Basic Presence</a> | -->
+        <a href="{{site.url}}/website/Advance-Presence">Advanced Presence</a> |
+        <a href="{{site.url}}/website/Microsite">Microsite</a> |
+        <a href="{{site.url}}/website/DIY-Website">DIY Website</a> |
+        <a href="{{site.url}}/website/DIWM-Website">DIWM Website</a> |
+        <a href="{{site.url}}/website/SIPA-Portal">SIPA Portal</a>
+      </p>
+
+      <hr />
+      <p><strong>Looking for more option and functionality within your website?</strong></p>
+
+      <p>The Basic Presence builds on the Starter Presence. We have stepped up the website up to a fully functioning WordPress site, advances your local listings, and added Customer Voice.</p>
+
+      <p>This package will move you to the next level of digital marketing without breaking the bank.</p>
+
+    </div>
+  </div>
+
+  <!-- <hr /> -->
+  <!-- Products Tabs -->
+  <div class="accordion mt-5" id="TabMenu">
+    <div class="row mb-4">
+      <div class="col">
+        <ul class="nav nav-tabs">
+          <!-- WordPress Pro -->
+          <li class="nav-item pr-4" id="TM-headingWP">
+            <p class="text-center pl-1 mt-0 mb-0"><a id="tab-icon" class="nav-link wsp-icon rounded-circle" href="#" data-toggle="collapse" data-target="#TM-collapseWP" aria-expanded="true" aria-controls="TM-collapseWP">WordPress</a></p>
+            <p class="small text-center">WordPress</p>
+          </li>
+          <!-- WordPress Pro Domain-->
+          <li class="nav-item pr-4" id="TM-headingWPD">
+            <p class="text-center pl-1 mt-0 mb-0"><a id="tab-icon" class="nav-link wpd-icon rounded-circle" href="#" data-toggle="collapse" data-target="#TM-collapseWPD" aria-expanded="true" aria-controls="TM-collapseWPD">Domain</a></p>
+            <p class="small text-center">Domain</p>
+          </li>
+          <!-- Local Listings -->
+          <li class="nav-item pr-4" d="TM-headingLL">
+            <p class="text-center pl-0 mt-0 mb-0"><a id="tab-icon" class="nav-link ld-icon" href="#" data-toggle="collapse" data-target="#TM-collapseLL" aria-expanded="false" aria-controls="TM-collapseLL">Local Listings</a></p>
+            <p class="small text-center">Local Listing</p>
+          </li>
+          <!-- Listing Pro -->
+          <li class="nav-item pr-4" id="TM-headingLP">
+            <p class="text-center pl-0 mt-0 mb-0"><a id="tab-icon" class="nav-link lsp-icon" href="#" data-toggle="collapse" data-target="#TM-collapseLP" aria-expanded="false" aria-controls="TM-collapseLP">Listing Pro</a></p>
+            <p class="small text-center">Listing Pro</p>
+          </li>
+          <!-- Reputation Management -->
+          <li class="nav-item pr-4" id="TM-headingRM">
+            <p class="text-center pl-0 mt-0 mb-0"><a id="tab-icon" class="nav-link reputation-icon" class="nav-link" href="#" data-toggle="collapse" data-target="#TM-collapseRM" aria-expanded="false" aria-controls="TM-collapseRM">Reputation Management</a></p>
+            <p class="small text-center">Reputation</p>
+          </li>
+          <!-- Costomer Voice -->
+          <li class="nav-item pr-4" id="TM-headingCV">
+            <p class="text-center pl-3 mt-0 mb-0">
+              <a id="tab-icon" class="nav-link cv-icon" href="#" data-toggle="collapse" data-target="#TM-collapseCV" aria-expanded="false" aria-controls="TM-collapseCV">Customer Voice</a>
+            </p>
+            <p class="small text-center">Costomer Voice</p>
+          </li>
+          <!-- Social Monitoring -->
+          <li class="nav-item pr-4" id="TM-headingSM">
+            <p class="text-center pl-3 mt-0 mb-0">
+              <a id="tab-icon" class="nav-link smonitoring-icon" href="#" data-toggle="collapse" data-target="#TM-collapseSM" aria-expanded="false" aria-controls="TM-collapseSM">Social Monitoring</a></p>
+            <p class="small">Social Monitoring</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Tab #WordPres PRo-->
+    <div id="TM-collapseWP" class="collapse show" aria-labelledby="TM-headingWP" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>WordPress</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include WP.html %}
+
+    </div> <!-- Close Tabe -->
+
+    <!-- Tab #WordPres PRo-->
+    <div id="TM-collapseWPD" class="collapse" aria-labelledby="TM-headingWPD" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Domain</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include WPDomain.html %}
+
+    </div> <!-- Close Tabe -->
+
+    <!-- Tab #Local Listings -->
+    <div id="TM-collapseLL" class="collapse" aria-labelledby="TM-headingLL" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Local Listings</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include LL.html %}
+
+    </div> <!-- Close Tabe -->
+
+    <!-- Tab #Listing Pro-->
+    <div id="TM-collapseLP" class="collapse" aria-labelledby="TM-headingLP" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Listing Pro</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include LP.html %}
+
+    </div>  <!-- Close Tabe -->
+
+    <!-- Tab #Reputation Management -->
+    <div id="TM-collapseRM" class="collapse" aria-labelledby="TM-headingRM" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Reputation Managment</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include RM.html %}
+
+
+    </div> <!-- Close Tabe -->
+
+    <!-- Tabe #CuatomerVoice -->
+    <div id="TM-collapseCV" class="collapse" aria-labelledby="TM-headingCV" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Customer Voice</h2>
+        </div>
+      </div>
+
+      <hr />
+      {% include CV.html %}
+
+    </div> <!-- Close Tabe -->
+
+    <!-- Tab #Social Monitoring -->
+    <div id="TM-collapseSM" class="collapse" aria-labelledby="TM-headingSM" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Social Monitoring</h2>
+        </div>
+      </div>
+
+      <hr />
+
+    {% include SM.html %}
+
+    </div><!-- Close Tabe -->
+
+  </div><!-- Close Tabs -->
+  <hr />
+  <p class="text-center">
+    <a href="{{site.url}}/website/SMB-Websites">SMB Websites</a> |
+    <a href="{{site.url}}/website/Starter-Presence">Starter Presence</a> |
+    <!-- <a href="{{site.url}}/website/Basic-Presence">Basic Presence</a> | -->
+    <a href="{{site.url}}/website/Advance-Presence">Advanced Presence</a> |
+    <a href="{{site.url}}/website/Microsite">Microsite</a> |
+    <a href="{{site.url}}/website/DIY-Website">DIY Website</a> |
+    <a href="{{site.url}}/website/DIWM-Website">DIWM Website</a> |
+    <a href="{{site.url}}/website/SIPA-Portal">SIPA Portal</a>
+  </p>

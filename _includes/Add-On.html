@@ -1,0 +1,55 @@
+<!-- Addons for Packages -->
+{% if page.category == "Websites Packages" %}
+
+  {% unless page.title contains "Advance" %}
+  <hr / >
+  <h4 class="pb-3">Add-On</h4>
+    <div class="row mb-3 ml-3">
+      <div class="col-1 mktg-icon pb-5"></div>
+      <div class="col"><small><a href="{{site.url}}/marketing/DIY-SEO">DIY SEO</a></small></div>
+    </div>
+
+    <div class="row mb-3 ml-3">
+      <div class="col-1 ASEO-icon pb-5"></div>
+      <div class="col"><small><a href="{{site.url}}/marketing/Advanced-SEO">Advanced SEO</a></small></div>
+    </div>
+  {% endunless %}
+{% endif %}
+
+<!-- Addons for Websites Only -->
+{% if page.category == "Websites Only" %}
+  {% unless page.title contains "Advance" %}
+    <hr / >
+    <h4 class="pb-3">Add-On</h4>
+    <!-- Local Listings -->
+      <div class="row mb-3 ml-3">
+      <div class="col-1 lsp-icon pb-5"></div>
+      <div class="col"><small><a href="{{site.url}}/marketing/Listing-Pro">Listing Pro</a></small></div>
+    </div>
+    <!-- end row -->
+    <!-- Reputation Management -->
+    <div class="row mb-3 ml-3">
+      <div class="col-1 reputation-icon pb-5"></div>
+      <div class="col"><small><a href="{{ site.url}}/marketing/Reputation-Management">Reputation Management</a></small></div>
+    </div>
+    <!-- End Row -->
+    <!-- Customer Voice -->
+    <div class="row mb-3 ml-3">
+      <div class="col-1 cv-icon pb-5"></div>
+      <div class="col"><small><a href="{{site.url}}/marketing/Customer-Voice">Customer Voice</a></small></div>
+    </div>
+    <!-- End Row -->
+    <!-- DIY SEO -->
+    <div class="row mb-3 ml-3">
+      <div class="col-1 mktg-icon pb-5"></div>
+      <div class="col"><small><a href="{{site.url}}/marketing/DIY-SEO">DIY SEO</a></small></div>
+    </div>
+    <!-- end row -->
+    <!-- ASEOO -->
+    <div class="row mb-3 ml-3">
+      <div class="col-1 ASEO-icon pb-5"></div>
+      <div class="col"><small><a href="{{site.url}}/marketing/Advanced-SEO">Advanced SEO</a></small></div>
+    </div>
+    <!-- end row -->
+  {% endunless %}
+{% endif %}

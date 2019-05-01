@@ -1,0 +1,104 @@
+---
+layout: template
+title: DIY Website
+category: Websites Only
+mine-image: website/DIY-Builder.png
+img-size: 90
+setup: $250
+cost: $20
+renewal: $12
+subtitle: Do-It-Yourself - Website
+description: Do-It-Yourself - Sitebuilder a drag-and-drop your website with ease!
+---
+
+  <!-- Conethen -->
+  <div class="row">
+    <div class="col">
+      <hr />
+      <p class="text-center">
+        <a href="{{site.url}}/website/SMB-Websites">SMB Websites</a> |
+        <a href="{{site.url}}/website/Starter-Presence">Starter Presence</a> |
+        <a href="{{site.url}}/website/Basic-Presence">Basic Presence</a> |
+        <a href="{{site.url}}/website/Advance-Presence">Advanced Presence</a> |
+        <a href="{{site.url}}/website/Microsite">Microsite</a> |
+        <!-- <a href="{{site.url}}/website/DIY-Website">DIY Website</a> | -->
+        <a href="{{site.url}}/website/DIWM-Website">DIWM Website</a> |
+        <a href="{{site.url}}/website/SIPA-Portal">SIPA Portal</a>
+      </p>
+      <hr />
+      <h2>Designed for Businesses Like Yours</h2>
+
+      <p>This DIY Website is the easiest and fastest way for you to create a professional website that amplifies your presence
+      online and drives your business.</p>
+
+      <p>Get a website built for you in seconds! Here's how it works:</p>
+      <ul class="fa-ul">
+        <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Connect with your Facebook page</li>
+        <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Pull all of your information, photos and videos, to automatically</li>
+        <li><span class="fa-li" ><i class="fas fa-check-circle"></i></span>Build a beautiful website in seconds. No technical skills necessary</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- <hr /> -->
+  <!-- Products Tabs -->
+  <div class="accordion mt-5" id="TabMenu">
+    <div class="row mb-4">
+      <div class="col">
+        <ul class="nav nav-tabs">
+          <!-- Pagevamp -->
+          <li class="nav-item pr-4" id="TM-headingPV">
+            <p class="text-center pl-1 mt-0 mb-0"><a id="tab-icon" class="nav-link pv-icon rounded-circle" href="#" data-toggle="collapse" data-target="#TM-collapsePV" aria-expanded="false" aria-controls="TM-collapsePV">DIY Website</a></p>
+            <p class="small text-center">DIY Website</p>
+          </li>
+          <!-- Pagevamp Domain -->
+          <li class="nav-item pr-4" id="TM-headingPVD">
+            <p class="text-center pl-1 mt-0 mb-0"><a id="tab-icon" class="nav-link pvd-icon rounded-circle" href="#" data-toggle="collapse" data-target="#TM-collapsePVD" aria-expanded="false" aria-controls="TM-collapsePVD">Domain</a></p>
+            <p class="small text-center">Domain</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Tab #Pagevamp-->
+    <div id="TM-collapsePV" class="collapse show" aria-labelledby="TM-headingPV" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>DIY Website</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include DIYWebsite.html %}
+
+    </div>  <!-- Close Tabe -->
+
+    <!-- Tab #Pagevamp Domain-->
+    <div id="TM-collapsePVD" class="collapse" aria-labelledby="TM-headingPVD" data-parent="#TabMenu">
+      <!-- Content -->
+      <div class="row">
+        <div class="col">
+          <h2>Domain</h2>
+        </div>
+      </div>
+
+      <hr />
+
+      {% include DIYDomain.html %}
+
+    </div>  <!-- Close Tabe -->
+
+  </div><!-- Close Tabs -->
+  <hr />
+  <p class="text-center">
+    <a href="{{site.url}}/website/SMB-Websites">SMB Websites</a> |
+    <a href="{{site.url}}/website/Starter-Presence">Starter Presence</a> |
+    <a href="{{site.url}}/website/Basic-Presence">Basic Presence</a> |
+    <a href="{{site.url}}/website/Advance-Presence">Advanced Presence</a> |
+    <a href="{{site.url}}/website/Microsite">Microsite</a> |
+    <!-- <a href="{{site.url}}/website/DIY-Website">DIY Website</a> | -->
+    <a href="{{site.url}}/website/DIWM-Website">DIWM Website</a> |
+    <a href="{{site.url}}/website/SIPA-Portal">SIPA Portal</a>
+  </p>
