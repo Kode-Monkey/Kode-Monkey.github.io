@@ -17,6 +17,13 @@ strong {
   font-weight: 500;
 }
 
+@media (max-width: 575.98px) {
+  .prod {
+    margin-left: 20%;
+  }
+}
+
+
 #logo {
   background: url(../images/KKM-Logo-Sticker-shadow.png) no-repeat 15px 5px;
   background-size: 26%;
@@ -45,10 +52,15 @@ strong {
 }
 
 /***** Sections *****/
-#diy {
+#products {
   background-color: #efefef;
   margin-bottom: 45px;
   height: 500px;
+}
+@media (max-width: 575.98px) {
+  #products {
+    height: 650px;
+  }
 }
 
 #diwm {
@@ -284,7 +296,7 @@ hr.features {
         border-top-style: none;
         border-top-width: 0px;
     border-top: 2px solid #a3bdc9;
-    width: 85%;
+    width: 55%;
 }
 
 
