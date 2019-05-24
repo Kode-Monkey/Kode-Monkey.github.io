@@ -14,9 +14,12 @@
       <div class="col-sm-3 col-md-3">
         <!-- page title or category and subtitle -->
         {% if page.title == "About" %}
+          <h1>{{ page.title }}</h1>
+          <h2>{{page.description}}</h2>
           <!-- image -->
-          <img class="img-responsive img-thumbnail" src="{{sit.url}}/assets/images/TheKodemonkey.jpg" alt="Heather Welsh">
+          <p class="text-center"><img class="img-responsive img-thumbnail" src="{{sit.url}}/assets/images/TheKodemonkey.jpg" style="width: 50%; height: auto;" alt="Heather Welsh"></p>
         {% elsif page.title == "Contact Us" %}
+          <h1 class="mt-4">{{page.title}}</h1>
           <!-- fb feed -->
           {% include fbpost.html %}
           <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="btn btn-md btn-danger">Schedule a Free Consultation</a></p>
@@ -40,10 +43,6 @@
       <!-- right - Main Column -->
       <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
         {% unless page.layout == "blog" or page.title == "Accessibility Statement" or page.title == "Wrong Page" %}
-          {% if page.title == "Contact Us" or page.title == "About" %}
-            <h1 class="mt-4">{{page.title}}</h1>
-
-          {% else %}
             <!-- top row image title & Price -->
             <div class="row">
               <div class="col-sm-7">
@@ -70,7 +69,6 @@
                 </div>
               </div>
             </div>
-          {% endif  %}
         {% endunless %}
 
         {{ content }}
