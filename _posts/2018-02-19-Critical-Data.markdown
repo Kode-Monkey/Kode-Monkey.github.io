@@ -4,7 +4,7 @@ title:  "Critical Data"
 date:   2018-02-19
 categories: Listings
 tags: [Critical Data, NAP, business listing, Google]
-image: Listing_Sync_Pro_High_Res.png
+image: 
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 ---

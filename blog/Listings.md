@@ -2,7 +2,7 @@
 layout: blog
 title: Listings
 categories: Listings
-image: Listing_Sync_Pro_High_Res.png
+image: 
 ---
 
 {% assign count = site.categories[page.categories] | size %}

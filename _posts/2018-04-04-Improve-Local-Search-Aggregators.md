@@ -4,7 +4,7 @@ title:  "Improving Local Search Rankings"
 date:   2018-03-05
 categories: Listings
 tags: [Aggregators, Factual, Acxiom, Infogroup Localeze, Rankings, citation]
-image: Listing_Sync_Pro_High_Res.png
+image: 
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 
