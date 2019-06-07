@@ -199,12 +199,13 @@ strong {
 }
 
 .ld-icon{
-  background: url('../images/icons/marketing/') no-repeat;
+  background: url('../images/ListingPro/Listing-Distribution-icon.png') no-repeat;
   background-size: 100%;
 }
 
+
 .lsp-icon{
-  background: url('../images/icons/marketing/') no-repeat;
+  background: url('../images/ListingPro/ListingSyncPro.png') no-repeat;
   background-size: 100%;
 }
 
