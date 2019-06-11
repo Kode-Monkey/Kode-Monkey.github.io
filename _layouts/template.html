@@ -14,8 +14,8 @@
       <div class="col-sm-3 col-md-3">
         <!-- page title or category and subtitle -->
         {% if page.title == "About" %}
-          <h1>{{ page.subtitle }}</h1>
-          <h2>{{page.description}}</h2>
+          <h2>{{ page.category }}</h2>
+          <p>{{page.subtitle}}</p>
           <!-- image -->
           <p class="text-center"><img class="img-responsive img-thumbnail" src="{{sit.url}}/assets/images/TheKodemonkey.jpg" style="width: 50%; height: auto;" alt="Heather Welsh"></p>
         {% elsif page.title == "Contact Us" %}
