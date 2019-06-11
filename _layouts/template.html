@@ -42,34 +42,42 @@
       </div>
       <!-- right - Main Column -->
       <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
-        {% unless page.layout == "blog" or page.title == "Accessibility Statement" or page.title == "Wrong Page" %}
-            <!-- top row image title & Price -->
-            <div class="row">
-              <div class="col-sm-7">
-                  <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="mt-2 rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
+        {% if page.layout == "blog" or page.title == "Accessibility Statement" or page.title == "Wrong Page" or page.title == "FAQ" %}
+        <div class="row">
+          <div class="col-sm-7">
+              <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="mt-2 rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
 
-                  <h1 class="mt-4">{{page.title}}</h1>
-              </div>
-              <div class="col-sm-5">
-                <div class="row ml-5">
-                  <div class="col">
-                    <h2>Pricing</h2>
-                  </div>
+              <h1 class="mt-4">{{page.title}}</h1>
+          </div>
+        </div>
+        {% else %}
+          <!-- top row image title & Price -->
+          <div class="row">
+            <div class="col-sm-7">
+                <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="mt-2 rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
+
+                <h1 class="mt-4">{{page.title}}</h1>
+            </div>
+            <div class="col-sm-5">
+              <div class="row ml-5">
+                <div class="col">
+                  <h2>Pricing</h2>
                 </div>
-                <hr />
-                <div class="row ml-5">
-                  <div class="col">
-                    <p>Setup: {{page.setup}}</p>
-                    <p>Monthly: {{page.cost}}</p>
-                    <p>Yearly Renewal: {{page.renewal}}</p>
+              </div>
+              <hr />
+              <div class="row ml-5">
+                <div class="col">
+                  <p>Setup: {{page.setup}}</p>
+                  <p>Monthly: {{page.cost}}</p>
+                  <p>Yearly Renewal: {{page.renewal}}</p>
 
-                    <a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="btn btn-md btn-danger">Book Free Consultation</a>
+                  <a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="btn btn-md btn-danger">Book Free Consultation</a>
 
-                  </div>
                 </div>
               </div>
             </div>
-        {% endunless %}
+          </div>
+        {% endif %}
 
         {{ content }}
 
