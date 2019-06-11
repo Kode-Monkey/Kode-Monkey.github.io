@@ -1,8 +1,10 @@
 ---
 layout: template
 title: About
-description: Who is the Kodemonkey?
-permalink: /about/
+mine-image: work-with-us.jpg
+img-size: 100
+subtitle: Who is the Kodemonkey
+description: Who is the Kodemonkey and what is our mission.
 ---
 
   <div class="row">
