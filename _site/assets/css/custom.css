@@ -1,11 +1,6 @@
-
-h1 {
-  font-size: 1.9rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-  padding-bottom: 10px;
+.card-title {
+    margin-bottom: .75rem;
+    color: #ffffff;
 }
 
 .pour{
@@ -14,7 +9,7 @@ h2 {
 }
 
 strong {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 @media (max-width: 575.98px) {
@@ -86,26 +81,6 @@ strong {
   background: url('../images/icons/additional/AdvancedReporting.png') no-repeat;
   background-size: 100%;
 }
-
-/***** Advanced SEO *****/
-
-/***** Builder *****/
-/*.bbuilder-icon{
-  background: url('../images/icons/websites/Basic-Builder-icon.png') no-repeat;
-  background-size: 100%;
-}
-.ebuilder-icon{
-  background: url('../images/icons/websites/Enhanced-Builder-icon.png') no-repeat;
-  background-size: 100%;
-}
-.pbuilder-icon{
-  background: url('../images/icons/websites/Premium-Builder-icon.png') no-repeat;
-  background-size: 100%;
-}
-.ubuilder-icon{
-  background: url('../images/icons/websites/Ultimate-Builder-icon.png') no-repeat;
-  background-size: 100%;
-}*/
 
 /***** Boostability *****/
 .boost-icon{
@@ -269,11 +244,6 @@ strong {
   background-size: 100%;
 }
 
-/***** Zenreach *****/
-.zen-icon{
-  background: url('../images/icons/additional/Zenreach.png') no-repeat;
-  background-size: 100%;
-}
 
 /********** end on-page tabs icons **********/
 
@@ -375,31 +345,28 @@ li{
 }
 /***** Responsive Video ****/
 /********** Buttons **********/
-a.btn-danger {
+
+a.btn-warning {
+    color: #ffffff;
+    background-color: #ff9933;
+    border-color: #ff9933;
+}
+
+a.btn-warning:hover {
     color: #fff;
-    background-color: #7f0324;
-    border-color: #68142b;
-
+    background-color: #ff8000;
+    border-color: #ff8000;
 }
 
-a.btn-danger:hover {
-    color: #fff;
-    background-color: #68142b;
-    border-color: #68142b;
-
-}
-
-.btn-warning {
-    color: #212529;
-    background-color: #eaab4d;
-    border-color: #eaab4d;
-
-}
 
 a.btn-info {
     color: #fff;
     background-color: #17a2b8;
     border-color: #17a2b8;
+  }
+
+.bg-kkmblue {
+    background-color: #013B56;
   }
 
 
@@ -471,4 +438,34 @@ a.btn-info {
 .carousel-indicators li.active {
 	background: #555;
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+
+.bg-info {
+    background-color: #ff8000 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #01658e;
+    border-color: #01658e;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #013B56;
+    border-color: #013B56;
+}
+
+i.far {
+  color: #01658e;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 90%;
+    padding: 0;
+    overflow: hidden;
+    left: 5.5%;
 }

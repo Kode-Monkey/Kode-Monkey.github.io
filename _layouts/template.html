@@ -45,8 +45,8 @@
       <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
         {% if page.layout == "blog" or page.title == "Web Accessibility Statement" or page.title == "About" or page.title == "Contact Us" or page.title == "Wrong Page" or page.title == "FAQ" %}
         <div class="row">
-          <div class="col-sm-7">
-              <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="mt-2 rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
+          <div class="col-sm-8">
+              <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="mt-2 img-fluid img-thumbnail rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
 
               <h1 class="mt-4">{{page.title}}</h1>
           </div>
@@ -54,32 +54,36 @@
         {% else %}
           <!-- top row image title & Price -->
           <div class="row">
-            <div class="col-sm-7">
-                <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="mt-2 rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
+            <div class="col">
+              {% if page.title == "Local Listings" %}
+              <div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
+                <iframe class="embed-responsive-item" src="https://storage.googleapis.com/mediarepo-prod/marketplace-products/09d5dd20-67d5-4fcf-87e1-98ced40c5912/Unbranded%20marketing%20video.mp4" allowfullscreen></iframe>
+              </div>
+              {% elsif  page.title == "SEO" %}
+              <div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
+                <!-- <iframe class="embed-responsive-item" src="https://storage.googleapis.com/mediarepo-prod/marketplace-products/09d5dd20-67d5-4fcf-87e1-98ced40c5912/Unbranded%20marketing%20video.mp4" allowfullscreen></iframe> -->
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hF515-0Tduk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
 
-                <h1 class="mt-4">{{page.title}}</h1>
+
+
+              {% else %}
+                <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="img-fluid img-thumbnail rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
+              {% endif %}
             </div>
-            <div class="col-sm-5">
-              <div class="row ml-5">
-                <div class="col">
-                  <h2>Pricing</h2>
-                </div>
-              </div>
-              <hr />
-              <div class="row ml-5">
-                <div class="col">
-                  <p>Setup: {{page.setup}}</p>
-                  <p>Monthly: {{page.cost}}</p>
-                  <p>Yearly Renewal: {{page.renewal}}</p>
+          </div>
 
-                  <a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="btn btn-md btn-danger">Book Free Consultation</a>
-
-                </div>
-              </div>
+          <div class="row mt-4">
+            <div class="col">
+              <h1>{{page.title}}</h1>
+            </div>
+            <div class="col-3 ml-5 pl-5 float-right">
+              <p class="mt-1"><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="ml-5 btn btn-md btn-warning">Book Free Consultation</a></p>
             </div>
           </div>
         {% endif %}
 
+        <hr/>
         {{ content }}
 
       </div>
