@@ -48,7 +48,7 @@ strong {
 
 /***** Sections *****/
 #products {
-  background-color: #efefef;
+  /*background-color: #efefef;*/
   margin-bottom: 45px;
   height: 500px;
 }
@@ -58,10 +58,10 @@ strong {
   }
 }
 
-#diwm {
-  background-color: #f9f9f9;
+#testimonials {
+  /*background-color: #f9f9f9;*/
   margin-bottom: 45px;
-  height: 500px;
+  height: 375px;
 }
 
 #alacarte {

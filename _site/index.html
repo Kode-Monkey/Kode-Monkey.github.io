@@ -95,7 +95,7 @@
     x.parentNode.insertBefore(s, x);
   })();
 </script>
-
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
     
 <!-- Sections -->
 <section id="social" class="social">
@@ -122,37 +122,34 @@
 
 
     <!-- header -->
-
 <!--Home page style-->
 <header id="home">
-  <!-- <div class="overlay-fluid-block"> -->
-    <div class="container-fluid">
-      <div class="row shadow-sm p-3 mb-5 bg-white">
-        <!-- <div class="home-wrapper"> -->
-          <div class="col d-none d-lg-block mt-3">
-            <img src="/assets/images/responsive-design-ss-1.jpg" class="ing-fluid img-thumbnail rounded">
-          </div>
-          <div class="col mt-5 pt-5">
-            <h1 class="home-content text-center text-dark mt-5">Building Websites & Apps</h1>
-            <h2 class="home-content text-center text-dark">Accessible on any devise or technology!</h2>
+  <div class="container-fluid">
+    <div class="row shadow-sm p-3 mb-5 bg-white">
+              
+<div class="col d-none d-lg-block mt-3">
+  <img src="/assets/images/responsive-design-ss-1.jpg" class="ing-fluid img-thumbnail rounded" alt="Built with Accessibiltiy in mind">
+</div>
+<div class="col mt-5 pt-5">
+  <h1 class="home-content text-center text-dark mt-5">Building Websites & Apps</h1>
+  <h2 class="home-content text-center text-dark">Accessible on any devise or technology!</h2>
 
-            <div class="row">
-              <div class="col-2 offset-3 mt-3">
-                <div class="home-contact">
-                  <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" class="btn btn-lg btn-warning">Talk to an Accessibility Expert TODAY!</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        <!-- </div> -->
+  <div class="row">
+    <div class="col-2 offset-3 mt-3">
+      <div class="home-contact">
+        <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" class="btn btn-lg btn-warning">Talk to an Accessibility Expert TODAY!</a></p>
       </div>
     </div>
-  <!-- </div> -->
+  </div>
+</div>
+
+    </div>
+  </div>
 </header>
 
-
 <!-- Welcome -->
-<section id="welcome" class="welcome sections lightbg">
+
+<main id="welcome" class="sections">
   <div class="container-fluid ml-5">
     <div class="row">
       <div class="col-3">
@@ -160,7 +157,7 @@
       </div>
       <div class="col-6">
         <div class="row">
-          <div class="col text-center mb-3">
+          <div class="col text-center mb-3" id="content">
             <h2>Building with Accessibility</h2>
           </div>
         </div>
@@ -191,7 +188,7 @@
               </div>
             </div>
 
-            <h3 class="text-dark text-center"><strong>Our goal is to deliver content that is accessible by everyone.</strong></h3>
+            <!--<h3 class="text-dark text-center"><strong>Our goal is to deliver content that is accessible by everyone.</strong></h3> -->
           </div>
         </div>
 
@@ -205,23 +202,24 @@
       </div>
     </div>
   </div>
-</section>
+</main>
 
 <!-- <hr class="features" /> -->
 
 <!-- Products Sections -->
-<!-- Website Packages -->
-<section id="products" class="products sections lightbg">
+<section id="products" class="sections shadow-lg p-3 mb-5 bg-white" aria-label="Products & Services">
   <div class="container">
-    <div class="row mb-5">
+    <!-- Website Packages -->
+
+    <div class="row mb-3 mt-5">
       <div class="col-12 mb-3">
-        <h2 class="text-center text-burgandy">Let us help you make an impression</h2>
+        <h2 class="text-center text-burgandy">Delivering content that is accessible by everyone.</h2>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-4 col-sm-12 mb-2 rounded">
-        <a href="/Website-Services/Presences">
+        <a href="/Website-Services/Presences" title="Get your online presence today!">
           <div class="card" style="width: 18rem;">
             <img class="img-responsive" src="/assets/images/websites.jpg" class="img-fluid img-thumbnail" alt="Website Presence">
             <div class="card-body">
@@ -232,7 +230,7 @@
       </div>
 
       <div class="col-md-4 col-sm-12 mb-2 rounded">
-        <a href="https://vpat-compliant.com/ADA-Certification" target="_blank">
+        <a href="https://vpat-compliant.com/WA-Certification" target="_blank" title="Is your site ADA Compliant?">
           <div class="card" style="width: 18em;">
             <img class="img-responsive pb-4" src="/assets/images/homepage/VPAT-Certification.png" class="img-fluid img-thumbnail" alt="ADA Compliance">
             <div class="card-body pb-3" id="certificate">
@@ -243,7 +241,7 @@
       </div>
 
       <div class="col-md-4 col-sm-12 rounded">
-        <a href="https://vpat-compliant.com/" target="_blank">
+        <a href="/Marketing/Local-Listings" title="Starte Markeing your website">
           <div class="card" style="width: 18rem;">
             <img class="img-responsive pb-4" src="/assets/images/Advertising Intelligence.jpg" class="img-fluid img-thumbnail"  alt="Marketing Presence">
             <div class="card-body">
@@ -255,14 +253,14 @@
       </div>
 
     </div>
+
   </div>
 </section>
-
 
 <!-- <hr class="features" /> -->
 
 <!-- Testimonials -->
-<section id="testimonials" class="testimonials sections lightbg mt-5">
+<section id="testimonials" class="sections" aria-label="Testimonials">
   <div class="container">
   <div class="row">
     <div class="col">
@@ -312,14 +310,11 @@
 
 </section><!-- End of Testimonials Section -->
 
-<hr class="features" />
-
 <!-- Contsct Sections -->
-
-<section id="contact" class="contact sections lightbg">
+<section id="contact" class="sections shadow-lg p-3 mb-5 bg-white" role="form" aria-labelledby="contact">
   
 
-<div class="container">
+<div class="container p-5">
   <div class="row">
     <div class="head_title text-center">
       <h2 class="text-uppercase">Contact the Kodemonkey</h2>
@@ -378,7 +373,7 @@
 
 
 
-        <section id="footer-menu" class="sections footer-menu">
+        <section id="footer-menu" class="sections footer-menu" role="contentinfo">
       <div class="container-fluid p-5">
         <div class="row">
           <!-- <div class="footer-menu-wrapper"> -->
@@ -389,8 +384,8 @@
                   <h5><strong>Presences</strong></h5>
                   <hr/>
                   <ul class="footer">
-                    <li><a href="/website/Wbsites">Website Presences</a></li>
-                    <li><a href="/services/Maintenance">Maintenance</a></li>
+                    <li><a href="/Website-Services/Presences" title="Building the sites of tomorrow">Website Presences</a></li>
+                    <li><a href="/Website-Services/Maintenance" title="We help you avoid 404 Errors">Maintenance</a></li>
                   </ul>
                 </div>
               </div>
@@ -399,8 +394,8 @@
                   <h5><strong>Marketing</strong></h5>
                   <hr/>
                   <ul class="footer">
-                    <li><a href="/marketing/Local-Listings">Local Listings</a></li>
-                    <li><a href="/">SEO</a></li>
+                    <li><a href="/Marketing/Local-Listings" title="Get listed in search engins">Local Listings</a></li>
+                    <li><a href="/Marketing/SEO" title="Get greate ROI with SEO">SEO</a></li>
                   </ul>
                 </div>
               </div>
@@ -409,8 +404,8 @@
                   <h5><strong>Addition Services</strong></h5>
                   <hr/>
                   <ul class="footer">
-                    <li><a href="https://vpat-compliant.com/ADA-Certification" target="_blank">WA Certification</a></li>
-                    <li><a href="https://vpat-compliant.com/VPAT" target="_blank">VPAT Documentation</a></li>
+                    <li><a href="https://vpat-compliant.com/ADA-Certification" target="_blank" title="Is Your site ADA Comoliant?">WA Certification</a></li>
+                    <li><a href="https://vpat-compliant.com/VPAT" target="_blank" title="We fill out VPATs">VPAT Documentation</a></li>
                   </ul>
                 </div>
               </div>
@@ -419,8 +414,8 @@
                   <h5><strong>Company</strong></h5>
                   <hr/>
                   <ul class="footer">
-                    <li><a href="/About">About</a></li>
-                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="/About" title="Get to Know us">About</a></li>
+                    <li><a href="/faq" title="Frequently Asked Questions">FAQ</a></li>
                   </ul>
                 </div>
               </div>
@@ -440,7 +435,7 @@
               </div>
               <div class="col">
                 <div class="footer-brand">
-                  <a href="/" title="Take me home"><img src="/assets/images/KKM-Logo-Sticker-shadow.png" style="width: 50%;" alt="Kaffeinated Kodemonkey Logo" /></a>
+                  <a href="/" title="Take me home"><img src="/assets/images/logo.png" style="width: 45%;" alt="Kaffeinated Kodemonkey Logo" /></a>
                 </div>
               </div>
             </div>

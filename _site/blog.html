@@ -76,11 +76,6 @@
 
 </head>
 
-
-  <script>
-    fbq('track', 'ViewContent');
-  </script>
-
   
 <!-- Sections -->
 <section id="social" class="social">
@@ -116,8 +111,8 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="/Website-Services/Presences#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Websites</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/Website-Services/Presences">Web Presence</a>
-            <a class="dropdown-item" href="/Website-Services/Maintenance">Website Management</a>
+            <a class="dropdown-item" href="/Website-Services/Presences" title="Building the sites of tomorrow">Web Presence</a>
+            <a class="dropdown-item" href="/Website-Services/Maintenance"  title="We help you avoid 404 Errors">Website Management</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -125,8 +120,8 @@
             Marketing
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/Marketing/Local-Listings">Local Listings</a>
-            <a class="dropdown-item" href="/Marketing/SEO">SEO</a>
+            <a class="dropdown-item" href="/Marketing/Local-Listings" title="Get listed in search engins">Local Listings</a>
+            <a class="dropdown-item" href="/Marketing/SEO" title="Get greate ROI with SEO">SEO</a>
           </div>
         </li>
         <li class="nav-item dropdown ">
@@ -134,12 +129,12 @@
             Web Accessibility
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="https://vpat-compliant.com/ADA-Certification" target="_blank">ADA Certification</a>
-            <a class="dropdown-item" href="https://vpat-compliant.com/VPAT" target="_blank">VPAT Documentation</a>
+            <a class="dropdown-item" href="https://vpat-compliant.com/ADA-Certification" target="_blank" title="Is Your site ADA Comoliant?">ADA Certification</a>
+            <a class="dropdown-item" href="https://vpat-compliant.com/VPAT" target="_blank" title="We fill out VPATs">VPAT Documentation</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/blog" title="Tips & Tricks">Blog</a>
+          <a class="nav-link" href="/Blog" title="Tips & Tricks">Blog</a>
         </li>
         <!-- <li class="nav-item">
         <a class="nav-link" href="/Testimonials">At-a-Girl</a>
@@ -253,13 +248,23 @@
       <!-- right - Main Column -->
       <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
         
-        <div class="row">
-          <div class="col-sm-8">
-              <img src="/assets/images/" class="mt-2 img-fluid img-thumbnail rounded" style="width: %; height: auto;" alt="Blog Posts">
-
-              <h1 class="mt-4">Blog Posts</h1>
+          <!-- top row image title & Price -->
+          <div class="row">
+            <div class="col">
+              
+                <img src="/assets/images/" class="img-fluid img-thumbnail rounded" style="width: %; height: auto;" alt="Blog Posts">
+              
+            </div>
           </div>
-        </div>
+
+          <div class="row mt-4">
+            <div class="col">
+              <h1>Blog Posts</h1>
+            </div>
+            <div class="col-3 ml-5 pl-5 float-right">
+              <p class="mt-1"><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="ml-5 btn btn-md btn-warning">Book Free Consultation</a></p>
+            </div>
+          </div>
         
 
         <hr/>
@@ -416,7 +421,7 @@
     </div>
   </div>
 
-      <section id="footer-menu" class="sections footer-menu">
+      <section id="footer-menu" class="sections footer-menu" role="contentinfo">
       <div class="container-fluid p-5">
         <div class="row">
           <!-- <div class="footer-menu-wrapper"> -->
@@ -427,8 +432,8 @@
                   <h5><strong>Presences</strong></h5>
                   <hr/>
                   <ul class="footer">
-                    <li><a href="/website/Wbsites">Website Presences</a></li>
-                    <li><a href="/services/Maintenance">Maintenance</a></li>
+                    <li><a href="/Website-Services/Presences" title="Building the sites of tomorrow">Website Presences</a></li>
+                    <li><a href="/Website-Services/Maintenance" title="We help you avoid 404 Errors">Maintenance</a></li>
                   </ul>
                 </div>
               </div>
@@ -437,8 +442,8 @@
                   <h5><strong>Marketing</strong></h5>
                   <hr/>
                   <ul class="footer">
-                    <li><a href="/marketing/Local-Listings">Local Listings</a></li>
-                    <li><a href="/">SEO</a></li>
+                    <li><a href="/Marketing/Local-Listings" title="Get listed in search engins">Local Listings</a></li>
+                    <li><a href="/Marketing/SEO" title="Get greate ROI with SEO">SEO</a></li>
                   </ul>
                 </div>
               </div>
@@ -447,8 +452,8 @@
                   <h5><strong>Addition Services</strong></h5>
                   <hr/>
                   <ul class="footer">
-                    <li><a href="https://vpat-compliant.com/ADA-Certification" target="_blank">WA Certification</a></li>
-                    <li><a href="https://vpat-compliant.com/VPAT" target="_blank">VPAT Documentation</a></li>
+                    <li><a href="https://vpat-compliant.com/ADA-Certification" target="_blank" title="Is Your site ADA Comoliant?">WA Certification</a></li>
+                    <li><a href="https://vpat-compliant.com/VPAT" target="_blank" title="We fill out VPATs">VPAT Documentation</a></li>
                   </ul>
                 </div>
               </div>
@@ -478,7 +483,7 @@
               </div>
               <div class="col">
                 <div class="footer-brand">
-                  <a href="/" title="Take me home"><img src="/assets/images/KKM-Logo-Sticker-shadow.png" style="width: 50%;" alt="Kaffeinated Kodemonkey Logo" /></a>
+                  <a href="/" title="Take me home"><img src="/assets/images/logo.png" style="width: 45%;" alt="Kaffeinated Kodemonkey Logo" /></a>
                 </div>
               </div>
             </div>

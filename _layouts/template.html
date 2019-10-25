@@ -1,10 +1,5 @@
 
   {% include head.html %}
-
-  <script>
-    fbq('track', 'ViewContent');
-  </script>
-
   {% include social.html %}
   {% include nav.html %}
 
@@ -43,7 +38,7 @@
       </div>
       <!-- right - Main Column -->
       <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
-        {% if page.layout == "blog" or page.title == "Web Accessibility Statement" or page.title == "About" or page.title == "Contact Us" or page.title == "Wrong Page" or page.title == "FAQ" %}
+        {% if page.title == "Web Accessibility Statement" or page.title == "About" or page.title == "Contact Us" or page.title == "Wrong Page" or page.title == "FAQ" %}
         <div class="row">
           <div class="col-sm-8">
               <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="mt-2 img-fluid img-thumbnail rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
@@ -64,8 +59,6 @@
                 <!-- <iframe class="embed-responsive-item" src="https://storage.googleapis.com/mediarepo-prod/marketplace-products/09d5dd20-67d5-4fcf-87e1-98ced40c5912/Unbranded%20marketing%20video.mp4" allowfullscreen></iframe> -->
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hF515-0Tduk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
-
-
 
               {% else %}
                 <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="img-fluid img-thumbnail rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">

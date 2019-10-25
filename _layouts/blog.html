@@ -1,5 +1,33 @@
----
-layout: template
----
 
-{{ content }}
+  {% include head.html %}
+  {% include social.html %}
+  {% include nav.html %}
+
+  <div class="container-fluid">
+    <div class="row ml-3 mt-5 mb-5">
+      <!-- left colmun -->
+      <div class="col-sm-3 col-md-3">
+        <!-- category and subtitle -->
+        <h2>{{ page.title }}</h2>
+        <hr />
+
+        <!-- include Newsletter -->
+        {% include Newsletter.html %}
+
+        <!-- include Addons -->
+        {% include Add-On.html %}
+        <hr />
+        <!-- includes adds -->
+        {% include Ad.html %}
+
+      </div>
+      <!-- right - Main Column -->
+      <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
+
+        {{ content }}
+
+      </div>
+    </div>
+  </div>
+
+  {% include footer.html %}

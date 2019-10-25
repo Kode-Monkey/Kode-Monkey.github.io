@@ -18,7 +18,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     overflow-x: hidden;
-    background: /*#F5F5F5*/ #F9F9F9;
+    background: /*#F5F5F5 #F9F9F9*/ #f9f9f9;
 }
 
 .container {
@@ -1430,7 +1430,7 @@ xkeyframes
 /*For Footer Menu Section*/
 
 .footer-menu{
-    background:#fff;
+    /*background:#fff;*/
     color:#000;
     border-bottom:1px solid #cfcdcd;
     font-family: 'Raleway', sans-serif;
