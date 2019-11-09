@@ -3,7 +3,6 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 
 <head>
   <meta charset="utf-8">
@@ -34,6 +33,19 @@
 
   <!--Theme Responsive css-->
   <link rel="stylesheet" href="{{site.url}}/assets/css/responsive.css" />
+
+  <!-- ADAOnline Toolbar -->
+  <script>
+    (function(s, o, g){
+      a = s.createElement(o),m = s.getElementsByTagName(o)[0];
+      a.src = g;a.setAttribute("async","");
+      a.setAttribute("type","text/javascript");
+      a.setAttribute("crossorigin","anonymous");
+      m.parentNode.insertBefore(a, m)
+    })
+    (document, "script", "https://adatoolbar.com/wp-json/onlineada/v1/accessibility-toolbar/226f36187a4b9");
+  </script>
+  <!-- End ADAOnline Toolbar -->
 
   <!-- Google -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46627745-2"></script>
@@ -72,5 +84,6 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
+
 
 </head>
