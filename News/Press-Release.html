@@ -1,0 +1,31 @@
+---
+layout: blog
+title: "News"
+categories: news
+---
+
+<div class="row">
+  <div class="col">
+    {% for post in site.categories.Press-Release %}
+      {{ site.posts.first.content }}
+    {% endfor %}
+
+    <hr />
+
+    <!-- disqus -->
+    {% include disqus.html %}
+
+  </div>
+  <div class="col-3">
+    <hr />
+    <h3>News Archives</h3>
+    <hr />
+    <ul>
+      {% for post in site.categories.Press-Release %}
+        {% if post.url %}
+          <li><a href="{{post.url}}"">{{post.title}}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

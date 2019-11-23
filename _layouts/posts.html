@@ -23,24 +23,23 @@
       {% include Newsletter.html %}
 
       <hr />
-
-      <h2 class="text-center">Associated Products</h2>
-      {% include product_awarness.html %}
-
+      <!-- includes adds -->
+      {% include Ad.html %}
     </div>
 
-    <div class="col-9 mb-5">
+    <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
       <div class="row">
         <!-- Content -->
         <div class="col-9">
           <small> {{ page.date | date: '%B %d, %Y' }} | {{site.author}}</small>
             {{ content }}
         </div>
+
         <!-- Archives -->
         <div class="col-3">
+          <hr />
           <h3>Archived</h3>
           <hr />
-
 
             <ul>
               {% for category in site.categories %}
