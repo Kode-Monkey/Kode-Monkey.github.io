@@ -142,8 +142,9 @@ a:active,
 a:focus {
     text-decoration: none;
     outline: none;
-    color: #ff8000;
+    color: /*#ff8000*/ #7F4A06;
     font-size: 1.0em;
+    font-weight: bold;
 }
 
 a,
@@ -447,7 +448,7 @@ textarea::-ms-input-placeholder
 
 /* For Social Wrapper */
 .social{
-    background:/*#530C20;*/ #ff8000;
+    background:/*#530C20;*/ /*#ff8000;*/ #F9A438;
     /*padding:10px 0;*/
 }
 .social-icon a{

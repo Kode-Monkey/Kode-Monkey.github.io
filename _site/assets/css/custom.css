@@ -351,22 +351,22 @@ li{
 /********** Buttons **********/
 
 a.btn-warning {
-    color: #ffffff;
-    background-color: #ff9933;
-    border-color: #ff9933;
+    color: #002333;
+    background-color: /*#ff9933;*/ #F9A438;
+    border-color: /*#ff9933;*/ #F9A438;
 }
 
 a.btn-warning:hover {
-    color: #fff;
-    background-color: #ff8000;
-    border-color: #ff8000;
+    color: #002333;
+    background-color: /*#ff8000;*/ #F9A438;
+    border-color: /*#ff8000;*/ #F9A438;
 }
 
 
 a.btn-info {
-    color: #fff;
-    background-color: #17a2b8;
-    border-color: #17a2b8;
+    color: #262626;
+    background-color: /*#17a2b8;*/ #F9A438;
+    border-color:/*#17a2b8;*/ #F9A438;
   }
 
 .bg-kkmblue {
@@ -381,7 +381,7 @@ a.btn-info {
 	padding: 0 50px;
 }
 .carousel .item {
-	color: #999;
+	color: #006290;
 	font-size: .8em;
   text-align: center;
 	overflow: hidden;
@@ -408,7 +408,7 @@ a.btn-info {
 }
 .carousel .overview b {
 	text-transform: uppercase;
-	color: #7AA641;
+	color: /*#7AA641;*/ #475B24;
 }
 .carousel .carousel-control {
 	width: 40px;
@@ -446,7 +446,8 @@ a.btn-info {
 
 
 .bg-info {
-    background-color: #ff8000 !important;
+    background-color: /*#ff8000*/ #7F4A06 !important;
+    font-weight: bold;
 }
 
 .btn-primary {
