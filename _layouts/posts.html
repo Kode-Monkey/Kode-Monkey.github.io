@@ -37,7 +37,37 @@
 
         <!-- Archives -->
         <div class="col-3">
-          <hr />
+          {% for category in page.categories %}
+            {% assign moreThanOneInCategory = false %}
+              {% assign posts = site.categories[category] %}
+
+              {% for post in posts %}
+                {% if forloop.length > 1 %}
+                  {% assign moreThanOneInCategory = true %}
+                {% endif %}
+              {% endfor %}
+              {% if moreThanOneInCategory == true %}
+                <div class="related-posts">
+                  <hr />
+                  <h3>{{ category }} Archives</h3>
+                  <hr />
+
+                  <ul>
+                    {% for post in posts %}
+                      {% unless post.url == page.url %}
+                        <li>
+                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+                          Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+                        </li>
+                      {% endunless %}
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endif %}
+          {% endfor %}
+
+          <!--<hr />
           <h3>Archived</h3>
           <hr />
 
@@ -55,7 +85,7 @@
             {% for tags in page.tags %}
                 <li>{{ tags }}</li>
             {% endfor %}
-          </ul>
+          </ul> -->
 
         </div>
       </div>
