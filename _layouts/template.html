@@ -18,7 +18,7 @@
           <p>{{page.subtitle}}</p>
           <!-- fb feed -->
           {% include fbpost.html %}
-          <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="btn btn-md btn-danger">Schedule a Free Consultation</a></p>
+          <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="btn btn-md btn-warning">Schedule a Free Consultation</a></p>
         {% else %}
           <!-- category and subtitle -->
           <h2>{{ page.category }}</h2>
@@ -29,8 +29,6 @@
           {% include Newsletter.html %}
         {% endif %}
 
-        <!-- include Addons -->
-        {% include Add-On.html %}
         <hr />
         <!-- includes adds -->
         {% include Ad.html %}

@@ -125,7 +125,7 @@ a{
 }
 
 a:visited{
-  color: #ff8000;
+  color: /*#ff8000;*/ #F9A438;
 }
 
 a.wa, a:link.wa{
