@@ -4,7 +4,7 @@ title:  "Critical Data"
 date:   2018-02-19
 categories: Listings
 tags: [Critical Data, NAP, business listing, Google]
-image: 
+image: Website-Traffic-Driver.png
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 ---

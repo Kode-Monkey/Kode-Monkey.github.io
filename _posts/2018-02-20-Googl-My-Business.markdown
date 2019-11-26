@@ -2,7 +2,9 @@
 layout: posts
 title:  "Google My Business"
 date:   2018-02-20
-# categories: [Tips & Tricks]
+categories: Listings
+tags: [Critical Data, NAP, business listing, Google]
+image: Website-Traffic-Driver.png
 excerpt_separator: "<!-- more -->"
 permalink: /blog/:categories/:title:output_ext
 ---
@@ -30,7 +32,7 @@ permalink: /blog/:categories/:title:output_ext
 <p>Now that you have a gmail account you can claim your GMB Listing.</p>
 <ol class="basic-ul">
 <li class="basic-li">Sign in to your Google Account or create an account for free.</li>
-<li class="basic-li">Go to <a href="www.google.com" title="Google Homepage" target="blank">Google</a>. Type in your business name and city and click search. For this example, we are using a fiction business called "Moe's Dog Grooming".</li>
+<li class="basic-li">Go to <a href="http://www.google.com" title="Google Homepage" target="blank">Google</a>. Type in your business name and city and click search. For this example, we are using a fiction business called "Moe's Dog Grooming".</li>
 <li class="basic-li">On the right had side, you will see the Search options. Click on "Maps"</li>
 <li class="basic-li">Next you will see a map of your location region, with your business listed on the left hand side of the page.</li>
 <li class="basic-li">Click on your business name, and a location box will appear on the Map (see below example)</li>
@@ -42,4 +44,4 @@ permalink: /blog/:categories/:title:output_ext
 <p>Having issue or need to chat with our support team you can  email <a href="mailto:info@kaffeinatedkodemonkey.com?subject=GMB-Post" title="GMB Support"><strong>The Kodemokey</strong></a>. <br />
 Or start a conversation in the comments below.</p>
 
-<p>&amp;nbsp;</p>
+<p>&nbsp;</p>
