@@ -2,7 +2,7 @@
 layout: blog
 title: Content Experience
 categories: [Content & Experience]
-image: Content-Marketing.png
+image: postbuilding.jpg
 ---
 
 {% assign count = site.categories[page.categories] | size %}

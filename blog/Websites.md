@@ -2,7 +2,7 @@
 layout: blog
 title: Website
 categories: Website
-image: Website-Reputation.png
+image: postbuilding.jpg
 ---
 
 {% assign count = site.categories[page.categories] | size %}

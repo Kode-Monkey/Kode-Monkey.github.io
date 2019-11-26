@@ -36,11 +36,17 @@
       </div>
       <!-- right - Main Column -->
       <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
-        {% if page.title == "Web Accessibility Statement" or page.title == "About" or page.title == "Contact Us" or page.title == "Wrong Page" or page.title == "FAQ" %}
+        {% if page.title == "Contact Us" or page.title == "Wrong Page" or page.title == "FAQ" %}
         <div class="row">
           <div class="col-sm-8">
               <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="mt-2 img-fluid img-thumbnail rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
 
+              <h1 class="mt-4">{{page.title}}</h1>
+          </div>
+        </div>
+        {% elsif page.title == "About" %}
+        <div class="row">
+          <div class="col-sm-8">
               <h1 class="mt-4">{{page.title}}</h1>
           </div>
         </div>

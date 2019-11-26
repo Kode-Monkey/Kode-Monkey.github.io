@@ -2,7 +2,7 @@
 layout: blog
 title: Reputation
 categories: Reputation
-image: Reputation-Services.png
+image: postbuilding.jpg
 ---
 
 {% assign count = site.categories[page.categories] | size %}
