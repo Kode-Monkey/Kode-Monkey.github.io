@@ -3,15 +3,15 @@
   <channel>
     <title>Kodemonkeies - Articles</title>
     <description>Your latest Tips &amp; Tricks</description>
-    <link></link>
+    <link>http://localhost:4000</link>
     
       
         <item>
           <title>Nov 2019 - Press Release</title>
           <description></description>
           <pubDate>2019-11-22T00:00:00-07:00</pubDate>
-          <link>/blog/press-release/Press-Releass.html</link>
-          <guid isPermaLink="true">/blog/press-release/Press-Releass.html</guid>
+          <link>http://localhost:4000/blog/press-release/Press-Releass.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/press-release/Press-Releass.html</guid>
         </item>
       
     
@@ -20,8 +20,8 @@
           <title>3 SEO Tips</title>
           <description></description>
           <pubDate>2019-02-20T00:00:00-07:00</pubDate>
-          <link>/blog/seo/3-SEO-Tips.html</link>
-          <guid isPermaLink="true">/blog/seo/3-SEO-Tips.html</guid>
+          <link>http://localhost:4000/blog/seo/3-SEO-Tips.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/seo/3-SEO-Tips.html</guid>
         </item>
       
     
@@ -30,8 +30,8 @@
           <title>Local SEO Audit - 12 Steps</title>
           <description></description>
           <pubDate>2018-09-18T00:00:00-06:00</pubDate>
-          <link>/blog/seo/Local-SEO-Audit.html</link>
-          <guid isPermaLink="true">/blog/seo/Local-SEO-Audit.html</guid>
+          <link>http://localhost:4000/blog/seo/Local-SEO-Audit.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/seo/Local-SEO-Audit.html</guid>
         </item>
       
     
@@ -40,8 +40,8 @@
           <title>Digital Advertising for Local Businesses</title>
           <description></description>
           <pubDate>2018-08-13T00:00:00-06:00</pubDate>
-          <link>/blog/advertising/Digital_Advertising-Local-Business.html</link>
-          <guid isPermaLink="true">/blog/advertising/Digital_Advertising-Local-Business.html</guid>
+          <link>http://localhost:4000/blog/advertising/Digital_Advertising-Local-Business.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/advertising/Digital_Advertising-Local-Business.html</guid>
         </item>
       
     
@@ -50,8 +50,8 @@
           <title>Native Advertising</title>
           <description></description>
           <pubDate>2018-07-11T00:00:00-06:00</pubDate>
-          <link>/blog/advertising/Native-Advertising.html</link>
-          <guid isPermaLink="true">/blog/advertising/Native-Advertising.html</guid>
+          <link>http://localhost:4000/blog/advertising/Native-Advertising.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/advertising/Native-Advertising.html</guid>
         </item>
       
     
@@ -60,8 +60,8 @@
           <title>The Complete WordPress SEO Plugin</title>
           <description></description>
           <pubDate>2018-06-21T00:00:00-06:00</pubDate>
-          <link>/blog/seo/CompleteWordPressSEOPluginMastery.html</link>
-          <guid isPermaLink="true">/blog/seo/CompleteWordPressSEOPluginMastery.html</guid>
+          <link>http://localhost:4000/blog/seo/CompleteWordPressSEOPluginMastery.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/seo/CompleteWordPressSEOPluginMastery.html</guid>
         </item>
       
     
@@ -70,8 +70,8 @@
           <title>Improving Local Search Rankings</title>
           <description></description>
           <pubDate>2018-03-05T00:00:00-07:00</pubDate>
-          <link>/blog/listings/Improve-Local-Search-Aggregators.html</link>
-          <guid isPermaLink="true">/blog/listings/Improve-Local-Search-Aggregators.html</guid>
+          <link>http://localhost:4000/blog/listings/Improve-Local-Search-Aggregators.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/listings/Improve-Local-Search-Aggregators.html</guid>
         </item>
       
     
@@ -80,8 +80,8 @@
           <title>Engage Your Audience</title>
           <description></description>
           <pubDate>2018-03-05T00:00:00-07:00</pubDate>
-          <link>/blog/social/EngageYouAudience.html</link>
-          <guid isPermaLink="true">/blog/social/EngageYouAudience.html</guid>
+          <link>http://localhost:4000/blog/social/EngageYouAudience.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/social/EngageYouAudience.html</guid>
         </item>
       
     
@@ -90,8 +90,8 @@
           <title>Social Media Monitoring</title>
           <description></description>
           <pubDate>2018-02-23T00:00:00-07:00</pubDate>
-          <link>/blog/social/Social-Media-Monitoring.html</link>
-          <guid isPermaLink="true">/blog/social/Social-Media-Monitoring.html</guid>
+          <link>http://localhost:4000/blog/social/Social-Media-Monitoring.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/social/Social-Media-Monitoring.html</guid>
         </item>
       
     
@@ -100,8 +100,8 @@
           <title>Online Presence</title>
           <description></description>
           <pubDate>2018-02-22T00:00:00-07:00</pubDate>
-          <link>/blog/Online-Presence.html</link>
-          <guid isPermaLink="true">/blog/Online-Presence.html</guid>
+          <link>http://localhost:4000/blog/Online-Presence.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/Online-Presence.html</guid>
         </item>
       
     
@@ -110,8 +110,8 @@
           <title>Google My Business</title>
           <description></description>
           <pubDate>2018-02-20T00:00:00-07:00</pubDate>
-          <link>/blog/listings/Googl-My-Business.html</link>
-          <guid isPermaLink="true">/blog/listings/Googl-My-Business.html</guid>
+          <link>http://localhost:4000/blog/listings/Googl-My-Business.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/listings/Googl-My-Business.html</guid>
         </item>
       
     
@@ -120,8 +120,8 @@
           <title>Critical Data</title>
           <description></description>
           <pubDate>2018-02-19T00:00:00-07:00</pubDate>
-          <link>/blog/listings/Critical-Data.html</link>
-          <guid isPermaLink="true">/blog/listings/Critical-Data.html</guid>
+          <link>http://localhost:4000/blog/listings/Critical-Data.html</link>
+          <guid isPermaLink="true">http://localhost:4000/blog/listings/Critical-Data.html</guid>
         </item>
       
     
