@@ -6,6 +6,7 @@ categories: Social
 tags: [Social Media Monitoring, Insights, Leads & Influencers, Policy, Process]
 image: Social_Marketing_High_Res.png
 excerpt_separator: "<!-- more -->"
+description: Monitoring your social media channels is about more than just listening. It is about understanding your audience.
 permalink: /blog/:categories/:title:output_ext
 ---
 

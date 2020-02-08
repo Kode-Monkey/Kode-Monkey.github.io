@@ -6,6 +6,7 @@ categories: Listings
 tags: [Aggregators, Factual, Acxiom, Infogroup Localeze, Rankings, citation]
 image: Website-Traffic-Driver.png
 excerpt_separator: "<!-- more -->"
+description: Local Listings submits your site to the data aggregates that supply your listing to the search engines.
 permalink: /blog/:categories/:title:output_ext
 
 ---

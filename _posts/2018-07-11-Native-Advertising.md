@@ -6,6 +6,7 @@ categories: Advertising
 tags: [Native, Advertising, Facebook, Publishers, Businesses, Agencies, Consumers, Cross-Platform]
 image: Digital_Advertising_High_Res.png
 excerpt_separator: "<!-- more -->"
+description: Native advertising is an advertising tactic that is earning increased usage as either a complement to, or an alternative for, display advertising.
 permalink: /blog/:categories/:title:output_ext
 
 ---

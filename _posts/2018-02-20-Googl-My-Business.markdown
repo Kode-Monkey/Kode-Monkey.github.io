@@ -6,6 +6,7 @@ categories: Listings
 tags: [Critical Data, NAP, business listing, Google]
 image: Website-Traffic-Driver.png
 excerpt_separator: "<!-- more -->"
+description: Claiming your Google My Business Listing helps drive traffic to your website and storefront.
 permalink: /blog/:categories/:title:output_ext
 ---
 
@@ -17,7 +18,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <!-- more -->
 
-<p>By Claiming your GMB Listing helps drive traffic to your business website and storefront. You will be build a better presence in the search results and gaining trust with customers. Business that claim their GMB listing are rated higher than business that have not yet claimed their listing.</p>
+<p>Claiming your Google My Business Listing helps drive traffic to your website and storefront. You will be build a better presence in the search results and gaining trust with customers. Business that claim their GMB listing are rated higher than business that have not yet claimed their listing.</p>
 
 <p>The added bonus of Google is that once you have a gmail email you have access to a plethora of Google products that are free. GMB is just one of them, however you will have access to Google Analytics, Adwords, Webmaster Tools, etc. I will not touch on them in this post, however I may pick them up in future post.</p>
 

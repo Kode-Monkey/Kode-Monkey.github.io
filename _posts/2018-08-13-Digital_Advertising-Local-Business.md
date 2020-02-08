@@ -6,6 +6,7 @@ categories: Advertising
 tags: [Digital, Advertising, Local, Business, Places, Google, Facebook]
 image: Digital_Advertising_High_Res.png
 excerpt_separator: "<!-- more -->"
+description: Digital advertising increases awareness—it’s that simple.
 permalink: /blog/:categories/:title:output_ext
 
 ---

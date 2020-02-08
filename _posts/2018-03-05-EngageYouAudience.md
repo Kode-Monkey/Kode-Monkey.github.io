@@ -6,6 +6,7 @@ categories: Social
 tags: [Facebook, Google+, Twitter, Pinterest, Instagram, Reviews, Audience, SEO]
 image: Social_Marketing_High_Res.png
 excerpt_separator: "<!-- more -->"
+description: Engage Your Audience. Now that you know who they are and what they want leverage social media to enteract with them.
 permalink: /blog/:categories/:title:output_ext
 ---
 

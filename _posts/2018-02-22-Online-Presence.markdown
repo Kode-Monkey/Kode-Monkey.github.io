@@ -4,6 +4,7 @@ title:  "Online Presence"
 date:   2018-02-22
 # categories: [Tips & Tricks]
 excerpt_separator: "<!-- more -->"
+description: Your online presence is more than just about your business it is also about you.
 permalink: /blog/:categories/:title:output_ext
 ---
 

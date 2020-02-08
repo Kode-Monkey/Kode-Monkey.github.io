@@ -6,6 +6,7 @@ categories: SEO
 tags: [keywords, SEO Tools, Competition, Google My Business, Reviews, Links, Schema-Markup, Citations, Image, Speed, Engagement, Social]
 image: Enhanced-SEO.png
 excerpt_separator: "<!-- more -->"
+description: Local SEO Audit is understanding where you stand in the search engines.
 permalink: /blog/:categories/:title:output_ext
 
 ---

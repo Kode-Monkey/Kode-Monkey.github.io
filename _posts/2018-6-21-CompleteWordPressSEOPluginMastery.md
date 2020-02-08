@@ -8,6 +8,7 @@ categories: SEO
 tags: [SEO, WordPress, Yoast, Optimization, AMP, Broken Link, Speed, Security, Image]
 image: Enhanced-SEO.png
 excerpt_separator: "<!-- more -->"
+description: The Complete WordPress SEO Plugin to help you manage your SEO.
 permalink: /blog/:categories/:title:output_ext
 
 ---

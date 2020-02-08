@@ -6,6 +6,7 @@ categories: Listings
 tags: [Critical Data, NAP, business listing, Google]
 image: Website-Traffic-Driver.png
 excerpt_separator: "<!-- more -->"
+description: To list well in the search engines you need consistent NAP data, website, hours, and more across all major listing directories. 
 permalink: /blog/:categories/:title:output_ext
 ---
 
