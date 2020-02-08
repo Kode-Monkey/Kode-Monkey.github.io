@@ -6,6 +6,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
    Author's custom styles
    ========================================================================== */
 @import url('https://fonts.googleapis.com/css?family=Raleway|Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 html,
 body {
@@ -15,7 +16,7 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     overflow-x: hidden;
     background: /*#F5F5F5 #F9F9F9*/ #f9f9f9;
@@ -86,7 +87,7 @@ h5, h6 {
 }
 p {
     line-height: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 p:last-child {
     margin-bottom: 0px;
