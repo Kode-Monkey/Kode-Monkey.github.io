@@ -3,6 +3,7 @@ layout: blog
 title: Website
 categories: Website
 image: postbuilding.jpg
+description: Articles about how to improve your Website.
 ---
 
 {% assign count = site.categories[page.categories] | size %}

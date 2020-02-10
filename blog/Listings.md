@@ -2,7 +2,8 @@
 layout: blog
 title: Listings
 categories: Listings
-image: 
+image:
+description: Articles about why you should list your website in the search engines.
 ---
 
 {% assign count = site.categories[page.categories] | size %}

@@ -3,6 +3,7 @@ layout: blog
 title: Advertising
 categories: Advertising
 image: Digital_Advertising_High_Res.png
+description: Articles about Advertising tips for your website.
 ---
 
 {% assign count = site.categories[page.categories] | size %}

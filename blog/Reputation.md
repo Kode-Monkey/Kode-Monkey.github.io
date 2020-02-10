@@ -3,6 +3,7 @@ layout: blog
 title: Reputation
 categories: Reputation
 image: postbuilding.jpg
+description: Articles about how to  your online reputation is like an open book.
 ---
 
 {% assign count = site.categories[page.categories] | size %}

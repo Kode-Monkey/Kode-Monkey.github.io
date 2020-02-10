@@ -3,6 +3,7 @@ layout: blog
 title: SEO
 categories: SEO
 image: Enhanced-SEO.png
+description: Articles about how to improve SEO for your website.
 ---
 
 {% assign count = site.categories[page.categories] | size %}
