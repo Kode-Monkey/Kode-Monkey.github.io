@@ -58,10 +58,12 @@
               <div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
                 <iframe class="embed-responsive-item" src="https://storage.googleapis.com/mediarepo-prod/marketplace-products/09d5dd20-67d5-4fcf-87e1-98ced40c5912/Unbranded%20marketing%20video.mp4" allowfullscreen></iframe>
               </div>
-              {% elsif  page.title == "SEO" %}
-              <div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
+              {% elsif  page.title == "SEO Marketing" %}
+
+              <A href="https://www.youtube.com/embed/hF515-0Tduk" target="_blank"><img src="{{site.url}}/assets/images/{{page.mine-image}}" class="img-fluid img-thumbnail rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}"></a>
+              <!-- <div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hF515-0Tduk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
+              </div> -->
 
               {% else %}
                 <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="img-fluid img-thumbnail rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">

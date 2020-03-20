@@ -1,78 +1,81 @@
 {% include head.html %}
-
-<script>
-fbq('track', 'ViewContent');
-</script>
-
 {% include social.html %}
 {% include nav.html %}
 
 <div class="container-fluid">
-<div class="row mt-5">
-  <div class="col-3">
-    <div class="row ml-3">
-      <div class="col">
-        <h1>News</h1>
+  <div class="row ml-3 mt-5 mb-5">
+    <div class="col-3">
+      <div class="row ml-3">
+        <div class="col">
+          <h1>Press Release</h1>
+          <img src="{{ site.url }}/assets/images/{{page.img}}" style="width:50%; height: auto;" class="img-responsive" alt="{{page.title}}" />
+        </div>
       </div>
+      <hr />
+
+      {% include Newsletter.html %}
+
+      <hr />
+      <!-- includes adds -->
+      {% include Ad.html %}
     </div>
-    <hr />
+    <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
+      <div class="row">
+        <!-- Content -->
+        <div class="col-9">
+          <img src="{{ site.url }}/assets/images/{{page.img-main}}" style="width:100%; height: auto;" class="img-fluid img-thumbnail mb-3" alt="{{page.title}}" />
+          <h2>{{page.title}}</h2>
+          <hr />
+          <small>{{site.author}} | {{ page.date | date: '%B %d, %Y' }}</small>
+          <hr />
 
-    {% include Newsletter.html %}
-
-    <hr />
-    <!-- includes adds -->
-    {% include Ad.html %}
-  </div>
-
-  <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
-    <div class="row">
-      <!-- Content -->
-      <div class="col-9">
-        <small> {{ page.date | date: '%B %d, %Y' }} | {{site.author}}</small>
           {{ content }}
-      </div>
+        </div>
 
-      <!-- Archives -->
-      <div class="col-3">
-        {% for category in page.categories %}
-          {% assign moreThanOneInCategory = false %}
-            {% assign posts = site.categories[category] %}
+        <!-- Archives -->
+        <div class="col-3">
+          {% for category in page.categories %}
+            {% assign moreThanOneInCategory = false %}
+              {% assign posts = site.categories[category] %}
 
-            {% for post in posts %}
-              {% if forloop.length > 1 %}
-                {% assign moreThanOneInCategory = true %}
+              {% for post in posts %}
+                {% if forloop.length > 1 %}
+                  {% assign moreThanOneInCategory = true %}
+                {% endif %}
+              {% endfor %}
+              {% if moreThanOneInCategory == true %}
+                <div class="related-posts">
+                  <hr />
+                  <h3>{{ category }} Archives</h3>
+                  <hr />
+
+                  <ul>
+                    {% for post in posts %}
+                      {% unless post.url == page.url %}
+                        <li>
+                          <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+
+                          Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+                        </li>
+                      {% endunless %}
+                    {% endfor %}
+                  </ul>
+                </div>
               {% endif %}
             {% endfor %}
-            {% if moreThanOneInCategory == true %}
-              <div class="related-posts">
-                <hr />
-                <h3>News Archives</h3>
-                <hr />
 
-                <ul>
-                  {% for post in posts %}
-                    {% unless post.url == page.url %}
-                      <li>
-                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
-                        Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-                      </li>
-                    {% endunless %}
-                  {% endfor %}
-                </ul>
-              </div>
-            {% endif %}
-        {% endfor %}
+
+        </div>
       </div>
-    </div>
 
-    <!-- disqus -->
-    <div class="row mt-5">
-      <div class="col-10">
-        {% include disqus.html %}
+      <!-- disqus -->
+      <div class="row mt-5">
+        <div class="col-10">
+          {% include disqus.html %}
+        </div>
       </div>
     </div>
   </div>
-</div>
 </div>
 {% include footer.html %}

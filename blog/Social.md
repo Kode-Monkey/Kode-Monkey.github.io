@@ -2,7 +2,6 @@
 layout: blog
 title: Social
 categories: Social
-image: Social_Marketing_High_Res.png
 description: Articles about how to leverage social media to drive traffic to your site.
 ---
 
