@@ -3,7 +3,8 @@ layout: news
 title:  "Nov 2019 - Press Release"
 date:   2019-11-22
 img: press-release/Partners.png
-img-maim: press-release/Partners.png
+img-main: press-release/Partners.png
+size: 40
 categories: ['Press-Release']
 tags: [ADA, Partner, Online ADA, Digital Accessibility]
 description: Kaffeinated Kodemonkey Selects Online ADA as Digital Accessibility Partner

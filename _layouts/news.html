@@ -23,7 +23,7 @@
       <div class="row">
         <!-- Content -->
         <div class="col-9">
-          <img src="{{ site.url }}/assets/images/{{page.img-main}}" style="width:100%; height: auto;" class="img-fluid img-thumbnail mb-3" alt="{{page.title}}" />
+          <img src="{{ site.url }}/assets/images/{{page.img-main}}" style="width:{{page.size}}%; height: auto;" class="img-fluid mb-3" alt="{{page.title}}" />
           <h2>{{page.title}}</h2>
           <hr />
           <small>{{site.author}} | {{ page.date | date: '%B %d, %Y' }}</small>

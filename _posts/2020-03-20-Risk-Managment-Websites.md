@@ -4,6 +4,7 @@ title: "Risk Management When Building A Website"
 date:  2020-03-20
 img: press-release/Reciprocity Logo.png
 img-main: press-release/Risk management - kaffeinatedkodemonkey.com.jpg
+size: 100
 categories: ['Press-Release']
 tags: [Risk Management, ADA Compliance, Data Security, Cyber Attack]
 description: Security in web development and how to manage cyber threats using risk management.
