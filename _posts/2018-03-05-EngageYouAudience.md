@@ -4,15 +4,12 @@ title:  "Engage Your Audience"
 date:   2018-03-05
 categories: Social
 tags: [Facebook, Google+, Twitter, Pinterest, Instagram, Reviews, Audience, SEO]
-image: Social_Marketing_High_Res.png
+#icon: Social_Marketing_High_Res.png
+banner: Blog/engage-social-mediaBlog.png
 excerpt_separator: "<!-- more -->"
 description: Engage Your Audience. Now that you know who they are and what they want leverage social media to enteract with them.
 permalink: /blog/:categories/:title:output_ext
 ---
-
-<img src="{{site.url}}/assets/images/Blog/engage-social-mediaBlog.png" alt="Engage Your Audience" class="img-responstive img-thumbnail">
-
-<h2>{{ page.title }}</h2>
 
 <p>Is your social media falling flat? Don’t sweat it; many hours have gone into perfecting the use of this not-so-secret weapon. Facebook, Google+, Twitter, Pinterest, and Instagram strategies are outlined in detail below. Once you understand how they all work and which will suit your business best, learn how to handle them and other factors such as SEO, reviews, and more!</p>
 

@@ -4,15 +4,12 @@ title:  "Google My Business"
 date:   2018-02-20
 categories: Listings
 tags: [Critical Data, NAP, business listing, Google]
-image: Website-Traffic-Driver.png
+#icon: Website-Traffic-Driver.png
+banner: Blog/google-my-business-logo.jpg
 excerpt_separator: "<!-- more -->"
 description: Claiming your Google My Business Listing helps drive traffic to your website and storefront.
 permalink: /blog/:categories/:title:output_ext
 ---
-
-<img src="{{site.url}}/assets/images/Blog/google-my-business-logo.jpg" alt="Google My Business" class="img-responsive img-thumbnail">
-
-<h2>{{page.title}}</h2>
 
 <p>It’s a free to Claim our GMB lising. Once you do so you will be able to manage your presence on Google’s search engine. When someone searches for your business on Google, your NAP information - Name, Adress, Phone gets pulled from your Google My Business listing and will populate in the results on the right of the search page.</p>
 

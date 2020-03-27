@@ -2,15 +2,12 @@
 layout: posts
 title:  "Online Presence"
 date:   2018-02-22
-# categories: [Tips & Tricks]
+categories: Reputation
+banner: Blog/online-presence.jpg
 excerpt_separator: "<!-- more -->"
 description: Your online presence is more than just about your business it is also about you.
 permalink: /blog/:categories/:title:output_ext
 ---
-
-<img src="{{site.url}}/assets/images/Blog/online-presence.jpg" alt="Online Presence" class="img-responsive img-thumbnail">
-
-<h2>{{page.title}}</h2>
 
 <h3>What is your online presence?</h3>
 

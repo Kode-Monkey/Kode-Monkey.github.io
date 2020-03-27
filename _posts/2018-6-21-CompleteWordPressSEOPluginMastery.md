@@ -1,8 +1,8 @@
 ---
 layout: posts
 title:  "The Complete WordPress SEO Plugin"
-image: "Feature-Image-1.jpg"
-alt: "WordPress SEO Plugin"
+#icon: "Feature-Image-1.jpg"
+banner: Blog/Feature-Image-1.jpg
 date:   2018-06-21
 categories: SEO
 tags: [SEO, WordPress, Yoast, Optimization, AMP, Broken Link, Speed, Security, Image]
@@ -10,12 +10,7 @@ image: Enhanced-SEO.png
 excerpt_separator: "<!-- more -->"
 description: The Complete WordPress SEO Plugin to help you manage your SEO.
 permalink: /blog/:categories/:title:output_ext
-
 ---
-
-<img src="{{site.url}}/assets/images/Blog/Feature-Image-1.jpg" alt="WordPress SEO Plugin" class="img-responsive img-thumbnail">
-
-<h2>{{page.title}}</h2>
 
 <p>SEO is the key to conquering the internet, and as the digital climate becomes increasingly saturated, it is becoming more important than ever to make sure that you are making every effort to get seen on the web. One of the easiest ways to give your sites a little extra boost is by implementing the right WordPress plugins.</p>
 

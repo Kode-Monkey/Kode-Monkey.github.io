@@ -4,16 +4,12 @@ title:  "Digital Advertising for Local Businesses"
 date:   2018-08-13
 categories: Advertising
 tags: [Digital, Advertising, Local, Business, Places, Google, Facebook]
-image: Digital_Advertising_High_Res.png
+#icon: Digital_Advertising_High_Res.png
+banner: Blog/DigitalAdvertisingLocalBusiness/Feature-Image.jpg
 excerpt_separator: "<!-- more -->"
 description: Digital advertising increases awareness—it’s that simple.
 permalink: /blog/:categories/:title:output_ext
-
 ---
-
-<img src="{{site.url}}/assets/images/Blog/DigitalAdvertisingLocalBusiness/Feature-Image.jpg" alt="Digital Advertising Logo" class="hidden-xs hidden-sm img-responsive img-thumbnail">
-
-<h2>{{page.title}}</h2>
 
 <p>In recent years, we have seen traditional advertising take the backseat for modern technology. Traditional media companies are now switching their direction and adopting digital, but why? Because there is an extremely large market interested in digital advertising.</p>
 

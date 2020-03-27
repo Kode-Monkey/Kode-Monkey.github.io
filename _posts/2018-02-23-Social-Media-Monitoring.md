@@ -4,15 +4,12 @@ title:  "Social Media Monitoring"
 date:   2018-02-23
 categories: Social
 tags: [Social Media Monitoring, Insights, Leads & Influencers, Policy, Process]
-image: Social_Marketing_High_Res.png
+#icon: Social_Marketing_High_Res.png
+banner: Blog/2017-09-15_social-media-monitoring_fi.jpg
 excerpt_separator: "<!-- more -->"
 description: Monitoring your social media channels is about more than just listening. It is about understanding your audience.
 permalink: /blog/:categories/:title:output_ext
 ---
-
-<img src="{{site.url}}/assets/images/Blog/2017-09-15_social-media-monitoring_fi.jpg" alt="Social Media Monitoring" class="img-responstive img-thumbnail">
-
-<h2>{{page.title}}</h2>
 
 <p>Have you ever been at a party and caught a person or a group glancing at you while whispering covertly?</p>
 

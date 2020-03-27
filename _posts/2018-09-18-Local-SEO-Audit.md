@@ -4,20 +4,12 @@ title:  "Local SEO Audit - 12 Steps"
 date: 2018-09-18
 categories: SEO
 tags: [keywords, SEO Tools, Competition, Google My Business, Reviews, Links, Schema-Markup, Citations, Image, Speed, Engagement, Social]
-image: Enhanced-SEO.png
+#icon: Enhanced-SEO.png
+banner: Blog/Local-SEO-12-Steps/how-to-do-a-local-seo-audit_fi.jpg
 excerpt_separator: "<!-- more -->"
 description: Local SEO Audit is understanding where you stand in the search engines.
 permalink: /blog/:categories/:title:output_ext
-
 ---
-
-<div class="row">
-  <div class="col">
-    <img src="{{site.url}}/assets/images/Blog/Local-SEO-12-Steps/how-to-do-a-local-seo-audit_fi.jpg" alt="Local Audit 12 Steps" class="hidden-xs hidden-sm img-responsive img-thumbnail">
-  </div>
-</div>
-
-<h1>{{page.title}}</h1>
 
 Businesses on page 2 of the SERP might as well not exist.
 

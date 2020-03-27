@@ -4,16 +4,12 @@ title:  "Critical Data"
 date:   2018-02-19
 categories: Listings
 tags: [Critical Data, NAP, business listing, Google]
-image: Website-Traffic-Driver.png
+#icon: Website-Traffic-Driver.png
+banner: Blog/nap-data-critical-listings.png
 excerpt_separator: "<!-- more -->"
-description: To list well in the search engines you need consistent NAP data, website, hours, and more across all major listing directories. 
+description: To list well in the search engines you need consistent NAP data, website, hours, and more across all major listing directories.
 permalink: /blog/:categories/:title:output_ext
 ---
-
-<img src="{{site.url}}/assets/images/Blog/nap-data-critical-listings.png" alt="Critical Data" class="img-responsive img-thumbnail">
-
-
-<h2>{{page.title}}</h2>
 
 <p>If you want to rank well in local search, you need consistent NAP data, website, hours, and more across all major listing
 directories. This is essential for search engines to validate you as a credible local business.</p>

@@ -7,10 +7,23 @@
     <div class="col-3">
       <div class="row ml-3">
         <div class="col">
-          {% if page.categories == "blog" %}
-            <h1>{{ page.title }}</h1>
+          {% if page.categories contains 'Advertising' %}
+            <img src="{{ site.url }}/assets/images/Digital_Advertising_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Advertising" />
+          {% elsif page.categories contains 'Accessibility' %}
+            <img src="{{ site.url }}/assets/images/Blog/Accessibility/Accessibility.png" style="width:25%; height: auto;" class="img-responsive" alt="Web Accessibility" />
+          {% elsif page.categories contains 'Content Experience' %}
+            <img src="{{ site.url }}/assets/images/Content-Marketing.png" style="width:25%; height: auto;" class="img-responsive" alt="Content Experience" />
+          {% elsif page.categories contains 'Listings' %}
+            <img src="{{ site.url }}/assets/images/Website-Traffic-Driver.png" style="width:25%; height: auto;" class="img-responsive" alt="Listings" />
+          {% elsif page.categories contains 'Website' %}
+            <img src="{{ site.url }}/assets/images/Website-Reputation.png" style="width:25%; height: auto;" class="img-responsive" alt="Websites" />
+          {% elsif page.categories contains 'Reputation' %}
+            <img src="{{ site.url }}/assets/images/Reputation-Services.png" style="width:25%; height: auto;" class="img-responsive" alt="Reputation" />
+          {% elsif page.categories contains 'SEO' %}
+            <img src="{{ site.url }}/assets/images/Enhanced-SEO.png" style="width:25%; height: auto;" class="img-responsive" alt="SEO" />
+          {% elsif page.categories contains 'Social' %}
+            <img src="{{ site.url }}/assets/images/Social_Marketing_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Social Marketing" />
           {% endif %}
-            <img src="{{ site.url }}/assets/images/{{page.image}}" style="width:50%; height: auto;" class="img-responsive" alt="{{page.title}}" />
         </div>
       </div>
       <hr />
@@ -26,8 +39,18 @@
       <div class="row">
         <!-- Content -->
         <div class="col-9">
+          <h1>{{ page.categories }}</h1>
           <small> {{ page.date | date: '%B %d, %Y' }} | {{site.author}}</small>
-            {{ content }}
+
+          <div class="row">
+            <div class="col mb-2">
+              <img src="{{site.url}}/assets/images/{{page.banner}}" alt="{{page.title}}" class="hidden-xs hidden-sm img-responsive img-thumbnail">
+            </div>
+          </div>
+
+          <h2>{{page.title}}</h2>
+
+          {{ content }}
         </div>
 
         <!-- Archives -->

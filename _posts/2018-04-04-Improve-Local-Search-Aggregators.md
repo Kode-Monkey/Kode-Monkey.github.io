@@ -4,16 +4,12 @@ title:  "Improving Local Search Rankings"
 date:   2018-03-05
 categories: Listings
 tags: [Aggregators, Factual, Acxiom, Infogroup Localeze, Rankings, citation]
-image: Website-Traffic-Driver.png
+#icon: Website-Traffic-Driver.png
+banner: Blog/data-aggregatorsBlog.png
 excerpt_separator: "<!-- more -->"
 description: Local Listings submits your site to the data aggregates that supply your listing to the search engines.
 permalink: /blog/:categories/:title:output_ext
-
 ---
-
-<img src="{{site.url}}/assets/images/Blog/data-aggregatorsBlog.png" alt="Local Search Data Aggregators" class="img-responstive img-thumbnail">
-
-<h2>{{ page.title }}</h2>
 
 <p>Data aggregators run the world. The world of local search, any way. Data aggregators supply information to major search engines like Google, which means that having good business listing info on data aggregators can help it get right on Google. These aggregators have built massive business databases from valuable listing sources like yellow page directories, phone directories, utility records, and various online information providers. They’ve got an unbelievable amount of business data that search engines look to when finding local listing information for businesses.</p>
 
