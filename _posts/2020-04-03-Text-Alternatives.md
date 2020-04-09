@@ -12,7 +12,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <h2>Overview</h2>
 
-<p>For those of you that may not know, Kaffeinated Kodemonkey is an Accessibility Driven Web Design Agency. Our mission is to develop websites that are accessible by nature in doing so we follow <POUR Web Design>.</p>
+<p>For those of you that may not know, Kaffeinated Kodemonkey is an Accessibility Driven Web Design Agency. Our mission is to develop websites that are accessible by nature in doing so we follow POUR Web Design>.</p>
 
 <p>We will start with the first principle in POUR Web Design, Perceivable, the four (4) Guidelines, and how to use them.</p>
 
