@@ -1,12 +1,23 @@
 ---
 layout: blog
-title: Accessibility
+title: How-To-WCAG
 categories: Accessibility
 image: pour-web-design.png
 description: Series of Articles about Web Accessibility and how essential it is for you business.
 ---
 
 {% assign count = site.categories[page.categories] | size %}
+
+<div class="row">
+  <div class="col text-center mb-2">
+    <h2>Welcome to our Series on Web Accessibility</h2>
+
+    <p>Learn how you can add WCAG requirements to your website or application to become ADA Compliant.</p>
+
+  </div>
+</div>
+
+<hr class="my-3" />
 
 {% if count == 0 %}
   <h3 class="text-center">Currently writing post check back often.</h3>
