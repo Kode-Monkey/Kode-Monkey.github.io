@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: How-To-WCAG
-categories: Accessibility
+title: Security
+categories: Security
 image: pour-web-design.png
-description: Series of Articles about Web Accessibility and how essential it is for you business.
+description: Series of Articles about Online Security.
 ---
 
 {% assign count = site.categories[page.categories] | size %}
