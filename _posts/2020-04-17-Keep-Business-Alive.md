@@ -1,6 +1,6 @@
 ---
 layout: news
-title:  "Keep Colorado Alive"
+title:  "Keep Business Alive"
 date:   2020-04-17
 img: press-release/Partners.png
 img-main: press-release/ReOpenColorado.png
@@ -21,9 +21,8 @@ permalink: /:categories/:title:output_ext
 <h2>Let's Talk</h2>
 <p>Kaffeinated Kodemonkey is not here to point fingers or diminish any business, company or employer. We are specialists in online Accessibility and understand that business may not be ready for this shift in their platform.</p>
 
-<p>We want to understand how this shift has affected you as and employee, boss, business owner etc..</p>
+<p>This started from a group I was asked to join call ReOpen Colorad. I feel that this is greater that one state and that we need to ReOpen America.</p>
 
-<p>Together we can be stronger and work to ReOpening Colorado as well and prepare us for the new normal.</p>
+<p>At Kaffeinated Kodemonkey we want to understand how this shift has affected you as and employee, boss, business owner etc.. So we can together, be stronger and work to ReOpen America as well and prepare us and our business for the new normal.</p>
 
-<p>Join us below in our discussion. Let us know how this is affecting those of you with a disability and how you
-are working through it. We would also like to know how our services could help a business/company that employees people with a disability.</p>
+<p>Join us below in our discussion. Let us know what state your are from and how this is affecting those of you with a disability and how you are working through it. We would also like to know how our services could help a business/company that employees people with a disability.</p>
