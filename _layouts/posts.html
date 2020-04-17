@@ -4,30 +4,27 @@
 
 <div class="container-fluid">
   <div class="row ml-3 mt-5 mb-5">
-    <div class="col-3">
-      <div class="row ml-3">
-        <div class="col">
-          {% if page.categories contains 'Advertising' %}
-            <img src="{{ site.url }}/assets/images/Digital_Advertising_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Advertising" />
-          {% elsif page.categories contains 'Accessibility' %}
-            <img src="{{ site.url }}/assets/images/Blog/Accessibility/Accessibility.png" style="width:25%; height: auto;" class="img-responsive" alt="Web Accessibility" />
-          {% elsif page.categories contains 'Content Experience' %}
-            <img src="{{ site.url }}/assets/images/Content-Marketing.png" style="width:25%; height: auto;" class="img-responsive" alt="Content Experience" />
-          {% elsif page.categories contains 'Listings' %}
-            <img src="{{ site.url }}/assets/images/Website-Traffic-Driver.png" style="width:25%; height: auto;" class="img-responsive" alt="Listings" />
-          {% elsif page.categories contains 'Website' %}
-            <img src="{{ site.url }}/assets/images/Website-Reputation.png" style="width:25%; height: auto;" class="img-responsive" alt="Websites" />
-          {% elsif page.categories contains 'Reputation' %}
-            <img src="{{ site.url }}/assets/images/Reputation-Services.png" style="width:25%; height: auto;" class="img-responsive" alt="Reputation" />
-          {% elsif page.categories contains 'SEO' %}
-            <img src="{{ site.url }}/assets/images/Enhanced-SEO.png" style="width:25%; height: auto;" class="img-responsive" alt="SEO" />
-          {% elsif page.categories contains 'Social' %}
-            <img src="{{ site.url }}/assets/images/Social_Marketing_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Social Marketing" />
-          {% elsif page.categories contains 'Social' %}
-            <img src="{{ site.url }}/assets/images/Social_Marketing_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Security" />
-          {% endif %}
-        </div>
-      </div>
+    <div class="col-md-3 col-sm-12">
+      {% if page.categories contains 'Advertising' %}
+        <img src="{{ site.url }}/assets/images/Digital_Advertising_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Advertising" />
+      {% elsif page.categories contains 'Accessibility' %}
+        <img src="{{ site.url }}/assets/images/Blog/Accessibility/Accessibility.png" style="width:25%; height: auto;" class="img-responsive" alt="Web Accessibility" />
+      {% elsif page.categories contains 'Content Experience' %}
+        <img src="{{ site.url }}/assets/images/Content-Marketing.png" style="width:25%; height: auto;" class="img-responsive" alt="Content Experience" />
+      {% elsif page.categories contains 'Listings' %}
+        <img src="{{ site.url }}/assets/images/Website-Traffic-Driver.png" style="width:25%; height: auto;" class="img-responsive" alt="Listings" />
+      {% elsif page.categories contains 'Website' %}
+        <img src="{{ site.url }}/assets/images/Website-Reputation.png" style="width:25%; height: auto;" class="img-responsive" alt="Websites" />
+      {% elsif page.categories contains 'Reputation' %}
+        <img src="{{ site.url }}/assets/images/Reputation-Services.png" style="width:25%; height: auto;" class="img-responsive" alt="Reputation" />
+      {% elsif page.categories contains 'SEO' %}
+        <img src="{{ site.url }}/assets/images/Enhanced-SEO.png" style="width:25%; height: auto;" class="img-responsive" alt="SEO" />
+      {% elsif page.categories contains 'Social' %}
+        <img src="{{ site.url }}/assets/images/Social_Marketing_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Social Marketing" />
+      {% elsif page.categories contains 'Social' %}
+        <img src="{{ site.url }}/assets/images/Social_Marketing_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Security" />
+      {% endif %}
+
       <hr />
 
       {% include Newsletter.html %}
@@ -37,10 +34,10 @@
       {% include Ad.html %}
     </div>
 
-    <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
+    <div class="col-sm-12 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
       <div class="row">
         <!-- Content -->
-        <div class="col-9">
+        <div class="col-md-9 col-sm-12">
           <h1>{{ page.categories }}</h1>
           <small> {{ page.date | date: '%B %d, %Y' }} | {{site.author}}</small>
 
@@ -56,7 +53,7 @@
         </div>
 
         <!-- Archives -->
-        <div class="col-3">
+        <div class="col-md-3 col-sm-12 ">
           {% for category in page.categories %}
             {% assign moreThanOneInCategory = false %}
               {% assign posts = site.categories[category] %}
