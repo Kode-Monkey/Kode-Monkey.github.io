@@ -2,7 +2,7 @@
 layout: template
 mine-image: ADA-Compliance/Accessibility-Testing.png
 img-size: 100
-title: WCAG & Section 508
+title: VPAT Document
 category: Web Accessibility
 subtitle: Do you need a VPAT
 description: A Voluntary Product Accessibility Template (VPAT™) outlining accessibility.
@@ -36,9 +36,13 @@ description: A Voluntary Product Accessibility Template (VPAT™) outlining acce
         <div class="row mb-5">
           <div class="col">
             <ul class="nav nav-tabs">
-              <!-- VPAT Document -->
+              <!-- VPAT-only -->
               <li class="nav-item pr-0" id="heading-VPAT">
-                <p class="text-center pl-0 pr-0 mt-0 mb-0"><button type="button" class="btn btn-small btn-primary" data-toggle="collapse" data-target="#VPAT" aria-expanded="false" aria-controls="VPAT"><i class="fas fa-file"></i> VPAT Document</button></p>
+                <p class="text-center pl-0 pr-0 mt-0 mb-0"><button type="button" class="btn btn-small btn-primary" data-toggle="collapse" data-target="#VPAT" aria-expanded="false" aria-controls="VPAT"><i class="fas fa-file"></i> VPAT-Only</button></p>
+              </li>
+              <!-- POC -->
+              <li class="nav-item pr-0" id="heading-POC">
+                <p class="text-center pl-3 pr-0 mt-0 mb-0"><button type="button" class="btn btn-small btn-primary" data-toggle="collapse" data-target="#POC" aria-expanded="false" aria-controls="POC"><i class="fas fa-file"></i> Proof-of-Compliance (POC)</button></p>
               </li>
             </ul>
           </div>
@@ -49,7 +53,7 @@ description: A Voluntary Product Accessibility Template (VPAT™) outlining acce
           <!-- Content -->
           <div class="row">
             <div class="col">
-              <h2><a name="VPAT">VPAT Document</a></h2>
+              <h2><a name="VPAT">VPAT-Only</a></h2>
             </div>
             <div class="col-5 float-right">
               <h2>Cost: $995</h2>
@@ -58,7 +62,7 @@ description: A Voluntary Product Accessibility Template (VPAT™) outlining acce
 
           <hr />
 
-          <h3><strong>VPAT Audit</strong></h3>
+          <!--<h3><strong>VPAT-Only</strong></h3>-->
 
           <p>Essentially you have been asked either by your boss, prospective client, or you are a go-getter and have chosen to be proactive and fill out a
           <strong>VPAT</strong> Document for your product to demonstrate your current <strong>WCAG</strong> conformance Level.</p>
@@ -70,6 +74,41 @@ description: A Voluntary Product Accessibility Template (VPAT™) outlining acce
           <p>Let our team of accessibility experts complete the <strong>VPAT</strong> for you. We will analyze each page and test your site for hands-free access, vision impairedness,
           low-vision, color-blind, learning disabilities, deafness, low-hearing, and more through assistive technologies. Upon completion we will deliver a completed
           VPAT, indicating where your site passed and failed.</p>
+
+          {% include Book-Consultation.html %}
+
+        </div>  <!-- Close Tabe -->
+
+        <!-- Tab #POC-->
+        <div id="POC" class="collapse" aria-labelledby="heading-POC" data-parent="#TabMenu">
+          <!-- Content -->
+          <div class="row">
+            <div class="col">
+              <h2><a name="VPAT">POC</a></h2>
+            </div>
+            <div class="col-5 float-right">
+              <h2>Cost: Request a Quote</h2>
+            </div>
+          </div>
+
+          <hr />
+
+          <!-- <h3><strong>VPAT Audit</strong></h3> -->
+          <p>This is designed for business with websites that are mainly static in natuer, content and code remains the same, and you are not adding
+          new featuers on daily or weekly basis.</p>
+
+          <p>With the Proof-of-Compliance Evaluation our team will work with you to resolve any compliance issues and in six (6) months we will re-evalueate
+          your site to chatch any new issues that may have resulted in site updates or changes to content.</p>
+
+          <p><strong>What is included:</strong></p>
+          <ul>
+            <li>Full site evaluate</li>
+            <li>Completed VPAT document</li>
+            <li>Accessibility Statemente</li>
+            <li>How-To-Fix report showing all issues that were found</li>
+            <li>POC badge indicating when your site was last evaluated</li>            
+            <li>Six (6) month re-evaluation and updated documents
+          </ul>
 
           {% include Book-Consultation.html %}
 
