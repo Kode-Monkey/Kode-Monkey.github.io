@@ -19,7 +19,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     overflow-x: hidden;
-    background: /*#F5F5F5 #F9F9F9*/ #f9f9f9;
+    background: /*#F5F5F5 #F9F9F9 #f9f9f9*/ #e3eff4;
 }
 
 .container {
@@ -49,7 +49,7 @@ img {
   margin-left: -5em;
 }
 
-p.c19{
+h1.c19{
   font-size: 2.2em;
   line-height: 1.5em;
 }
@@ -81,6 +81,7 @@ h4 {
     font-size: 1.125em;
     line-height: 2.2rem;
     margin-bottom: 1.1rem;
+    font-weight: bold;
 }
 
 h5, h6 {
@@ -125,12 +126,19 @@ p:last-child {
   }
 }
 
+.kal {
+  color: /*#e57d14*/ #F9A438;
+  font-weight: bold;
+}
+
 a{
-  color:#e57d14;
+  color: /*#e57d14*/ #006290;
+  font-weight: bold;
 }
 
 a:visited{
-  color: /*#ff8000;*/ #F9A438;
+  color: /*#ff8000; #F9A438 */ #6C3F04;
+  font-weight: bold;
 }
 
 a.wa, a:link.wa{
@@ -141,14 +149,13 @@ a:hover.wa, a:focus.wa{
   color: #013a54;
 }
 
-a,
+
 a:hover,
 a:active,
 a:focus {
     text-decoration: none;
     outline: none;
-    color: /*#ff8000*/ #7F4A06;
-    font-size: 1.0em;
+    color: /*#ff8000*/ #733D1C;
     font-weight: bold;
 }
 

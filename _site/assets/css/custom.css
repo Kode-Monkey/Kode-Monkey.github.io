@@ -35,6 +35,11 @@ strong {
   text-indent: -9999px
 }
 
+/*********** Newsletter **********/
+.response{
+  font-size: 1.9em;
+}
+
 /********** on-page tabs icons **********/
 #tab-icon{
   display:block;
@@ -124,16 +129,6 @@ hr.features {
 li{
   line-height: 2.0rem;
 }
-
-/*.basic-ul{
-  margin-left: 20px;
-}
-.basic-li{
-  padding: 5px;
-  margin-left: 35px;
-  font-size: 1.0rem;
-  list-style: disc;
-}*/
 
 .img-center{
   display: block;
