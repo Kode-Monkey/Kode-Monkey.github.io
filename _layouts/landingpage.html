@@ -1,18 +1,72 @@
 
-
     {% include head.html %}
-
-    <script>
-  fbq('track', 'ViewContent');
-</script>
-    {% if page.title == "Thank You" %}
-      {% include fb-event.html %}
-    {% endif %}
 
     {% include social.html %}
 
-    {{ content }}
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col-3 ml-2">
+          <p><strong>Kaffeinated Kodemonkey</strong></p>
+          <p>Striving to make websites <br />Accessibilty to everyone.</p>
+          <p>Rangley, CO 81948 <br />
+          <span class="force-read-before" data-attributetitleof="id-hatemile-display-9707572202">
+          <abbr id="id-hatemile-display-9707572202" title="Phone">P:</abbr> (970) 757-2222</span></p>
 
-    {% include footer.html %}
+          <div class="footer-brand">
+            <a href="/" title="Take me home"><img src="{{site.url}}/assets/images/logo.png" style="width: 35%;" alt="Kaffeinated Kodemonkey Logo" /></a>
+            <img src="{{site.url}}/assets/images/badge_partneragency.gif" alt="OnlineADA" class="img-fluid" style="width: 30%; height: auto;">
+          </div>
+        </div>
+        <div class="col-7">
+          <div class="shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="row">
+              <div class="col">
+                <p class="text-center"><img class="img-responsive img-thumbnail" src="{{sit.url}}/assets/images/{{page.mine-image}}" style="width:{{page.img-size}}; height: auto;" alt="{{page.title}}"></p>
+                <h1>{{page.title}}</h1>
+                <p class="text-danger"><small><em><strong>{{page.subtitle}}</strong></em></small></p>
 
-  
+                <hr />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8">
+                {{ content }}
+              </div>
+              <div class="col-4">
+                <h2>Request Quote</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="FNAME">First Name:</label>
+                    <input type="text" class="form-control" id="FNNAME" aria-describedby="firstHelp" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="LNAME">Last Name:</label>
+                    <input type="text" class="form-control" id="LNAME" aria-describedby="lastHelp" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="WEBSITE">Email address</label>
+                    <input type="url" class="form-control" id="WEBSITE" aria-describedby="webHelp" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="row social pt-2">
+      <div class="col-3 ml-2">
+        <small><a href="{{site.url}}/Accessibility-Statement.html">Accessibilty Statement</a> | <a href="{{site.url}}/">Accessibility Compliant Report</a></small>
+
+      </div>
+      <div class="col-7 align-middle ">
+        <h3 class="text-center text-danger">Kaffeinated Kodemonkey dose not offer legal advice as we are not lawyers. <u><em><a href="{{site.url}}/disclaimer">Disclaimer</a></em></u></h3>
+      </div>
+    </div>
