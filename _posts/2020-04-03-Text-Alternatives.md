@@ -49,7 +49,7 @@ permalink: /blog/:categories/:title:output_ext
   <li><strong>Decoration, Formatting, Invisible:</strong> If non-text content is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.</li>
 </ul>
 
-<h3>Okay, What does that mean? </h3>
+<h3>Okay, What does that mean?</h3>
 <p>First, we have "non-text" - which refers to any content that is not a series of characters that can be programmatically determined or where the series is not expressing something in human language. Such as an image, form inputs, video or audio.</p>
 
 <p>Second, we have "text alternative" - which refers to text that is programmatically associated with non-text content or referred to from text that is programmatically associated with non-text content. </p>
@@ -68,7 +68,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>You could even follow the description with a table outlining the pie chart.</p>
 
-<h3>Examples where this would come into play:<h3>
+<h3>Examples where this would come into play:</h3>
 
 <p><strong>Animation</strong></p>
 <p>Or animation showing how a car engine works. There is no audio and the animation is part of a tutorial that describes how an engine works. Since the text of the tutorial already provides a full explanation, the image is an alternative for text and the text alternative includes only a brief description of the animation and refers to the tutorial text for more information.</p>
