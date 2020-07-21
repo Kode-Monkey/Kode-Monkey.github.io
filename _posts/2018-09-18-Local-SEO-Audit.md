@@ -72,7 +72,7 @@ In most cases, you should be able to take a look through these items and develop
 <h3>Helpful Local SEO Tools:</h3>
 
 <ul class="basic-ul">
-<li class="basic-li"><a href="https://builtwith.com/)" target="blank">BuiltWith</a></li>
+<li class="basic-li"><a href="https://builtwith.com/" target="blank">BuiltWith</a></li>
 </ul>
 
 <img src="{{site.url}}/assets/images/Blog/Local-SEO-12-Steps/how-to-do-a-local-seo-audit-3-gmb-300x122.jpg" alt="Google My Business" style="width: 40%;" class="hidden-xs hidden-sm img-responsive img-thumbnail">
@@ -184,12 +184,12 @@ It’s important to look into both your structured and unstructured citations. F
 
 Next, you’ll need to check your unstructured citations. An unstructured citation can be found on random websites, blogs, event listings, job posting sites, government records or social media mentions. These are unstructured because they could be as simple as a company mention. Usually, these citations don’t include a business’s NAP data.
 
-<a href="https://lcf.whitespark.ca/search/" target="blank">Whitespark’s Local Citation Finder</a> is a great free tool to find and analyze both your structured and unstructured citations.
+<a href="https://whitespark.ca/local-citation-finder/" target="blank">Whitespark’s Local Citation Finder</a> is a great free tool to find and analyze both your structured and unstructured citations.
 
 <h3>Helpful Local SEO Tools:</h3>
 
 <ul class="basic-ul">
-<li class="basic-li"><a href="https://lcf.whitespark.ca/search/" target="blank">Whitespark’s Local Citation Finder</a></li>
+<li class="basic-li"><a href="https://whitespark.ca/local-citation-finder/" target="blank">Whitespark’s Local Citation Finder</a></li>
 <li class="basic-li"><a href="https://moz.com/local/search" target="blank">Moz Check Listings</a></li>
 </ul>
 
