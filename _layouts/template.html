@@ -8,7 +8,7 @@
       <!-- left colmun -->
       <div class="col-sm-3 col-md-3">
         <!-- page title or category and subtitle -->
-        <h1>{{ page.category }}</h1>
+        <h2>{{ page.category }}</h2>
         <p>{{page.subtitle}}</p>
 
         {% if page.title == "About" %}
@@ -35,14 +35,14 @@
               </div>
             {% else %}
               {% if page.title != "About" %}
-                <img src="{{site.url}}/assets/images/{{page.mine-image}}" class="img-fluid img-thumbnail rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}}">
+                <a href="https://kaffeinatedkodemonkey.youcanbook.me/" title="Book Consultation" target="_blank"><img src="{{site.url}}/assets/images/{{page.mine-image}}" class="img-fluid img-thumbnail rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}} image"></a>
               {% endif %}
             {% endif %}
           </div>
         </div>
         <div class="row">
           <div class="col-md-9 col-sm-8">
-            <h2 class="mt-4">{{page.title}}</h2>
+            <h1 class="mt-4">{{page.title}}</h1>
           </div>
           <div class="col-md-3 col-sm-4 mt-4">
             <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="ml-5 btn btn-md btn-warning">Book Free Consultation</a></p>
