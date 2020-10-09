@@ -1,0 +1,571 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Accessibility Aria | Kaffeinated Kodemonkey </title>
+  <meta name="description" content="How to resolve Aria accessibility issuse.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/assets/images/favicon.ico">
+  <!-- <link rel="stylesheet" href="http://localhost:4000/assets/css/all.css"> -->
+
+  <!-- FontAwsome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="http://localhost:4000/assets/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!--Theme custom css -->
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/style.css">
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/custom.css">
+
+  <!--Theme Responsive css-->
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/responsive.css" />
+
+  <!-- ADAOnline Toolbar -->
+  <script>(function(s, o, g){a = s.createElement(o),m = s.getElementsByTagName(o)[0];a.src = g;a.setAttribute("async","");a.setAttribute("type","text/javascript");a.setAttribute("crossorigin","anonymous");m.parentNode.insertBefore(a, m)})(document, "script", "https://adatoolbar.com/wp-json/onlineada/v1/accessibility-toolbar/226f36187a4b9");</script>
+  <!-- End ADAOnline Toolbar -->
+
+  <!-- Google -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46627745-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-46627745-2');
+  </script>
+
+</head>
+
+  
+<!-- Sections -->
+<section id="social" class="social">
+  <div class="container-fluid">
+    <!-- Example row of columns -->
+    <div class="row mr-3">
+      <div class="col-md-7 col-sm-12">
+        <div class="social-icon">
+          <a class="nav-link" href="https://facebook.com/kaffeinatedkodemonkey" target="_blank" title="Facebook" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a class="nav-link" href="https://twitter.com/kfn8dkodemonkey" target="_blank" title="Twitter" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+          <a class="nav-link" href="https://www.linkedin.com/in/kaffeinatedkodemonkey" target="_blank" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="social-contact text-center">
+          <a href="#"><i class="fa fa-phone"></i>720.608.1444</a>
+          <a href="mailto:info@kaffeinatedkodemonkey.com"><i class="fa fa-envelope"></i>The Kodemonkey</a>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- /container -->
+</section>
+
+  <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #013b56;">
+  <a class="navbar-brand mt-0 ml-1" href="/" title="Kodemonkeky" id="logo">kaffeinated kodemonkey</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="ml-auto d-flex justify-content-end">
+    <div class="collapse navbar-collapse mr-5" id="navbarNavDropdown">
+      <ul class="navbar-nav justify-content-end">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://localhost:4000/Website-Services/Presences#" id="websites" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accessibility Design</a>
+          <div class="dropdown-menu" aria-labelledby="navbarNavDropdown websites">
+            <a class="dropdown-item" href="http://localhost:4000/Website-Services/Presences" title="Building the sites of tomorrow">Website Design</a>
+            <a class="dropdown-item" href="http://localhost:4000/Website-Services/Maintenance"  title="We help you avoid 404 Errors">Website Management</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="Marketing" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Marketing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarNavDropdown Marketing">
+            <a class="dropdown-item" href="http://localhost:4000/Marketing/Local-Listings" title="Get listed in search engins">Local Listings</a>
+            <a class="dropdown-item" href="http://localhost:4000/Marketing/SEO" title="Get greate ROI with SEO">SEO Marketing</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" target="_blank" id="Accessibility" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Web Accessibility
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarNavDropdown Accessibility">
+            <a class="dropdown-item" href="http://localhost:4000/Web-Accessibility/ADA-Compliance" title="Get evaluated">ADA Compliance</a>
+            <a class="dropdown-item" href="http://localhost:4000/Web-Accessibility/ADA-Certification" title="Is your site ADA Certified?">ADA Certification</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/press-release" title="Checkout our Press Release">Press Release</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/Clients" title="Our Portfolio">Clients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/Blog" title="Tips & Tricks">Blog</a>
+        </li>
+        <!-- <li class="nav-item">
+        <a class="nav-link" href="http://localhost:4000/Testimonials">At-a-Girl</a>
+      </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/about" title="Get to Know us">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="container-fluid">
+    <div class="row ml-3 mt-5 mb-5">
+      <!-- left colmun -->
+      <div class="col-sm-3 col-md-3">
+        <!-- page title or category and subtitle -->
+        <h2>Accessibility Remidation</h2>
+        <p>Aria Documentation</p>
+
+        
+          <hr />
+          <!-- include Newsletter -->
+          <!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+  <form action="https://kaffeinatedkodemonkey.us11.list-manage.com/subscribe/post?u=25ed2db8c5f44be422ac9503a&amp;id=1b6530d445" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <div id="mce-responses" class="clear">
+    		<div class="response text-danger mb-2" id="mce-error-response" style="display:none"></div>
+    		<div class="response text-success mb-2" id="mce-success-response" style="display:none"></div>
+    	</div>
+
+	     <h2>Join Newsletter</h2>
+
+       <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+       <div class="form-group">
+         <label for="mce-FNAME">First Name:  <span class="asterisk">*</span></label>
+         <input type="text" value="" name="FNAME" class="form-control input-md" id="mce-FNAME" required>
+       </div>
+
+      <div class="form-group">
+      	<label for="mce-LNAME">Last Name: <span class="asterisk">*</span></label>
+      	<input type="text" value="" name="LNAME" class="form-control input-md" id="mce-LNAME" required>
+      </div>
+
+      <div class="form-group">
+      	<label for="mce-WEBSITE">Website </label>
+      	<input type="url" value="" name="WEBSITE" class="form-control input-md" id="mce-WEBSITE">
+      </div>
+
+      <div class="form-group">
+      	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+      </label>
+      	<input type="email" value="" name="EMAIL" class="form-control input-md" id="mce-EMAIL" required>
+      </div>
+
+
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true" id="spam">
+        <input type="text" aria-labelledby="spam" name="b_25ed2db8c5f44be422ac9503a_1b6530d445" tabindex="-1" value="">
+      </div>
+
+      <button type="submit" class="btn btn-primary" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Submit</button>
+    </div>
+  </form>
+</div>
+<script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[2]='FNAME';ftypes[2]='text';fnames[3]='LNAME';ftypes[3]='text';fnames[1]='WEBSITE';ftypes[1]='url';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+        
+
+        <hr />
+        <!-- includes adds -->
+        
+<!-- this page is for displaying addes like pcmatice or domain hosting etc.. -->
+<div class="row">
+  <div class="col">
+    <a href="https://cart.pcpitstop.com/go.asp?id=500754&aff=18983" target="_blank"><img class="img-center img-responsive img-thumbnail" src="https://www.pcpitstop.com/images/affiliates/500754.gif" style="width:100%;" alt="PC Pitstop Is your PC slow?"/></a><br />
+    <a href="https://reciprocitylabs.com/" target="_blank"><img class="img-center img-responsive img-thumbnail" src="http://localhost:4000/assets/images/press-release/Reciprocity.png" style="width:100%;" alt="Risk Management"/></a>
+
+  </div>
+  <div class="col">
+    <a href="https://www.domain.com/join/index.bml?bannerID=933&AffID=746605&amp;LinkName=kodemonkey" target="_blank"><img src="https://www1.domain.com/affiliate/banners/933" alt="affiliate_link" class="img-center img-responsive img-thumbnail" style="width:84%;"/></a>
+  </div>
+</div>
+
+
+      </div>
+      <!-- right - Main Column -->
+      <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
+        <div class="row">
+          <div class="col-md-12 col-sm-8">
+            
+              
+                <a href="https://kaffeinatedkodemonkey.youcanbook.me/" title="Book Consultation" target="_blank"><img src="http://localhost:4000/assets/images/ADA Complinace Logo.png" class="img-fluid img-thumbnail rounded" style="width: 100%; height: auto;" alt="Accessibility Aria image"></a>
+              
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-9 col-sm-8">
+            <h1 class="mt-4">Accessibility Aria</h1>
+          </div>
+          <div class="col-md-3 col-sm-4 mt-4">
+            <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="ml-5 btn btn-md btn-warning">Book Free Consultation</a></p>
+          </div>
+        </div>
+
+
+        <hr/>
+        <!-- <p><a href="https://wave.webaim.org/"><img src="https://wave.webaim.org/img/wavelogo.svg" alt="WAVE Web Accessibility Evaluation Tool" style="width:50%"></a></p>
+<h1>WAVE Documentation</h1> -->
+
+<p>Welcome, thank you for chooseing Kaffeinated Kodemonkey for your ADA certification and/or VPAT needs.</p>
+
+<p>Through an Accessibility Evaluation you recived a How-To-Fix Report outlining errors, alerts, features, structure elements, and aria
+content found throught your site. Each page has been listed with the number of issues or warnings that linked to the item on this page to
+help your team in understanding what they means, why it matters, and how to resolve it.</p>
+
+<p>If at any time you do not understand how to resolve and issue please reach out to your accessibiltiy specalist for further explination.</p>
+
+<!-- Tab #Aria-->
+<div id="collapse-aria" class="collapse show" aria-labelledby="accessibility-aria" data-parent="#TabMenu">
+  <!-- Content -->
+  <p>Aria elements are present and help with accessibility verify they are being uses accuratel.</p>
+  <p>It is always advisable if you can you use html first and aria if there is not other alternative.</p>
+
+  <div class="accordion" id="ADA-Aria">
+    <div class="card">
+      <div class="card-header" id="aria">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_aria" aria-expanded="false" aria-controls="collapse_aria">
+            <img src="https://wave.webaim.org/img/icons/aria.svg" class="img-fluid" style="width: 3%;" alt=""> ARIA - aria
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_aria" class="collapse" aria-labelledby="aria" data-parent="#ADA-Aria">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>The content of an inline frame is read as if it were part of the page that contains it. The content of the iframe must be accessible. A title attribute value for the iframe will generally be read by a screen reader when the iframe is encountered.</p>
+          <h3>What To Do:</h3>
+          <p>An ARIA role, state, or property is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>ARIA provides enhanced semantics and accessibility for web content.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the ARIA role, state, or property is used correctly. Use standard HTML accessibility features when possible. Be aware that support for ARIA is limited in older browsers and assistive technologies.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An ARIA role, state, or property is present, excluding landmark roles, aria-labelledby, or aria-describedby which are distinct WAVE items.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>4.1.2 Name, Role, Value (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="aria_label">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_aria_label" aria-expanded="false" aria-controls="collapse_aria_label">
+            <img src="https://wave.webaim.org/img/icons/aria_label.svg" class="img-fluid" style="width: 3%;" alt=""> ARIA label - aria_label
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_aria_label" class="collapse" aria-labelledby="aria_label" data-parent="#ADA-Aria">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An aria-label or aria-labelledby attribute is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>ARIA labels define accessible names to be read by screen readers for interface elements. They may be used when HTML associations (label, alternative text, etc.) are not sufficient.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the aria-label value or element referenced by aria-labelledby provides a descriptive, accurate label. When possible, use standard HTML &lt;label&gt; or other markup to make the association.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An aria-label or aria-labelledby attribute is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.1.1 Non-text Content (Level A)</li><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.6 Headings and Labels (Level AA)</li><li>4.1.2 Name, Role, Value (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="aria_describedby">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_aria_describedby" aria-expanded="false" aria-controls="collapse_aria_describedby">
+            <img src="https://wave.webaim.org/img/icons/aria_describedby.svg" class="img-fluid" style="width: 3%;" alt=""> ARIA description - aria_describedby
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_aria_describedby" class="collapse" aria-labelledby="aria_describedby" data-parent="#ADA-Aria">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An aria-describedby attribute is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>ARIA descriptions provide additional information about interface elements, primarily form controls.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the aria-describedby attribute references an element that provides a correct description.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An aria-describedby attribute is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>4.1.2 Name, Role, Value (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="aria_live_region">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_aria_live_region" aria-expanded="false" aria-controls="collapse_aria_live_region">
+            <img src="https://wave.webaim.org/img/icons/aria_live_region.svg" class="img-fluid" style="width: 3%;" alt=""> ARIA alert or live region - aria_live_region
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_aria_live_region" class="collapse" aria-labelledby="aria_live_region" data-parent="#ADA-Aria">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An ARIA alert role or live region is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>ARIA live regions and alerts can be used to dynamically inform screen reader users of content updates.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the live region is properly tested and presents important, succinct content updates. A live region should not be used if focus is set to the updated page element.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A role="alert", role="alertdialog", or aria-live attribute is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>3.3.1 Error Identification (Level A)</li><li>4.1.3 Status Messages (Level AA)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="aria_menu">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_aria_menu" aria-expanded="false" aria-controls="collapse_aria_menu">
+            <img src="https://wave.webaim.org/img/icons/aria_menu.svg" class="img-fluid" style="width: 3%;" alt=""> ARIA menu - aria_menu
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_aria_menu" class="collapse" aria-labelledby="aria_menu" data-parent="#ADA-Aria">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An ARIA menu is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>ARIA menus are application menus (like those used in software menu) with a specific keyboard interactions. They are NOT for navigation links on a web site.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that the menu is an application menu and has the appropriate keyboard interactions (menu items are navigated via the arrow keys, not via the Tab key), otherwise remove the menu role.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An element with role="menu" or role="menubar" is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>2.1.1 Keyboard (Level A)</li><li>4.1.2 Name, Role, Value (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingTen">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_headingTen" aria-expanded="false" aria-controls="collapse_headingTen">
+            <img src="https://wave.webaim.org/img/icons/aria_button.svg" class="img-fluid" style="width: 3%;" alt=""> ARIA button - aria_button
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_headingTen" class="collapse" aria-labelledby="headingTen" data-parent="#ADA-Aria">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An element with role="button" is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Elements with role="button" must function like native buttons. These should typically be replaced with true button elements.</p>
+          <h3>What To Do:</h3>
+          <p>Replace the element with a true button element, or ensure the element is keyboard navigable, can be activated with Enter or Space key presses (key detection is typically necessary), and provides a visible focus indicator.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An element (other than a button) has role="button".</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>2.1.1 Keyboard (Level A)</li><li>4.1.2 Name, Role, Value (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="aria_expanded">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_aria_expanded" aria-expanded="false" aria-controls="collapse_aria_expanded">
+            <img src="https://wave.webaim.org/img/icons/aria_expanded.svg" class="img-fluid" style="width: 3%;" alt=""> ARIA expanded - aria_expanded
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_aria_expanded" class="collapse" aria-labelledby="aria_expanded" data-parent="#ADA-Aria">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An aria-expanded attribute is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>The aria-expanded attribute indicates the status of content that can be expanded and collapsed.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that aria-expanded is used correctly (typically on a button that controls expandable content) and that the value (true or false) reflects the expansion state.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An element with an aria-expanded attribute is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>4.1.2 Name, Role, Value (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="aria_haspopup">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_aria_haspopup" aria-expanded="false" aria-controls="collapse_aria_haspopup">
+            <img src="https://wave.webaim.org/img/icons/aria_haspopup.svg" class="img-fluid" style="width: 3%;" alt=""> ARIA popup - aria_haspopup
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_aria_haspopup" class="collapse" aria-labelledby="aria_haspopup" data-parent="#ADA-Aria">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An element triggers a popup menu, dialog, or other element.</p>
+          <h3>Why It Matters:</h3>
+          <p>The aria-haspopup element, when applied to a button, indicates that triggering the element will open an ARIA menu, dialog, listbox, tree, or grid.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that the element triggers an ARIA menu, dialog, listbox, tree, or grid and that the aria-haspop attribute value aligns with the type of element that is opened.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An aria-haspopup attribute is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>4.1.2 Name, Role, Value (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="aria_tabindex">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_aria_tabindex" aria-expanded="false" aria-controls="collapse_aria_tabindex">
+            <img src="https://wave.webaim.org/img/icons/aria_tabindex.svg" class="img-fluid" style="width: 3%;" alt=""> ARIA tabindex - aria_tabindex
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_aria_tabindex" class="collapse" aria-labelledby="aria_tabindex" data-parent="#ADA-Aria">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A tabindex value of 0 or less is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Tabindex can facilitate keyboard navigation for interactive elements. A tabindex attribute value of 0 places an item into the keyboard navigation order (i.e., you can navigate to it using the Tab key). A value of less than 0 (typically -1) removes an element from the keyboard flow (you cannot Tab to it), but allows it to receive programmatic focus (e.g., via scripting).</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that tabindex is being used correctly by navigating and interacting with the elements using only the keyboard. Positive tabindex values specify a distinct tab order and should typically be avoided.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A tabindex attribute is present and has a value of 0 or less.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>2.1.1 Keyboard (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="aria_hidden">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_aria_hidden" aria-expanded="false" aria-controls="collapse_aria_hidden">
+            <img src="https://wave.webaim.org/img/icons/aria_hidden.svg" class="img-fluid" style="width: 3%;" alt=""> ARIA hidden - aria_hidden
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_aria_hidden" class="collapse" aria-labelledby="aria_hidden" data-parent="#ADA-Aria">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>Content is hidden with ARIA.</p>
+          <h3>Why It Matters:</h3>
+          <p>Content hidden with aria-hidden="true" is not presented to screen reader users.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the content is intended to be hidden from screen reader users. The hidden content must not contain any navigable elements (such as links or form controls).</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An element with aria-hidden="true" is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>4.1.2 Name, Role, Value (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+      <section id="footer-menu" class="sections footer-menu" role="contentinfo">
+      <div class="container-fluid pl-5 pr-5">
+        <div class="row text-center">
+          <div class="col-12">
+            <p><a href="/" title="Take me home"><img src="https://www.kaffeinatedkodemonkey.com/assets/images/logo.png" style="width: 5%;" alt="Kaffeinated Kodemonkey Logo" /></a>
+            <img src="https://www.kaffeinatedkodemonkey.com/assets/images/badge_partneragency.gif" alt="OnlineADA" class="img-fluid" style="width: 5%; height: auto;"></p>
+
+            <h3><strong>Kaffeinated Kodemonkey</strong></h3>
+            <p>Striving to make websites Accessibilty to everyone.</p>
+
+            <p>Rangely, Co | <span class="force-read-before" data-attributetitleof="id-hatemile-display-9707572202">
+            <abbr id="id-hatemile-display-9707572202" title="Phone">P:</abbr> (970) 757-2222</span></p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <h3 class="mb-3 contact">Contact Our Accessibilty Development Team</h3>
+
+            <form accept-charset="UTF-8" action="https://formspree.io/admin@kaffeinatedkodemonkey.com" method="POST" class="mb-5">
+              <div class="form-group">
+                <label class="sr-only" for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required="">
+              </div>
+
+              <div class="form-group">
+                <label class="sr-only" for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required="">
+              </div>
+
+
+              <div class="form-group">
+                <label class="sr-only" for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="8" placeholder="Message"></textarea>
+              </div>
+
+              <div class="center-content">
+                <input type="submit" value="Submit" class="btn btn-md btn-primary">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-8 col-sm-6">
+            <h3>Site Map</h3>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Accessibilty Design</h4>
+                <p><a href="http://localhost:4000/Website-Services/Presences"><href="">Website Design</a></p>
+                <p><a href="http://localhost:4000/Website-Services/Maintenance">Website Management</a></p>
+              </div>
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Marking</h4>
+                <p><a href="http://localhost:4000/Marketing/Local-Listings">Local Listings</a></p>
+                <p><a href="http://localhost:4000/Marketing/SEO">SEO Marking</a></p>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Web Accessibilty</h4>
+                <p><a href="http://localhost:4000/Web-Accessibility/ADA-Compliance">ADA Compliance</a></p>
+                <p><a href="http://localhost:4000/Web-Accessibility/ADA-Certification">ADA Certification</a></p>
+              </div>
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Other</h4>
+                <p><a href="http://localhost:4000/press-release">Press Release</a></p>
+                <p><a href="http://localhost:4000/Clients">Potfolio</a></p>
+                <p><a href="http://localhost:4000/Blog">Blog</a></p>
+                <p><a href="http://localhost:4000/about">About</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+

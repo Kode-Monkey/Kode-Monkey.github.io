@@ -55,6 +55,28 @@ strong {
   padding-left: 5px;
 }
 
+.nav-item .btn{
+  color: #e5e0e0;
+}
+
+.btn-errors{
+  background: #CC1F1F;
+}
+
+.btn-alerts{
+  background: #DB7800;
+}
+
+.btn-features{
+  background: #157846;
+}
+
+.btn-structural-elements{
+  background: #1F6ACA;
+}
+.btn-aria{
+  background: #48246E;
+}
 .text-burgundy{
   color: #68142B;
   font-size: 1.2em;
