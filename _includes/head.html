@@ -9,7 +9,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title }}{% else %} {{site.description}} {% endif %} | {{site.title}} </title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{site.description}}{% endif %}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">'
+
+  {% if {{site_category}} == "Accessibility Remidation" %}
+  <meta name="robots" content="noindex">
+  {% endif %}
 
   <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
   <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/assets/images/favicon.ico">
