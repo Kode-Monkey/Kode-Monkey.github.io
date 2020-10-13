@@ -1,0 +1,824 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Accessibility Structural Elements | Kaffeinated Kodemonkey </title>
+  <meta name="description" content="How to resolve Structural Elements accessibility issuse.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">'
+
+  
+
+  <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/assets/images/favicon.ico">
+  <!-- <link rel="stylesheet" href="http://localhost:4000/assets/css/all.css"> -->
+
+  <!-- FontAwsome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="http://localhost:4000/assets/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!--Theme custom css -->
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/style.css">
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/custom.css">
+
+  <!--Theme Responsive css-->
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/responsive.css" />
+
+  <!-- ADAOnline Toolbar -->
+  <script>(function(s, o, g){a = s.createElement(o),m = s.getElementsByTagName(o)[0];a.src = g;a.setAttribute("async","");a.setAttribute("type","text/javascript");a.setAttribute("crossorigin","anonymous");m.parentNode.insertBefore(a, m)})(document, "script", "https://adatoolbar.com/wp-json/onlineada/v1/accessibility-toolbar/226f36187a4b9");</script>
+  <!-- End ADAOnline Toolbar -->
+
+  <!-- Google -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46627745-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-46627745-2');
+  </script>
+
+</head>
+
+  
+<!-- Sections -->
+<section id="social" class="social">
+  <div class="container-fluid">
+    <!-- Example row of columns -->
+    <div class="row mr-3">
+      <div class="col-md-7 col-sm-12">
+        <div class="social-icon">
+          <a class="nav-link" href="https://facebook.com/kaffeinatedkodemonkey" target="_blank" title="Facebook" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a class="nav-link" href="https://twitter.com/kfn8dkodemonkey" target="_blank" title="Twitter" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+          <a class="nav-link" href="https://www.linkedin.com/in/kaffeinatedkodemonkey" target="_blank" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="social-contact text-center">
+          <a href="#"><i class="fa fa-phone"></i>720.608.1444</a>
+          <a href="mailto:info@kaffeinatedkodemonkey.com"><i class="fa fa-envelope"></i>The Kodemonkey</a>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- /container -->
+</section>
+
+  <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #013b56;">
+  <a class="navbar-brand mt-0 ml-1" href="/" title="Kodemonkeky" id="logo">kaffeinated kodemonkey</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="ml-auto d-flex justify-content-end">
+    <div class="collapse navbar-collapse mr-5" id="navbarNavDropdown">
+      <ul class="navbar-nav justify-content-end">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://localhost:4000/Website-Services/Presences#" id="websites" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accessibility Design</a>
+          <div class="dropdown-menu" aria-labelledby="navbarNavDropdown websites">
+            <a class="dropdown-item" href="http://localhost:4000/Website-Services/Presences" title="Building the sites of tomorrow">Website Design</a>
+            <a class="dropdown-item" href="http://localhost:4000/Website-Services/Maintenance"  title="We help you avoid 404 Errors">Website Management</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="Marketing" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Marketing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarNavDropdown Marketing">
+            <a class="dropdown-item" href="http://localhost:4000/Marketing/Local-Listings" title="Get listed in search engins">Local Listings</a>
+            <a class="dropdown-item" href="http://localhost:4000/Marketing/SEO" title="Get greate ROI with SEO">SEO Marketing</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" target="_blank" id="Accessibility" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Web Accessibility
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarNavDropdown Accessibility">
+            <a class="dropdown-item" href="http://localhost:4000/Web-Accessibility/ADA-Compliance" title="Get evaluated">ADA Compliance</a>
+            <a class="dropdown-item" href="http://localhost:4000/Web-Accessibility/ADA-Certification" title="Is your site ADA Certified?">ADA Certification</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/press-release" title="Checkout our Press Release">Press Release</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/Clients" title="Our Portfolio">Clients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/Blog" title="Tips & Tricks">Blog</a>
+        </li>
+        <!-- <li class="nav-item">
+        <a class="nav-link" href="http://localhost:4000/Testimonials">At-a-Girl</a>
+      </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/about" title="Get to Know us">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="container-fluid">
+    <div class="row ml-3 mt-5 mb-5">
+      <!-- left colmun -->
+      <div class="col-sm-3 col-md-3">
+        <!-- page title or category and subtitle -->
+        <h2>Accessibility Remidation</h2>
+        <p>Structural Elements Documentation</p>
+
+        
+          <hr />
+          <!-- include Newsletter -->
+          <!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+  <form action="https://kaffeinatedkodemonkey.us11.list-manage.com/subscribe/post?u=25ed2db8c5f44be422ac9503a&amp;id=1b6530d445" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <div id="mce-responses" class="clear">
+    		<div class="response text-danger mb-2" id="mce-error-response" style="display:none"></div>
+    		<div class="response text-success mb-2" id="mce-success-response" style="display:none"></div>
+    	</div>
+
+	     <h2>Join Newsletter</h2>
+
+       <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+       <div class="form-group">
+         <label for="mce-FNAME">First Name:  <span class="asterisk">*</span></label>
+         <input type="text" value="" name="FNAME" class="form-control input-md" id="mce-FNAME" required>
+       </div>
+
+      <div class="form-group">
+      	<label for="mce-LNAME">Last Name: <span class="asterisk">*</span></label>
+      	<input type="text" value="" name="LNAME" class="form-control input-md" id="mce-LNAME" required>
+      </div>
+
+      <div class="form-group">
+      	<label for="mce-WEBSITE">Website </label>
+      	<input type="url" value="" name="WEBSITE" class="form-control input-md" id="mce-WEBSITE">
+      </div>
+
+      <div class="form-group">
+      	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+      </label>
+      	<input type="email" value="" name="EMAIL" class="form-control input-md" id="mce-EMAIL" required>
+      </div>
+
+
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true" id="spam">
+        <input type="text" aria-labelledby="spam" name="b_25ed2db8c5f44be422ac9503a_1b6530d445" tabindex="-1" value="">
+      </div>
+
+      <button type="submit" class="btn btn-primary" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Submit</button>
+    </div>
+  </form>
+</div>
+<script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[2]='FNAME';ftypes[2]='text';fnames[3]='LNAME';ftypes[3]='text';fnames[1]='WEBSITE';ftypes[1]='url';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+        
+
+        <hr />
+        <!-- includes adds -->
+        
+<!-- this page is for displaying addes like pcmatice or domain hosting etc.. -->
+<div class="row">
+  <div class="col">
+    <a href="https://cart.pcpitstop.com/go.asp?id=500754&aff=18983" target="_blank"><img class="img-center img-responsive img-thumbnail" src="https://www.pcpitstop.com/images/affiliates/500754.gif" style="width:100%;" alt="PC Pitstop Is your PC slow?"/></a><br />
+    <a href="https://reciprocitylabs.com/" target="_blank"><img class="img-center img-responsive img-thumbnail" src="http://localhost:4000/assets/images/press-release/Reciprocity.png" style="width:100%;" alt="Risk Management"/></a>
+
+  </div>
+  <div class="col">
+    <a href="https://www.domain.com/join/index.bml?bannerID=933&AffID=746605&amp;LinkName=kodemonkey" target="_blank"><img src="https://www1.domain.com/affiliate/banners/933" alt="affiliate_link" class="img-center img-responsive img-thumbnail" style="width:84%;"/></a>
+  </div>
+</div>
+
+
+      </div>
+      <!-- right - Main Column -->
+      <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
+        <div class="row">
+          <div class="col-md-12 col-sm-8">
+            
+              
+                <a href="https://kaffeinatedkodemonkey.youcanbook.me/" title="Book Consultation" target="_blank"><img src="http://localhost:4000/assets/images/ADA Complinace Logo.png" class="img-fluid img-thumbnail rounded" style="width: 100%; height: auto;" alt="Accessibility Structural Elements image"></a>
+              
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-9 col-sm-8">
+            <h1 class="mt-4">Accessibility Structural Elements</h1>
+          </div>
+          <div class="col-md-3 col-sm-4 mt-4">
+            <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="ml-5 btn btn-md btn-warning">Book Free Consultation</a></p>
+          </div>
+        </div>
+
+
+        <hr/>
+        <!-- <p><a href="https://wave.webaim.org/"><img src="https://wave.webaim.org/img/wavelogo.svg" alt="WAVE Web Accessibility Evaluation Tool" style="width:50%"></a></p>
+<h1>WAVE Documentation</h1> -->
+
+<p>Welcome, thank you for chooseing Kaffeinated Kodemonkey for your ADA certification and/or VPAT needs.</p>
+
+<p>Through an Accessibility Evaluation you recived a How-To-Fix Report outlining errors, alerts, features, structure elements, and aria
+content found throught your site. Each page has been listed with the number of issues or warnings that linked to the item on this page to
+help your team in understanding what they means, why it matters, and how to resolve it.</p>
+
+<p>If at any time you do not understand how to resolve and issue please reach out to your accessibiltiy specalist for further explination.</p>
+
+<!-- Tab #Structural Elements-->
+<div id="collapse-structural-elements" class="collapse show" aria-labelledby="accessibility-structural-elements" data-parent="#TabMenu">
+  <!-- Content -->
+  <p>Structural Elements areas of code where you should verify are coded correctly</p>
+
+  <div class="accordion" id="ADA-Structural-Elements">
+    <div class="card">
+      <div class="card-header" id="1">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_1" aria-expanded="false" aria-controls="collapse_1">
+            <img src="https://wave.webaim.org/img/icons/h1.svg" class="img-fluid" style="width: 3%;" alt=""> Heading level 1 - h1
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_1" class="collapse" aria-labelledby="1" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A first level heading (&lt;h1&gt; element) is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Headings facilitate page navigation for users of assistive technologies. They also provide semantic and visual meaning and structure to the document. First level headings should contain the most important heading(s) on the page (generally the document title).</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that the text in question is truly a heading and that it is structured correctly in the page outline.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An &lt;h1&gt; element is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li><li>2.4.6 Headings and Labels (Level AA)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="h2">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_h2" aria-expanded="false" aria-controls="collapse_h2">
+            <img src="https://wave.webaim.org/img/icons/h2.svg" class="img-fluid" style="width: 3%;" alt=""> Heading level 2 - h2
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_h2" class="collapse" aria-labelledby="h2" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A second level heading (&lt;h2&gt; element) is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Headings facilitate page navigation for users of assistive technologies. They also provide semantic and visual meaning and structure to the document.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that the text in question is truly a heading and that it is structured correctly in the page outline.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An &lt;h2&gt; element is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li><li>2.4.6 Headings and Labels (Level AA)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="h3">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_h3" aria-expanded="false" aria-controls="collapse_h3">
+            <img src="https://wave.webaim.org/img/icons/h3.svg" class="img-fluid" style="width: 3%;" alt=""> Heading level 3 - h3
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_h3" class="collapse" aria-labelledby="h3" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A third level heading (&lt;h3&gt; element) is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Headings facilitate page navigation for users of assistive technologies. They also provide semantic and visual meaning and structure to the document.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that the text in question is truly a heading and that it is structured correctly in the page outline.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An &lt;h3&gt; element is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li><li>2.4.6 Headings and Labels (Level AA)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="h4">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_h4" aria-expanded="false" aria-controls="collapse_h4">
+            <img src="https://wave.webaim.org/img/icons/h4.svg" class="img-fluid" style="width: 3%;" alt=""> Heading level 4 - h4
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_h4" class="collapse" aria-labelledby="h4" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A fourth level heading (&lt;h4&gt; element) is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Headings facilitate page navigation for users of assistive technologies. They also provide semantic and visual meaning and structure to the document.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that the text in question is truly a heading and that it is structured correctly in the page outline.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An &lt;h4&gt; element is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li><li>2.4.6 Headings and Labels (Level AA)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="h5">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_h5" aria-expanded="false" aria-controls="collapse_h5">
+            <img src="https://wave.webaim.org/img/icons/h5.svg" class="img-fluid" style="width: 3%;" alt=""> Heading level 5 - h5
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_h5" class="collapse" aria-labelledby="h5" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A fifth level heading (&lt;h5&gt; element) is present.<h3>Why It Matters:</h3>
+          <p>Headings facilitate page navigation for users of assistive technologies. They also provide semantic and visual meaning and structure to the document.<h3>What To Do:</h3>
+          <p>Ensure that the text in question is truly a heading and that it is structured correctly in the page outline.<h3>The Algorithm... in English:</h3>
+          <p>An &lt;h5&gt; element is present.<h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li><li>2.4.6 Headings and Labels (Level AA)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="h6">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_h6" aria-expanded="false" aria-controls="collapse_h6">
+            <img src="https://wave.webaim.org/img/icons/h6.svg" class="img-fluid" style="width: 3%;" alt=""> Heading level 6 - h6
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_h6" class="collapse" aria-labelledby="h6" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A sixth level heading (&lt;h6&gt; element) is present.<h3>Why It Matters:</h3>
+          <p>Headings facilitate page navigation for users of assistive technologies. They also provide semantic and visual meaning and structure to the document.<h3>What To Do:</h3>
+          <p>Ensure that the text in question is truly a heading and that it is structured correctly in the page outline.<h3>The Algorithm... in English:</h3>
+          <p>An &lt;h6&gt; element is present.<h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li><li>2.4.6 Headings and Labels (Level AA)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="ol">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_ol" aria-expanded="false" aria-controls="collapse_ol">
+            <img src="https://wave.webaim.org/img/icons/ol.svg" class="img-fluid" style="width: 3%;" alt=""> Ordered list - ol
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_ol" class="collapse" aria-labelledby="ol" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An ordered (numbered) list (&lt;ol&gt; element) is present.<h3>Why It Matters:</h3>
+          <p>Ordered lists present a group of related sequential items. Users of assistive technologies can navigate by and within lists.<h3>What To Do:</h3>
+          <p>Ensure that an ordered (numbered) list is appropriate for the context. If list items are parallel or the order of the items is not important, an unordered list (&lt;ul&gt;) is likely more appropriate.<h3>The Algorithm... in English:</h3>
+          <p>An &lt;ol&gt; element is present.<h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="ul">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_ul" aria-expanded="false" aria-controls="collapse_ul">
+            <img src="https://wave.webaim.org/img/icons/ul.svg" class="img-fluid" style="width: 3%;" alt=""> Unordered list - ul
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_ul" class="collapse" aria-labelledby="ul" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An unordered (bulleted) list (&lt;ul&gt; element) is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Ordered lists present a group of related, parallel items. Users of many assistive technologies can navigate by and within lists.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that an unordered (bulleted) list is appropriate for the context. If list items are sequential or numbered, an ordered list (&lt;ol&gt;) is likely more appropriate.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A &lt;ul&gt; element is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="dl">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_dl" aria-expanded="false" aria-controls="collapse_dl">
+            <img src="https://wave.webaim.org/img/icons/dl.svg" class="img-fluid" style="width: 3%;" alt=""> Definition/description list - dl
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_dl" class="collapse" aria-labelledby="dl" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A definition/description list (&lt;dl&gt; element) is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Definition lists (called description lists in HTML5) present the descriptions for terms or name/value pairs. Users of many assistive technologies can navigate by and within lists.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that the list is appropriate for the context (it is used for definitions or name/value pairs) and that definition terms (&lt;dt&gt;) and descriptions (&lt;dd&gt;) are provided.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A &lt;dl&gt; element is present. </p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="header">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_header" aria-expanded="false" aria-controls="collapse_header">
+            <img src="https://wave.webaim.org/img/icons/header.svg" class="img-fluid" style="width: 3%;" alt=""> Header - header
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_header" class="collapse" aria-labelledby="header" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A &lt;header&gt; element or banner landmark is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Headers identify page introduction or navigation. They typically surrounds the site or page name, logo, top navigation, or other header content. Headers facilitate page semantics and navigation.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the header surrounds and defines page header content.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A &lt;header&gt; element or role="banner" is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="nav">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_nav" aria-expanded="false" aria-controls="collapse_nav">
+            <img src="https://wave.webaim.org/img/icons/nav.svg" class="img-fluid" style="width: 3%;" alt=""> Navigation - nav
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_nav" class="collapse" aria-labelledby="nav" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A &lt;nav&gt; element or navigation landmark is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>The navigation identifies a section of navigation links and can facilitate page semantics and navigation.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the element defines page navigation. Multiple navigation elements on one page can be differentiated with ARIA labels.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A &lt;nav&gt; element or role="navigation" is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="search">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_search" aria-expanded="false" aria-controls="collapse_search">
+            <img src="https://wave.webaim.org/img/icons/search.svg" class="img-fluid" style="width: 3%;" alt=""> Search - search
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_search" class="collapse" aria-labelledby="search" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An ARIA search landmark is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>The search landmark identifies the search area within the page and facilitates keyboard navigation to the search area.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the search landmark is implemented properly and surrounds the search area of the page.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An element has role="search".</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="main">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_main" aria-expanded="false" aria-controls="collapse_main">
+            <img src="https://wave.webaim.org/img/icons/main.svg" class="img-fluid" style="width: 3%;" alt=""> Main content - main
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_main" class="collapse" aria-labelledby="main" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A &lt;main&gt; element or main landmark is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>The &lt;main&gt; element or role="main" attribute identifies the main content for the page. This facilitate page semantics and navigation.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the element surrounds and defines page main content.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A &lt;main&gt; element or role="main"is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="aside">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_aside" aria-expanded="false" aria-controls="collapse_aside">
+            <img src="https://wave.webaim.org/img/icons/aside.svg" class="img-fluid" style="width: 3%;" alt=""> Aside - aside
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_aside" class="collapse" aria-labelledby="aside" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An &lt;aside&gt; element or complementary landmark is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>An aside identifies secondary, related, or complementary content. It is typically presented in a sidebar.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the aside surrounds and defines secondary, related, or complementary content.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>An &lt;aside&gt; element or role="complementary" is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="footer">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_footer" aria-expanded="false" aria-controls="collapse_footer">
+            <img src="https://wave.webaim.org/img/icons/footer.svg" class="img-fluid" style="width: 3%;" alt=""> Footer - footer
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_footer" class="collapse" aria-labelledby="footer" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A &lt;footer&gt; element or contentinfo landmark is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Footers identify a footer for the page or a page section. It typically identifies authorship, related links, copyright date, or other footer content. Footers facilitate page semantics and navigation.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the element surrounds and defines page or page section footer content.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A &lt;footer&gt; element or role="contentinfo" is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.1 Bypass Blocks (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="table_data">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_table_data" aria-expanded="false" aria-controls="collapse_table_data">
+            <img src="https://wave.webaim.org/img/icons/table_data.svg" class="img-fluid" style="width: 3%;" alt=""> Data table - table_data
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_table_data" class="collapse" aria-labelledby="table_data" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A data table is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Data tables present tabular data. Data tables should contain table header cells that identify the content of their respective row and/or columns. Tables with proper table headers provide additional information and navigation for screen reader users.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that the table contains tabular data and that it is not used merely for page layout. Ensure that all column and row headers are &lt;th&gt; elements and ensure the data cells are associated with their proper header cells (typically by assigning scope to the table headers). Where appropriate, associate a descriptive caption (&lt;caption&gt; element) to the table.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A &lt;table&gt; element is present that contains at least one table header cell (&lt;th&gt;).</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="table_caption">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_table_caption" aria-expanded="false" aria-controls="collapse_table_caption">
+            <img src="https://wave.webaim.org/img/icons/table_caption.svg" class="img-fluid" style="width: 3%;" alt=""> Table caption - table_caption
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_table_caption" class="collapse" aria-labelledby="table_caption" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A table caption is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>An associated table caption will be read by a screen reader with the table content.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the table caption is properly associated with the correct table (&lt;caption&gt; should be the first element within the &lt;table&gt;) and that it provides a succinct description of the table.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A &lt;caption&gt; element is present.</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="th">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_th" aria-expanded="false" aria-controls="collapse_th">
+            <img src="https://wave.webaim.org/img/icons/th.svg" class="img-fluid" style="width: 3%;" alt=""> Table header cell - th
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_th" class="collapse" aria-labelledby="th" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A table header cell (&lt;th&gt;) is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Table headers describe the content of their respective row or column. They can be identified by screen readers when data cells are encountered.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure the cell is a table header, otherwise change it to a data cell (&lt;td&gt;). For complex tables (particularly when there are spanned cells), the relationship between header and data cells may need to be defined using scope (e.g., &lt;th scope="col"&gt; or &lt;th scope="row"&gt;) or headers and id attributes.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A &lt;th&gt; element is present that does not have a scope attribute value of "row" or "col".</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="th_col">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_th_col" aria-expanded="false" aria-controls="collapse_th_col">
+            <img src="https://wave.webaim.org/img/icons/th_col.svg" class="img-fluid" style="width: 3%;" alt=""> Column header cell - th_col
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_th_col" class="collapse" aria-labelledby="th_col" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A table column header (&lt;th scope="col"&gt;) is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Adding a column scope to a table header ensures the cells within that column will be programmatically associated to that header, particularly with complex tables. This facilitates screen reader navigation and orientation within the data table.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that the cell is actually a header cell for tabular data and that it is a column header.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A table header cell (&lt;th&gt;) is present that has a scope attribute value of "col".</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="th_row">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_th_row" aria-expanded="false" aria-controls="collapse_th_row">
+            <img src="https://wave.webaim.org/img/icons/th_row.svg" class="img-fluid" style="width: 3%;" alt=""> Row header cell - th_row
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_th_row" class="collapse" aria-labelledby="th_row" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>A table row header (&lt;th scope="row"&gt;) is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>Adding a row scope to a table header ensures the cells within that row will be programmatically associated to that header, particularly with complex tables. This facilitates screen reader navigation and orientation within the data table.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that the cell is actually a header cell for tabular data and that it is a row header.</p>
+          <h3>The Algorithm... in English:</h3>
+          <p>A table header cell (&lt;th&gt;) is present that has a scope attribute value of "row".</p>
+          <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+          <ul><li>1.3.1 Info and Relationships (Level A)</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="iframe">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_iframe" aria-expanded="false" aria-controls="collapse_iframe">
+            <img src="https://wave.webaim.org/img/icons/iframe.svg" class="img-fluid" style="width: 3%;" alt=""> Inline Frame - iframe
+          </button>
+        </h2>
+      </div>
+      <div id="collapse_iframe" class="collapse" aria-labelledby="iframe" data-parent="#ADA-Structural-Elements">
+        <div class="card-body">
+          <h3>What it means:</h3>
+          <p>An inline frame (&lt;iframe&gt;) is present.</p>
+          <h3>Why It Matters:</h3>
+          <p>The content of an inline frame is read as if it were part of the page that contains it. The content of the iframe must be accessible. A title attribute value for the iframe will generally be read by a screen reader when the iframe is encountered.</p>
+          <h3>What To Do:</h3>
+          <p>The content of an inline frame is read as if it were part of the page that contains it. The content of the iframe must be accessible. A title attribute value for the iframe will generally be read by a screen reader when the iframe is encountered.</p>
+          <h3>What To Do:</h3>
+          <p>Ensure that the content within the iframe is accessible. Optionally, a title attribute value can be added to provide a brief, advisory description of the iframe.
+          <h3>The Algorithm... in English:</h3>
+          <p>The content of an inline frame is read as if it were part of the page that contains it. The content of the iframe must be accessible. A title attribute value for the iframe will generally be read by a screen reader when the iframe is encountered.</p>
+          <h3>What To Do:</h3>
+          <p>An &lt;iframe&gt; element is present.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+      <section id="footer-menu" class="sections footer-menu" role="contentinfo">
+      <div class="container-fluid pl-5 pr-5">
+        <div class="row text-center">
+          <div class="col-12">
+            <p><a href="/" title="Take me home"><img src="https://www.kaffeinatedkodemonkey.com/assets/images/logo.png" style="width: 5%;" alt="Kaffeinated Kodemonkey Logo" /></a>
+            <img src="https://www.kaffeinatedkodemonkey.com/assets/images/badge_partneragency.gif" alt="OnlineADA" class="img-fluid" style="width: 5%; height: auto;"></p>
+
+            <h3><strong>Kaffeinated Kodemonkey</strong></h3>
+            <p>Striving to make websites Accessibilty to everyone.</p>
+
+            <p>Rangely, Co | <span class="force-read-before" data-attributetitleof="id-hatemile-display-9707572202">
+            <abbr id="id-hatemile-display-9707572202" title="Phone">P:</abbr> (970) 757-2222</span></p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <h3 class="mb-3 contact">Contact Our Accessibilty Development Team</h3>
+
+            <form accept-charset="UTF-8" action="https://formspree.io/admin@kaffeinatedkodemonkey.com" method="POST" class="mb-5">
+              <div class="form-group">
+                <label class="sr-only" for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required="">
+              </div>
+
+              <div class="form-group">
+                <label class="sr-only" for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required="">
+              </div>
+
+
+              <div class="form-group">
+                <label class="sr-only" for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="8" placeholder="Message"></textarea>
+              </div>
+
+              <div class="center-content">
+                <input type="submit" value="Submit" class="btn btn-md btn-primary">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-8 col-sm-6">
+            <h3>Site Map</h3>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Accessibilty Design</h4>
+                <p><a href="http://localhost:4000/Website-Services/Presences"><href="">Website Design</a></p>
+                <p><a href="http://localhost:4000/Website-Services/Maintenance">Website Management</a></p>
+              </div>
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Marking</h4>
+                <p><a href="http://localhost:4000/Marketing/Local-Listings">Local Listings</a></p>
+                <p><a href="http://localhost:4000/Marketing/SEO">SEO Marking</a></p>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Web Accessibilty</h4>
+                <p><a href="http://localhost:4000/Web-Accessibility/ADA-Compliance">ADA Compliance</a></p>
+                <p><a href="http://localhost:4000/Web-Accessibility/ADA-Certification">ADA Certification</a></p>
+              </div>
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Other</h4>
+                <p><a href="http://localhost:4000/press-release">Press Release</a></p>
+                <p><a href="http://localhost:4000/Clients">Potfolio</a></p>
+                <p><a href="http://localhost:4000/Blog">Blog</a></p>
+                <p><a href="http://localhost:4000/about">About</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
