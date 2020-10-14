@@ -69,7 +69,6 @@ permalink: /blog/:categories/:title:output_ext
 <img src="{{site.url}}/assets/images/Blog/Yoast-Screenshot-768x553.png" alt="Yoast SEO Plugin" class="img-responsive img-thumbnail">
 
 <p><strong>Key Features:</strong></p>
-
 <div class="row">
   <div class="col-md-8">
     <ul class="basic-url">
@@ -127,8 +126,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><strong>Key Features:</strong></p>
 
-<ul class="basic-url">  </body>
-</html>
+<ul class="basic-url">
 <li class="basic-li">Built by WordPress, not a third party, so compatibility is not a concern</li>
 <li class="basic-li">Many 1 star reviews, and a 3.5 star overall rating on WordPress.org</li>
 <li class="basic-li">200,000+ active installs (best in class)</li>
