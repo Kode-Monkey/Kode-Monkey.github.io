@@ -20,7 +20,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><em><i>Wait… I thought that finding the right SEO plugin was my problem?</i></em></p>
 
-<p>You’re close. Everyone wants the one plugin that is going to single handedly cuddle their site up against that ever-desirable Google search bar. Although this result is possible, the reality is that the SEO market is becoming an increasingly competitive and saturated one. This context makes it more important than ever to have a better structured and optimized website with a search engine friendly hierarchy so that you can set yourself apart, and be ranked above your competition. Much to your dismay, that may involve a bit of a plugin stack.  </p>
+<p>You’re close. Everyone wants the one plugin that is going to single handedly cuddle their site up against that ever-desirable Google search bar. Although this result is possible, the reality is that the SEO market is becoming an increasingly competitive and saturated one. This context makes it more important than ever to have a better structured and optimized website with a search engine friendly hierarchy so that you can set yourself apart, and be ranked above your competition. Much to your dismay, that may involve a bit of a plugin stack.</p>
 
 <h2>The Essential SEO Plugin Stack</h2>
 
@@ -91,7 +91,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><strong>Elevator Pitch:</strong></p>
 
-<p>Ever get frustrated when you’re trying to look something up on your phone and it takes 3 full days to load? We all lead pretty busy lives, and just don’t have time for that nonsense.  </p>
+<p>Ever get frustrated when you’re trying to look something up on your phone and it takes 3 full days to load? We all lead pretty busy lives, and just don’t have time for that nonsense.</p>
 
 <p>By using <a href="https://wordpress.org/plugins/amp/" target="blank">AMP for WordPress</a>, you can insure that your prospects never give up hope as a result of a slow mobile site. By creating AMP content, which Google is now factoring into SEO rankings, this plugin caters to the needs of major AMP consumers such as Google Search.</p>
 
@@ -127,7 +127,8 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><strong>Key Features:</strong></p>
 
-<ul class="basic-url">
+<ul class="basic-url">  </body>
+</html>
 <li class="basic-li">Built by WordPress, not a third party, so compatibility is not a concern</li>
 <li class="basic-li">Many 1 star reviews, and a 3.5 star overall rating on WordPress.org</li>
 <li class="basic-li">200,000+ active installs (best in class)</li>
@@ -189,7 +190,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <h3>The Broken Link Winner</h3>
 
-<p>Only one candidate, and only one winner. Use this plugin, it will save your customers and prospects a lot of headache, and it will help optimize your overall SEO.<p>
+<p>Only one candidate, and only one winner. Use this plugin, it will save your customers and prospects a lot of headache, and it will help optimize your overall SEO.</p>
 
 <h2>4. Speed Plugins</h2>
 
@@ -205,7 +206,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><strong>Elevator Pitch:</strong></p>
 
-<p>With most of the functionality automated, and active page statistics, the WP Fastest Cache plugin is very user friendly. It creates a static html file so that high quantities of traffic do not produce slow render times on your site, and offers numerous options for managing cached files. It also comes with minify html and css options so that users can decrease the size of pages and css files.<p>
+<p>With most of the functionality automated, and active page statistics, the WP Fastest Cache plugin is very user friendly. It creates a static html file so that high quantities of traffic do not produce slow render times on your site, and offers numerous options for managing cached files. It also comes with minify html and css options so that users can decrease the size of pages and css files.</p>
 
 <img src="{{site.url}}/assets/images/Blog/WP-Fastest-Cache-Screenshot-2-768x595.png" alt="WP Fastest Cache Optin" class="img-responsive img-thumbnail">
 
@@ -221,7 +222,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p><strong>Elevator Pitch:</strong></p>
 
-<p>W3 Total Cache improves SEO and user experience by reducing dowload times and increasing performance. W3 comes with a host of caching options, minification features, as well as various security features. It also offers improved server performance to help weather those high traffic periods.<p>
+<p>W3 Total Cache improves SEO and user experience by reducing dowload times and increasing performance. W3 comes with a host of caching options, minification features, as well as various security features. It also offers improved server performance to help weather those high traffic periods.</p>
 
 <img src="{{site.url}}/assets/images/Blog/W3-Total-Cache-Screenshot.png" alt="W3 Total Cache" class="img-responsive img-thumbnail">
 
@@ -363,4 +364,4 @@ permalink: /blog/:categories/:title:output_ext
 <li class="basic-li">All In One Schema Rich Snippets</li>
 </ol>
 
-<p>And one is the page number of Google results that you will likely find yourself on the keywords that matter most if you leverage this plugin combination.<p>
+<p>And one is the page number of Google results that you will likely find yourself on the keywords that matter most if you leverage this plugin combination.</p>
