@@ -2,7 +2,7 @@
 layout: news
 title: "Risk Management When Building A Website"
 date:  2020-03-20
-img: press-release/Reciprocity Logo.png
+img: press-release/Reciprocity.png
 img-main: press-release/Risk management - kaffeinatedkodemonkey.com.jpg
 size: 100
 categories: ['Press-Release']

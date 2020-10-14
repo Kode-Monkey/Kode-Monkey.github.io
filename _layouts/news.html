@@ -1,77 +1,85 @@
-{% include head.html %}
-{% include social.html %}
-{% include nav.html %}
+<!DOCTYPE html>
+<html lang="en">
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+  {% include head.html %}
+  <body>
+    {% include social.html %}
+    {% include nav.html %}
 
-<div class="container-fluid">
-  <div class="row ml-3 mt-5 mb-5">
-    <div class="col-md 3">
-      <h1>Press Release</h1>
-      <img src="{{ site.url }}/assets/images/{{page.img}}" style="width:50%; height: auto;" class="img-responsive img-thumbnail" alt="{{page.title}}" />
+    <div class="container-fluid">
+      <div class="row ml-3 mt-5 mb-5">
+        <div class="col-md 3">
+          <h1>Press Release</h1>
+          <img src="{{ site.url }}/assets/images/{{page.img}}" style="width:50%; height: auto;" class="img-responsive img-thumbnail" alt="{{page.title}}" />
 
-      <hr />
-
-      {% include Newsletter.html %}
-
-      <hr />
-      <!-- includes adds -->
-      {% include Ad.html %}
-    </div>
-    <div class="col-sm-12 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
-      <div class="row">
-        <!-- Content -->
-        <div class="col-md-9 col-sm-12">
-          <img src="{{ site.url }}/assets/images/{{page.img-main}}" style="width:{{page.size}}%; height: auto;" class="img-fluid mb-3" alt="{{page.title}}" />
-          <h2>{{page.title}}</h2>
-          <hr />
-          <small>{{site.author}} | {{ page.date | date: '%B %d, %Y' }}</small>
           <hr />
 
-          {{ content }}
+          {% include Newsletter.html %}
+
+          <hr />
+          <!-- includes adds -->
+          {% include Ad.html %}
         </div>
+        <div class="col-sm-12 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
+          <div class="row">
+            <!-- Content -->
+            <div class="col-md-9 col-sm-12">
+              <img src="{{ site.url }}/assets/images/{{page.img-main}}" style="width:{{page.size}}%; height: auto;" class="img-fluid mb-3" alt="{{page.title}}" />
+              <h2>{{page.title}}</h2>
+              <hr />
+              <small>{{site.author}} | {{ page.date | date: '%B %d, %Y' }}</small>
+              <hr />
 
-        <!-- Archives -->
-        <div class="col-md-3 col-sm-12">
-          {% for category in page.categories %}
-            {% assign moreThanOneInCategory = false %}
-            {% assign posts = site.categories[category] %}
+              {{ content }}
+            </div>
 
-            {% for post in posts %}
-              {% if forloop.length > 1 %}
-                {% assign moreThanOneInCategory = true %}
-              {% endif %}
-            {% endfor %}
-            {% if moreThanOneInCategory == true %}
-              <div class="related-posts">
-                <hr />
-                <h3>{{ category }} Archives</h3>
-                <hr />
+            <!-- Archives -->
+            <div class="col-md-3 col-sm-12">
+              {% for category in page.categories %}
+                {% assign moreThanOneInCategory = false %}
+                {% assign posts = site.categories[category] %}
 
-                <ul>
-                  {% for post in posts %}
-                    {% unless post.url == page.url %}
-                      <li>
-                        <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+                {% for post in posts %}
+                  {% if forloop.length > 1 %}
+                    {% assign moreThanOneInCategory = true %}
+                  {% endif %}
+                {% endfor %}
+                {% if moreThanOneInCategory == true %}
+                  <div class="related-posts">
+                    <hr />
+                    <h3>{{ category }} Archives</h3>
+                    <hr />
 
-                        Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-                      </li>
-                    {% endunless %}
-                  {% endfor %}
-                </ul>
-              </div>
-            {% endif %}
-          {% endfor %}
+                    <ul>
+                      {% for post in posts %}
+                        {% unless post.url == page.url %}
+                          <li>
+                            <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
 
-          <hr />
+                            Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+                          </li>
+                        {% endunless %}
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endif %}
+              {% endfor %}
+
+              <hr />
+            </div>
+          </div>
+
+          <!-- disqus -->
+          <div class="row mt-5">
+            <div class="col-10">
+              {% include disqus.html %}
+            </div>
+          </div>
         </div>
       </div>
-
-      <!-- disqus -->
-      <div class="row mt-5">
-        <div class="col-10">
-          {% include disqus.html %}
-        </div>
-      </div>
     </div>
-  </div>
-</div>
-{% include footer.html %}
+    {% include footer.html %}
+  </body>
+</html>

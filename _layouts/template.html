@@ -1,60 +1,67 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
   {% include head.html %}
-  {% include social.html %}
-  {% include nav.html %}
+  <body>
+    {% include social.html %}
+    {% include nav.html %}
 
-  <div class="container-fluid">
-    <div class="row ml-3 mt-5 mb-5">
-      <!-- left colmun -->
-      <div class="col-sm-3 col-md-3">
-        <!-- page title or category and subtitle -->
-        <h2>{{ page.category }}</h2>
-        <p>{{page.subtitle}}</p>
+    <div class="container-fluid">
+      <div class="row ml-3 mt-5 mb-5">
+        <!-- left colmun -->
+        <div class="col-sm-3 col-md-3">
+          <!-- page title or category and subtitle -->
+          <h2>{{ page.category }}</h2>
+          <p>{{page.subtitle}}</p>
 
-        {% if page.title == "About" %}
-          <!-- image -->
-          <p class="text-center"><img class="img-responsive img-thumbnail" src="{{sit.url}}/assets/images/{{page.lefnav-image}}" style="width: 50%; height: auto;" alt="Heather Welsh"></p>
-        {% else %}
+          {% if page.title == "About" %}
+            <!-- image -->
+            <p class="text-center"><img class="img-responsive img-thumbnail" src="{{sit.url}}/assets/images/{{page.lefnav-image}}" style="width: 50%; height: auto;" alt="Heather Welsh"></p>
+          {% else %}
+            <hr />
+            <!-- include Newsletter -->
+            {% include Newsletter.html %}
+          {% endif %}
+
           <hr />
-          <!-- include Newsletter -->
-          {% include Newsletter.html %}
-        {% endif %}
+          <!-- includes adds -->
+          {% include Ad.html %}
 
-        <hr />
-        <!-- includes adds -->
-        {% include Ad.html %}
-
-      </div>
-      <!-- right - Main Column -->
-      <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
-        <div class="row">
-          <div class="col-md-12 col-sm-8">
-            {% if page.title == "Local Listings" %}
-              <div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
-                <iframe class="embed-responsive-item" src="https://storage.googleapis.com/mediarepo-prod/marketplace-products/09d5dd20-67d5-4fcf-87e1-98ced40c5912/Unbranded%20marketing%20video.mp4" allowfullscreen></iframe>
-              </div>
-            {% else %}
-              {% if page.title != "About" %}
-                <a href="https://kaffeinatedkodemonkey.youcanbook.me/" title="Book Consultation" target="_blank"><img src="{{site.url}}/assets/images/{{page.mine-image}}" class="img-fluid img-thumbnail rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}} image"></a>
+        </div>
+        <!-- right - Main Column -->
+        <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
+          <div class="row">
+            <div class="col-md-12 col-sm-8">
+              {% if page.title == "Local Listings" %}
+                <div class="embed-responsive embed-responsive-16by9 mt-3 mb-3">
+                  <iframe class="embed-responsive-item" src="https://storage.googleapis.com/mediarepo-prod/marketplace-products/09d5dd20-67d5-4fcf-87e1-98ced40c5912/Unbranded%20marketing%20video.mp4" allowfullscreen></iframe>
+                </div>
+              {% else %}
+                {% if page.title != "About" %}
+                  <a href="https://kaffeinatedkodemonkey.youcanbook.me/" title="Book Consultation" target="_blank"><img src="{{site.url}}/assets/images/{{page.mine-image}}" class="img-fluid img-thumbnail rounded" style="width: {{page.img-size}}%; height: auto;" alt="{{page.title}} image"></a>
+                {% endif %}
               {% endif %}
-            {% endif %}
+            </div>
           </div>
+          <div class="row">
+            <div class="col-md-9 col-sm-8">
+              <h1 class="mt-4">{{page.title}}</h1>
+            </div>
+            <div class="col-md-3 col-sm-4 mt-4">
+              <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="ml-5 btn btn-md btn-warning">Book Free Consultation</a></p>
+            </div>
+          </div>
+
+
+          <hr/>
+          {{ content }}
+
         </div>
-        <div class="row">
-          <div class="col-md-9 col-sm-8">
-            <h1 class="mt-4">{{page.title}}</h1>
-          </div>
-          <div class="col-md-3 col-sm-4 mt-4">
-            <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="ml-5 btn btn-md btn-warning">Book Free Consultation</a></p>
-          </div>
-        </div>
-
-
-        <hr/>
-        {{ content }}
-
       </div>
     </div>
-  </div>
 
-  {% include footer.html %}
+    {% include footer.html %}
+  </body>
+</html>

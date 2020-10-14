@@ -1,119 +1,127 @@
-{% include head.html %}
-{% include social.html %}
-{% include nav.html %}
+<!DOCTYPE html>
+<html lang="en">
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+  {% include head.html %}
+  <body>
+    {% include social.html %}
+    {% include nav.html %}
 
-<div class="container-fluid">
-  <div class="row ml-3 mt-5 mb-5">
-    <div class="col-md-3 col-sm-12">
-      {% if page.categories contains 'Advertising' %}
-        <img src="{{ site.url }}/assets/images/Digital_Advertising_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Advertising" />
-      {% elsif page.categories contains 'Accessibility' %}
-        <img src="{{ site.url }}/assets/images/Blog/Accessibility/Accessibility.png" style="width:25%; height: auto;" class="img-responsive" alt="Web Accessibility" />
-      {% elsif page.categories contains 'Content Experience' %}
-        <img src="{{ site.url }}/assets/images/Content-Marketing.png" style="width:25%; height: auto;" class="img-responsive" alt="Content Experience" />
-      {% elsif page.categories contains 'Listings' %}
-        <img src="{{ site.url }}/assets/images/Website-Traffic-Driver.png" style="width:25%; height: auto;" class="img-responsive" alt="Listings" />
-      {% elsif page.categories contains 'Website' %}
-        <img src="{{ site.url }}/assets/images/Website-Reputation.png" style="width:25%; height: auto;" class="img-responsive" alt="Websites" />
-      {% elsif page.categories contains 'Reputation' %}
-        <img src="{{ site.url }}/assets/images/Reputation-Services.png" style="width:25%; height: auto;" class="img-responsive" alt="Reputation" />
-      {% elsif page.categories contains 'SEO' %}
-        <img src="{{ site.url }}/assets/images/Enhanced-SEO.png" style="width:25%; height: auto;" class="img-responsive" alt="SEO" />
-      {% elsif page.categories contains 'Social' %}
-        <img src="{{ site.url }}/assets/images/Social_Marketing_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Social Marketing" />
-      {% elsif page.categories contains 'Social' %}
-        <img src="{{ site.url }}/assets/images/Social_Marketing_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Security" />
-      {% endif %}
+    <div class="container-fluid">
+      <div class="row ml-3 mt-5 mb-5">
+        <div class="col-md-3 col-sm-12">
+          {% if page.categories contains 'Advertising' %}
+            <img src="{{ site.url }}/assets/images/Digital_Advertising_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Advertising" />
+          {% elsif page.categories contains 'Accessibility' %}
+            <img src="{{ site.url }}/assets/images/Blog/Accessibility/Accessibility.png" style="width:25%; height: auto;" class="img-responsive" alt="Web Accessibility" />
+          {% elsif page.categories contains 'Content Experience' %}
+            <img src="{{ site.url }}/assets/images/Content-Marketing.png" style="width:25%; height: auto;" class="img-responsive" alt="Content Experience" />
+          {% elsif page.categories contains 'Listings' %}
+            <img src="{{ site.url }}/assets/images/Website-Traffic-Driver.png" style="width:25%; height: auto;" class="img-responsive" alt="Listings" />
+          {% elsif page.categories contains 'Website' %}
+            <img src="{{ site.url }}/assets/images/Website-Reputation.png" style="width:25%; height: auto;" class="img-responsive" alt="Websites" />
+          {% elsif page.categories contains 'Reputation' %}
+            <img src="{{ site.url }}/assets/images/Reputation-Services.png" style="width:25%; height: auto;" class="img-responsive" alt="Reputation" />
+          {% elsif page.categories contains 'SEO' %}
+            <img src="{{ site.url }}/assets/images/Enhanced-SEO.png" style="width:25%; height: auto;" class="img-responsive" alt="SEO" />
+          {% elsif page.categories contains 'Social' %}
+            <img src="{{ site.url }}/assets/images/Social_Marketing_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Social Marketing" />
+          {% elsif page.categories contains 'Social' %}
+            <img src="{{ site.url }}/assets/images/Social_Marketing_High_Res.png" style="width:25%; height: auto;" class="img-responsive" alt="Security" />
+          {% endif %}
 
-      <hr />
+          <hr />
 
-      {% include Newsletter.html %}
+          {% include Newsletter.html %}
 
-      <hr />
-      <!-- includes adds -->
-      {% include Ad.html %}
-    </div>
+          <hr />
+          <!-- includes adds -->
+          {% include Ad.html %}
+        </div>
 
-    <div class="col-sm-12 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
-      <div class="row">
-        <!-- Content -->
-        <div class="col-md-9 col-sm-12">
-          <h1>{{ page.categories }}</h1>
-          <small> {{ page.date | date: '%B %d, %Y' }} | {{site.author}}</small>
-
+        <div class="col-sm-12 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
           <div class="row">
-            <div class="col mb-2">
-              <img src="{{site.url}}/assets/images/{{page.banner}}" alt="{{page.title}}" class="hidden-xs hidden-sm img-responsive img-thumbnail">
+            <!-- Content -->
+            <div class="col-md-9 col-sm-12">
+              <h1>{{ page.categories }}</h1>
+              <small> {{ page.date | date: '%B %d, %Y' }} | {{site.author}}</small>
+
+              <div class="row">
+                <div class="col mb-2">
+                  <img src="{{site.url}}/assets/images/{{page.banner}}" alt="{{page.title}}" class="hidden-xs hidden-sm img-responsive img-thumbnail">
+                </div>
+              </div>
+
+              <h2>{{page.title}}</h2>
+
+              {{ content }}
+            </div>
+
+            <!-- Archives -->
+            <div class="col-md-3 col-sm-12 ">
+              {% for category in page.categories %}
+                {% assign moreThanOneInCategory = false %}
+                  {% assign posts = site.categories[category] %}
+
+                  {% for post in posts %}
+                    {% if forloop.length > 1 %}
+                      {% assign moreThanOneInCategory = true %}
+                    {% endif %}
+                  {% endfor %}
+                  {% if moreThanOneInCategory == true %}
+                    <div class="related-posts">
+                      <hr />
+                      <h3>{{ category }} Archives</h3>
+                      <hr />
+
+                      <ul>
+                        {% for post in posts %}
+                          {% unless post.url == page.url %}
+                            <li>
+                              <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+
+                              Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+                            </li>
+                          {% endunless %}
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+
+              <!--<hr />
+              <h3>Archived</h3>
+              <hr />
+
+                <ul>
+                  {% for category in site.categories %}
+                    <li><a href="{{ site.url }}/blog/{{ category[0] }}">{{ category[0] }}</a></li>
+                  {% endfor %}
+                </ul>
+
+              <hr />
+              <h3>Tags</h3>
+              <hr />
+
+              <ul>
+                {% for tags in page.tags %}
+                    <li>{{ tags }}</li>
+                {% endfor %}
+              </ul> -->
+
             </div>
           </div>
 
-          <h2>{{page.title}}</h2>
-
-          {{ content }}
-        </div>
-
-        <!-- Archives -->
-        <div class="col-md-3 col-sm-12 ">
-          {% for category in page.categories %}
-            {% assign moreThanOneInCategory = false %}
-              {% assign posts = site.categories[category] %}
-
-              {% for post in posts %}
-                {% if forloop.length > 1 %}
-                  {% assign moreThanOneInCategory = true %}
-                {% endif %}
-              {% endfor %}
-              {% if moreThanOneInCategory == true %}
-                <div class="related-posts">
-                  <hr />
-                  <h3>{{ category }} Archives</h3>
-                  <hr />
-
-                  <ul>
-                    {% for post in posts %}
-                      {% unless post.url == page.url %}
-                        <li>
-                          <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-
-                          Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-                        </li>
-                      {% endunless %}
-                    {% endfor %}
-                  </ul>
-                </div>
-              {% endif %}
-            {% endfor %}
-
-          <!--<hr />
-          <h3>Archived</h3>
-          <hr />
-
-            <ul>
-              {% for category in site.categories %}
-                <li><a href="{{ site.url }}/blog/{{ category[0] }}">{{ category[0] }}</a></li>
-              {% endfor %}
-            </ul>
-
-          <hr />
-          <h3>Tags</h3>
-          <hr />
-
-          <ul>
-            {% for tags in page.tags %}
-                <li>{{ tags }}</li>
-            {% endfor %}
-          </ul> -->
-
-        </div>
-      </div>
-
-      <!-- disqus -->
-      <div class="row mt-5">
-        <div class="col-10">
-          {% include disqus.html %}
+          <!-- disqus -->
+          <div class="row mt-5">
+            <div class="col-10">
+              {% include disqus.html %}
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-{% include footer.html %}
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,31 +1,39 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
   {% include head.html %}
-  {% include social.html %}
-  {% include nav.html %}
+  <body>
+    {% include head.html %}
+    {% include social.html %}
+    {% include nav.html %}
 
-  <div class="container-fluid">
-    <div class="row ml-3 mt-5 mb-5">
-      <!-- left colmun -->
-      <div class="col-sm-12 col-md-3">
-        <!-- category and subtitle -->
-        <h2>{{ page.title }}</h2>
-        <hr />
+    <div class="container-fluid">
+      <div class="row ml-3 mt-5 mb-5">
+        <!-- left colmun -->
+        <div class="col-sm-12 col-md-3">
+          <!-- category and subtitle -->
+          <h2>{{ page.title }}</h2>
+          <hr />
 
-        <!-- include Newsletter -->
-        {% include Newsletter.html %}
+          <!-- include Newsletter -->
+          {% include Newsletter.html %}
 
-        <hr />
-        <!-- includes adds -->
-        {% include Ad.html %}
+          <hr />
+          <!-- includes adds -->
+          {% include Ad.html %}
 
-      </div>
-      <!-- right - Main Column -->
-      <div class="col-sm-12 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
+        </div>
+        <!-- right - Main Column -->
+        <div class="col-sm-12 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
 
-        {{ content }}
+          {{ content }}
 
+        </div>
       </div>
     </div>
-  </div>
 
-  {% include footer.html %}
+    {% include footer.html %}
+  </body>
+</html>
