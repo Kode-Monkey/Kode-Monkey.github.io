@@ -12,12 +12,11 @@ description: Articles about how to leverage social media to drive traffic to you
   <img src="{{site.url}}/assets/images/postbuilding.jpg" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="Post Building image">
 {% else %}
   <ul>
-    {% for post in site.categories[page.categories] %}
+    {% for post in site.categories[page.categories] %}    
       <li>
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         {{ post.excerpt | strip_html | truncatewords:75 }}
       </li>
-      <hr />
-    {% endfor %}
+    {% endfor %}  
   </ul>
 {% endif %}

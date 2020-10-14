@@ -3,7 +3,7 @@ layout: blog
 title: Content Experience
 categories: [Content & Experience]
 image: postbuilding.jpg
-description: Articles about content and experience. 
+description: Articles about content and experience.
 ---
 
 {% assign count = site.categories[page.categories] | size %}
@@ -11,14 +11,13 @@ description: Articles about content and experience.
 {% if count == 0 %}
   <h3 class="text-center">Currently writing post check back often.</h3>
   <img src="{{site.url}}/assets/images/postbuilding.jpg" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="Post Building image">
-{% else %}
+{% else %}  
   <ul>
     {% for post in site.categories[page.categories] %}
       <li>
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         {{ post.excerpt | strip_html | truncatewords:75 }}
-      </li>
-      <hr />
-    {% endfor %}
+      </li>    
+    {% endfor %}  
   </ul>
 {% endif %}

@@ -13,12 +13,11 @@ description: Articles about why you should list your website in the search engin
   <img src="{{site.url}}/assets/images/postbuilding.jpg" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="Post Building image">
 {% else %}
   <ul>
-    {% for post in site.categories[page.categories] %}
+    {% for post in site.categories[page.categories] %}    
       <li>
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         {{ post.excerpt | strip_html | truncatewords:75 }}
       </li>
-      <hr />
     {% endfor %}
   </ul>
 {% endif %}

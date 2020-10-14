@@ -30,7 +30,6 @@ description: Series of Articles about Online Security.
         <p class="mb-2"><small> <u>{{ post.date | date: '%B %d, %Y' }} | {{site.author}}</u></small></p>
         {{ post.excerpt | strip_html | truncatewords:75 }}
       </li>
-      <hr />
     {% endfor %}
   </ul>
 {% endif %}
