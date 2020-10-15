@@ -308,7 +308,7 @@
           <!-- Content -->
           <div class="row">
             <div class="col">
-              <h2><a name="Audit">ADA Site Audit</a></h2>
+              <h2><a id="Audit">ADA Site Audit</a></h2>
             </div>
               <div class="col-4 float-right">
               <h2>Cost: $750</h2>
@@ -367,7 +367,7 @@
           <p>We will run a site audit to identify accessibility issues on your website or application or can work from a recent report you may
           already have.</p>
 
-          <p>We will require access to your site via login and password or pull request from github.</p>          
+          <p>We will require access to your site via login and password or pull request from github.</p>
 
           <hr />
 
@@ -385,28 +385,6 @@
       <!-- end row -->
     </div>
   </div> <!-- close main row -->
-
-  <!--- JS for form validation --->
-  <script>
-    (function() {
-      'use strict';
-      window.addEventListener('load', function() {
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.getElementsByClassName('needs-validation');
-        // Loop over them and prevent submission
-        var validation = Array.prototype.filter.call(forms, function(form) {
-          form.addEventListener('submit', function(event) {
-            if (form.checkValidity() === false) {
-              event.preventDefault();
-              event.stopPropagation();
-            }
-            form.classList.add('was-validated');
-          }, false);
-        });
-      }, false);
-    })();
-  </script>
-  <!-- End Js for form validation -->
 
 
         </div>

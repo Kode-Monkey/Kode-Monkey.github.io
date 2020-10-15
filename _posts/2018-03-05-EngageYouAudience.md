@@ -25,7 +25,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>Videos and images are best used to catch the eye of social media readers, though video works a little better to hold the reader’s attention. Whether it’s redirecting consumers to your website or online store, or getting them to stop and look at an interesting piece of content titled by your business, images and videos are your anchor.</p>
 
-<p>The three best ways to get traction from your readers are to:<p>
+<p>The three best ways to get traction from your readers are to:</p>
 
 <ul class="basic-url">
   <li class="basic-li">Get them to go straight to your website or store</li>

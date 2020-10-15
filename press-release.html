@@ -14,7 +14,6 @@ description: Announcments and news Releases.
           <p class="text-info"><small>{{site.author}} | {{ post.date | date: '%B %d, %Y' }}</small></p>
           {{ post.excerpt | strip_html | truncatewords:75 }}
         </li>
-        <hr />
       {% endfor %}
     </ul>
   </div>

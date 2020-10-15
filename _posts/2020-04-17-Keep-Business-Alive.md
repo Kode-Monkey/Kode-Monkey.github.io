@@ -14,7 +14,7 @@ permalink: /:categories/:title:output_ext
 ---
 
 <h2>Question?</h2>
-<p>At Kaffeinated Kodemonkey we build and certify websites to be <a href="{{site.url}}/Web-Accessibility/ADA-Compliance">ADA compliant</a>.
+<p>At Kaffeinated Kodemonkey we build and certify websites to be <a href="{{site.url}}/Web-Accessibility/ADA-Compliance">ADA compliant</a>.</p>
 
 <p>We would like to know how many people with disabilities have been affected by <a href="{{site.url}}/COVID-19">COVID-19</a> from a working perspective. Has your company turned to a remote/work-from-home platform? Are you an employee that can not work form home do to a disability and the way your employers website or software is built?</p>
 
