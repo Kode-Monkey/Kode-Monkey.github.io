@@ -18,3 +18,9 @@ gem 'sassc'
 
 #HTM: Pipeline - You must bundle Filter gem dependencies
 gem 'html-pipeline'
+
+gem 'kramdown'
+
+gem 'activesupport'
+
+gem 'nokogirl'

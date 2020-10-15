@@ -50,7 +50,7 @@ permalink: /blog/:categories/:title:output_ext
 
 <p>Here are some tool/ways you can keep your life as is and safeguard your privacy:</p>
 <ul>
-  <li>Browser - use the privacy or incognito settings in Firefox and Chrome.  Or use <a href="https://brave-browser.readthedocs.io/en/latest/index.html" targett="blank">Brave</a> or <a href="https://duckduckgo.com/?va=z&t=hk" targett="blank">DuckDuckGo</a></li>
+  <li>Browser - use the privacy or incognito settings in Firefox and Chrome.  Or use <a href="https://brave-browser.readthedocs.io/en/latest/index.html" target="blank">Brave</a> or <a href="https://duckduckgo.com/?va=z&t=hk" target="blank">DuckDuckGo</a></li>
   <li>Search Engines - That respect your privacy:
   <ul>
     <li><a href="http://duckduckgo.com/" target="_blank">DuckDuckGo</a>: DuckDuckGo is a popular search engine for the privacy-conscious.</li>
@@ -59,7 +59,7 @@ permalink: /blog/:categories/:title:output_ext
   </ul>
   </li>
   <li>Plugins: I use Facebook Container on Firefox to block Facebook from tracking me around the web.</li>
-  <li>Shut of Tracking: There are many articles about this. One I read is from <a href="https://www.komando.com/smartphones-gadgets/8-ways-to-stop-your-phone-from-tracking-you/543526/?fbclid=IwAR34TDqjgWhOfwB1RxUC8olGDr92q_g9NiYp0Qq3k1bKE9a_gJuOBSUtpt0" targett="blank">LifeHacker</a> and it walks you through in-depth how to turn off all tracking on your phone.</li>
+  <li>Shut of Tracking: There are many articles about this. One I read is from <a href="https://www.komando.com/smartphones-gadgets/8-ways-to-stop-your-phone-from-tracking-you/543526/?fbclid=IwAR34TDqjgWhOfwB1RxUC8olGDr92q_g9NiYp0Qq3k1bKE9a_gJuOBSUtpt0" target="blank">LifeHacker</a> and it walks you through in-depth how to turn off all tracking on your phone.</li>
 </ul>
 
 <h2>Conclusion</h2>
