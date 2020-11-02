@@ -1,5 +1,6 @@
 ---
 layout: blog
+meta-title: Content Experience
 title: Content Experience
 categories: [Content & Experience]
 image: postbuilding.jpg

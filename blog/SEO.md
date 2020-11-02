@@ -1,5 +1,6 @@
 ---
 layout: blog
+meta-title: SEO
 title: SEO
 categories: SEO
 image: Enhanced-SEO.png

@@ -1,5 +1,6 @@
 ---
 layout: blog  
+meta-title: Advertising
 title: Advertising
 categories: Advertising
 image: Digital_Advertising_High_Res.png

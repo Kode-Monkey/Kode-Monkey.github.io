@@ -1,5 +1,6 @@
 ---
 layout: blog
+meta-title: Security
 title: Security
 categories: Security
 image: pour-web-design.png

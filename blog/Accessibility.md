@@ -1,5 +1,6 @@
 ---
 layout: blog
+meta-title: How-To-WCAG
 title: How-To-WCAG
 categories: Accessibility
 image: pour-web-design.png

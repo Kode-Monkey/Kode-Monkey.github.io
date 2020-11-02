@@ -1,5 +1,6 @@
 ---
 layout: blog
+meta-title: Listings
 title: Listings
 categories: Listings
 image:

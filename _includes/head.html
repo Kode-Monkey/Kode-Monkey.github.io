@@ -1,14 +1,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>
-      {% if page.title %}
-        {{ page.title }}
-      {% elsif post.title %}
-        {{post.title}}
-        {{site.description}}
-      {% endif %} | {{site.title}} </title>
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{site.description}}{% endif %}">
+  <title>{% if page.meta-title %}{{ page.meta-title }}|{% elsif post.title %}{{post.title}}|{% endif %}{{site.title}} </title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif post.description %}{{post.discretion}}{% else %}{{site.description}}{% endif %}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   {% if {{site_category}} == "Accessibility Remidation" %}
