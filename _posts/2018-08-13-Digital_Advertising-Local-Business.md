@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Digital Advertising for Local Businesses"
+title:  "Digital Advertising"
 date:   2018-08-13
 categories: Advertising
 tags: [Digital, Advertising, Local, Business, Places, Google, Facebook]

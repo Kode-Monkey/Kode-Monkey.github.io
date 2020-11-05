@@ -36,8 +36,6 @@ img {
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    user-drag: none;
-
     height: 100%;
     width: 100%;
 }
@@ -86,7 +84,7 @@ h4 {
 
 h5, h6 {
   font-family: 'Schoolbell', cursive;
-  color: #495057
+  color: #495057;
   font-size: .08em;
 
 }
@@ -221,11 +219,7 @@ input[type="color"],
 
 /
 /*.home-wrap h1,*/
-.home-wrap h2,
-.home-wrap h3,
-.home-wrap h4,
-.home-wrap h5,
-.home-wrap p {
+.home-wrap h2, .home-wrap h3, .home-wrap h4, .home-wrap h5, .home-wrap p {
     color: #ffffff;
 }
 .text {
@@ -778,7 +772,6 @@ textarea::-ms-input-placeholder
     right: 0;
     height: 100%;
     width: 50px;
-    pointer-events: none;
     background: -webkit-linear-gradient( right , #FFFFFF, rgba(255, 255, 255, 0));
     background: linear-gradient(to left, #FFFFFF, rgba(255, 255, 255, 0));
 }
@@ -891,7 +884,6 @@ textarea::-ms-input-placeholder
     z-index: 1;
     height: 80px;
     padding: 1em;
-    pointer-events: none;
     color: #FFFFFF;
     border:1px solid /*#82ca9c;*/ #530B1F;
 }
@@ -1409,7 +1401,7 @@ xkeyframes
     margin: 50px auto;
 }
 .single_left_contact p{
-    font-family:''titillium_weblight;
+    font-family:'titillium_weblight';
     font-size:18px;
 }
 
