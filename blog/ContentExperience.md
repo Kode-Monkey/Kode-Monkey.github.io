@@ -5,7 +5,7 @@ title: Content Experience
 categories: [Content & Experience]
 image: postbuilding.jpg
 description: Articles about content and experience.
-permalink: /blog/ContentExperience
+permalink: blog/ContentExperience
 ---
 
 {% assign count = site.categories[page.categories] | size %}

@@ -5,7 +5,7 @@ title: How-To-WCAG
 categories: Accessibility
 image: pour-web-design.png
 description: Series of Articles about Web Accessibility and how essential it is for you business.
-permalink: blog/Accessibility/
+permalink: blog/Accessibility
 ---
 
 {% assign count = site.categories[page.categories] | size %}

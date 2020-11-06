@@ -5,7 +5,7 @@ title: SEO
 categories: SEO
 image: Enhanced-SEO.png
 description: Articles about how to improve SEO for your website.
-permalink: /blog/SEO
+permalink: blog/SEO
 ---
 
 {% assign count = site.categories[page.categories] | size %}

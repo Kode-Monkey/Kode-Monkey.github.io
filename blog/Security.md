@@ -5,7 +5,7 @@ title: Security
 categories: Security
 image: pour-web-design.png
 description: Series of Articles about Online Security.
-permalink: /blog/Security
+permalink: blog/Security
 ---
 
 {% assign count = site.categories[page.categories] | size %}
