@@ -9,7 +9,7 @@
   <meta name="robots" content="noindex">
   {% endif %}
 
-  <link href= "{% if page.layout == 'homepage-template' %}{{ site.url }}{% else %}{{ site.url }}/{{ page.permalink }}{% endif %}" rel="canonical">
+  <link href= "{{ site.url }}/{{ page.permalink }}" rel="canonical">
 
   <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
   <!-- <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/assets/images/favicon.ico"> -->

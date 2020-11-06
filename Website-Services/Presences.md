@@ -1,12 +1,12 @@
 ---
 layout: template
-mine-image: websites.jpg
-img-size: 100
 meta-title: Web Design
 title: Web Design
 category: Accessible Design
+mine-image: websites.jpg
+img-size: 100
 subtitle: A Presence makes a first impression.
-description: Built for responsive powerd by Accessibilty
+description: Built for responsive powered by Accessibility
 permalink: Website-Services/Presences
 ---
 

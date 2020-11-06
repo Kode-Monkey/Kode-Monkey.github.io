@@ -4,10 +4,10 @@ mine-image: ADA_Complinace_Logo.png
 img-size: 100
 meta-title: Web Accessibility Statement
 title: Web Accessibility Statement
-category: Accessility
+category: Accessibility
 subtitle: Get the Answers you are looking for.
-description: Accessility Statement outlining our efforts in bing ADA Compliant.
-permalink: policies/Accessibility-Atatement
+description: Accessibility Statement outlining our efforts in being ADA Compliant.
+permalink: policies/Accessibility-Statement
 ---
 
 <!-- Conethen -->
@@ -26,8 +26,7 @@ permalink: policies/Accessibility-Atatement
 
     <h2>Accessibility on Kaffeinatedkodemonkey</h2>
     <p>Kaffeinatedkodemonkey makes available the <a href="https://UserWay.org" title="Free Website Accessibility Widget">UserWay Website Accessibility Widget</a>
-    that is powered by a dedicated accessibility server. The software allows Kaffeinatedkodemonkey to improve its compliance with the
-    Web Content Accessibility Guidelines (WCAG 2.1).</p>
+    that is powered by a dedicated accessibility server. The software allows Kaffeinatedkodemonkey to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.1).</p>
 
     <h2>Enabling the Accessibility Menu</h2>
     <p>The Kaffeinatedkodemonkey accessibility menu can be enabled by clicking the accessibility menu icon that appears on the corner of

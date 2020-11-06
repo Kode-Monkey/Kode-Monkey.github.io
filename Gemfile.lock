@@ -223,8 +223,6 @@ GEM
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.10-x86-mingw32)
       mini_portile2 (~> 2.4.0)
-    nokogirl (1.0)
-      nokogiri
     octokit (4.18.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -285,9 +283,8 @@ DEPENDENCIES
   github-pages
   html-pipeline
   jekyll-feed
-  jekyll-redirect-from
   kramdown
-  nokogirl
+  nokogiri
   sassc
   tzinfo-data
 
