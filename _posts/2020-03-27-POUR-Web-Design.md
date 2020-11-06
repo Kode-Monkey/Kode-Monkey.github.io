@@ -7,7 +7,7 @@ tags: [POUR, WCAG, Compliance, Criteria]
 banner: Blog/Accessibility/pour-web-design.png
 excerpt_separator: "<!-- more -->"
 description: What is POUR Web Design
-permalink: blog/:categories/:title:output_ext
+permalink: :categories/:title:output_ext
 
 ---
 <p>Kaffeinated Kodemonkey is an Accessibility Driven web agency. Our goal is to develop websites with all users in mind no matter the disability or technology. </p>

@@ -8,7 +8,7 @@ tags: [keywords, SEO Tools, Competition, Google My Business, Reviews, Links, Sch
 banner: Blog/Local-SEO-12-Steps/how-to-do-a-local-seo-audit_fi.jpg
 excerpt_separator: "<!-- more -->"
 description: Local SEO Audit is understanding where you stand in the search engines.
-permalink: blog/:categories/:title:output_ext
+permalink: :categories/:title:output_ext
 ---
 
 Businesses on page 2 of the SERP might as well not exist.

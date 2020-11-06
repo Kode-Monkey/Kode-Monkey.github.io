@@ -6,7 +6,7 @@ categories: Reputation
 banner: Blog/online-presence.jpg
 excerpt_separator: "<!-- more -->"
 description: Your online presence is more than just about your business it is also about you.
-permalink: blog/:categories/:title:output_ext
+permalink: :categories/:title:output_ext
 ---
 
 <h3>What is your online presence?</h3>

@@ -8,7 +8,7 @@ tags: [Native, Advertising, Facebook, Publishers, Businesses, Agencies, Consumer
 banner: Blog/Native-Ad-FI.png
 excerpt_separator: "<!-- more -->"
 description: Native advertising is an advertising tactic that is earning increased usage as either a complement to, or an alternative for, display advertising.
-permalink: blog/:categories/:title:output_ext
+permalink: :categories/:title:output_ext
 ---
 
 <p><em>What is native advertising?</em></p>

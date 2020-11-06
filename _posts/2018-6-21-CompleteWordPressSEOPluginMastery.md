@@ -9,7 +9,7 @@ tags: [SEO, WordPress, Yoast, Optimization, AMP, Broken Link, Speed, Security, I
 image: Enhanced-SEO.png
 excerpt_separator: "<!-- more -->"
 description: The Complete WordPress SEO Plugin to help you manage your SEO.
-permalink: blog/:categories/:title:output_ext
+permalink: :categories/:title:output_ext
 ---
 
 <p>SEO is the key to conquering the internet, and as the digital climate becomes increasingly saturated, it is becoming more important than ever to make sure that you are making every effort to get seen on the web. One of the easiest ways to give your sites a little extra boost is by implementing the right WordPress plugins.</p>
