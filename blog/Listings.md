@@ -5,6 +5,7 @@ title: Listings
 categories: Listings
 image:
 description: Articles about why you should list your website in the search engines.
+permalink: /blog/Listings
 ---
 
 {% assign count = site.categories[page.categories] | size %}

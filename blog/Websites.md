@@ -5,6 +5,7 @@ title: Website
 categories: Website
 image: postbuilding.jpg
 description: Articles about how to improve your Website.
+permalink: /blog/Websites
 ---
 
 {% assign count = site.categories[page.categories] | size %}

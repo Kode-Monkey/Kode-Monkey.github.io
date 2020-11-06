@@ -4,7 +4,8 @@ meta-title: Reputation
 title: Reputation
 categories: Reputation
 image: postbuilding.jpg
-description: Articles about how to  your online reputation is like an open book.
+description: Articles about how to your online reputation is like an open book.
+permalink: /blog/Reputation
 ---
 
 {% assign count = site.categories[page.categories] | size %}

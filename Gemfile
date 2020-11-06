@@ -24,3 +24,5 @@ gem 'kramdown'
 gem 'activesupport'
 
 gem 'nokogirl'
+
+gem 'jekyll-redirect-from'

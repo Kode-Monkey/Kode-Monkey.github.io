@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ADA Compliance|Kaffeinated Kodemonkey </title>
+  <meta name="description" content="Making websties and applications ADA Compliant.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+  <link href= "http://localhost:4000/Web-Accessibility/ADA-Compliance/" rel="canonical">
+
+  <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/assets/images/favicon.ico"> -->
+  <!-- <link rel="stylesheet" href="http://localhost:4000/assets/css/all.css"> -->
+
+  <!-- FontAwsome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="http://localhost:4000/assets/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!--Theme custom css -->
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/style.css">
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/custom.css">
+
+  <!--Theme Responsive css-->
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/responsive.css" />
+
+  <!-- ADAOnline Toolbar -->
+  <script>(function(s, o, g){a = s.createElement(o),m = s.getElementsByTagName(o)[0];a.src = g;a.setAttribute("async","");a.setAttribute("type","text/javascript");a.setAttribute("crossorigin","anonymous");m.parentNode.insertBefore(a, m)})(document, "script", "https://adatoolbar.com/wp-json/onlineada/v1/accessibility-toolbar/226f36187a4b9");</script>
+  <!-- End ADAOnline Toolbar -->
+
+  <!-- Google -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46627745-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-46627745-2');
+  </script>
+</head>
+
+  <body>
+    <nav>
+  <!-- Sections - social -->
+  <div class="container-fluid social" id="social">
+    <!-- Example row of columns -->
+    <div class="row mr-3">
+      <div class="col-md-7 col-sm-12">
+        <div class="social-icon">
+          <a class="nav-link" href="https://facebook.com/kaffeinatedkodemonkey" target="_blank" title="Facebook" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a class="nav-link" href="https://twitter.com/kfn8dkodemonkey" target="_blank" title="Twitter" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+          <a class="nav-link" href="https://www.linkedin.com/in/kaffeinatedkodemonkey" target="_blank" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="social-contact text-center">
+          <a href="#"><i class="fa fa-phone"></i>720.608.1444</a>
+          <a href="mailto:info@kaffeinatedkodemonkey.com"><i class="fa fa-envelope"></i>The Kodemonkey</a>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /container -->
+
+  <!-- section - Nav -->
+  <div id="nav" class="navbar navbar-expand-sm navbar-dark" style="background-color: #013b56;">
+    <a class="navbar-brand mt-0 ml-1" href="/" title="Kodemonkeky" id="logo">kaffeinated kodemonkey</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="ml-auto d-flex justify-content-end">
+      <div class="collapse navbar-collapse mr-5" id="navbarNavDropdown">
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://localhost:4000/Website-Services/Presences#" id="websites" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accessibility Design</a>
+            <div class="dropdown-menu" aria-labelledby="navbarNavDropdown websites">
+              <a class="dropdown-item" href="http://localhost:4000/Website-Services/Presences" title="Building the sites of tomorrow">Website Design</a>
+              <a class="dropdown-item" href="http://localhost:4000/Website-Services/Maintenance"  title="We help you avoid 404 Errors">Website Management</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="Marketing" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Marketing
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarNavDropdown Marketing">
+              <a class="dropdown-item" href="http://localhost:4000/Marketing/Local-Listings" title="Get listed in search engins">Local Listings</a>
+              <a class="dropdown-item" href="http://localhost:4000/Marketing/SEO" title="Get greate ROI with SEO">SEO Marketing</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" target="_blank" id="Accessibility" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Web Accessibility
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarNavDropdown Accessibility">
+              <a class="dropdown-item" href="http://localhost:4000/Web-Accessibility/ADA-Compliance" title="Get evaluated">ADA Compliance</a>
+              <a class="dropdown-item" href="http://localhost:4000/Web-Accessibility/ADA-Certification" title="Is your site ADA Certified?">ADA Certification</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/press-release" title="Checkout our Press Release">Press Release</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/Clients" title="Our Portfolio">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/Blog" title="Tips & Tricks">Blog</a>
+          </li>
+          <!-- <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/Testimonials">At-a-Girl</a>
+        </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/about" title="Get to Know us">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+    <div class="container-fluid">
+      <div class="row ml-3 mt-5 mb-5">
+        <!-- left colmun -->
+        <div class="col-sm-3 col-md-3">
+          <!-- page title or category and subtitle -->
+          <h2>Web Accessibility</h2>
+          <p>Become Digitaly Accessible</p>
+
+          
+            <hr />
+            <!-- include Newsletter -->
+            <!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+  <form action="https://kaffeinatedkodemonkey.us11.list-manage.com/subscribe/post?u=25ed2db8c5f44be422ac9503a&amp;id=1b6530d445" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <div id="mce-responses" class="clear">
+    		<div class="response text-danger mb-2" id="mce-error-response" style="display:none"></div>
+    		<div class="response text-success mb-2" id="mce-success-response" style="display:none"></div>
+    	</div>
+
+	     <h2>Join Newsletter</h2>
+
+       <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+       <div class="form-group">
+         <label for="mce-FNAME">First Name:  <span class="asterisk">*</span></label>
+         <input type="text" value="" name="FNAME" class="form-control input-md" id="mce-FNAME" required>
+       </div>
+
+      <div class="form-group">
+      	<label for="mce-LNAME">Last Name: <span class="asterisk">*</span></label>
+      	<input type="text" value="" name="LNAME" class="form-control input-md" id="mce-LNAME" required>
+      </div>
+
+      <div class="form-group">
+      	<label for="mce-WEBSITE">Website </label>
+      	<input type="url" value="" name="WEBSITE" class="form-control input-md" id="mce-WEBSITE">
+      </div>
+
+      <div class="form-group">
+      	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+      </label>
+      	<input type="email" value="" name="EMAIL" class="form-control input-md" id="mce-EMAIL" required>
+      </div>
+
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true" id="spam">
+        <input type="text" aria-labelledby="spam" name="b_25ed2db8c5f44be422ac9503a_1b6530d445" tabindex="-1" value="">
+      </div>
+
+      <button type="submit" class="btn btn-primary" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Submit</button>
+    </div>
+  </form>
+</div>
+<script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[2]='FNAME';ftypes[2]='text';fnames[3]='LNAME';ftypes[3]='text';fnames[1]='WEBSITE';ftypes[1]='url';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+          
+
+          <hr />
+          <!-- includes adds -->
+          
+<!-- this page is for displaying addes like pcmatice or domain hosting etc.. -->
+<div class="row">
+  <div class="col">
+    <a href="https://cart.pcpitstop.com/go.asp?id=500754&aff=18983" target="_blank"><img class="img-center img-responsive img-thumbnail" src="https://www.pcpitstop.com/images/affiliates/500754.gif" style="width:100%;" alt="PC Pitstop Is your PC slow?"/></a><br />
+    <a href="https://reciprocitylabs.com/" target="_blank"><img class="img-center img-responsive img-thumbnail" src="http://localhost:4000/assets/images/press-release/Reciprocity.png" style="width:100%;" alt="Risk Management"/></a>
+
+  </div>
+  <div class="col">
+    <a href="https://www.domain.com/join/index.bml?bannerID=933&AffID=746605&amp;LinkName=kodemonkey" target="_blank"><img src="https://www1.domain.com/affiliate/banners/933" alt="affiliate_link" class="img-center img-responsive img-thumbnail" style="width:84%;"/></a>
+  </div>
+</div>
+
+
+        </div>
+        <!-- right - Main Column -->
+        <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
+          <div class="row">
+            <div class="col-md-12 col-sm-8">
+              
+                
+                  <img src="http://localhost:4000/assets/images/ADA-Compliance/Accessibility-Testing.png" class="img-fluid img-thumbnail rounded" style="width: 100%; height: auto;" alt="ADA Compliance image">
+                
+              
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-9 col-sm-8">
+              <h1 class="mt-4">ADA Compliance</h1>
+            </div>
+            <div class="col-md-3 col-sm-4 mt-4">
+              <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="ml-5 btn btn-md btn-warning">Book Free Consultation</a></p>
+            </div>
+          </div>
+
+
+          <hr/>
+          <p><!-- Conethen --></p>
+<div class="row">
+    <div class="col">
+      <p>There are at least three reasons that might motivate a company to create accessible web content:</p>
+      <ul>
+        <li>To improve the lives of people with disabilities <span class="text-muted"><i>(human-centered motivations)</i></span></li>
+        <li>To capitalize on a wider audience or consumer base <span class="text-muted"><i>(marketing or economic-centered motivations)</i></span></li>
+        <li>To avoid lawsuits and/or bad press <span class="text-muted"><i>(public relations and punishment-centered motivations)</i></span></li>
+      </ul>
+
+      <div class="lead text-center shadow-sm p-3 mt-3 mb-3 bg-dark text-white rounded">
+        <p class="display-4">Accessibility driven websites accomplish all these goals when people are at the center of the process.</p>
+      </div>
+
+      <p>The Kodemonkey team use the <strong><i>POUR</i></strong> principles set forth by the WCAG:</p>
+
+      <ul>
+        <li><strong>Perceivable</strong> - Information and user interface components must be presentable to users in ways they can perceive. This means that users must be able to perceive the information being presented (it can't be invisible to all of their senses)</li>
+        <li><strong>Operable</strong> - User interface components and navigation must be operable. This means that users must be able to operate the interface (the interface cannot require interaction that a user cannot perform)</li>
+        <li><strong>Understandable</strong> - Information and the operation of user interface must be understandable. This means that users must be able to understand the information as well as the operation of the user interface (the content or operation cannot be beyond their understanding)</li>
+        <li><strong>Robust</strong> - Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies. This means that users must be able to access the content as technologies advance (as technologies and user agents evolve, the content should remain accessible)</li>
+
+      </ul>
+
+      <hr />
+
+      <h2>What is WCAG?</h2>
+
+      <p><strong><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">Web Content Accessibility Guidelines (WCAG)</a></strong>,
+        developed by the World Wide Web Consortium (W3C) in cooperation with individuals and organizations around the world, to provide a single
+        shared standard for web content accessibility that meets the needs of individuals, organizations, and governments internationally.
+      </p>
+
+      <p>The <strong>WCAG</strong> documents explain how to make web content more accessible to people with disabilities. Web "content" generally refers to the information no a web
+        page or web application, including:</p>
+
+      <ul>
+        <li>Natural information such as text, images, and sounds</li>
+        <li>Code or markup that defines the structure, presentation, etc.</li>
+      </ul>
+
+      <p>The <strong>WCAG</strong> is becoming a globally recognized voluntary consensus standard for web content. <strong>Information and Communication Technology (ICT)</strong>
+      follows these guidelines for their <strong>VPAT documents</strong>.</p>
+
+      <hr />
+
+      <h2>What is Section 508?</h2>
+
+      <div class="lead text-center shadow-sm p-3 mt-3 mb-3 bg-dark text-white rounded">
+        <p class="display-4">Is your business a federal agency, or do you receive funding/assistance from the federal government?<br />
+          Then you are required to abide by section Section 508 requirements.</p>
+      </div>
+
+      <p>In 1998, Congress amended the Rehabilitation Act of 1973 requiring Federal agencies to make electronic documents accessible to people with disabilities.
+      <strong><a href="https://www.section508.gov/" title="GSA Government-wide IT Accessibility Program">Section 508</a></strong> applies to all Federal agencies when it pertains to electronic
+      and information technology. Government agencies must give disabled employees and members of the public access to the same or comparable information as they do others.</p>
+
+      <p>The <strong><a href="https://en.wikipedia.org/wiki/United_States_Access_Board" target="_blank">U.S. Access Board</a></strong> is responsible for developing accessibility standards that govern Federal
+      procurement practices. January 2017, they issued a final rule that updated accessibility requirements for <strong>section 508</strong> and refreshed guidelines to <strong>Section 255</strong>.</p>
+
+      <p>The refresh reorganized <strong>Section 508</strong> Standards and <strong>Section 255</strong> Guidelines in response to market trends and innovations in technology.
+      The refresh also harmonized these requirements with other guidelines and standards both in the U.S. and abroad, including standards issued by the European Commission, and
+      <strong>W3C</strong> guidelines know as <strong>WCAG</strong>.</p>
+
+      <!-- Accordian - tabe menu -->
+      <div class="accordion mt-5" id="TabMenu">
+        <div class="row mb-5">
+          <div class="col">
+            <ul class="nav nav-tabs">
+              <!-- WCAG-508 -->
+              <li class="nav-item pr-0" id="heading-Audit">
+                <p class="text-center pl-0 mt-0 mb-0"><button type="button" class="btn btn-small btn-primary" data-toggle="collapse" data-target="#Audit" aria-expanded="false" aria-controls="Audit"><i class="fab fa-accessible-icon"></i> ADA Site Audi</button></p>
+              </li>
+              <!-- ADA Remidation -->
+              <li class="nav-item pr-0" id="heading-ADAR">
+                <p class="text-center pl-3 mt-0 mb-0"><button type="button" class="btn btn-small btn-primary" data-toggle="collapse" data-target="#ADAR" aria-expanded="true" aria-controls="ADAR"><i class="fas fa-certificate"></i> ADA Remidation</button></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Tab #Audit-->
+        <div id="Audit" class="collapse show" aria-labelledby="heading-Audit" data-parent="#TabMenu">
+          <!-- Content -->
+          <div class="row">
+            <div class="col">
+              <h2>ADA Site Audit</h2>
+            </div>
+              <div class="col-4 float-right">
+              <h2>Cost: $750</h2>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="row">
+            <div class="col">
+              <p>A website is as good as the content it displays however, if a user can not access your content then you have lost a business
+              opportunity.</p>
+
+              <p>Don't lose a customer because they can not access your site due to a disability. There is about $495 billion, combined annual disposable,
+              income among people that are disabled. This includes those with a temporary disability as well as those that are permanently disabled.</p>
+
+              <p>Get a report outlining any accessibility issues you may have on your site.</p>
+
+              <p><strong>How does this work?</strong></p>
+              <ul>
+                <li>We will run a scan and evaluate your site for accessibility issues</li>
+                <li>We will deliver a report outlining the results and what needs to be fixed</li>
+                <li>We are available for any assistance as your team resolves the issues</li>
+              </ul>
+
+              <hr />
+
+<h3>Contact Us Today</h3>
+
+<p>Is your site ADA compliant? Do you need a VPAT completed? </p>
+<p>Talk to an <strong>Accessibility Specialist <span class="text-uppercase text-danger">TODAY</span></strong>.</p>
+<p><a class="btn btn-md btn-warning" href="https://kaffeinatedkodemonkey.youcanbook.me/" target="_blank" role="button">Book Free Consultation!</a></p>
+
+
+            </div>
+          </div>
+
+        </div>  <!-- Close Tabe -->
+
+        <!-- Tab #ADA Remidation-->
+        <div id="ADAR" class="collapse" aria-labelledby="heading-ADAR" data-parent="#TabMenu">
+          <!-- Content -->
+          <div class="row">
+            <div class="col">
+              <h2>ADA Remidation</h2>
+            </div>
+            <div class="col-4 float-right">
+              <h2>Cost: Request Quote</h2>
+            </div>
+          </div>
+
+          <hr />
+
+          <p>Kaffeinated Kodemonkey Accessibility Developers can help you resolve accessibility issues on your website.</p>
+
+          <p>We will run a site audit to identify accessibility issues on your website or application or can work from a recent report you may
+          already have.</p>
+
+          <p>We will require access to your site via login and password or pull request from github.</p>
+
+          <hr />
+
+<h3>Contact Us Today</h3>
+
+<p>Is your site ADA compliant? Do you need a VPAT completed? </p>
+<p>Talk to an <strong>Accessibility Specialist <span class="text-uppercase text-danger">TODAY</span></strong>.</p>
+<p><a class="btn btn-md btn-warning" href="https://kaffeinatedkodemonkey.youcanbook.me/" target="_blank" role="button">Book Free Consultation!</a></p>
+
+
+        </div>  <!-- Close Tabe -->
+
+
+      </div> <!-- close accordion -->
+      <!-- end row -->
+    </div>
+  </div>
+<p><!-- close main row --></p>
+
+
+        </div>
+      </div>
+    </div>
+
+        <section id="footer-menu" class="sections footer-menu" role="contentinfo">
+      <div class="container-fluid pl-5 pr-5">
+        <div class="row text-center">
+          <div class="col-12">
+            <p><a href="/" title="Take me home"><img src="https://www.kaffeinatedkodemonkey.com/assets/images/logo.png" style="width: 5%;" alt="Kaffeinated Kodemonkey Logo" /></a>
+            <img src="https://www.kaffeinatedkodemonkey.com/assets/images/badge_partneragency.gif" alt="OnlineADA" class="img-fluid" style="width: 5%; height: auto;"></p>
+
+            <h3><strong>Kaffeinated Kodemonkey</strong></h3>
+            <p>Striving to make websites Accessibilty to everyone.</p>
+
+            <p>Rangely, Co | <span class="force-read-before" data-attributetitleof="id-hatemile-display-9707572202">
+            <abbr id="id-hatemile-display-9707572202" title="Phone">P:</abbr> (970) 757-2222</span></p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <h3 class="mb-3 contact">Contact Our Accessibilty Development Team</h3>
+
+            <form action="https://formspree.io/f/mrgopqob" method="POST" class="mb-">
+              <div class="form-group">
+                <label class="sr-only" for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required="">
+              </div>
+
+              <div class="form-group">
+                <label class="sr-only" for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required="">
+              </div>
+
+
+              <div class="form-group">
+                <label class="sr-only" for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="8" placeholder="Message"></textarea>
+              </div>
+
+              <div class="center-content">
+                <input type="submit" value="Submit" class="btn btn-md btn-primary">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-8 col-sm-6">
+            <h3>Site Map</h3>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Accessibilty Design</h4>
+                <p><a href="http://localhost:4000/Website-Services/Presences">Website Design</a></p>
+                <p><a href="http://localhost:4000/Website-Services/Maintenance">Website Management</a></p>
+              </div>
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Marking</h4>
+                <p><a href="http://localhost:4000/Marketing/Local-Listings">Local Listings</a></p>
+                <p><a href="http://localhost:4000/Marketing/SEO">SEO Marking</a></p>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Web Accessibilty</h4>
+                <p><a href="http://localhost:4000/Web-Accessibility/ADA-Compliance">ADA Compliance</a></p>
+                <p><a href="http://localhost:4000/Web-Accessibility/ADA-Certification">ADA Certification</a></p>
+              </div>
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Other</h4>
+                <p><a href="http://localhost:4000/press-release">Press Release</a></p>
+                <p><a href="http://localhost:4000/Clients">Potfolio</a></p>
+                <p><a href="http://localhost:4000/Blog">Blog</a></p>
+                <p><a href="http://localhost:4000/about">About</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

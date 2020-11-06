@@ -4,6 +4,7 @@ meta-title: Social
 title: Social
 categories: Social
 description: Articles about how to leverage social media to drive traffic to your site.
+permalink: /blog/Social
 ---
 
 {% assign count = site.categories[page.categories] | size %}

@@ -1,0 +1,164 @@
+---
+layout: template
+mine-image: VPAT-Documents.png
+img-size: 100
+meta-title: VPAT Compliance Certification
+title: VPAT Certification
+category: Web Accessibility
+subtitle: Do you need a VPAT
+description: At Kaffeinated Kodemonkey we provide VPAT compliance certification to help websites stay within accessibility guidelines. Call us today!
+permalink: Web-Accessibility/ADA-Certification/
+---
+
+  <!-- Conethen -->
+  <div class="row">
+    <div class="col">
+
+      <p>Is your website ADA compliant? Do you have a VPAT certification? </p>
+
+      <p>If not, you are putting your business at risk for an ADA Lawsuit.</p>
+
+      <p>Being ADA Compliant is the only defense against litigations. It is imperative to have a trusted third-party VPAT Certification that
+      validates your efforts.</p>
+
+      <p>Digital content such as websites and applications fall under Title III which prohibits discrimination on the basis of disability in
+      “places of public accommodation". New lawsuits indicate that private company websites, applications, online documents, and software qualify
+      as places of public accommodation.</p>
+
+      <h2>Put an Accessibility Partner in our corner.</h2>
+
+      <p>Our team has developed a VPAT compliance certification process that verifies your website meets the WCAG and Section 508 requirements set
+      forth by the W3C. You will receive:</p>
+
+      <ul>
+        <li>An Accessibility Report</li>
+        <li>An Accessibility Statement</li>
+        <li>A Certification badge</li>
+      </ul>
+
+      <p>Our packages are designed to fit any Accessibility needs. From VPAT completion to VPAT certification. Our experts monitor your
+      accessibility, let you know when there are ADA compliance issues, and help you remedy them.</p>
+
+      <p>At Kaffeinated Kodemonkey our mission is to develop and certify websites to be ADA Compliant by putting an Accessibility Expert in your
+      corner so you can sleep at night.</p>
+
+      <hr />
+
+      <!-- Accordian - tabe menu -->
+      <div class="accordion mt-5" id="TabMenu">
+        <div class="row mb-5">
+          <div class="col">
+            <ul class="nav nav-tabs">
+              <!-- VPAT-only -->
+              <li class="nav-item pr-0" id="heading-VPAT">
+                <p class="text-center pl-0 pr-0 mt-0 mb-0"><button type="button" class="btn btn-small btn-primary" data-toggle="collapse" data-target="#VPAT" aria-expanded="false" aria-controls="VPAT"><i class="fas fa-file"></i> VPAT-Only</button></p>
+              </li>
+              <!-- POC -->
+              <li class="nav-item pr-0" id="heading-POC">
+                <p class="text-center pl-3 pr-0 mt-0 mb-0"><button type="button" class="btn btn-small btn-primary" data-toggle="collapse" data-target="#POC" aria-expanded="false" aria-controls="POC"><i class="fas fa-file"></i> Proof-of-Compliance (POC)</button></p>
+              </li>
+              <!-- ADA Certification & Monitoring -->
+              <li class="nav-item pr-0" id="heading-WAC">
+                <p class="text-center pl-3 mt-0 mb-0"><button type="button" class="btn btn-small btn-primary" data-toggle="collapse" data-target="#WAC" aria-expanded="true" aria-controls="WAC"><i class="fas fa-certificate"></i> WA Certification</button></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Tab #VPAT-->
+        <div id="VPAT" class="collapse show" aria-labelledby="heading-VPAT" data-parent="#TabMenu">
+          <!-- Content -->
+          <div class="row">
+            <div class="col">
+              <h2>VPAT-Only</h2>
+            </div>
+            <div class="col-4 float-right">
+              <h2>Cost: $1500</h2>
+            </div>
+          </div>
+
+          <hr />
+
+          <p>Are you completing an RFP or has your boss requested a VPAT to be completed?</p>
+
+          <p>Many companies attempt to complete the VPAT on their own and tend to miss some issues due to a lack of understanding and knowledge of the WCAG requirements. Furthermore, the VPAT can be a bit confusing when it comes to filling it out.</p>
+
+          <p>Don't waste your time and get frustrated let our qualified Accessibility Expert do this for you. Our team will analyze each page and test your site for hands-free access, vision impairedness, low-vision, color-blind, learning disabilities, deafness, low-hearing, and more through assistive technologies. Upon completion we will deliver a completed VPAT, indicating where your site passed and failed.</p>
+
+          <p>You will be glad you did and you can rest assured that all issues will be notated and the VPAT will be completed accurately.</p>
+
+
+        </div>  <!-- Close Tabe -->
+
+        <!-- Tab #POC-->
+        <div id="POC" class="collapse" aria-labelledby="heading-POC" data-parent="#TabMenu">
+          <!-- Content -->
+          <div class="row">
+            <div class="col">
+              <h2>Proof-of-Compliance (POC)</h2>
+            </div>
+            <div class="col-4 float-right">
+              <h2>Cost: $2599/$1999 Renewal</h2>
+            </div>
+          </div>
+
+          <hr />
+
+          <!-- <h3><strong>VPAT Audit</strong></h3> -->
+          <p>This is designed for websites that are static in nature. You are not updating or adding new features/content on a daily or weekly basis.</p>
+
+          <p>With the Proof-of-Compliance our team will evaluate your site/application, work with you to resolve any compliance issues, and in six (6)
+          months re-evaluate your site/application to catch any new issues that may have result in a redesign, new content or requirement updates.</p>
+
+          <p><strong>What is included:</strong></p>
+          <ul>
+            <li>Full site evaluate</li>
+            <li>Accessibility Report</li>
+            <li>Accessibility Statement</li>
+            <li>How-To-Fix report detailing issues we found</li>
+            <li>Badge indicating when your site was last evaluated</li>
+            <li>Six (6) month re-evaluation and updated documents</li>
+          </ul>
+
+        </div>  <!-- Close Tabe -->
+        <!-- Tab #WA Certification & Monitoring-->
+        <div id="WAC" class="collapse" aria-labelledby="heading-WAC" data-parent="#TabMenu">
+
+          <!-- Content -->
+          <div class="row">
+            <div class="col">
+              <h2>WA Certification</h2>
+            </div>
+            <div class="col-4 float-right">
+              <h2>Cost: Request Quote</h2>
+            </div>
+          </div>
+
+          <hr />
+
+          <p>This is designed for websites or applications that are large in size, have a number of content editors, or are updated frequently.</p>
+
+          <p>Examples are College websites that allow departments to edit their own content or applications where codes are being updated daily or weekly.</p>
+
+          <p><strong>What is included:</strong></p>
+          <ul>
+            <li>Full site evaluate</li>
+            <li>Accessibility Report</li>
+            <li>Accessibility Statement</li>
+            <li>How-To-Fix report showing all issues we found</li>
+            <li>Badge indicating when your site was last evaluated</li>
+            <li>Monthly monitoring and reporting</li>
+          </ul>
+
+
+        </div> <!-- close tab -->
+      </div> <!-- close accordion -->
+      <!-- end row -->
+
+      {% include Book-Consultation.html %}
+    </div>
+  </div> <!-- close main row -->
+
+  <div class="lead text-center shadow-sm p-3 mt-3 mb-3 bg-dark text-white rounded">
+    <p class="display-4">It is important to understand that Kaffeinated Kodemonkey cannot offer legal advice or offer legal counsel.</p>
+  </div>

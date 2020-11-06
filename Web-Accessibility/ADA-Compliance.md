@@ -1,0 +1,161 @@
+---
+layout: template
+mine-image: ADA-Compliance/Accessibility-Testing.png
+img-size: 100
+meta-title: ADA Compliance
+title: ADA Compliance
+category: Web Accessibility
+subtitle: Become Digitaly Accessible
+description: Making websties and applications ADA Compliant.
+permalink: Web-Accessibility/ADA-Compliance/
+---
+
+  <!-- Conethen -->
+  <div class="row">
+    <div class="col">
+      <p>There are at least three reasons that might motivate a company to create accessible web content:</p>
+      <ul>
+        <li>To improve the lives of people with disabilities <span class="text-muted"><i>(human-centered motivations)</i></span></li>
+        <li>To capitalize on a wider audience or consumer base <span class="text-muted"><i>(marketing or economic-centered motivations)</i></span></li>
+        <li>To avoid lawsuits and/or bad press <span class="text-muted"><i>(public relations and punishment-centered motivations)</i></span></li>
+      </ul>
+
+      <div class="lead text-center shadow-sm p-3 mt-3 mb-3 bg-dark text-white rounded">
+        <p class="display-4">Accessibility driven websites accomplish all these goals when people are at the center of the process.</p>
+      </div>
+
+      <p>The Kodemonkey team use the <strong><i>POUR</i></strong> principles set forth by the WCAG:</p>
+
+      <ul>
+        <li><strong>Perceivable</strong> - Information and user interface components must be presentable to users in ways they can perceive. This means that users must be able to perceive the information being presented (it can't be invisible to all of their senses)</li>
+        <li><strong>Operable</strong> - User interface components and navigation must be operable. This means that users must be able to operate the interface (the interface cannot require interaction that a user cannot perform)</li>
+        <li><strong>Understandable</strong> - Information and the operation of user interface must be understandable. This means that users must be able to understand the information as well as the operation of the user interface (the content or operation cannot be beyond their understanding)</li>
+        <li><strong>Robust</strong> - Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies. This means that users must be able to access the content as technologies advance (as technologies and user agents evolve, the content should remain accessible)</li>
+
+      </ul>
+
+      <hr />
+
+      <h2>What is WCAG?</h2>
+
+      <p><strong><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">Web Content Accessibility Guidelines (WCAG)</a></strong>,
+        developed by the World Wide Web Consortium (W3C) in cooperation with individuals and organizations around the world, to provide a single
+        shared standard for web content accessibility that meets the needs of individuals, organizations, and governments internationally.
+      </p>
+
+      <p>The <strong>WCAG</strong> documents explain how to make web content more accessible to people with disabilities. Web "content" generally refers to the information no a web
+        page or web application, including:</p>
+
+      <ul>
+        <li>Natural information such as text, images, and sounds</li>
+        <li>Code or markup that defines the structure, presentation, etc.</li>
+      </ul>
+
+      <p>The <strong>WCAG</strong> is becoming a globally recognized voluntary consensus standard for web content. <strong>Information and Communication Technology (ICT)</strong>
+      follows these guidelines for their <strong>VPAT documents</strong>.</p>
+
+      <hr />
+
+      <h2>What is Section 508?</h2>
+
+      <div class="lead text-center shadow-sm p-3 mt-3 mb-3 bg-dark text-white rounded">
+        <p class="display-4">Is your business a federal agency, or do you receive funding/assistance from the federal government?<br />
+          Then you are required to abide by section Section 508 requirements.</p>
+      </div>
+
+      <p>In 1998, Congress amended the Rehabilitation Act of 1973 requiring Federal agencies to make electronic documents accessible to people with disabilities.
+      <strong><a href="https://www.section508.gov/" title="GSA Government-wide IT Accessibility Program">Section 508</a></strong> applies to all Federal agencies when it pertains to electronic
+      and information technology. Government agencies must give disabled employees and members of the public access to the same or comparable information as they do others.</p>
+
+      <p>The <strong><a href="https://en.wikipedia.org/wiki/United_States_Access_Board" target="_blank">U.S. Access Board</a></strong> is responsible for developing accessibility standards that govern Federal
+      procurement practices. January 2017, they issued a final rule that updated accessibility requirements for <strong>section 508</strong> and refreshed guidelines to <strong>Section 255</strong>.</p>
+
+      <p>The refresh reorganized <strong>Section 508</strong> Standards and <strong>Section 255</strong> Guidelines in response to market trends and innovations in technology.
+      The refresh also harmonized these requirements with other guidelines and standards both in the U.S. and abroad, including standards issued by the European Commission, and
+      <strong>W3C</strong> guidelines know as <strong>WCAG</strong>.</p>
+
+      <!-- Accordian - tabe menu -->
+      <div class="accordion mt-5" id="TabMenu">
+        <div class="row mb-5">
+          <div class="col">
+            <ul class="nav nav-tabs">
+              <!-- WCAG-508 -->
+              <li class="nav-item pr-0" id="heading-Audit">
+                <p class="text-center pl-0 mt-0 mb-0"><button type="button" class="btn btn-small btn-primary" data-toggle="collapse" data-target="#Audit" aria-expanded="false" aria-controls="Audit"><i class="fab fa-accessible-icon"></i> ADA Site Audi</button></p>
+              </li>
+              <!-- ADA Remidation -->
+              <li class="nav-item pr-0" id="heading-ADAR">
+                <p class="text-center pl-3 mt-0 mb-0"><button type="button" class="btn btn-small btn-primary" data-toggle="collapse" data-target="#ADAR" aria-expanded="true" aria-controls="ADAR"><i class="fas fa-certificate"></i> ADA Remidation</button></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Tab #Audit-->
+        <div id="Audit" class="collapse show" aria-labelledby="heading-Audit" data-parent="#TabMenu">
+          <!-- Content -->
+          <div class="row">
+            <div class="col">
+              <h2>ADA Site Audit</h2>
+            </div>
+              <div class="col-4 float-right">
+              <h2>Cost: $750</h2>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="row">
+            <div class="col">
+              <p>A website is as good as the content it displays however, if a user can not access your content then you have lost a business
+              opportunity.</p>
+
+              <p>Don't lose a customer because they can not access your site due to a disability. There is about $495 billion, combined annual disposable,
+              income among people that are disabled. This includes those with a temporary disability as well as those that are permanently disabled.</p>
+
+              <p>Get a report outlining any accessibility issues you may have on your site.</p>
+
+              <p><strong>How does this work?</strong></p>
+              <ul>
+                <li>We will run a scan and evaluate your site for accessibility issues</li>
+                <li>We will deliver a report outlining the results and what needs to be fixed</li>
+                <li>We are available for any assistance as your team resolves the issues</li>
+              </ul>
+
+              {% include Book-Consultation.html %}
+
+            </div>
+          </div>
+
+        </div>  <!-- Close Tabe -->
+
+        <!-- Tab #ADA Remidation-->
+        <div id="ADAR" class="collapse" aria-labelledby="heading-ADAR" data-parent="#TabMenu">
+          <!-- Content -->
+          <div class="row">
+            <div class="col">
+              <h2>ADA Remidation</h2>
+            </div>
+            <div class="col-4 float-right">
+              <h2>Cost: Request Quote</h2>
+            </div>
+          </div>
+
+          <hr />
+
+          <p>Kaffeinated Kodemonkey Accessibility Developers can help you resolve accessibility issues on your website.</p>
+
+          <p>We will run a site audit to identify accessibility issues on your website or application or can work from a recent report you may
+          already have.</p>
+
+          <p>We will require access to your site via login and password or pull request from github.</p>
+
+          {% include Book-Consultation.html %}
+
+        </div>  <!-- Close Tabe -->
+
+
+      </div> <!-- close accordion -->
+      <!-- end row -->
+    </div>
+  </div> <!-- close main row -->

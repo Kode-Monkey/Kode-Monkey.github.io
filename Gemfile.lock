@@ -285,6 +285,7 @@ DEPENDENCIES
   github-pages
   html-pipeline
   jekyll-feed
+  jekyll-redirect-from
   kramdown
   nokogirl
   sassc

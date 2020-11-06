@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Accessibility Features|Kaffeinated Kodemonkey </title>
+  <meta name="description" content="How to resolve Features accessibility issuse.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+  <link href= "http://localhost:4000/Accessibility-Remidation/Structural-Features" rel="canonical">
+
+  <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/assets/images/favicon.ico"> -->
+  <!-- <link rel="stylesheet" href="http://localhost:4000/assets/css/all.css"> -->
+
+  <!-- FontAwsome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="http://localhost:4000/assets/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!--Theme custom css -->
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/style.css">
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/custom.css">
+
+  <!--Theme Responsive css-->
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/responsive.css" />
+
+  <!-- ADAOnline Toolbar -->
+  <script>(function(s, o, g){a = s.createElement(o),m = s.getElementsByTagName(o)[0];a.src = g;a.setAttribute("async","");a.setAttribute("type","text/javascript");a.setAttribute("crossorigin","anonymous");m.parentNode.insertBefore(a, m)})(document, "script", "https://adatoolbar.com/wp-json/onlineada/v1/accessibility-toolbar/226f36187a4b9");</script>
+  <!-- End ADAOnline Toolbar -->
+
+  <!-- Google -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46627745-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-46627745-2');
+  </script>
+</head>
+
+  <body>
+    <nav>
+  <!-- Sections - social -->
+  <div class="container-fluid social" id="social">
+    <!-- Example row of columns -->
+    <div class="row mr-3">
+      <div class="col-md-7 col-sm-12">
+        <div class="social-icon">
+          <a class="nav-link" href="https://facebook.com/kaffeinatedkodemonkey" target="_blank" title="Facebook" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a class="nav-link" href="https://twitter.com/kfn8dkodemonkey" target="_blank" title="Twitter" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+          <a class="nav-link" href="https://www.linkedin.com/in/kaffeinatedkodemonkey" target="_blank" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="social-contact text-center">
+          <a href="#"><i class="fa fa-phone"></i>720.608.1444</a>
+          <a href="mailto:info@kaffeinatedkodemonkey.com"><i class="fa fa-envelope"></i>The Kodemonkey</a>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /container -->
+
+  <!-- section - Nav -->
+  <div id="nav" class="navbar navbar-expand-sm navbar-dark" style="background-color: #013b56;">
+    <a class="navbar-brand mt-0 ml-1" href="/" title="Kodemonkeky" id="logo">kaffeinated kodemonkey</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="ml-auto d-flex justify-content-end">
+      <div class="collapse navbar-collapse mr-5" id="navbarNavDropdown">
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://localhost:4000/Website-Services/Presences#" id="websites" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accessibility Design</a>
+            <div class="dropdown-menu" aria-labelledby="navbarNavDropdown websites">
+              <a class="dropdown-item" href="http://localhost:4000/Website-Services/Presences" title="Building the sites of tomorrow">Website Design</a>
+              <a class="dropdown-item" href="http://localhost:4000/Website-Services/Maintenance"  title="We help you avoid 404 Errors">Website Management</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="Marketing" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Marketing
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarNavDropdown Marketing">
+              <a class="dropdown-item" href="http://localhost:4000/Marketing/Local-Listings" title="Get listed in search engins">Local Listings</a>
+              <a class="dropdown-item" href="http://localhost:4000/Marketing/SEO" title="Get greate ROI with SEO">SEO Marketing</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" target="_blank" id="Accessibility" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Web Accessibility
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarNavDropdown Accessibility">
+              <a class="dropdown-item" href="http://localhost:4000/Web-Accessibility/ADA-Compliance" title="Get evaluated">ADA Compliance</a>
+              <a class="dropdown-item" href="http://localhost:4000/Web-Accessibility/ADA-Certification" title="Is your site ADA Certified?">ADA Certification</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/press-release" title="Checkout our Press Release">Press Release</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/Clients" title="Our Portfolio">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/Blog" title="Tips & Tricks">Blog</a>
+          </li>
+          <!-- <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/Testimonials">At-a-Girl</a>
+        </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/about" title="Get to Know us">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+    <div class="container-fluid">
+      <div class="row ml-3 mt-5 mb-5">
+        <!-- left colmun -->
+        <div class="col-sm-3 col-md-3">
+          <!-- page title or category and subtitle -->
+          <h2>Accessibility Remediation</h2>
+          <p>Features Documentation</p>
+
+          
+            <hr />
+            <!-- include Newsletter -->
+            <!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+  <form action="https://kaffeinatedkodemonkey.us11.list-manage.com/subscribe/post?u=25ed2db8c5f44be422ac9503a&amp;id=1b6530d445" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <div id="mce-responses" class="clear">
+    		<div class="response text-danger mb-2" id="mce-error-response" style="display:none"></div>
+    		<div class="response text-success mb-2" id="mce-success-response" style="display:none"></div>
+    	</div>
+
+	     <h2>Join Newsletter</h2>
+
+       <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+       <div class="form-group">
+         <label for="mce-FNAME">First Name:  <span class="asterisk">*</span></label>
+         <input type="text" value="" name="FNAME" class="form-control input-md" id="mce-FNAME" required>
+       </div>
+
+      <div class="form-group">
+      	<label for="mce-LNAME">Last Name: <span class="asterisk">*</span></label>
+      	<input type="text" value="" name="LNAME" class="form-control input-md" id="mce-LNAME" required>
+      </div>
+
+      <div class="form-group">
+      	<label for="mce-WEBSITE">Website </label>
+      	<input type="url" value="" name="WEBSITE" class="form-control input-md" id="mce-WEBSITE">
+      </div>
+
+      <div class="form-group">
+      	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+      </label>
+      	<input type="email" value="" name="EMAIL" class="form-control input-md" id="mce-EMAIL" required>
+      </div>
+
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true" id="spam">
+        <input type="text" aria-labelledby="spam" name="b_25ed2db8c5f44be422ac9503a_1b6530d445" tabindex="-1" value="">
+      </div>
+
+      <button type="submit" class="btn btn-primary" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Submit</button>
+    </div>
+  </form>
+</div>
+<script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[2]='FNAME';ftypes[2]='text';fnames[3]='LNAME';ftypes[3]='text';fnames[1]='WEBSITE';ftypes[1]='url';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+          
+
+          <hr />
+          <!-- includes adds -->
+          
+<!-- this page is for displaying addes like pcmatice or domain hosting etc.. -->
+<div class="row">
+  <div class="col">
+    <a href="https://cart.pcpitstop.com/go.asp?id=500754&aff=18983" target="_blank"><img class="img-center img-responsive img-thumbnail" src="https://www.pcpitstop.com/images/affiliates/500754.gif" style="width:100%;" alt="PC Pitstop Is your PC slow?"/></a><br />
+    <a href="https://reciprocitylabs.com/" target="_blank"><img class="img-center img-responsive img-thumbnail" src="http://localhost:4000/assets/images/press-release/Reciprocity.png" style="width:100%;" alt="Risk Management"/></a>
+
+  </div>
+  <div class="col">
+    <a href="https://www.domain.com/join/index.bml?bannerID=933&AffID=746605&amp;LinkName=kodemonkey" target="_blank"><img src="https://www1.domain.com/affiliate/banners/933" alt="affiliate_link" class="img-center img-responsive img-thumbnail" style="width:84%;"/></a>
+  </div>
+</div>
+
+
+        </div>
+        <!-- right - Main Column -->
+        <div class="col-sm-8 col-md-9 shadow pt-5 p-5 mt-0 mb-5 bg-white rounded">
+          <div class="row">
+            <div class="col-md-12 col-sm-8">
+              
+                
+                  <img src="http://localhost:4000/assets/images/ADA_Complinace_Logo.png" class="img-fluid img-thumbnail rounded" style="width: 100%; height: auto;" alt="Accessibility Features image">
+                
+              
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-9 col-sm-8">
+              <h1 class="mt-4">Accessibility Features</h1>
+            </div>
+            <div class="col-md-3 col-sm-4 mt-4">
+              <p><a href="https://kaffeinatedkodemonkey.youcanbook.me/" role="button" class="ml-5 btn btn-md btn-warning">Book Free Consultation</a></p>
+            </div>
+          </div>
+
+
+          <hr/>
+          <!-- <p><a href="https://wave.webaim.org/"><img src="https://wave.webaim.org/img/wavelogo.svg" alt="WAVE Web Accessibility Evaluation Tool" style="width:50%"></a></p>
+<h1>WAVE Documentation</h1> -->
+
+<p>Welcome, thank you for chooseing Kaffeinated Kodemonkey for your ADA certification and/or VPAT needs.</p>
+
+<p>Through an Accessibility Evaluation you recived a How-To-Fix Report outlining errors, alerts, features, structure elements, and aria
+content found throught your site. Each page has been listed with the number of issues or warnings that linked to the item on this page to
+help your team in understanding what they means, why it matters, and how to resolve it.</p>
+
+<p>If at any time you do not understand how to resolve and issue please reach out to your accessibiltiy specalist for further explination.</p>
+
+<p><!-- Tab #Features--></p>
+<div id="collapse-features" class="collapse show" aria-labelledby="accessibility-features" data-parent="#TabMenu">
+    <!-- Content -->
+    <p>Features indicate things that probably improve accessibility (though these should be verified).</p>
+
+    <div class="accordion" id="ADA-Features">
+      <div class="card">
+        <div class="card-header" id="alt">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_alt" aria-expanded="false" aria-controls="collapse_alt">
+              <img src="https://wave.webaim.org/img/icons/alt.svg" class="img-fluid" style="width: 3%;" alt="" /> Alternative text - alt
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_alt" class="collapse" aria-labelledby="alt" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>Image alternative text is present.</p>
+            <h3>Why It Matters:</h3>
+            <p>Alternative text presents the content or function of an image to screen reader users or in other situations where images cannot be seen or are unavailable.</p>
+            <h3>What To Do:</h3>
+            <p>Ensure that the alternative text conveys the content and function of the image accurately and succinctly. The alt attribute should be equivalent, accurate, and succinct.</p>
+            <h3>The Algorithm... in English:</h3>
+            <p>A non-empty alt attribute is present on an image.</p>
+            <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>1.1.1 Non-text Content (Level A)</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="alt_null">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_alt_null" aria-expanded="false" aria-controls="collapse_alt_null">
+              <img src="https://wave.webaim.org/img/icons/alt_null.svg" class="img-fluid" style="width: 3%;" alt="" /> Null or empty alternative text - alt_null
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_alt_null" class="collapse" aria-labelledby="alt_null" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>Alternative text is null or empty (alt="").</p>
+            <h3>Why It Matters:</h3>
+            <p>If an image does not convey content or if the content of the image is conveyed elsewhere (such as in a caption or nearby text), the image should have empty/null alternative text (alt="") to ensure that it is ignored by a screen reader and is hidden when images are disabled or unavailable.</p>
+            <h3>What To Do:</h3>
+            <p>Ensure that the image does not convey content or that the content of the image is conveyed in nearby text (e.g., a caption).</p>
+            <h3>The Algorithm... in English:</h3>
+            <p>An image has alt="".</p>
+            <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>1.1.1 Non-text Content (Level A)</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="alt_spacer">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_alt_spacer" aria-expanded="false" aria-controls="collapse_alt_spacer">
+              <img src="https://wave.webaim.org/img/icons/alt_spacer.svg" class="img-fluid" style="width: 3%;" alt="" /> Null or empty alternative text on spacer - alt_spacer
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_alt_spacer" class="collapse" aria-labelledby="alt_spacer" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>Alternative text is null or empty (alt="") on a spacer image.<h3>Why It Matters:</h3>
+            <p>Spacer images are used to control layout or positioning. Because they do not convey content, they should be given empty/null alternative text (alt="") to ensure that the content is not presented to screen reader users and is hidden when images are disabled or unavailable.<h3>What To Do:</h3>
+            <p>Ensure that the image is a spacer image and that it does not convey content. Consider using CSS instead of spacer images for better control of positioning and layout.<h3>The Algorithm... in English:</h3>
+            <p>An images with width and/or height of 3 pixels or less or file name of spacer.*, space.*, or blank.* has empty/null alt attribute value (alt="").<h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>1.1.1 Non-text Content (Level A)</li></ul>
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      <div class="card">
+        <div class="card-header" id="alt_link">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_alt_link" aria-expanded="false" aria-controls="collapse_alt_link">
+              <img src="https://wave.webaim.org/img/icons/alt_link.svg" class="img-fluid" style="width: 3%;" alt="" /> Linked image with alternative text - alt_link
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_alt_link" class="collapse" aria-labelledby="alt_link" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>Alternative text is present for an image that is within a link.</p>
+            <h3>Why It Matters:</h3>
+            <p>Including appropriate alternative text on an image within a link ensures that the function and purpose of the link and the content of the image is available to screen reader users or when images are unavailable.</p>
+            <h3>What To Do:</h3>
+            <p>Ensure that the alternative text presents the content of the image and/or the function of the link. If the full content and function of the link is presented in text within the link (an image and a text caption both within the same link, for example), then the image should generally be given empty/null alternative text (alt="") to avoid redundancy.</p>
+            <h3>The Algorithm... in English:</h3>
+            <p>An image element has non-empty alternative text, is within a link, and no other text (or images with alternative text) is present within the link.</p>
+            <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>1.1.1 Non-text Content (Level A)</li><li>2.4.4 Link Purpose (In Context) (Level A)</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="alt_input">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_alt_input" aria-expanded="false" aria-controls="collapse_alt_input">
+              <img src="https://wave.webaim.org/img/icons/alt_input.svg" class="img-fluid" style="width: 3%;" alt="" /> Image button with alternative text - alt_input
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_alt_input" class="collapse" aria-labelledby="alt_input" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>Alternative text is present for an image input element.</p>
+            <h3>Why It Matters:</h3>
+            <p>Providing the functionality of image buttons in alternative text ensures that the button function is available to all users.</p>
+            <h3>What To Do:</h3>
+            <p>Ensure that the alt attribute value presents the content and function of the image input element. If the image presents text, typically this text should be provided in the alt attribute.</p>
+            <h3>The Algorithm... in English:</h3>
+            <p>An &lt;input type="image"&gt; element has a non-empty alt attribute value.</p>
+            <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>1.1.1 Non-text Content (Level A)</li><li>2.4.4 Link Purpose (In Context) (Level A)</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="alt_map">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_alt_map" aria-expanded="false" aria-controls="collapse_alt_map">
+              <img src="https://wave.webaim.org/img/icons/alt_map.svg" class="img-fluid" style="width: 3%;" alt="" /> Image map with alternative text - alt_map
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_alt_map" class="collapse" aria-labelledby="alt_map" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>An alt attribute is present for an image that has hot spots.</p>
+            <h3>Why It Matters:</h3>
+            <p>If an image that uses an image map provides content or a function that is not already available through the hot spots (and their respective alternative texts), that information must be in the image's alt attribute in order for it to be available to screen reader users or when images are disabled.</p>
+            <h3>What To Do:</h3>
+            <p>Ensure that the alternative text for the image map image is appropriate. The alternative text is typically empty (alt=""), unless the image conveys content not conveyed in the hot spot areas (e.g., "Map of the United States").</p>
+            <h3>The Algorithm... in English:</h3>
+            <p>An &lt;img&gt; element has both usemap and alt attributes.</p>
+            <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>1.1.1 Non-text Content (Level A)</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="alt_area">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#alt_area" aria-expanded="false" aria-controls="alt_area">
+              <img src="https://wave.webaim.org/img/icons/alt_area.svg" class="img-fluid" style="width: 3%;" alt="" /> Image map area with alternative text - alt_area
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_alt_area" class="collapse" aria-labelledby="alt_area" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>Alternative text is present for an image map area (hot spot).</p>
+            <h3>Why It Matters:</h3>
+            <p>Presenting the functionality of image map areas (hot spots) in the &lt;area&gt; element's alt attribute value ensures that this information is presented to screen reader users or when images are disabled or unavailable.</p>
+            <h3>What To Do:</h3>
+            <p>Ensure the alternative text for the area element describes the function of the image map hot spot. Additionally, ensure that the area elements are listed in the code in a logical, intuitive order (e.g., matching the visual order, alphabetically, etc.).</p>
+            <h3>The Algorithm... in English:</h3>
+            <p>An image uses an image map containing an area element with a non-empty alt attribute value.</p>
+            <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>1.1.1 Non-text Content (Level A)</li><li>2.4.4 Link Purpose (In Context) (Level A)</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="label">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_label" aria-expanded="false" aria-controls="collapse_label">
+              <img src="https://wave.webaim.org/img/icons/label.svg" class="img-fluid" style="width: 3%;" alt="" /> Form label - label
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_label" class="collapse" aria-labelledby="label" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>A form label is present and associated with a form control.</p>
+            <h3>Why It Matters:</h3>
+            <p>A properly associated form label is presented to a screen reader user when the form control is accessed. Additionally, a label can be clicked with the mouse to set focus to the form control.</p>
+            <h3>What To Do:</h3>
+            <p>Ensure that the label is accurate, descriptive, succinct, and that it is associated with the correct form control element.</p>
+            <h3>The Algorithm... in English:</h3>
+            <p>A &lt;label&gt; element is present and properly associated to &lt;input&gt; (except types of image, submit, reset, button, or hidden), &lt;textarea&gt;, or &lt;select&gt; element.</p>
+            <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>1.1.1 Non-text Content (Level A)</li><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.6 Headings and Labels (Level AA)</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="fieldset">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_fieldset" aria-expanded="false" aria-controls="collapse_fieldset">
+              <img src="https://wave.webaim.org/img/icons/fieldset.svg" class="img-fluid" style="width: 3%;" alt="" /> Fieldset - fieldset
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_fieldset" class="collapse" aria-labelledby="fieldset" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>A fieldset is present.</p>
+            <h3>Why It Matters:</h3>
+            <p>A fieldset provides a visual and structural grouping of related form elements. If present, a fieldset legend presents a description of the grouped form elements to screen reader users. A fieldset and legend are typically necessary for groups of check boxes or radio buttons.</p>
+            <h3>What To Do:</h3>
+            <p>Ensure that the fieldset encloses the proper form elements. Most fieldsets should have an accurate, descriptive, and succinct legend. Note that the legend is repeated to screen reader users for each form control within the fieldsets.</p>
+            <h3>The Algorithm... in English:</h3>
+            <p>A fieldset element is present.</p>
+            <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>1.1.1 Non-text Content (Level A)</li><li>1.3.1 Info and Relationships (Level A)</li><li>2.4.6 Headings and Labels (Level AA)</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="link_skip">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_link_skip" aria-expanded="false" aria-controls="collapse_link_skip">
+              <img src="https://wave.webaim.org/img/icons/link_skip.svg" class="img-fluid" style="width: 3%;" alt="" /> Skip link - link_skip
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_link_skip" class="collapse" aria-labelledby="link_skip" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>A link is present which allows users to skip over navigation or other content.</p>
+            <h3>Why It Matters:</h3>
+            <p>A link that provides functionality for the user to jump over navigation or other elements or jump to the main content of the page greatly assists keyboard users in navigating the web page.</p>
+            <h3>What To Do:</h3>
+            <p>Ensure that the link is functioning properly and that the link text adequately describes the link functionality. If the skip link is hidden from sighted users, it should be made visible within the page when it has keyboard focus and must be accessible via the keyboard (do not use CSS display:none or visibility:hidden).</p>
+            <h3>The Algorithm... in English:</h3>
+            <p>An in-page link:
+            <ul>
+            <li>starts with the words "skip" or "jump"
+            <li>has an href attribute value and that value matches the id value of another element within the page or the name attribute value of an anchor element within the page.
+            <li>is NOT hidden with CSS display:none or visibility:hidden (this would result in a inaccessible "skip" link).
+            &lt;/ul&gt;
+            <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>2.4.1 Bypass Blocks (Level A)</li></ul>
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      <div class="card">
+        <div class="card-header" id="link_skip_target">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_link_skip_target" aria-expanded="false" aria-controls="collapse_link_skip_target">
+              <img src="https://wave.webaim.org/img/icons/link_skip_target.svg" class="img-fluid" style="width: 3%;" alt="" /> Skip link target - link_skip_target
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_link_skip_target" class="collapse" aria-labelledby="link_skip_target" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>A target for a "skip" link is present.</p>
+            <h3>Why It Matters:</h3>
+            <p>A "skip" target identifies the location within the page where reading and navigation will resume after a "skip" link is activated.</p>
+            <h3>What To Do:</h3>
+            <p>Ensure that the element is at the appropriate place within the page.&lt;</p>
+            h3&gt;The Algorithm... in English:&lt;/h3&gt;
+            <p>An id value for any element or a name value for an anchor element matches the href value of a "skip" link within the page.</p>
+            <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>2.4.1 Bypass Blocks (Level A)</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="lang">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse_lang" aria-expanded="false" aria-controls="collapse_lang">
+              <img src="https://wave.webaim.org/img/icons/lang.svg" class="img-fluid" style="width: 3%;" alt="" /> Element language - lang
+            </button>
+          </h2>
+        </div>
+        <div id="collapse_lang" class="collapse" aria-labelledby="lang" data-parent="#ADA-Features">
+          <div class="card-body">
+            <h3>What it means:</h3>
+            <p>The language of a page element or part is identified.</p>
+            <h3>Why It Matters:</h3>
+            <p>Identifying the language of an element or portion of page that is in a different language than the page itself allows screen readers to read the content appropriately.</p>
+            <h3>What To Do:</h3>
+            <p>Ensure the lang attribute is necessary (it is different than the page's language) and the attribute value is a valid language code.</p>
+            <h3>The Algorithm... in English:</h3>
+            <p>An element has a non-empty lang attribute value.</p>
+            <h3>Relevant WCAG 2.1 Success Criteria:</h3>
+            <ul><li>3.1.2 Language of Parts (Level AA)</li></ul>
+          </div>
+        </div>
+      </div>
+    &lt;/div&gt;
+  &lt;/div&gt;
+</li></li></li></ul></p></div></div></div></p></p></p></p></div></div></div></div></div>
+
+
+        </div>
+      </div>
+    </div>
+
+        <section id="footer-menu" class="sections footer-menu" role="contentinfo">
+      <div class="container-fluid pl-5 pr-5">
+        <div class="row text-center">
+          <div class="col-12">
+            <p><a href="/" title="Take me home"><img src="https://www.kaffeinatedkodemonkey.com/assets/images/logo.png" style="width: 5%;" alt="Kaffeinated Kodemonkey Logo" /></a>
+            <img src="https://www.kaffeinatedkodemonkey.com/assets/images/badge_partneragency.gif" alt="OnlineADA" class="img-fluid" style="width: 5%; height: auto;"></p>
+
+            <h3><strong>Kaffeinated Kodemonkey</strong></h3>
+            <p>Striving to make websites Accessibilty to everyone.</p>
+
+            <p>Rangely, Co | <span class="force-read-before" data-attributetitleof="id-hatemile-display-9707572202">
+            <abbr id="id-hatemile-display-9707572202" title="Phone">P:</abbr> (970) 757-2222</span></p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <h3 class="mb-3 contact">Contact Our Accessibilty Development Team</h3>
+
+            <form action="https://formspree.io/f/mrgopqob" method="POST" class="mb-">
+              <div class="form-group">
+                <label class="sr-only" for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required="">
+              </div>
+
+              <div class="form-group">
+                <label class="sr-only" for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required="">
+              </div>
+
+
+              <div class="form-group">
+                <label class="sr-only" for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="8" placeholder="Message"></textarea>
+              </div>
+
+              <div class="center-content">
+                <input type="submit" value="Submit" class="btn btn-md btn-primary">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-8 col-sm-6">
+            <h3>Site Map</h3>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Accessibilty Design</h4>
+                <p><a href="http://localhost:4000/Website-Services/Presences">Website Design</a></p>
+                <p><a href="http://localhost:4000/Website-Services/Maintenance">Website Management</a></p>
+              </div>
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Marking</h4>
+                <p><a href="http://localhost:4000/Marketing/Local-Listings">Local Listings</a></p>
+                <p><a href="http://localhost:4000/Marketing/SEO">SEO Marking</a></p>
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Web Accessibilty</h4>
+                <p><a href="http://localhost:4000/Web-Accessibility/ADA-Compliance">ADA Compliance</a></p>
+                <p><a href="http://localhost:4000/Web-Accessibility/ADA-Certification">ADA Certification</a></p>
+              </div>
+              <div class="col-md-3 mb-3">
+                <h4 class="text-dark">Other</h4>
+                <p><a href="http://localhost:4000/press-release">Press Release</a></p>
+                <p><a href="http://localhost:4000/Clients">Potfolio</a></p>
+                <p><a href="http://localhost:4000/Blog">Blog</a></p>
+                <p><a href="http://localhost:4000/about">About</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

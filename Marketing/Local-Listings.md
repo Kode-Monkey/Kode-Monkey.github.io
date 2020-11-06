@@ -1,0 +1,115 @@
+---
+layout: template
+mine-image: website/Listing-Presence.jpg
+img-size: 100
+meta-title: Local listings
+title: Local Listings
+category: Marketing
+cost: $250 mo
+subtitle: Submit your listing to Search Engines.
+description: With local listings, we will submit your site to the search engines.
+permalink: Marketing/Local-Listings
+---
+
+<!-- Conethen -->
+<div class="row">
+  <div class="col">
+    <h2>Get found. Generate traffic. Grow revenue.</h2>
+
+    <p>In the ever-growing online community, it is more important than ever to make sure your business is found in a search. You could let the search engine spiders
+    find and index your site on their own, however, this can take time... lots and lots of time for there are millions of pages on the internet that they are
+    crawling every day. Then once you are indexed you may not stay indexed. Why? Because websites grow old and business close they dump their database now and
+    again for a fresh clean list.</p>
+
+    <p>Why risk the chance of getting listed only to be removed and start all over again. Plus you have no idea when this is happening or how it is affecting your
+    overall listing. The simplest and most cost-effective way is through local listings. We will submit your site or over 300 website directories and listing database.</p>
+
+    <h2>How does this work?</h2>
+
+    <p>I years past one would send their site information to the search engine or directory and take them to add them to the list. Over time they have gotten more
+    sophisticated. Although you can submit your information to the search engines it is more challenging to find the free form if they still have one at all. Most want
+    you to pay $100 plus to be listed and that will not guarantee you do not get wiped with the next database dump.</p>
+
+    <p>Today we have data aggregators. These are the top four (4) companies that manage a database of website listing for the search engines to pull listings form.
+    If your site is listed with the aggregators you can rest assured that when the search engines do a database dump they will relist your site once they pull the
+    listings form the aggregators.</p>
+
+
+  <!--  <h3 class="mt-4">Packages:</h3>
+
+    <div class="row">
+      <div class="col-6">
+        <div class="card" style="width: 25rem;">
+          <div class="card-header bg-kkmblue">
+            <h3 class="card-title">Local Listing - $398</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Features:</p>
+            <ul class="fa-ul">
+              <li><span class="fa-li" ><i class="far fa-check-circle"></i></span>Update your location</li>
+              <li><span class="fa-li" ><i class="far fa-check-circle"></i></span>Remove duplicated listings</li>
+              <li><span class="fa-li" ><i class="far fa-check-circle"></i></span>Publish data to Google and Facebook</li>
+              <li><span class="fa-li" ><i class="far fa-check-circle"></i></span>Sumbited top data Aggregators</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card" style="width: 25rem;">
+          <div class="card-header bg-kkmblue">
+            <h3 class="card-title">Local Listing + Reviews - $598</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Features:</p>
+            <ul class="fa-ul mb-5">
+              <li><span class="fa-li" ><i class="far fa-check-circle"></i></span>Include Local Listing</li>
+              <li><span class="fa-li" ><i class="far fa-check-circle"></i></span>Review Monitoring & Management </li>
+              <li><span class="fa-li" ><i class="far fa-check-circle"></i></span>Social Posting accross media channels</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <h3 class="text-uppercase mt-5">FAQ</h3>
+
+    <div class="accordion" id="LocalListings">
+      <div class="card">
+        <div class="card-header" id="LL-headingOne">
+          <a href="#" class="collapsed"  data-toggle="collapse" data-target="#LL-collapseOne" aria-expanded="true" aria-controls="LL-collapseOne">
+            Why is a strong presence important for a local business like me?
+          </a>
+        </div>
+
+        <div id="LL-collapseOne" class="collapse" aria-labelledby="LL-headingOne" data-parent="#LocalListings">
+          <div class="card-body">
+            A strong online presence is the first step toward success. Your customers and prospects need to be able to find you, both online and in the street. Ask yourself this, when was the last time you went out to eat at a new restaurant or planned to go see a new movie and did not look it up online first? Chances are, you did some research beforehand and it's extremely likely that your customers are doing the same. When customers and prospects look you up online, make sure they can find you and that the information they come across is correct.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="LL-headingTwo">
+
+            <a href="#"  class="collapsed"  data-toggle="collapse" data-target="#LL-collapseTwo" aria-expanded="false" aria-controls="LL-collapseTwo">
+              Why is it important for a local business like me to have a mobile optimized listing?
+            </a>
+
+        </div>
+        <div id="LL-collapseTwo" class="collapse" aria-labelledby="LL-headingTwo" data-parent="#LocalListings">
+          <div class="card-body">
+            For SEO, priority is given to good customer experience on mobile devices. Consumers will use mobile devices to find desired goods or services and will generally
+            begin these searches with a category or brand search. For example, a brand search is “Joe’s Pizza in Denver” and a category search is “Pizza in Denver”. (Note:
+            On a mobile device the “in Denver” often does not need to be explicit.) In the case of a category search, the user has the intent to purchase something in a
+            category but has not decided or does not care about the brand. In these searches, the user’s intent is generally heavily skewed toward proximity and location.
+            So search engines generally deliver the closest locations and it is therefore important that location information is crawlable, is displayed on
+            each page, and is in meta-data and keywords.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-2 float-right">
+    <h3>Cost: {{page.cost }}</h3>
+  </div>
+</div>
