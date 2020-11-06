@@ -7,7 +7,7 @@ title: SEO Marketing
 category: Marketing
 subtitle: Boost your off-site SEO with Advanced SEO.
 description: Boost your off-site SEO campaign with our Advanced SEO package.
-permalink: Marketing/SEO/
+permalink: Marketing/SEO
 ---
 
   <!-- Conethen -->

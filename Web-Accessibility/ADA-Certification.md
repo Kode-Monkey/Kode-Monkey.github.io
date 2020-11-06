@@ -7,7 +7,7 @@ title: VPAT Certification
 category: Web Accessibility
 subtitle: Do you need a VPAT
 description: At Kaffeinated Kodemonkey we provide VPAT compliance certification to help websites stay within accessibility guidelines. Call us today!
-permalink: Web-Accessibility/ADA-Certification/
+permalink: Web-Accessibility/ADA-Certification
 ---
 
   <!-- Conethen -->

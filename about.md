@@ -7,7 +7,7 @@ img-size: 100
 subtitle: Company Information
 category: The Kodemonkey
 description: Who is the Kodemonkey and what is our mission.
-permalink: about/
+permalink: about
 ---
 
   <div class="row">

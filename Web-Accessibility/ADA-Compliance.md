@@ -7,7 +7,7 @@ title: ADA Compliance
 category: Web Accessibility
 subtitle: Become Digitaly Accessible
 description: Making websties and applications ADA Compliant.
-permalink: Web-Accessibility/ADA-Compliance/
+permalink: Web-Accessibility/ADA-Compliance
 ---
 
   <!-- Conethen -->

@@ -10,7 +10,7 @@ cost: $150
 renewal: None
 subtitle: Your busy let us maintain your website
 description: Keep your web presence strong with Website Maintenance!
-permalink: Website-Services/Maintenance/
+permalink: Website-Services/Maintenance
 ---
 
 <!-- Conethen -->

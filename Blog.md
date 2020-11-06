@@ -5,7 +5,7 @@ title: Blog Posts
 categories: blog
 description: Blogs post to help you manage your site.
 image: posticon.jpg
-permalink: Blog/
+permalink: Blog
 ---
 
 <p class="text-center"><img src="{{ site.url }}/assets/images/SmallBusinessTipTrick-Group.jpg" style="width:45%;" class="img-responsive" alt="Small BusinessTips & Trick" /></p>

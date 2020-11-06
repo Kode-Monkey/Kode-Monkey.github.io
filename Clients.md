@@ -7,7 +7,7 @@ mine-image: /clients/what-our-clients-say.png
 img-size: 100
 subtitle: What our clients are saying.
 description: Websites we developed or manage.
-permalink: /Clients
+permalink: Clients
 ---
 
 <div class="accordion mt-5" id="TabMenu">

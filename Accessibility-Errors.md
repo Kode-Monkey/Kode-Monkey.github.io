@@ -7,7 +7,7 @@ title: Accessibility Remidation
 category: Accessibility
 subtitle: Accessibility Documentation
 description: What Web Accessibility errors mean.
-permalink: Accessibility-Errors/
+permalink: Accessibility-Errors
 ---
 
 <!-- <p><a href="https://wave.webaim.org/"><img src="https://wave.webaim.org/img/wavelogo.svg" alt="WAVE Web Accessibility Evaluation Tool" style="width:50%"></a></p>
