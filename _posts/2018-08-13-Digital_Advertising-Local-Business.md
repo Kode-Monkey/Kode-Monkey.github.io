@@ -8,7 +8,7 @@ tags: [Digital, Advertising, Local, Business, Places, Google, Facebook]
 banner: Blog/DigitalAdvertisingLocalBusiness/Feature-Image.jpg
 excerpt_separator: "<!-- more -->"
 description: Digital advertising increases awareness—it’s that simple.
-permalink: /blog/:categories/:title:output_ext
+permalink: blog/:categories/:title:output_ext
 ---
 
 <p>In recent years, we have seen traditional advertising take the backseat for modern technology. Traditional media companies are now switching their direction and adopting digital, but why? Because there is an extremely large market interested in digital advertising.</p>

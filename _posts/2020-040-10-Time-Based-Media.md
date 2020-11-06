@@ -7,5 +7,5 @@ tags: [WCAG, Compliance, Criteria, Principle 1, Perceivable, Guideline 1.2, Time
 banner: Blog/Accessibility/pour-web-design.png
 excerpt_separator: "<!-- more -->"
 description: Understanding Guideline 1.2 – Text Alternatives under Principle 1 – Perceivable.
-permalink: /blog/:categories/:title:output_ext
+permalink: blog/:categories/:title:output_ext
 ---

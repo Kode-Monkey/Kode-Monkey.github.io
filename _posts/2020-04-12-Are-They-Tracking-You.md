@@ -7,7 +7,7 @@ tags: [Tracking, Browser, Search, Engines, Covid-19]
 banner: Blog/Tracking.png
 excerpt_separator: "<!-- more -->"
 description: Are they tracking you and what to do.
-permalink: /blog/:categories/:title:output_ext
+permalink: blog/:categories/:title:output_ext
 ---
 
 <p>Can and does the Gov spy on their people. Yes in almost everything we do. If you work and pay taxes, do you have an SS#, buy a car, register it, have a driver's license, you vote, etc.. the list can go one.</p>

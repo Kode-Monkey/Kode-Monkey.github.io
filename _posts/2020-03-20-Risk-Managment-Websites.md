@@ -10,7 +10,7 @@ tags: [Risk Management, ADA Compliance, Data Security, Cyber Attack]
 description: Security in web development and how to manage cyber threats using risk management.
 author: Reciprocity Labs
 excerpt_separator: <!--more-->
-permalink: /:categories/:title:output_ext
+permalink: blog/:categories/:title:output_ext
 ---
 
 

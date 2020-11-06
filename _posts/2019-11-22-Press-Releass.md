@@ -10,7 +10,7 @@ tags: [ADA, Partner, Online ADA, Digital Accessibility]
 description: Kaffeinated Kodemonkey Selects Online ADA as Digital Accessibility Partner
 author: The Kodemonkey
 excerpt_separator: <!--more-->
-permalink: /:categories/:title:output_ext
+permalink: blog/:categories/:title:output_ext
 ---
 
 <h2>Kaffeinated Kodemonkey Selects Online ADA<br /> as Digital Accessibility Partner</h2>

@@ -10,7 +10,7 @@ tags: [Colorado, ReOpen, Help, small business]
 description: Kaffeinated Kodemonkey helping to keep Colorado business alive
 author: The Kodemonkey
 excerpt_separator: <!--more-->
-permalink: /:categories/:title:output_ext
+permalink: blog/:categories/:title:output_ext
 ---
 
 <h2>Question?</h2>
