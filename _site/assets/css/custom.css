@@ -1,3 +1,78 @@
+@font-face {
+  font-family: CalibriBold;
+  src: url(/assets/custom-fonts/Calibri Bold.ttf);
+}
+
+@font-face {
+  font-family: Calibri;
+  src: url(/assets/custom-fonts/Calibri.ttf);
+}
+
+@font-face {
+  font-family: Calibril;
+  font-weight: bold;
+  src: url(/assets/custom-fonts/Calibril.ttf);
+}
+
+@font-face {
+  font-family: GothaHTFBla;
+  src: url(/assets/custom-fonts/GothaHTFBla);
+}
+
+@font-face {
+  font-family: GothaHTFBol;
+  src: url(/assets/custom-fonts/GothaHTFBol);
+}
+
+@font-face {
+  font-family: GothaHTFMed;
+  src: url(/assets/custom-fonts/GothaHTFMed);
+}
+
+@font-face {
+  font-family: GothamHTF;
+  src: url(/assets/custom-fonts/GothamHTF);
+}
+
+@font-face {
+  font-family: MinionProRegular;
+  src: url(/assets/custom-fonts/MinionPro-Regular);
+}
+
+@font-face {
+  font-family: MontserratBold;
+  src: url(/assets/custom-fonts/Montserrat-Bold);
+}
+
+p.CalibriBold{
+  font-family: Calibri-Bold;
+}
+p.Calibri{
+  font-family: Calibri;
+}
+p.Calibril{
+  font-family: Calibril;
+}
+p.GothaHTFBla{
+  font-family: GothaHTFBla;
+}
+p.GothaHTFBol{
+  font-family: GothaHTFBol;
+}
+p.GothaHTFMed{
+  font-family: GothaHTFMed;
+}
+p.GothamHTF{
+  font-family: Gotham-HTF;
+}
+p.MinionProRegular{
+  font-family: MinionPro-Regular;
+}
+p.MontserratBold{
+  font-family: Montserrat-Bold;
+}
+
+/*********************/
 h3.contact{
   font-size: 1.70em;
   text-align: center;

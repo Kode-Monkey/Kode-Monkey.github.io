@@ -1,0 +1,214 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/tj/Projects local imac/UTSD/Website/Round 2/UTSDWebsite Folder/Document fonts/AdobeFnt22.lst
+FileLength:4560
+FileModTime:627866813
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Calibri-Bold
+FamilyName:Calibri
+StyleName:Bold
+MenuName:Calibri
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Calibri Bold
+WritingScript:Roman
+OutlineFileName:/Users/tj/Projects local imac/UTSD/Website/Round 2/UTSDWebsite Folder/Document fonts/Calibri Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:817552
+FileModTime:355042800
+NameArray:0,Mac,4,Calibri Bold
+NameArray:0,Win,1,Calibri
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Calibri
+FamilyName:Calibri
+StyleName:Regular
+MenuName:Calibri
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Calibri
+WritingScript:Roman
+OutlineFileName:/Users/tj/Projects local imac/UTSD/Website/Round 2/UTSDWebsite Folder/Document fonts/Calibri.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:780064
+FileModTime:355042800
+NameArray:0,Mac,4,Calibri
+NameArray:0,Win,1,Calibri
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Calibri-Light
+FamilyName:Calibri
+StyleName:Light
+MenuName:Calibri Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Calibri Light
+WritingScript:Roman
+OutlineFileName:/Users/tj/Projects local imac/UTSD/Website/Round 2/UTSDWebsite Folder/Document fonts/Calibril.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:244940
+FileModTime:488617200
+NameArray:0,Mac,18,Calibri Light
+NameArray:0,Mac,4,Calibri Light
+NameArray:0,Win,1,Calibri Light
+NameArray:0,Win,16,Calibri
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GothamHTF-Black
+FamilyName:Gotham HTF
+StyleName:Black
+MenuName:Gotham HTF Black
+StyleBits:2
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Gotham HTF Black
+WritingScript:Roman
+OutlineFileName:/Users/tj/Projects local imac/UTSD/Website/Round 2/UTSDWebsite Folder/Document fonts/GothaHTFBla
+DataFormat:POSTResource
+UsesStandardEncoding:yes
+isCFF:no
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:58344
+FileModTime:173387496
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GothamHTF-Bold
+FamilyName:Gotham HTF
+StyleName:Bold
+MenuName:Gotham HTF Bold
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Gotham HTF Bold
+WritingScript:Roman
+OutlineFileName:/Users/tj/Projects local imac/UTSD/Website/Round 2/UTSDWebsite Folder/Document fonts/GothaHTFBol
+DataFormat:POSTResource
+UsesStandardEncoding:yes
+isCFF:no
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:54191
+FileModTime:173387496
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GothamHTF-Medium
+FamilyName:Gotham HTF
+StyleName:Medium
+MenuName:Gotham HTF Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Gotham HTF Medium
+WritingScript:Roman
+OutlineFileName:/Users/tj/Projects local imac/UTSD/Website/Round 2/UTSDWebsite Folder/Document fonts/GothaHTFMed
+DataFormat:POSTResource
+UsesStandardEncoding:yes
+isCFF:no
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:54482
+FileModTime:173387496
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:GothamHTF-LightCondensed
+OutlineFileName:/Users/tj/Projects local imac/UTSD/Website/Round 2/UTSDWebsite Folder/Document fonts/Gotham HTF
+ResourceID:5191
+MacStyle:0
+FileLength:299458
+FileModTime:173387534
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/tj/Projects local imac/UTSD/Website/Round 2/UTSDWebsite Folder/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:231312
+FileModTime:360529600
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Bold
+FamilyName:Montserrat
+StyleName:Bold
+MenuName:Montserrat
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Montserrat-Bold
+WritingScript:Roman
+OutlineFileName:/Users/tj/Projects local imac/UTSD/Website/Round 2/UTSDWebsite Folder/Document fonts/Montserrat-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:29560
+FileModTime:427308504
+NameArray:0,Mac,4,Montserrat-Bold
+NameArray:0,Win,1,Montserrat
+%EndFont
+
