@@ -1,23 +1,19 @@
 <!-- header -->
 <!--Home page style-->
 <header id="home">
-  <div class="container-fluid">
-    <div class="row shadow-sm p-3 mb-5 bg-white">
-      {% include header.html %}
-    </div>
-  </div>
+  {% include header.html %}
 </header>
 
-<!-- Welcome -->
-<main id="welcome" class="sections">
-  <div class="container-fluid ml-5">
-    <!-- Alert Banner - COVID-19 -->
-    <div class="row mb-5">
-      <div class="col-md-12 col-xs-6 text-center">
-        <h1 class="c19 text-danger"><strong>Has your business been <br class="d-block d-sm-none" /> effected by <a href="{{site.url}}/COVID-19">COVID-19?</a></strong></h1>
-      </div>
-    </div>
+<!-- Products Sections -->
+<section id="products" class="sections" aria-label="Products & Services">
+  <div class="container">
+    {% include products-section.html %}
+  </div>
+</section>
 
+<!-- Welcome -->
+<main id="welcome" class="sections shadow-lg p-3 bg-white">
+  <div class="container-fluid my-5 ml-5">
     <!-- start main content -->
     <div class="row mr-5" id="content">
       <!-- col 1 - logo -->
@@ -55,10 +51,3 @@
 </main>
 
 <!-- <hr class="features" /> -->
-
-<!-- Products Sections -->
-<section id="products" class="sections shadow-lg p-3 bg-white" aria-label="Products & Services">
-  <div class="container">
-    {% include products-section.html %}
-  </div>
-</section>
